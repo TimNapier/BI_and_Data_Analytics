@@ -1,0 +1,6 @@
+use ARALUEN_DATAVAULT;
+use schema LOAD_CSM;
+put file://C:\BI_and_Data_Analytics\Data\NDIS\201718-VIC-NSW-QLD-TAS-Price-Guide.csv 
+@NDIS_STAGE;
+use warehouse ARALUEN;
+COPY INTO "ARALUEN_DATAVAULT"."LOAD_NDIS"."201718-VIC-NSW-QLD-TAS-Price-Guide" FROM @NDIS_STAGE
