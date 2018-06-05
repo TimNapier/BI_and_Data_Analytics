@@ -1,0 +1,760 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>InvoiceHDR.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InvoiceHeaderID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="CreatedDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="FunderID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="FunderContactID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="InvoiceNumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="Reference1" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="Reference2" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="Reference3" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="CustomerReference" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="SubTotal" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="TaxTotal" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="TotalAmount" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="TaxInc" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="InvoiceDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToAddress1" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToAddress2" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToAddress3" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToAddress4" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToAddress5" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ToAddress6" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="InvBatchNo" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="BatchStartDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="BatchEndDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ClientID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="rowguid" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="ModifiedDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="PrintCount" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+            <Field name="EmailCount" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_13992_73291802f4bd4741b707a07424cf5be8_\Engine_7096_6666de49f45541b8aa2bdcbb1852c1e3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>InvoiceLine.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InvoiceLineID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="InvoiceHeaderID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="CreatedDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="FunderID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="InvoiceNumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Stockcode" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Quantity" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="UnitPrice" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="UnitPriceIncTax" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="UnitCost" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="TaxTotal" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="LineTotal" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="LineTotalIncTax" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="ClientID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="StaffID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="JobID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="JobDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Reference1" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Reference2" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Reference3" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="FunderReference" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="Notes" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="rowguid" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="ModifiedDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="ExtraChargeID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="TaxRate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+            <Field name="TaxRateID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_13992_73291802f4bd4741b707a07424cf5be8_\Engine_7096_a3e0903a933e4d18a210ae555f655555_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="486" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="InvoiceHeaderID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="InvoiceHeaderID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_InvoiceHeaderID" selected="True" rename="Right_InvoiceHeaderID" type="V_WString" size="5" />
+                <SelectField field="Right_FunderID" selected="True" rename="Right_FunderID" />
+                <SelectField field="Right_InvoiceNumber" selected="True" rename="Right_InvoiceNumber" />
+                <SelectField field="Right_TaxTotal" selected="True" rename="Right_TaxTotal" />
+                <SelectField field="Right_ClientID" selected="True" rename="Right_ClientID" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="606" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"InvoiceHeaderID","InvoiceDate","Right_InvoiceHeaderID","Right_FunderID","Right_InvoiceNumber","Right_TaxTotal","Right_ClientID"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CreatedDate" selected="True" rename="Date" type="DateTime" size="19" />
+            <SelectField field="InvoiceDate" selected="True" type="DateTime" size="19" />
+            <SelectField field="Right_InvoiceHeaderID" selected="False" />
+            <SelectField field="Right_FunderID" selected="False" />
+            <SelectField field="Right_InvoiceNumber" selected="False" />
+            <SelectField field="Right_TaxTotal" selected="False" />
+            <SelectField field="LineTotal" selected="True" rename="Amount" />
+            <SelectField field="Right_ClientID" selected="True" rename="Client ID" />
+            <SelectField field="FunderReference" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BatchEndDate" selected="False" />
+            <SelectField field="BatchStartDate" selected="False" />
+            <SelectField field="ClientID" selected="False" />
+            <SelectField field="CreatedDate" selected="True" />
+            <SelectField field="CustomerReference" selected="False" />
+            <SelectField field="EmailCount" selected="False" />
+            <SelectField field="FunderContactID" selected="False" />
+            <SelectField field="FunderID" selected="False" />
+            <SelectField field="InvBatchNo" selected="False" />
+            <SelectField field="InvoiceDate" selected="True" />
+            <SelectField field="InvoiceHeaderID" selected="True" />
+            <SelectField field="InvoiceNumber" selected="True" />
+            <SelectField field="ModifiedDate" selected="False" />
+            <SelectField field="PrintCount" selected="False" />
+            <SelectField field="Reference1" selected="False" />
+            <SelectField field="Reference2" selected="False" />
+            <SelectField field="Reference3" selected="False" />
+            <SelectField field="rowguid" selected="False" />
+            <SelectField field="SubTotal" selected="False" />
+            <SelectField field="TaxInc" selected="False" />
+            <SelectField field="TaxTotal" selected="False" />
+            <SelectField field="ToAddress1" selected="False" />
+            <SelectField field="ToAddress2" selected="False" />
+            <SelectField field="ToAddress3" selected="False" />
+            <SelectField field="ToAddress4" selected="False" />
+            <SelectField field="ToAddress5" selected="False" />
+            <SelectField field="ToAddress6" selected="False" />
+            <SelectField field="ToName" selected="False" />
+            <SelectField field="TotalAmount" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CreatedDate" selected="False" />
+            <SelectField field="StaffID" selected="False" />
+            <SelectField field="Reference1" selected="False" />
+            <SelectField field="Reference2" selected="False" />
+            <SelectField field="Reference3" selected="False" />
+            <SelectField field="rowguid" selected="False" />
+            <SelectField field="ModifiedDate" selected="False" />
+            <SelectField field="ExtraChargeID" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="390" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="InvoiceLineID" selected="True" />
+            <Field field="InvoiceHeaderID" selected="True" />
+            <Field field="FunderID" selected="True" />
+            <Field field="InvoiceNumber" selected="True" />
+            <Field field="Stockcode" selected="True" />
+            <Field field="Description" selected="True" />
+            <Field field="Quantity" selected="True" />
+            <Field field="UnitPrice" selected="True" />
+            <Field field="UnitPriceIncTax" selected="True" />
+            <Field field="UnitCost" selected="True" />
+            <Field field="TaxTotal" selected="True" />
+            <Field field="LineTotal" selected="True" />
+            <Field field="LineTotalIncTax" selected="True" />
+            <Field field="ClientID" selected="True" />
+            <Field field="JobID" selected="True" />
+            <Field field="JobDate" selected="True" />
+            <Field field="FunderReference" selected="True" />
+            <Field field="Notes" selected="True" />
+            <Field field="TaxRate" selected="True" />
+            <Field field="TaxRateID" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InvoiceLineID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Int32" />
+            <Field name="InvoiceHeaderID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Int16" />
+            <Field name="FunderID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Int16" />
+            <Field name="InvoiceNumber" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Int16" />
+            <Field name="Stockcode" size="19" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_String" />
+            <Field name="Description" size="40" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="V_String" />
+            <Field name="Quantity" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="UnitPrice" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="UnitPriceIncTax" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="UnitCost" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="TaxTotal" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="LineTotal" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="LineTotalIncTax" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Double" />
+            <Field name="ClientID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Int16" />
+            <Field name="JobID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Int32" />
+            <Field name="JobDate" size="23" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="String" />
+            <Field name="FunderReference" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+            <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+            <Field name="TaxRate" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Byte" />
+            <Field name="TaxRateID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="342" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CreatedDate" selected="True" />
+            <Field field="InvoiceDate" selected="True" />
+            <Field field="InvoiceHeaderID" selected="True" />
+            <Field field="InvoiceNumber" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CreatedDate" size="23" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="String" />
+            <Field name="InvoiceDate" size="23" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="String" />
+            <Field name="InvoiceHeaderID" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="Int16" />
+            <Field name="InvoiceNumber" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceHDR.csv" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_13992_73291802f4bd4741b707a07424cf5be8_\Engine_7096_94883cb8c4bf4883995e54b48d19c5ea_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="906" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\mip\Clients\Auruleun\Data\DataVault\CSM Invoices.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CSM Invoices.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="942" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\mip\Clients\Auruleun\Tableau\CSM Invoices.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CSM Invoices.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\CSM\jobs.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>jobs.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="JobID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="ClientID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="FunderID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="BudgetID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="StaffID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Stockcode" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Hours" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="EndJobDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Notes" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PanztelID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="InvNoBatchID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PayrollBatchID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="StaffCompanyID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="ClientCompanyID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="ActualMins" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="SellPrice" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="CostPrice" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PayHours" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="IgnorePayrollReason" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="IgnoreInvoiceReason" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PaidHoliday" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="AddedJob" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="FunderGroupID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price1" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price2" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price3" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price4" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price5" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price6" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price7" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price8" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price9" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="Price10" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelTime" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelUnits" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelTimeSell" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelTimePay" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelUnitSell" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelUnitPay" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TransType" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="RTSendEmail" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="FilePayStatus" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="FilePayText" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PayHrRate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobDateOnly" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="EndJobDateOnly" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PackageID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="InvNo" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="OrigTravelTime" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="OrigTravelUnits" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HolidayHours" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="OrigCarerID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="ReasonCancelledID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="AdhocJob" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="IsApproved" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="DateCreated" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="CreatedByID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="DateAssigned" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="AssignedByID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobSource" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobSourceTypeID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="NBInvQty" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="NBInvPrice" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobRequester" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobStatus" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="MobDataChanged" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="MobJobSeqno" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelBuffer" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="IBT" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PostcodebandID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="rowguid" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="ModifiedDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="IBTBandID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="OverridePayAmount" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="NormalHours" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="EveningHours" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="WeekendHours" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="EveningHoursHoliday" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="WeekendHoursHoliday" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PortalJobID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="PortalRate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelUnitsWithClient" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelUnitsWithClientSell" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TravelUnitsWithClientPay" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TimeSheetBy" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="TimeSheetDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HomeTravelTime" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HomeTravelUnits" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HomeTravelTimeSell" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HomeTravelTimePay" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HomeTravelUnitSell" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="HomeTravelUnitPay" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="AdjustmentID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="AppointmentTemplateID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="AppointmentBudgetID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="JobStartedTime" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="VisitCacheID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="GHJob" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="CancelledDate" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="ReasonCancelled" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="StaffToVisitCacheID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="StaffFromVisitCacheID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="CancelledBy" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+            <Field name="CancelledDateTime" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\jobs.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="" />
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="7" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output26" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>csm invoices</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

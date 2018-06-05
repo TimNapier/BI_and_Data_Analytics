@@ -1,0 +1,1392 @@
+2017-11-29 14:58:07.408 (11156): -----------------------------------------------------------------------------
+2017-11-29 14:58:07.408 (11156): Initializing fault reporting
+2017-11-29 14:58:07.408 (11156): Fault reporting log pathname: C:\mip\Clients\Auruleun\Alteryx\tdeserver64-error0000383c.log
+2017-11-29 14:58:07.408 (11156): Initializing MiniDump
+2017-11-29 14:58:07.408 (11156): Loading 'DbgHelp.dll'
+2017-11-29 14:58:07.408 (11156): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2017-11-29 14:58:07.409 (11156):   Product Name: Microsoft® Windows® Operating System
+2017-11-29 14:58:07.409 (11156):   File Version: 10.0.15063.250 (WinBuild.160101.0800)
+2017-11-29 14:58:07.409 (11156):   Product Version: 10.0.15063.250
+2017-11-29 14:58:07.409 (11156): Finding function 'MiniDumpWriteDump'
+2017-11-29 14:58:07.409 (11156): Success
+2017-11-29 14:58:07.409 (11156): Registering unhandled exception filter
+2017-11-29 14:58:07.409 (11156): -----------------------------------------------------------------------------
+2017-11-29 14:58:07.409 (11156): argv[0]="C:\Program Files\Alteryx\bin\tdeserver64.exe"
+2017-11-29 14:58:07.409 (11156): argv[1]="--callback"
+2017-11-29 14:58:07.409 (11156): argv[2]="tab.pipe://./pipe/{742232C1-C824-47D1-8F71-177E6CBE5422}"
+2017-11-29 14:58:07.409 (11156): argv[3]="--listen"
+2017-11-29 14:58:07.409 (11156): argv[4]="tab.pipe://./pipe/auto"
+2017-11-29 14:58:07.409 (11156): argv[5]="--desktop"
+2017-11-29 14:58:07.409 (11156): argv[6]="--log"
+2017-11-29 14:58:07.409 (11156): argv[7]="C:\mip\Clients\Auruleun\Alteryx\DataExtract.log"
+2017-11-29 14:58:07.409 (11156): pid=14396
+2017-11-29 14:58:07.409 (11156): Machine Configuration
+2017-11-29 14:58:07.409 (11156):   Max Descriptors: -1
+2017-11-29 14:58:07.409 (11156): Vectorization Support
+2017-11-29 14:58:07.409 (11156):   Supports SSE:    Yes
+2017-11-29 14:58:07.409 (11156):   Supports SSE2:   Yes
+2017-11-29 14:58:07.409 (11156):   Supports SSE3:   Yes
+2017-11-29 14:58:07.409 (11156):   Supports SSE4.1: Yes
+2017-11-29 14:58:07.409 (11156):   Supports SSE4.2: Yes
+2017-11-29 14:58:07.409 (11156):   Supports AVX:    Yes
+2017-11-29 14:58:07.409 (11156):   Supports AVX2:   Yes
+2017-11-29 14:58:07.409 (11156): Adjusted Parallelism Values
+2017-11-29 14:58:07.409 (11156):   CPUs available to process: 8
+2017-11-29 14:58:07.409 (11156):   max-concurrency:           4
+2017-11-29 14:58:07.409 (11156):   query-parallelism:         4
+2017-11-29 14:58:07.409 (11156):   min-query-parallelism:     2
+2017-11-29 14:58:07.410 (11156): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:07.410 (11156): tdeserver: accepting new connection
+2017-11-29 14:58:07.410 (11156): tdeserver: new connection, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:07.410 (15484): beginthread: recv, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:07.410 (19028): beginthread: send, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:07.410 (15484): tdeserver: open session, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}, sess_guid=1
+2017-11-29 14:58:07.410 (13336): Session1: QueryExecute:
+2017-11-29 14:58:07.410 (13336): (create database "C:\\mip\\Clients\\Auruleun\\Tableau\\sales.tde")
+2017-11-29 14:58:07.706 (13336): Compiling query with Memory Budget=9908183040
+2017-11-29 14:58:07.706 (13336): Session1: QueryExecute: OK, Elapsed time:0.296s, Compilation time:0.296s, Execution time:0.000s
+2017-11-29 14:58:07.707 (18264): Session1: QueryExecute:
+2017-11-29 14:58:07.707 (18264): (create schema [Extract])
+2017-11-29 14:58:07.707 (18264): Compiling query with Memory Budget=9908097024
+2017-11-29 14:58:07.729 (18264): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2017-11-29 14:58:07.730 (19124): Session1: QueryExecute:
+2017-11-29 14:58:07.730 (19124): (create table [Extract].[Extract])
+2017-11-29 14:58:07.730 (19124): Compiling query with Memory Budget=9907716096
+2017-11-29 14:58:07.755 (19124): Session1: QueryExecute: OK, Elapsed time:0.026s, Compilation time:0.000s, Execution time:0.026s
+2017-11-29 14:58:07.756 (12648): Session1: QueryExecute:
+2017-11-29 14:58:07.756 (12648): (create column [Extract].[Extract].[Co./Last Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.758 (12648): Compiling query with Memory Budget=9907118080
+2017-11-29 14:58:07.782 (12648): Session1: QueryExecute: OK, Elapsed time:0.026s, Compilation time:0.002s, Execution time:0.024s
+2017-11-29 14:58:07.782 (13336): Session1: QueryExecute:
+2017-11-29 14:58:07.782 (13336): (create column [Extract].[Extract].[Invoice No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.782 (13336): Compiling query with Memory Budget=9907154944
+2017-11-29 14:58:07.793 (13336): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.793 (18264): Session1: QueryExecute:
+2017-11-29 14:58:07.793 (18264): (create column [Extract].[Extract].[Customer PO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.793 (18264): Compiling query with Memory Budget=9907154944
+2017-11-29 14:58:07.804 (18264): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.804 (19124): Session1: QueryExecute:
+2017-11-29 14:58:07.804 (19124): (create column [Extract].[Extract].[Ship Via] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.804 (19124): Compiling query with Memory Budget=9904332800
+2017-11-29 14:58:07.815 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:07.815 (12648): Session1: QueryExecute:
+2017-11-29 14:58:07.815 (12648): (create column [Extract].[Extract].[Delivery Status] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "4" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.815 (12648): Compiling query with Memory Budget=9904529408
+2017-11-29 14:58:07.826 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.826 (13336): Session1: QueryExecute:
+2017-11-29 14:58:07.826 (13336): (create column [Extract].[Extract].[Description] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "5" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.826 (13336): Compiling query with Memory Budget=9904201728
+2017-11-29 14:58:07.837 (13336): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.837 (18264): Session1: QueryExecute:
+2017-11-29 14:58:07.837 (18264): (create column [Extract].[Extract].[Account No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "6" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.837 (18264): Compiling query with Memory Budget=9904529408
+2017-11-29 14:58:07.848 (18264): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.848 (19124): Session1: QueryExecute:
+2017-11-29 14:58:07.848 (19124): (create column [Extract].[Extract].[Amount] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-11-29 14:58:07.848 (19124): Compiling query with Memory Budget=9905119232
+2017-11-29 14:58:07.859 (19124): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:07.859 (12648): Session1: QueryExecute:
+2017-11-29 14:58:07.859 (12648): (create column [Extract].[Extract].[Job] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "8" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.859 (12648): Compiling query with Memory Budget=9903874048
+2017-11-29 14:58:07.870 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.870 (13336): Session1: QueryExecute:
+2017-11-29 14:58:07.870 (13336): (create column [Extract].[Extract].[Category] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "9" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.870 (13336): Compiling query with Memory Budget=9903874048
+2017-11-29 14:58:07.881 (13336): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.882 (18264): Session1: QueryExecute:
+2017-11-29 14:58:07.882 (18264): (create column [Extract].[Extract].[Card ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "10" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.882 (18264): Compiling query with Memory Budget=9904070656
+2017-11-29 14:58:07.892 (18264): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:07.893 (19124): Session1: QueryExecute:
+2017-11-29 14:58:07.893 (19124): (create column [Extract].[Extract].[Account Type] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "11" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.893 (19124): Compiling query with Memory Budget=9904267264
+2017-11-29 14:58:07.903 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.904 (12648): Session1: QueryExecute:
+2017-11-29 14:58:07.904 (12648): (create column [Extract].[Extract].[Date] ( ( "builtin" "date" ) ( "factory" "builtin" ) ( "ordinal" "12" ) ))
+2017-11-29 14:58:07.904 (12648): Compiling query with Memory Budget=9904332800
+2017-11-29 14:58:07.914 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.914 (13336): Session1: QueryExecute:
+2017-11-29 14:58:07.914 (13336): (create column [Extract].[Extract].[Customer_RecordID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "13" ) ))
+2017-11-29 14:58:07.915 (13336): Compiling query with Memory Budget=9903874048
+2017-11-29 14:58:07.929 (13336): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:07.929 (18264): Session1: QueryExecute:
+2017-11-29 14:58:07.929 (18264): (create column [Extract].[Extract].[name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "14" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.929 (18264): Compiling query with Memory Budget=9901838336
+2017-11-29 14:58:07.940 (18264): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.940 (19124): Session1: QueryExecute:
+2017-11-29 14:58:07.940 (19124): (create column [Extract].[Extract].[source] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "15" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.940 (19124): Compiling query with Memory Budget=9903280128
+2017-11-29 14:58:07.952 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.952 (12648): Session1: QueryExecute:
+2017-11-29 14:58:07.952 (12648): (create column [Extract].[Extract].[Client_Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "16" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.952 (12648): Compiling query with Memory Budget=9903149056
+2017-11-29 14:58:07.963 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.963 (13336): Session1: QueryExecute:
+2017-11-29 14:58:07.963 (13336): (create column [Extract].[Extract].[Salutation] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "17" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.964 (13336): Compiling query with Memory Budget=9902821376
+2017-11-29 14:58:07.974 (13336): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:07.974 (18264): Session1: QueryExecute:
+2017-11-29 14:58:07.974 (18264): (create column [Extract].[Extract].[FamilyName] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "18" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.974 (18264): Compiling query with Memory Budget=9903017984
+2017-11-29 14:58:07.985 (18264): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:07.985 (19124): Session1: QueryExecute:
+2017-11-29 14:58:07.985 (19124): (create column [Extract].[Extract].[FirstName] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "19" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.985 (19124): Compiling query with Memory Budget=9902297088
+2017-11-29 14:58:07.995 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:07.996 (12648): Session1: QueryExecute:
+2017-11-29 14:58:07.996 (12648): (create column [Extract].[Extract].[NHINumber] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "20" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:07.996 (12648): Compiling query with Memory Budget=9902166016
+2017-11-29 14:58:08.007 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.007 (13336): Session1: QueryExecute:
+2017-11-29 14:58:08.007 (13336): (create column [Extract].[Extract].[Status] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "21" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.007 (13336): Compiling query with Memory Budget=9902952448
+2017-11-29 14:58:08.017 (13336): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:08.017 (18264): Session1: QueryExecute:
+2017-11-29 14:58:08.017 (18264): (create column [Extract].[Extract].[Day Services Business Unit ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "22" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.017 (18264): Compiling query with Memory Budget=9902428160
+2017-11-29 14:58:08.028 (18264): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:08.028 (19124): Session1: QueryExecute:
+2017-11-29 14:58:08.028 (19124): (create column [Extract].[Extract].[Day Services Business Unit Description] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "23" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.028 (19124): Compiling query with Memory Budget=9902297088
+2017-11-29 14:58:08.039 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.039 (12648): Session1: QueryExecute:
+2017-11-29 14:58:08.039 (12648): (create column [Extract].[Extract].[Job Number] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "24" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.040 (12648): Compiling query with Memory Budget=9902297088
+2017-11-29 14:58:08.050 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.050 (13336): Session1: QueryExecute:
+2017-11-29 14:58:08.050 (13336): (create column [Extract].[Extract].[Job Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "25" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.051 (13336): Compiling query with Memory Budget=9902034944
+2017-11-29 14:58:08.061 (13336): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:08.061 (18264): Session1: QueryExecute:
+2017-11-29 14:58:08.061 (18264): (create column [Extract].[Extract].[Sub-job of] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "26" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.061 (18264): Compiling query with Memory Budget=9902428160
+2017-11-29 14:58:08.072 (18264): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:08.072 (19124): Session1: QueryExecute:
+2017-11-29 14:58:08.072 (19124): (create column [Extract].[Extract].[job_number1] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "27" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.072 (19124): Compiling query with Memory Budget=9901772800
+2017-11-29 14:58:08.084 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.084 (12648): Session1: QueryExecute:
+2017-11-29 14:58:08.084 (12648): (create column [Extract].[Extract].[job_number2] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "28" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.084 (12648): Compiling query with Memory Budget=9902297088
+2017-11-29 14:58:08.095 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.095 (13336): Session1: QueryExecute:
+2017-11-29 14:58:08.095 (13336): (create column [Extract].[Extract].[job_number3] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "29" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.095 (13336): Compiling query with Memory Budget=9901580288
+2017-11-29 14:58:08.105 (13336): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:08.105 (18264): Session1: QueryExecute:
+2017-11-29 14:58:08.105 (18264): (create column [Extract].[Extract].[job_name1] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "30" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.106 (18264): Compiling query with Memory Budget=9902432256
+2017-11-29 14:58:08.117 (18264): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.117 (19124): Session1: QueryExecute:
+2017-11-29 14:58:08.117 (19124): (create column [Extract].[Extract].[job_name2] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "31" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.117 (19124): Compiling query with Memory Budget=9902497792
+2017-11-29 14:58:08.129 (19124): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:08.129 (12648): Session1: QueryExecute:
+2017-11-29 14:58:08.129 (12648): (create column [Extract].[Extract].[job_name3] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "32" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:08.129 (12648): Compiling query with Memory Budget=9902301184
+2017-11-29 14:58:08.140 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:08.167 (13336): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-11-29 14:58:08.167 (13336):   column[0]="Co./Last Name"
+2017-11-29 14:58:08.167 (13336):   column[1]="Invoice No."
+2017-11-29 14:58:08.167 (13336):   column[2]="Customer PO"
+2017-11-29 14:58:08.167 (13336):   column[3]="Ship Via"
+2017-11-29 14:58:08.167 (13336):   column[4]="Delivery Status"
+2017-11-29 14:58:08.167 (13336):   column[5]="Description"
+2017-11-29 14:58:08.167 (13336):   column[6]="Account No."
+2017-11-29 14:58:08.167 (13336):   column[7]="Amount"
+2017-11-29 14:58:08.167 (13336):   column[8]="Job"
+2017-11-29 14:58:08.167 (13336):   column[9]="Category"
+2017-11-29 14:58:08.167 (13336):   column[10]="Card ID"
+2017-11-29 14:58:08.167 (13336):   column[11]="Account Type"
+2017-11-29 14:58:08.167 (13336):   column[12]="Date"
+2017-11-29 14:58:08.167 (13336):   column[13]="Customer_RecordID"
+2017-11-29 14:58:08.167 (13336):   column[14]="name"
+2017-11-29 14:58:08.167 (13336):   column[15]="source"
+2017-11-29 14:58:08.167 (13336):   column[16]="Client_Code"
+2017-11-29 14:58:08.167 (13336):   column[17]="Salutation"
+2017-11-29 14:58:08.167 (13336):   column[18]="FamilyName"
+2017-11-29 14:58:08.167 (13336):   column[19]="FirstName"
+2017-11-29 14:58:08.167 (13336):   column[20]="NHINumber"
+2017-11-29 14:58:08.167 (13336):   column[21]="Status"
+2017-11-29 14:58:08.167 (13336):   column[22]="Day Services Business Unit ID"
+2017-11-29 14:58:08.167 (13336):   column[23]="Day Services Business Unit Description"
+2017-11-29 14:58:08.167 (13336):   column[24]="Job Number"
+2017-11-29 14:58:08.167 (13336):   column[25]="Job Name"
+2017-11-29 14:58:08.167 (13336):   column[26]="Sub-job of"
+2017-11-29 14:58:08.167 (13336):   column[27]="job_number1"
+2017-11-29 14:58:08.167 (13336):   column[28]="job_number2"
+2017-11-29 14:58:08.167 (13336):   column[29]="job_number3"
+2017-11-29 14:58:08.167 (13336):   column[30]="job_name1"
+2017-11-29 14:58:08.167 (13336):   column[31]="job_name2"
+2017-11-29 14:58:08.167 (13336):   column[32]="job_name3"
+2017-11-29 14:58:08.537 (18264): Session1: InsertPutValues: total_calls=1 total_message_size=2088624
+2017-11-29 14:58:08.840 (19124): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=2088624
+2017-11-29 14:58:08.840 (19124): Session1: InsertCommit: OK
+2017-11-29 14:58:08.840 (12648): Session1: InsertClose: insert_guid=1
+2017-11-29 14:58:08.840 (12648): Session1: InsertClose: OK
+2017-11-29 14:58:08.841 (13336): Session1: QueryExecute:
+2017-11-29 14:58:08.841 (13336): (package)
+2017-11-29 14:58:08.841 (13336): Compiling query with Memory Budget=9883324416
+2017-11-29 14:58:08.841 (13336): PackageDatabase: in-place package of "C:\mip\Clients\Auruleun\Tableau\sales.tde"
+2017-11-29 14:58:08.974 (13336): PackageDatabase: finished
+2017-11-29 14:58:08.974 (13336): Session1: QueryExecute: OK, Elapsed time:0.133s, Compilation time:0.000s, Execution time:0.133s
+2017-11-29 14:58:08.974 (18264): Session1: QueryExecute:
+2017-11-29 14:58:08.974 (18264): (database "C:\\mip\\Clients\\Auruleun\\Tableau\\sales.tde")
+2017-11-29 14:58:08.977 (18264): Compiling query with Memory Budget=9882431488
+2017-11-29 14:58:08.977 (18264): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2017-11-29 14:58:08.977 (19124): Session1: QueryExecute:
+2017-11-29 14:58:08.977 (19124): (show schemas)
+2017-11-29 14:58:08.977 (19124): Compiling query with Memory Budget=9882419200
+2017-11-29 14:58:08.979 (19124): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:08.979 (12648): Session1: RowsetGetValues:
+2017-11-29 14:58:08.979 (13336): Session1: RowsetGetValues:
+2017-11-29 14:58:08.980 (18264): Session1: RowsetClose:
+2017-11-29 14:58:08.980 (19124): Session1: QueryExecute:
+2017-11-29 14:58:08.980 (19124): (show tables [Extract])
+2017-11-29 14:58:08.980 (19124): Compiling query with Memory Budget=9882398720
+2017-11-29 14:58:08.983 (19124): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-11-29 14:58:08.983 (12648): Session1: RowsetGetValues:
+2017-11-29 14:58:08.984 (13336): Session1: RowsetGetValues:
+2017-11-29 14:58:08.984 (18264): Session1: RowsetClose:
+2017-11-29 14:58:08.984 (19124): Session1: QueryExecute:
+2017-11-29 14:58:08.984 (19124): (top (table [Extract].[Extract]) () 0)
+2017-11-29 14:58:08.999 (19124): Compiling query with DOP=4
+2017-11-29 14:58:09.002 (19124): Compiling query with Memory Budget=9881812992
+2017-11-29 14:58:09.006 (19124): Session1: QueryExecute: OK rowset_guid=4 n_columns=33, Elapsed time:0.020s, Compilation time:0.017s, Execution time:0.003s
+2017-11-29 14:58:09.008 (12648): Session1: RowsetClose:
+2017-11-29 14:58:09.008 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.008 (13336): (alter column [Extract].[Extract].[Co./Last Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.009 (13336): Compiling query with Memory Budget=9881796608
+2017-11-29 14:58:09.026 (13336): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-11-29 14:58:09.026 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.026 (18264): (alter column [Extract].[Extract].[Invoice No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.027 (18264): Compiling query with Memory Budget=9881796608
+2017-11-29 14:58:09.041 (18264): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:09.041 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.041 (19124): (alter column [Extract].[Extract].[Customer PO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.041 (19124): Compiling query with Memory Budget=9883107328
+2017-11-29 14:58:09.052 (19124): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:09.052 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.052 (12648): (alter column [Extract].[Extract].[Ship Via] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.052 (12648): Compiling query with Memory Budget=9883107328
+2017-11-29 14:58:09.060 (12648): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.060 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.060 (13336): (alter column [Extract].[Extract].[Delivery Status] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.060 (13336): Compiling query with Memory Budget=9883107328
+2017-11-29 14:58:09.069 (13336): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.070 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.070 (18264): (alter column [Extract].[Extract].[Description] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.070 (18264): Compiling query with Memory Budget=9883107328
+2017-11-29 14:58:09.081 (18264): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:09.081 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.081 (19124): (alter column [Extract].[Extract].[Account No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.082 (19124): Compiling query with Memory Budget=9883099136
+2017-11-29 14:58:09.091 (19124): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.091 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.091 (12648): (alter column [Extract].[Extract].[Amount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.091 (12648): Compiling query with Memory Budget=9883099136
+2017-11-29 14:58:09.102 (12648): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:09.103 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.103 (13336): (alter column [Extract].[Extract].[Job] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.103 (13336): Compiling query with Memory Budget=9882607616
+2017-11-29 14:58:09.112 (13336): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.112 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.112 (18264): (alter column [Extract].[Extract].[Category] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.112 (18264): Compiling query with Memory Budget=9882607616
+2017-11-29 14:58:09.120 (18264): Session1: QueryExecute: OK, Elapsed time:0.008s, Compilation time:0.000s, Execution time:0.008s
+2017-11-29 14:58:09.121 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.121 (19124): (alter column [Extract].[Extract].[Card ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.121 (19124): Compiling query with Memory Budget=9882607616
+2017-11-29 14:58:09.130 (19124): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.131 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.131 (12648): (alter column [Extract].[Extract].[Account Type] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.131 (12648): Compiling query with Memory Budget=9882607616
+2017-11-29 14:58:09.138 (12648): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.138 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.138 (13336): (alter column [Extract].[Extract].[Date] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.138 (13336): Compiling query with Memory Budget=9882607616
+2017-11-29 14:58:09.147 (13336): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.148 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.148 (18264): (alter column [Extract].[Extract].[Customer_RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.148 (18264): Compiling query with Memory Budget=9882537984
+2017-11-29 14:58:09.158 (18264): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.158 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.158 (19124): (alter column [Extract].[Extract].[name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.159 (19124): Compiling query with Memory Budget=9882394624
+2017-11-29 14:58:09.168 (19124): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.168 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.168 (12648): (alter column [Extract].[Extract].[source] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.168 (12648): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.175 (12648): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.175 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.175 (13336): (alter column [Extract].[Extract].[Client_Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.175 (13336): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.185 (13336): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.185 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.185 (18264): (alter column [Extract].[Extract].[Salutation] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.185 (18264): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.195 (18264): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.195 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.195 (19124): (alter column [Extract].[Extract].[FamilyName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.195 (19124): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.204 (19124): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.205 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.205 (12648): (alter column [Extract].[Extract].[FirstName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.205 (12648): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.214 (12648): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.214 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.214 (13336): (alter column [Extract].[Extract].[NHINumber] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.214 (13336): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.224 (13336): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.225 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.225 (18264): (alter column [Extract].[Extract].[Status] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.225 (18264): Compiling query with Memory Budget=9882132480
+2017-11-29 14:58:09.234 (18264): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.234 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.234 (19124): (alter column [Extract].[Extract].[Day Services Business Unit ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.235 (19124): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.244 (19124): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.245 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.245 (12648): (alter column [Extract].[Extract].[Day Services Business Unit Description] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.245 (12648): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.254 (12648): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.254 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.254 (13336): (alter column [Extract].[Extract].[Job Number] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.254 (13336): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.263 (13336): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.264 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.264 (18264): (alter column [Extract].[Extract].[Job Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.264 (18264): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.272 (18264): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.008s
+2017-11-29 14:58:09.272 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.272 (19124): (alter column [Extract].[Extract].[Sub-job of] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.272 (19124): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.279 (19124): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.279 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.279 (12648): (alter column [Extract].[Extract].[job_number1] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.279 (12648): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.286 (12648): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.286 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.286 (13336): (alter column [Extract].[Extract].[job_number2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.287 (13336): Compiling query with Memory Budget=9881870336
+2017-11-29 14:58:09.296 (13336): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:09.296 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.296 (18264): (alter column [Extract].[Extract].[job_number3] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.296 (18264): Compiling query with Memory Budget=9881608192
+2017-11-29 14:58:09.304 (18264): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.304 (19124): Session1: QueryExecute:
+2017-11-29 14:58:09.304 (19124): (alter column [Extract].[Extract].[job_name1] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.304 (19124): Compiling query with Memory Budget=9881608192
+2017-11-29 14:58:09.310 (19124): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.311 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.311 (12648): (alter column [Extract].[Extract].[job_name2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.311 (12648): Compiling query with Memory Budget=9881608192
+2017-11-29 14:58:09.317 (12648): Session1: QueryExecute: OK, Elapsed time:0.007s, Compilation time:0.000s, Execution time:0.007s
+2017-11-29 14:58:09.317 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.317 (13336): (alter column [Extract].[Extract].[job_name3] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:09.318 (13336): Compiling query with Memory Budget=9881608192
+2017-11-29 14:58:09.327 (13336): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:09.328 (18264): Session1: QueryExecute:
+2017-11-29 14:58:09.328 (18264): (top (table [Extract].[Extract]) () 0)
+2017-11-29 14:58:09.330 (18264): Compiling query with DOP=4
+2017-11-29 14:58:09.332 (18264): Compiling query with Memory Budget=9881608192
+2017-11-29 14:58:09.337 (18264): Session1: QueryExecute: OK rowset_guid=5 n_columns=33, Elapsed time:0.008s, Compilation time:0.004s, Execution time:0.005s
+2017-11-29 14:58:09.338 (19124): Session1: RowsetClose:
+2017-11-29 14:58:09.339 (12648): Session1: QueryExecute:
+2017-11-29 14:58:09.339 (12648): (sort [Extract].[Extract] ( ( [Date] asc) ( [source] asc) ( [Sub-job of] asc) ( [job_number1] asc) ( [job_name1] asc) ( [job_name2] asc) ( [Delivery Status] asc) ( [Status] asc) ( [Day Services Business Unit ID] asc) ( [Day Services Business Unit Description] asc) ( [Job Number] asc) ( [Job Name] asc) ( [job_number2] asc) ( [job_name3] asc) ( [Salutation] asc) ( [Account No.] asc) ( [Job] asc) ( [FirstName] asc) ( [NHINumber] asc) ( [FamilyName] asc) ( [name] asc) ( [Customer_RecordID] asc) ( [Client_Code] asc) ( [Card ID] asc) ( [Co./Last Name] asc) ( [Description] asc) ( [Amount] asc) ( [Customer PO] asc) ( [Invoice No.] asc) ) )
+2017-11-29 14:58:09.340 (12648): Compiling query with Memory Budget=9881608192
+2017-11-29 14:58:09.619 (12648): Session1: QueryExecute: OK, Elapsed time:0.280s, Compilation time:0.001s, Execution time:0.279s
+2017-11-29 14:58:09.619 (13336): Session1: QueryExecute:
+2017-11-29 14:58:09.619 (13336): (package)
+2017-11-29 14:58:09.619 (13336): Compiling query with Memory Budget=9878507520
+2017-11-29 14:58:09.619 (13336): PackageDatabase: in-place package of "C:\mip\Clients\Auruleun\Tableau\sales.tde"
+2017-11-29 14:58:09.728 (13336): PackageDatabase: finished
+2017-11-29 14:58:09.728 (13336): Session1: QueryExecute: OK, Elapsed time:0.109s, Compilation time:0.000s, Execution time:0.109s
+2017-11-29 14:58:09.728 (15484): tdeserver: close session, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}, sess_guid=1
+2017-11-29 14:58:09.729 (11156): tdeserver: closing connection, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:09.729 (19028): endthread: send, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:09.729 (15484): tdeserver: connection dead: The pipe has been ended.
+2017-11-29 14:58:09.729 (15484):  - IPC_NamedPipe::Recv(ReadFile)
+2017-11-29 14:58:09.729 (15484): endthread: recv, connection=tab.pipe://./pipe/{0BA2C011-DFAD-4703-BD8B-354BE21A18C2}
+2017-11-29 14:58:09.729 (11156): tdeserver: exit (0)
+2017-11-29 14:58:12.027 (9128): -----------------------------------------------------------------------------
+2017-11-29 14:58:12.027 (9128): Initializing fault reporting
+2017-11-29 14:58:12.027 (9128): Fault reporting log pathname: C:\mip\Clients\Auruleun\Alteryx\tdeserver64-error00003b34.log
+2017-11-29 14:58:12.027 (9128): Initializing MiniDump
+2017-11-29 14:58:12.027 (9128): Loading 'DbgHelp.dll'
+2017-11-29 14:58:12.027 (9128): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2017-11-29 14:58:12.027 (9128):   Product Name: Microsoft® Windows® Operating System
+2017-11-29 14:58:12.027 (9128):   File Version: 10.0.15063.250 (WinBuild.160101.0800)
+2017-11-29 14:58:12.027 (9128):   Product Version: 10.0.15063.250
+2017-11-29 14:58:12.027 (9128): Finding function 'MiniDumpWriteDump'
+2017-11-29 14:58:12.027 (9128): Success
+2017-11-29 14:58:12.027 (9128): Registering unhandled exception filter
+2017-11-29 14:58:12.028 (9128): -----------------------------------------------------------------------------
+2017-11-29 14:58:12.028 (9128): argv[0]="C:\Program Files\Alteryx\bin\tdeserver64.exe"
+2017-11-29 14:58:12.028 (9128): argv[1]="--callback"
+2017-11-29 14:58:12.028 (9128): argv[2]="tab.pipe://./pipe/{9C29FDC0-9078-48AA-A4F0-BBDDC1E9E02B}"
+2017-11-29 14:58:12.028 (9128): argv[3]="--listen"
+2017-11-29 14:58:12.028 (9128): argv[4]="tab.pipe://./pipe/auto"
+2017-11-29 14:58:12.028 (9128): argv[5]="--desktop"
+2017-11-29 14:58:12.028 (9128): argv[6]="--log"
+2017-11-29 14:58:12.028 (9128): argv[7]="C:\mip\Clients\Auruleun\Alteryx\DataExtract.log"
+2017-11-29 14:58:12.028 (9128): pid=15156
+2017-11-29 14:58:12.028 (9128): Machine Configuration
+2017-11-29 14:58:12.028 (9128):   Max Descriptors: -1
+2017-11-29 14:58:12.028 (9128): Vectorization Support
+2017-11-29 14:58:12.028 (9128):   Supports SSE:    Yes
+2017-11-29 14:58:12.028 (9128):   Supports SSE2:   Yes
+2017-11-29 14:58:12.028 (9128):   Supports SSE3:   Yes
+2017-11-29 14:58:12.028 (9128):   Supports SSE4.1: Yes
+2017-11-29 14:58:12.028 (9128):   Supports SSE4.2: Yes
+2017-11-29 14:58:12.028 (9128):   Supports AVX:    Yes
+2017-11-29 14:58:12.028 (9128):   Supports AVX2:   Yes
+2017-11-29 14:58:12.028 (9128): Adjusted Parallelism Values
+2017-11-29 14:58:12.028 (9128):   CPUs available to process: 8
+2017-11-29 14:58:12.028 (9128):   max-concurrency:           4
+2017-11-29 14:58:12.028 (9128):   query-parallelism:         4
+2017-11-29 14:58:12.028 (9128):   min-query-parallelism:     2
+2017-11-29 14:58:12.028 (9128): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:12.028 (9128): tdeserver: accepting new connection
+2017-11-29 14:58:12.028 (9128): tdeserver: new connection, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:12.028 (12160): beginthread: recv, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:12.028 (9320): beginthread: send, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:12.028 (12160): tdeserver: open session, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}, sess_guid=1
+2017-11-29 14:58:12.029 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.029 (17536): (create database "C:\\mip\\Clients\\Auruleun\\Tableau\\Attributed Cashflow.tde")
+2017-11-29 14:58:12.329 (17536): Compiling query with Memory Budget=9855766528
+2017-11-29 14:58:12.329 (17536): Session1: QueryExecute: OK, Elapsed time:0.299s, Compilation time:0.299s, Execution time:0.000s
+2017-11-29 14:58:12.329 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.329 (6676): (create schema [Extract])
+2017-11-29 14:58:12.329 (6676): Compiling query with Memory Budget=9855713280
+2017-11-29 14:58:12.351 (6676): Session1: QueryExecute: OK, Elapsed time:0.022s, Compilation time:0.000s, Execution time:0.021s
+2017-11-29 14:58:12.351 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.351 (16980): (create table [Extract].[Extract])
+2017-11-29 14:58:12.351 (16980): Compiling query with Memory Budget=9855266816
+2017-11-29 14:58:12.374 (16980): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.024s
+2017-11-29 14:58:12.375 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.375 (16808): (create column [Extract].[Extract].[Co./Last Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.377 (16808): Compiling query with Memory Budget=9853227008
+2017-11-29 14:58:12.402 (16808): Session1: QueryExecute: OK, Elapsed time:0.027s, Compilation time:0.002s, Execution time:0.025s
+2017-11-29 14:58:12.402 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.402 (17536): (create column [Extract].[Extract].[Invoice No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.402 (17536): Compiling query with Memory Budget=9853067264
+2017-11-29 14:58:12.413 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.413 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.413 (6676): (create column [Extract].[Extract].[Customer PO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.413 (6676): Compiling query with Memory Budget=9851953152
+2017-11-29 14:58:12.427 (6676): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:12.428 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.428 (16980): (create column [Extract].[Extract].[Ship Via] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.428 (16980): Compiling query with Memory Budget=9852264448
+2017-11-29 14:58:12.440 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.440 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.440 (16808): (create column [Extract].[Extract].[Delivery Status] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "4" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.441 (16808): Compiling query with Memory Budget=9852579840
+2017-11-29 14:58:12.452 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.452 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.452 (17536): (create column [Extract].[Extract].[Description] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "5" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.452 (17536): Compiling query with Memory Budget=9852579840
+2017-11-29 14:58:12.463 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.463 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.463 (6676): (create column [Extract].[Extract].[Account No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "6" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.464 (6676): Compiling query with Memory Budget=9852776448
+2017-11-29 14:58:12.474 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.475 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.475 (16980): (create column [Extract].[Extract].[Amount] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "7" ) ))
+2017-11-29 14:58:12.475 (16980): Compiling query with Memory Budget=9852383232
+2017-11-29 14:58:12.485 (16980): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.485 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.485 (16808): (create column [Extract].[Extract].[Job] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "8" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.485 (16808): Compiling query with Memory Budget=9852186624
+2017-11-29 14:58:12.495 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.495 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.495 (17536): (create column [Extract].[Extract].[Category] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "9" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.496 (17536): Compiling query with Memory Budget=9852514304
+2017-11-29 14:58:12.507 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.508 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.508 (6676): (create column [Extract].[Extract].[Card ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "10" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.508 (6676): Compiling query with Memory Budget=9852383232
+2017-11-29 14:58:12.520 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.520 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.520 (16980): (create column [Extract].[Extract].[Account Type] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "11" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.520 (16980): Compiling query with Memory Budget=9852317696
+2017-11-29 14:58:12.531 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.531 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.531 (16808): (create column [Extract].[Extract].[Date] ( ( "builtin" "date" ) ( "factory" "builtin" ) ( "ordinal" "12" ) ))
+2017-11-29 14:58:12.532 (16808): Compiling query with Memory Budget=9852252160
+2017-11-29 14:58:12.542 (16808): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.542 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.542 (17536): (create column [Extract].[Extract].[Customer_RecordID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "13" ) ))
+2017-11-29 14:58:12.542 (17536): Compiling query with Memory Budget=9850810368
+2017-11-29 14:58:12.552 (17536): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.553 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.553 (6676): (create column [Extract].[Extract].[name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "14" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.553 (6676): Compiling query with Memory Budget=9851400192
+2017-11-29 14:58:12.564 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.564 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.564 (16980): (create column [Extract].[Extract].[source] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "15" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.564 (16980): Compiling query with Memory Budget=9851138048
+2017-11-29 14:58:12.575 (16980): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.575 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.575 (16808): (create column [Extract].[Extract].[Client_Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "16" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.575 (16808): Compiling query with Memory Budget=9851400192
+2017-11-29 14:58:12.587 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.587 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.587 (17536): (create column [Extract].[Extract].[Salutation] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "17" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.587 (17536): Compiling query with Memory Budget=9850875904
+2017-11-29 14:58:12.598 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.598 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.598 (6676): (create column [Extract].[Extract].[FamilyName] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "18" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.598 (6676): Compiling query with Memory Budget=9850941440
+2017-11-29 14:58:12.608 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.609 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.609 (16980): (create column [Extract].[Extract].[FirstName] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "19" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.609 (16980): Compiling query with Memory Budget=9850941440
+2017-11-29 14:58:12.621 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.621 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.621 (16808): (create column [Extract].[Extract].[NHINumber] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "20" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.621 (16808): Compiling query with Memory Budget=9850875904
+2017-11-29 14:58:12.632 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.632 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.632 (17536): (create column [Extract].[Extract].[Status] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "21" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.632 (17536): Compiling query with Memory Budget=9850482688
+2017-11-29 14:58:12.643 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.643 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.643 (6676): (create column [Extract].[Extract].[Day Services Business Unit ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "22" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.643 (6676): Compiling query with Memory Budget=9850351616
+2017-11-29 14:58:12.654 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.654 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.654 (16980): (create column [Extract].[Extract].[Day Services Business Unit Description] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "23" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.655 (16980): Compiling query with Memory Budget=9850482688
+2017-11-29 14:58:12.666 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.666 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.666 (16808): (create column [Extract].[Extract].[Job Number] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "24" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.666 (16808): Compiling query with Memory Budget=9850351616
+2017-11-29 14:58:12.676 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.677 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.677 (17536): (create column [Extract].[Extract].[Job Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "25" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.677 (17536): Compiling query with Memory Budget=9850548224
+2017-11-29 14:58:12.687 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:12.687 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.687 (6676): (create column [Extract].[Extract].[Sub-job of] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "26" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.688 (6676): Compiling query with Memory Budget=9850023936
+2017-11-29 14:58:12.699 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.699 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.699 (16980): (create column [Extract].[Extract].[job_number1] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "27" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.699 (16980): Compiling query with Memory Budget=9850089472
+2017-11-29 14:58:12.711 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.711 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.711 (16808): (create column [Extract].[Extract].[job_number2] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "28" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.711 (16808): Compiling query with Memory Budget=9849630720
+2017-11-29 14:58:12.722 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.723 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.723 (17536): (create column [Extract].[Extract].[job_number3] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "29" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.723 (17536): Compiling query with Memory Budget=9850220544
+2017-11-29 14:58:12.734 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.735 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.735 (6676): (create column [Extract].[Extract].[job_name1] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "30" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.735 (6676): Compiling query with Memory Budget=9850220544
+2017-11-29 14:58:12.747 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.747 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.747 (16980): (create column [Extract].[Extract].[job_name2] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "31" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.747 (16980): Compiling query with Memory Budget=9848647680
+2017-11-29 14:58:12.759 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.759 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.759 (16808): (create column [Extract].[Extract].[job_name3] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "32" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.760 (16808): Compiling query with Memory Budget=9849499648
+2017-11-29 14:58:12.771 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.771 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.771 (17536): (create column [Extract].[Extract].[Journal Number] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "33" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.771 (17536): Compiling query with Memory Budget=9849499648
+2017-11-29 14:58:12.782 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.783 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.783 (6676): (create column [Extract].[Extract].[Memo] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "34" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.783 (6676): Compiling query with Memory Budget=9849499648
+2017-11-29 14:58:12.794 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.794 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.794 (16980): (create column [Extract].[Extract].[GST (BAS) Reporting] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "35" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.794 (16980): Compiling query with Memory Budget=9849630720
+2017-11-29 14:58:12.805 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.806 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.806 (16808): (create column [Extract].[Extract].[Inclusive] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "36" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.806 (16808): Compiling query with Memory Budget=9848975360
+2017-11-29 14:58:12.817 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.817 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.817 (17536): (create column [Extract].[Extract].[Account Number] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "37" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.817 (17536): Compiling query with Memory Budget=9849368576
+2017-11-29 14:58:12.828 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.828 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.828 (6676): (create column [Extract].[Extract].[Is Credit] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "38" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.828 (6676): Compiling query with Memory Budget=9848844288
+2017-11-29 14:58:12.840 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.841 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.841 (16980): (create column [Extract].[Extract].[Tax Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "39" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.841 (16980): Compiling query with Memory Budget=9849171968
+2017-11-29 14:58:12.853 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.853 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.853 (16808): (create column [Extract].[Extract].[Tax Amount] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "40" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.853 (16808): Compiling query with Memory Budget=9848844288
+2017-11-29 14:58:12.864 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.865 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.865 (17536): (create column [Extract].[Extract].[Allocation Memo] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "41" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.865 (17536): Compiling query with Memory Budget=9848582144
+2017-11-29 14:58:12.876 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.876 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.876 (6676): (create column [Extract].[Extract].[Is Year-End Adjustment] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "42" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.876 (6676): Compiling query with Memory Budget=9848451072
+2017-11-29 14:58:12.887 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.888 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.888 (16980): (create column [Extract].[Extract].[FileName] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "43" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.888 (16980): Compiling query with Memory Budget=9847861248
+2017-11-29 14:58:12.898 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.899 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.899 (16808): (create column [Extract].[Extract].[Journal Type] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "44" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.899 (16808): Compiling query with Memory Budget=9848123392
+2017-11-29 14:58:12.910 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.910 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.910 (17536): (create column [Extract].[Extract].[Adjusted Amount] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "45" ) ))
+2017-11-29 14:58:12.910 (17536): Compiling query with Memory Budget=9846026240
+2017-11-29 14:58:12.921 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.921 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.921 (6676): (create column [Extract].[Extract].[First Name] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "46" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.921 (6676): Compiling query with Memory Budget=9847664640
+2017-11-29 14:58:12.933 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.933 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.933 (16980): (create column [Extract].[Extract].[Addr 1 - Line 1] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "47" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.933 (16980): Compiling query with Memory Budget=9847271424
+2017-11-29 14:58:12.944 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.944 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.944 (16808): (create column [Extract].[Extract].[Addr 1 - Line 2] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "48" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.945 (16808): Compiling query with Memory Budget=9847336960
+2017-11-29 14:58:12.956 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.956 (17536): Session1: QueryExecute:
+2017-11-29 14:58:12.956 (17536): (create column [Extract].[Extract].[Addr 1 - Line 3] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "49" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.957 (17536): Compiling query with Memory Budget=9847009280
+2017-11-29 14:58:12.968 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:12.969 (6676): Session1: QueryExecute:
+2017-11-29 14:58:12.969 (6676): (create column [Extract].[Extract].[Addr 1 - Line 4] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "50" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.969 (6676): Compiling query with Memory Budget=9847140352
+2017-11-29 14:58:12.980 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.981 (16980): Session1: QueryExecute:
+2017-11-29 14:58:12.981 (16980): (create column [Extract].[Extract].[Supplier Invoice No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "51" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.981 (16980): Compiling query with Memory Budget=9847271424
+2017-11-29 14:58:12.993 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:12.993 (16808): Session1: QueryExecute:
+2017-11-29 14:58:12.993 (16808): (create column [Extract].[Extract].[Comment] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "52" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:12.993 (16808): Compiling query with Memory Budget=9847336960
+2017-11-29 14:58:13.005 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.005 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.005 (17536): (create column [Extract].[Extract].[Journal Memo] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "53" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.005 (17536): Compiling query with Memory Budget=9847205888
+2017-11-29 14:58:13.017 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.017 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.017 (6676): (create column [Extract].[Extract].[Shipping Date] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "54" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.018 (6676): Compiling query with Memory Budget=9847336960
+2017-11-29 14:58:13.030 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.030 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.030 (16980): (create column [Extract].[Extract].[Freight Amount] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "55" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.030 (16980): Compiling query with Memory Budget=9847140352
+2017-11-29 14:58:13.043 (16980): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:13.043 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.043 (16808): (create column [Extract].[Extract].[Freight Tax Code] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "56" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.043 (16808): Compiling query with Memory Budget=9846288384
+2017-11-29 14:58:13.055 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.056 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.056 (17536): (create column [Extract].[Extract].[Freight Tax Amount] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "57" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.056 (17536): Compiling query with Memory Budget=9846419456
+2017-11-29 14:58:13.068 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.068 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.068 (6676): (create column [Extract].[Extract].[Purchase Status] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "58" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.068 (6676): Compiling query with Memory Budget=9846288384
+2017-11-29 14:58:13.084 (6676): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.016s
+2017-11-29 14:58:13.084 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.084 (16980): (create column [Extract].[Extract].[Terms - Payment is Due] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "59" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.084 (16980): Compiling query with Memory Budget=9846435840
+2017-11-29 14:58:13.097 (16980): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:13.097 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.097 (16808): (create column [Extract].[Extract].[- Discount Days] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "60" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.097 (16808): Compiling query with Memory Budget=9846358016
+2017-11-29 14:58:13.110 (16808): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:13.111 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.111 (17536): (create column [Extract].[Extract].[- Balance Due Days] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "61" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.111 (17536): Compiling query with Memory Budget=9846226944
+2017-11-29 14:58:13.124 (17536): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:13.124 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.124 (6676): (create column [Extract].[Extract].[- % Discount] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "62" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.124 (6676): Compiling query with Memory Budget=9846304768
+2017-11-29 14:58:13.135 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.135 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.135 (16980): (create column [Extract].[Extract].[Amount Paid] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "63" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.135 (16980): Compiling query with Memory Budget=9846624256
+2017-11-29 14:58:13.150 (16980): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:13.150 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.150 (16808): (create column [Extract].[Extract].[Record ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "64" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.150 (16808): Compiling query with Memory Budget=9846099968
+2017-11-29 14:58:13.169 (16808): Session1: QueryExecute: OK, Elapsed time:0.018s, Compilation time:0.000s, Execution time:0.018s
+2017-11-29 14:58:13.169 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.169 (17536): (create column [Extract].[Extract].[Cheque Account] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "65" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.169 (17536): Compiling query with Memory Budget=9845977088
+2017-11-29 14:58:13.226 (17536): Session1: QueryExecute: OK, Elapsed time:0.058s, Compilation time:0.000s, Execution time:0.058s
+2017-11-29 14:58:13.227 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.227 (6676): (create column [Extract].[Extract].[Cheque No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "66" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.227 (6676): Compiling query with Memory Budget=9845706752
+2017-11-29 14:58:13.238 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.238 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.238 (16980): (create column [Extract].[Extract].[Job No.] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "67" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.238 (16980): Compiling query with Memory Budget=9845514240
+2017-11-29 14:58:13.250 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.250 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.250 (16808): (create column [Extract].[Extract].[Printed] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "68" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.251 (16808): Compiling query with Memory Budget=9845972992
+2017-11-29 14:58:13.262 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.262 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.262 (17536): (create column [Extract].[Extract].[Statement Text] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "69" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.262 (17536): Compiling query with Memory Budget=9845972992
+2017-11-29 14:58:13.274 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.274 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.274 (6676): (create column [Extract].[Extract].[AccountType] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "70" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.274 (6676): Compiling query with Memory Budget=9845710848
+2017-11-29 14:58:13.286 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.286 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.286 (16980): (create column [Extract].[Extract].[IsHeader] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "71" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.287 (16980): Compiling query with Memory Budget=9845710848
+2017-11-29 14:58:13.299 (16980): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.299 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.299 (16808): (create column [Extract].[Extract].[IsInactive] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "72" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.299 (16808): Compiling query with Memory Budget=9845710848
+2017-11-29 14:58:13.322 (16808): Session1: QueryExecute: OK, Elapsed time:0.023s, Compilation time:0.000s, Execution time:0.023s
+2017-11-29 14:58:13.322 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.322 (17536): (create column [Extract].[Extract].[SubType] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "73" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.322 (17536): Compiling query with Memory Budget=9846755328
+2017-11-29 14:58:13.335 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.335 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.335 (6676): (create column [Extract].[Extract].[Level1_ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "74" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.335 (6676): Compiling query with Memory Budget=9846755328
+2017-11-29 14:58:13.348 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.348 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.348 (16980): (create column [Extract].[Extract].[Level2_ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "75" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.348 (16980): Compiling query with Memory Budget=9852522496
+2017-11-29 14:58:13.360 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.360 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.360 (16808): (create column [Extract].[Extract].[Level3_ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "76" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.361 (16808): Compiling query with Memory Budget=9853009920
+2017-11-29 14:58:13.373 (16808): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.373 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.373 (17536): (create column [Extract].[Extract].[Level4_ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "77" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.373 (17536): Compiling query with Memory Budget=9853247488
+2017-11-29 14:58:13.385 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.385 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.385 (6676): (create column [Extract].[Extract].[job_number_path] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "78" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.385 (6676): Compiling query with Memory Budget=9854746624
+2017-11-29 14:58:13.397 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.397 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.397 (16980): (create column [Extract].[Extract].[job_name_path] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "79" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.398 (16980): Compiling query with Memory Budget=9855148032
+2017-11-29 14:58:13.409 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.409 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.409 (16808): (create column [Extract].[Extract].[InvoiceDate] ( ( "builtin" "datetime" ) ( "factory" "builtin" ) ( "ordinal" "80" ) ))
+2017-11-29 14:58:13.410 (16808): Compiling query with Memory Budget=9854885888
+2017-11-29 14:58:13.420 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:13.420 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.420 (17536): (create column [Extract].[Extract].[InvoiceHeaderID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "81" ) ))
+2017-11-29 14:58:13.420 (17536): Compiling query with Memory Budget=9854885888
+2017-11-29 14:58:13.431 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.431 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.431 (6676): (create column [Extract].[Extract].[InvoiceNumber] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "82" ) ))
+2017-11-29 14:58:13.431 (6676): Compiling query with Memory Budget=9854885888
+2017-11-29 14:58:13.442 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.442 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.442 (16980): (create column [Extract].[Extract].[InvoiceLineID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "83" ) ))
+2017-11-29 14:58:13.442 (16980): Compiling query with Memory Budget=9854885888
+2017-11-29 14:58:13.453 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.453 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.453 (16808): (create column [Extract].[Extract].[Stockcode] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "84" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.453 (16808): Compiling query with Memory Budget=9854885888
+2017-11-29 14:58:13.465 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.465 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.465 (17536): (create column [Extract].[Extract].[Quantity] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "85" ) ))
+2017-11-29 14:58:13.465 (17536): Compiling query with Memory Budget=9854623744
+2017-11-29 14:58:13.476 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.476 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.476 (6676): (create column [Extract].[Extract].[UnitPrice] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "86" ) ))
+2017-11-29 14:58:13.476 (6676): Compiling query with Memory Budget=9854623744
+2017-11-29 14:58:13.486 (6676): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:13.486 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.486 (16980): (create column [Extract].[Extract].[UnitPriceIncTax] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "87" ) ))
+2017-11-29 14:58:13.487 (16980): Compiling query with Memory Budget=9854623744
+2017-11-29 14:58:13.498 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.498 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.498 (16808): (create column [Extract].[Extract].[UnitCost] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "88" ) ))
+2017-11-29 14:58:13.498 (16808): Compiling query with Memory Budget=9854754816
+2017-11-29 14:58:13.509 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:13.509 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.509 (17536): (create column [Extract].[Extract].[LineTotalIncTax] ( ( "builtin" "double" ) ( "factory" "builtin" ) ( "ordinal" "89" ) ))
+2017-11-29 14:58:13.509 (17536): Compiling query with Memory Budget=9854754816
+2017-11-29 14:58:13.519 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.519 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.519 (6676): (create column [Extract].[Extract].[Client ID] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "90" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.520 (6676): Compiling query with Memory Budget=9854492672
+2017-11-29 14:58:13.531 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.531 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.531 (16980): (create column [Extract].[Extract].[JobID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "91" ) ))
+2017-11-29 14:58:13.531 (16980): Compiling query with Memory Budget=9854492672
+2017-11-29 14:58:13.542 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.542 (16808): Session1: QueryExecute:
+2017-11-29 14:58:13.542 (16808): (create column [Extract].[Extract].[JobDate] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "92" ) ( "scale" "1" ) ( "storagewidth" "8" ) ))
+2017-11-29 14:58:13.543 (16808): Compiling query with Memory Budget=9854492672
+2017-11-29 14:58:13.555 (16808): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:13.556 (17536): Session1: QueryExecute:
+2017-11-29 14:58:13.556 (17536): (create column [Extract].[Extract].[Notes] ( ( "builtin" "bit" ) ( "factory" "builtin" ) ( "ordinal" "93" ) ))
+2017-11-29 14:58:13.556 (17536): Compiling query with Memory Budget=9854492672
+2017-11-29 14:58:13.566 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.567 (6676): Session1: QueryExecute:
+2017-11-29 14:58:13.567 (6676): (create column [Extract].[Extract].[TaxRate] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "94" ) ))
+2017-11-29 14:58:13.567 (6676): Compiling query with Memory Budget=9854492672
+2017-11-29 14:58:13.577 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.578 (16980): Session1: QueryExecute:
+2017-11-29 14:58:13.578 (16980): (create column [Extract].[Extract].[TaxRateID] ( ( "builtin" "bigint" ) ( "factory" "builtin" ) ( "ordinal" "95" ) ))
+2017-11-29 14:58:13.578 (16980): Compiling query with Memory Budget=9854230528
+2017-11-29 14:58:13.589 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:13.592 (16808): Session1: InsertOpen: table="Extract" schema="Extract"
+2017-11-29 14:58:13.592 (16808):   column[0]="Co./Last Name"
+2017-11-29 14:58:13.592 (16808):   column[1]="Invoice No."
+2017-11-29 14:58:13.592 (16808):   column[2]="Customer PO"
+2017-11-29 14:58:13.592 (16808):   column[3]="Ship Via"
+2017-11-29 14:58:13.592 (16808):   column[4]="Delivery Status"
+2017-11-29 14:58:13.592 (16808):   column[5]="Description"
+2017-11-29 14:58:13.592 (16808):   column[6]="Account No."
+2017-11-29 14:58:13.592 (16808):   column[7]="Amount"
+2017-11-29 14:58:13.592 (16808):   column[8]="Job"
+2017-11-29 14:58:13.592 (16808):   column[9]="Category"
+2017-11-29 14:58:13.592 (16808):   column[10]="Card ID"
+2017-11-29 14:58:13.592 (16808):   column[11]="Account Type"
+2017-11-29 14:58:13.592 (16808):   column[12]="Date"
+2017-11-29 14:58:13.592 (16808):   column[13]="Customer_RecordID"
+2017-11-29 14:58:13.592 (16808):   column[14]="name"
+2017-11-29 14:58:13.592 (16808):   column[15]="source"
+2017-11-29 14:58:13.592 (16808):   column[16]="Client_Code"
+2017-11-29 14:58:13.592 (16808):   column[17]="Salutation"
+2017-11-29 14:58:13.592 (16808):   column[18]="FamilyName"
+2017-11-29 14:58:13.592 (16808):   column[19]="FirstName"
+2017-11-29 14:58:13.592 (16808):   column[20]="NHINumber"
+2017-11-29 14:58:13.592 (16808):   column[21]="Status"
+2017-11-29 14:58:13.592 (16808):   column[22]="Day Services Business Unit ID"
+2017-11-29 14:58:13.592 (16808):   column[23]="Day Services Business Unit Description"
+2017-11-29 14:58:13.592 (16808):   column[24]="Job Number"
+2017-11-29 14:58:13.592 (16808):   column[25]="Job Name"
+2017-11-29 14:58:13.592 (16808):   column[26]="Sub-job of"
+2017-11-29 14:58:13.592 (16808):   column[27]="job_number1"
+2017-11-29 14:58:13.592 (16808):   column[28]="job_number2"
+2017-11-29 14:58:13.592 (16808):   column[29]="job_number3"
+2017-11-29 14:58:13.592 (16808):   column[30]="job_name1"
+2017-11-29 14:58:13.592 (16808):   column[31]="job_name2"
+2017-11-29 14:58:13.592 (16808):   column[32]="job_name3"
+2017-11-29 14:58:13.592 (16808):   column[33]="Journal Number"
+2017-11-29 14:58:13.592 (16808):   column[34]="Memo"
+2017-11-29 14:58:13.592 (16808):   column[35]="GST (BAS) Reporting"
+2017-11-29 14:58:13.592 (16808):   column[36]="Inclusive"
+2017-11-29 14:58:13.592 (16808):   column[37]="Account Number"
+2017-11-29 14:58:13.592 (16808):   column[38]="Is Credit"
+2017-11-29 14:58:13.592 (16808):   column[39]="Tax Code"
+2017-11-29 14:58:13.592 (16808):   column[40]="Tax Amount"
+2017-11-29 14:58:13.592 (16808):   column[41]="Allocation Memo"
+2017-11-29 14:58:13.592 (16808):   column[42]="Is Year-End Adjustment"
+2017-11-29 14:58:13.592 (16808):   column[43]="FileName"
+2017-11-29 14:58:13.592 (16808):   column[44]="Journal Type"
+2017-11-29 14:58:13.592 (16808):   column[45]="Adjusted Amount"
+2017-11-29 14:58:13.592 (16808):   column[46]="First Name"
+2017-11-29 14:58:13.592 (16808):   column[47]="Addr 1 - Line 1"
+2017-11-29 14:58:13.592 (16808):   column[48]="Addr 1 - Line 2"
+2017-11-29 14:58:13.592 (16808):   column[49]="Addr 1 - Line 3"
+2017-11-29 14:58:13.592 (16808):   column[50]="Addr 1 - Line 4"
+2017-11-29 14:58:13.592 (16808):   column[51]="Supplier Invoice No."
+2017-11-29 14:58:13.592 (16808):   column[52]="Comment"
+2017-11-29 14:58:13.592 (16808):   column[53]="Journal Memo"
+2017-11-29 14:58:13.592 (16808):   column[54]="Shipping Date"
+2017-11-29 14:58:13.592 (16808):   column[55]="Freight Amount"
+2017-11-29 14:58:13.592 (16808):   column[56]="Freight Tax Code"
+2017-11-29 14:58:13.592 (16808):   column[57]="Freight Tax Amount"
+2017-11-29 14:58:13.592 (16808):   column[58]="Purchase Status"
+2017-11-29 14:58:13.592 (16808):   column[59]="Terms - Payment is Due"
+2017-11-29 14:58:13.592 (16808):   column[60]="- Discount Days"
+2017-11-29 14:58:13.592 (16808):   column[61]="- Balance Due Days"
+2017-11-29 14:58:13.592 (16808):   column[62]="- % Discount"
+2017-11-29 14:58:13.592 (16808):   column[63]="Amount Paid"
+2017-11-29 14:58:13.592 (16808):   column[64]="Record ID"
+2017-11-29 14:58:13.592 (16808):   column[65]="Cheque Account"
+2017-11-29 14:58:13.592 (16808):   column[66]="Cheque No."
+2017-11-29 14:58:13.592 (16808):   column[67]="Job No."
+2017-11-29 14:58:13.592 (16808):   column[68]="Printed"
+2017-11-29 14:58:13.592 (16808):   column[69]="Statement Text"
+2017-11-29 14:58:13.592 (16808):   column[70]="AccountType"
+2017-11-29 14:58:13.592 (16808):   column[71]="IsHeader"
+2017-11-29 14:58:13.592 (16808):   column[72]="IsInactive"
+2017-11-29 14:58:13.592 (16808):   column[73]="SubType"
+2017-11-29 14:58:13.592 (16808):   column[74]="Level1_ID"
+2017-11-29 14:58:13.592 (16808):   column[75]="Level2_ID"
+2017-11-29 14:58:13.592 (16808):   column[76]="Level3_ID"
+2017-11-29 14:58:13.592 (16808):   column[77]="Level4_ID"
+2017-11-29 14:58:13.592 (16808):   column[78]="job_number_path"
+2017-11-29 14:58:13.592 (16808):   column[79]="job_name_path"
+2017-11-29 14:58:13.592 (16808):   column[80]="InvoiceDate"
+2017-11-29 14:58:13.592 (16808):   column[81]="InvoiceHeaderID"
+2017-11-29 14:58:13.592 (16808):   column[82]="InvoiceNumber"
+2017-11-29 14:58:13.592 (16808):   column[83]="InvoiceLineID"
+2017-11-29 14:58:13.592 (16808):   column[84]="Stockcode"
+2017-11-29 14:58:13.592 (16808):   column[85]="Quantity"
+2017-11-29 14:58:13.592 (16808):   column[86]="UnitPrice"
+2017-11-29 14:58:13.592 (16808):   column[87]="UnitPriceIncTax"
+2017-11-29 14:58:13.592 (16808):   column[88]="UnitCost"
+2017-11-29 14:58:13.592 (16808):   column[89]="LineTotalIncTax"
+2017-11-29 14:58:13.592 (16808):   column[90]="Client ID"
+2017-11-29 14:58:13.592 (16808):   column[91]="JobID"
+2017-11-29 14:58:13.592 (16808):   column[92]="JobDate"
+2017-11-29 14:58:13.592 (16808):   column[93]="Notes"
+2017-11-29 14:58:13.592 (16808):   column[94]="TaxRate"
+2017-11-29 14:58:13.592 (16808):   column[95]="TaxRateID"
+2017-11-29 14:58:13.919 (17536): Session1: InsertPutValues: total_calls=1 total_message_size=8389024
+2017-11-29 14:58:18.026 (6676): Session1: InsertPutValues: total_calls=14 total_message_size=117446024
+2017-11-29 14:58:19.265 (14540): LogScopeTime: FlowTable::Build,0,2017-11-29 14:58:13.5950,5.67
+2017-11-29 14:58:20.228 (16980): Session1: InsertCommit: insert_guid=1 total_calls=18 total_message_size=142668944
+2017-11-29 14:58:20.228 (16980): Session1: InsertCommit: OK
+2017-11-29 14:58:20.228 (16808): Session1: InsertClose: insert_guid=1
+2017-11-29 14:58:20.228 (16808): Session1: InsertClose: OK
+2017-11-29 14:58:20.229 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.229 (17536): (package)
+2017-11-29 14:58:20.229 (17536): Compiling query with Memory Budget=10185084928
+2017-11-29 14:58:20.229 (17536): PackageDatabase: in-place package of "C:\mip\Clients\Auruleun\Tableau\Attributed Cashflow.tde"
+2017-11-29 14:58:20.441 (17536): PackageDatabase: finished
+2017-11-29 14:58:20.441 (17536): Session1: QueryExecute: OK, Elapsed time:0.211s, Compilation time:0.000s, Execution time:0.211s
+2017-11-29 14:58:20.441 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.441 (6676): (database "C:\\mip\\Clients\\Auruleun\\Tableau\\Attributed Cashflow.tde")
+2017-11-29 14:58:20.445 (6676): Compiling query with Memory Budget=10187550720
+2017-11-29 14:58:20.445 (6676): Session1: QueryExecute: OK, Elapsed time:0.004s, Compilation time:0.003s, Execution time:0.000s
+2017-11-29 14:58:20.445 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.445 (16980): (show schemas)
+2017-11-29 14:58:20.445 (16980): Compiling query with Memory Budget=10187538432
+2017-11-29 14:58:20.446 (16980): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:20.447 (16808): Session1: RowsetGetValues:
+2017-11-29 14:58:20.447 (17536): Session1: RowsetGetValues:
+2017-11-29 14:58:20.447 (6676): Session1: RowsetClose:
+2017-11-29 14:58:20.448 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.448 (16980): (show tables [Extract])
+2017-11-29 14:58:20.448 (16980): Compiling query with Memory Budget=10187517952
+2017-11-29 14:58:20.450 (16980): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:20.450 (16808): Session1: RowsetGetValues:
+2017-11-29 14:58:20.451 (17536): Session1: RowsetGetValues:
+2017-11-29 14:58:20.451 (6676): Session1: RowsetClose:
+2017-11-29 14:58:20.451 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.451 (16980): (top (table [Extract].[Extract]) () 0)
+2017-11-29 14:58:20.477 (16980): Compiling query with DOP=4
+2017-11-29 14:58:20.481 (16980): Compiling query with Memory Budget=10187022336
+2017-11-29 14:58:20.490 (16980): Session1: QueryExecute: OK rowset_guid=4 n_columns=96, Elapsed time:0.036s, Compilation time:0.030s, Execution time:0.006s
+2017-11-29 14:58:20.493 (16808): Session1: RowsetClose:
+2017-11-29 14:58:20.494 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.494 (17536): (alter column [Extract].[Extract].[Co./Last Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.494 (17536): Compiling query with Memory Budget=10187055104
+2017-11-29 14:58:20.512 (17536): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.019s
+2017-11-29 14:58:20.513 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.513 (6676): (alter column [Extract].[Extract].[Invoice No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.513 (6676): Compiling query with Memory Budget=10187055104
+2017-11-29 14:58:20.531 (6676): Session1: QueryExecute: OK, Elapsed time:0.019s, Compilation time:0.000s, Execution time:0.018s
+2017-11-29 14:58:20.531 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.531 (16980): (alter column [Extract].[Extract].[Customer PO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.532 (16980): Compiling query with Memory Budget=10187083776
+2017-11-29 14:58:20.546 (16980): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:20.546 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.546 (16808): (alter column [Extract].[Extract].[Ship Via] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.546 (16808): Compiling query with Memory Budget=10186821632
+2017-11-29 14:58:20.556 (16808): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:20.556 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.556 (17536): (alter column [Extract].[Extract].[Delivery Status] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.556 (17536): Compiling query with Memory Budget=10186821632
+2017-11-29 14:58:20.569 (17536): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:20.570 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.570 (6676): (alter column [Extract].[Extract].[Description] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.570 (6676): Compiling query with Memory Budget=10186821632
+2017-11-29 14:58:20.572 (6676): Session1: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:20.572 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.572 (16980): (alter column [Extract].[Extract].[Account No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.572 (16980): Compiling query with Memory Budget=10186821632
+2017-11-29 14:58:20.586 (16980): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:20.586 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.586 (16808): (alter column [Extract].[Extract].[Amount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.586 (16808): Compiling query with Memory Budget=10186821632
+2017-11-29 14:58:20.602 (16808): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-11-29 14:58:20.602 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.602 (17536): (alter column [Extract].[Extract].[Job] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.602 (17536): Compiling query with Memory Budget=10186670080
+2017-11-29 14:58:20.615 (17536): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:20.615 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.615 (6676): (alter column [Extract].[Extract].[Category] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.615 (6676): Compiling query with Memory Budget=10191912960
+2017-11-29 14:58:20.625 (6676): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:20.625 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.625 (16980): (alter column [Extract].[Extract].[Card ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.626 (16980): Compiling query with Memory Budget=10191912960
+2017-11-29 14:58:20.638 (16980): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:20.639 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.639 (16808): (alter column [Extract].[Extract].[Account Type] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.639 (16808): Compiling query with Memory Budget=10191912960
+2017-11-29 14:58:20.652 (16808): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:20.652 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.652 (17536): (alter column [Extract].[Extract].[Date] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.652 (17536): Compiling query with Memory Budget=10191912960
+2017-11-29 14:58:20.666 (17536): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:20.666 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.666 (6676): (alter column [Extract].[Extract].[Customer_RecordID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.666 (6676): Compiling query with Memory Budget=10191794176
+2017-11-29 14:58:20.678 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:20.678 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.678 (16980): (alter column [Extract].[Extract].[name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.678 (16980): Compiling query with Memory Budget=10191638528
+2017-11-29 14:58:20.690 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:20.691 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.691 (16808): (alter column [Extract].[Extract].[source] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.691 (16808): Compiling query with Memory Budget=10191388672
+2017-11-29 14:58:20.702 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.702 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.702 (17536): (alter column [Extract].[Extract].[Client_Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.702 (17536): Compiling query with Memory Budget=10191388672
+2017-11-29 14:58:20.715 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:20.715 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.715 (6676): (alter column [Extract].[Extract].[Salutation] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.715 (6676): Compiling query with Memory Budget=10191388672
+2017-11-29 14:58:20.728 (6676): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.013s
+2017-11-29 14:58:20.728 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.728 (16980): (alter column [Extract].[Extract].[FamilyName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.728 (16980): Compiling query with Memory Budget=10191388672
+2017-11-29 14:58:20.740 (16980): Session1: QueryExecute: OK, Elapsed time:0.013s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:20.741 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.741 (16808): (alter column [Extract].[Extract].[FirstName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.741 (16808): Compiling query with Memory Budget=10191388672
+2017-11-29 14:58:20.752 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.752 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.752 (17536): (alter column [Extract].[Extract].[NHINumber] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.753 (17536): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.764 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.764 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.764 (6676): (alter column [Extract].[Extract].[Status] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.764 (6676): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.775 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.775 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.775 (16980): (alter column [Extract].[Extract].[Day Services Business Unit ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.775 (16980): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.777 (16980): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:20.777 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.777 (16808): (alter column [Extract].[Extract].[Day Services Business Unit Description] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.778 (16808): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.779 (16808): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:20.779 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.779 (17536): (alter column [Extract].[Extract].[Job Number] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.779 (17536): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.790 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.790 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.790 (6676): (alter column [Extract].[Extract].[Job Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.790 (6676): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.802 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.802 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.802 (16980): (alter column [Extract].[Extract].[Sub-job of] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.802 (16980): Compiling query with Memory Budget=10191126528
+2017-11-29 14:58:20.813 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:20.814 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.814 (16808): (alter column [Extract].[Extract].[job_number1] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.814 (16808): Compiling query with Memory Budget=10190864384
+2017-11-29 14:58:20.824 (16808): Session1: QueryExecute: OK, Elapsed time:0.010s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:20.824 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.824 (17536): (alter column [Extract].[Extract].[job_number2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.824 (17536): Compiling query with Memory Budget=10190864384
+2017-11-29 14:58:20.864 (17536): Session1: QueryExecute: OK, Elapsed time:0.041s, Compilation time:0.000s, Execution time:0.041s
+2017-11-29 14:58:20.865 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.865 (6676): (alter column [Extract].[Extract].[job_number3] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.866 (6676): Compiling query with Memory Budget=10190901248
+2017-11-29 14:58:20.876 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:20.876 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.876 (16980): (alter column [Extract].[Extract].[job_name1] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.877 (16980): Compiling query with Memory Budget=10190901248
+2017-11-29 14:58:20.902 (16980): Session1: QueryExecute: OK, Elapsed time:0.025s, Compilation time:0.000s, Execution time:0.025s
+2017-11-29 14:58:20.902 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.902 (16808): (alter column [Extract].[Extract].[job_name2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.902 (16808): Compiling query with Memory Budget=10190901248
+2017-11-29 14:58:20.917 (16808): Session1: QueryExecute: OK, Elapsed time:0.015s, Compilation time:0.000s, Execution time:0.015s
+2017-11-29 14:58:20.917 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.917 (17536): (alter column [Extract].[Extract].[job_name3] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.918 (17536): Compiling query with Memory Budget=10190901248
+2017-11-29 14:58:20.920 (17536): Session1: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-11-29 14:58:20.920 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.920 (6676): (alter column [Extract].[Extract].[Journal Number] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.921 (6676): Compiling query with Memory Budget=10190901248
+2017-11-29 14:58:20.964 (6676): Session1: QueryExecute: OK, Elapsed time:0.043s, Compilation time:0.000s, Execution time:0.043s
+2017-11-29 14:58:20.964 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.964 (16980): (alter column [Extract].[Extract].[Memo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.964 (16980): Compiling query with Memory Budget=10190635008
+2017-11-29 14:58:20.989 (16980): Session1: QueryExecute: OK, Elapsed time:0.026s, Compilation time:0.000s, Execution time:0.026s
+2017-11-29 14:58:20.990 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.990 (16808): (alter column [Extract].[Extract].[GST (BAS) Reporting] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.990 (16808): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:20.992 (16808): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:20.992 (17536): Session1: QueryExecute:
+2017-11-29 14:58:20.992 (17536): (alter column [Extract].[Extract].[Inclusive] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.993 (17536): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:20.994 (17536): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:20.995 (6676): Session1: QueryExecute:
+2017-11-29 14:58:20.995 (6676): (alter column [Extract].[Extract].[Account Number] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.995 (6676): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:20.996 (6676): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:20.996 (16980): Session1: QueryExecute:
+2017-11-29 14:58:20.996 (16980): (alter column [Extract].[Extract].[Is Credit] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.996 (16980): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:20.998 (16980): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:20.998 (16808): Session1: QueryExecute:
+2017-11-29 14:58:20.998 (16808): (alter column [Extract].[Extract].[Tax Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:20.998 (16808): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:21.009 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.010 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.010 (17536): (alter column [Extract].[Extract].[Tax Amount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.010 (17536): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:21.021 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.022 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.022 (6676): (alter column [Extract].[Extract].[Allocation Memo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.022 (6676): Compiling query with Memory Budget=10190393344
+2017-11-29 14:58:21.058 (6676): Session1: QueryExecute: OK, Elapsed time:0.036s, Compilation time:0.000s, Execution time:0.036s
+2017-11-29 14:58:21.058 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.058 (16980): (alter column [Extract].[Extract].[Is Year-End Adjustment] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.059 (16980): Compiling query with Memory Budget=10189725696
+2017-11-29 14:58:21.061 (16980): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.061 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.061 (16808): (alter column [Extract].[Extract].[FileName] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.061 (16808): Compiling query with Memory Budget=10189725696
+2017-11-29 14:58:21.073 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.073 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.073 (17536): (alter column [Extract].[Extract].[Journal Type] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.073 (17536): Compiling query with Memory Budget=10189725696
+2017-11-29 14:58:21.085 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.085 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.085 (6676): (alter column [Extract].[Extract].[Adjusted Amount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.085 (6676): Compiling query with Memory Budget=10189463552
+2017-11-29 14:58:21.109 (6676): Session1: QueryExecute: OK, Elapsed time:0.024s, Compilation time:0.000s, Execution time:0.024s
+2017-11-29 14:58:21.110 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.110 (16980): (alter column [Extract].[Extract].[First Name] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.110 (16980): Compiling query with Memory Budget=10189430784
+2017-11-29 14:58:21.112 (16980): Session1: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.112 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.112 (16808): (alter column [Extract].[Extract].[Addr 1 - Line 1] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.112 (16808): Compiling query with Memory Budget=10189430784
+2017-11-29 14:58:21.124 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.125 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.125 (17536): (alter column [Extract].[Extract].[Addr 1 - Line 2] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.125 (17536): Compiling query with Memory Budget=10189430784
+2017-11-29 14:58:21.137 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.137 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.137 (6676): (alter column [Extract].[Extract].[Addr 1 - Line 3] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.137 (6676): Compiling query with Memory Budget=10189430784
+2017-11-29 14:58:21.149 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.149 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.149 (16980): (alter column [Extract].[Extract].[Addr 1 - Line 4] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.149 (16980): Compiling query with Memory Budget=10189168640
+2017-11-29 14:58:21.161 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.161 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.161 (16808): (alter column [Extract].[Extract].[Supplier Invoice No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.161 (16808): Compiling query with Memory Budget=10189168640
+2017-11-29 14:58:21.173 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.173 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.173 (17536): (alter column [Extract].[Extract].[Comment] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.173 (17536): Compiling query with Memory Budget=10189185024
+2017-11-29 14:58:21.185 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.185 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.185 (6676): (alter column [Extract].[Extract].[Journal Memo] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.185 (6676): Compiling query with Memory Budget=10189185024
+2017-11-29 14:58:21.197 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.197 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.197 (16980): (alter column [Extract].[Extract].[Shipping Date] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.197 (16980): Compiling query with Memory Budget=10189185024
+2017-11-29 14:58:21.206 (16980): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:21.207 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.207 (16808): (alter column [Extract].[Extract].[Freight Amount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.207 (16808): Compiling query with Memory Budget=10189066240
+2017-11-29 14:58:21.209 (16808): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.209 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.209 (17536): (alter column [Extract].[Extract].[Freight Tax Code] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.209 (17536): Compiling query with Memory Budget=10189074432
+2017-11-29 14:58:21.210 (17536): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.210 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.210 (6676): (alter column [Extract].[Extract].[Freight Tax Amount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.211 (6676): Compiling query with Memory Budget=10189074432
+2017-11-29 14:58:21.212 (6676): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.212 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.212 (16980): (alter column [Extract].[Extract].[Purchase Status] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.212 (16980): Compiling query with Memory Budget=10189074432
+2017-11-29 14:58:21.213 (16980): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.213 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.213 (16808): (alter column [Extract].[Extract].[Terms - Payment is Due] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.213 (16808): Compiling query with Memory Budget=10189074432
+2017-11-29 14:58:21.225 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.225 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.225 (17536): (alter column [Extract].[Extract].[- Discount Days] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.225 (17536): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.228 (17536): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.228 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.228 (6676): (alter column [Extract].[Extract].[- Balance Due Days] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.228 (6676): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.240 (6676): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.240 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.240 (16980): (alter column [Extract].[Extract].[- % Discount] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.240 (16980): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.242 (16980): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.242 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.242 (16808): (alter column [Extract].[Extract].[Amount Paid] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.242 (16808): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.254 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.254 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.254 (17536): (alter column [Extract].[Extract].[Record ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.254 (17536): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.266 (17536): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.266 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.266 (6676): (alter column [Extract].[Extract].[Cheque Account] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.267 (6676): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.278 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.279 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.279 (16980): (alter column [Extract].[Extract].[Cheque No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.279 (16980): Compiling query with Memory Budget=10188804096
+2017-11-29 14:58:21.290 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.290 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.290 (16808): (alter column [Extract].[Extract].[Job No.] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.290 (16808): Compiling query with Memory Budget=10188546048
+2017-11-29 14:58:21.603 (16808): Session1: QueryExecute: OK, Elapsed time:0.313s, Compilation time:0.000s, Execution time:0.313s
+2017-11-29 14:58:21.603 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.603 (17536): (alter column [Extract].[Extract].[Printed] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.603 (17536): Compiling query with Memory Budget=10189492224
+2017-11-29 14:58:21.608 (17536): Session1: QueryExecute: OK, Elapsed time:0.005s, Compilation time:0.000s, Execution time:0.005s
+2017-11-29 14:58:21.608 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.608 (6676): (alter column [Extract].[Extract].[Statement Text] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.609 (6676): Compiling query with Memory Budget=10189492224
+2017-11-29 14:58:21.624 (6676): Session1: QueryExecute: OK, Elapsed time:0.016s, Compilation time:0.000s, Execution time:0.015s
+2017-11-29 14:58:21.624 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.624 (16980): (alter column [Extract].[Extract].[AccountType] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.624 (16980): Compiling query with Memory Budget=10189500416
+2017-11-29 14:58:21.627 (16980): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.627 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.627 (16808): (alter column [Extract].[Extract].[IsHeader] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.627 (16808): Compiling query with Memory Budget=10189500416
+2017-11-29 14:58:21.629 (16808): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.629 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.629 (17536): (alter column [Extract].[Extract].[IsInactive] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.629 (17536): Compiling query with Memory Budget=10189500416
+2017-11-29 14:58:21.630 (17536): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.630 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.630 (6676): (alter column [Extract].[Extract].[SubType] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.630 (6676): Compiling query with Memory Budget=10189500416
+2017-11-29 14:58:21.631 (6676): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.631 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.631 (16980): (alter column [Extract].[Extract].[Level1_ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.631 (16980): Compiling query with Memory Budget=10189504512
+2017-11-29 14:58:21.633 (16980): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.633 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.633 (16808): (alter column [Extract].[Extract].[Level2_ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.634 (16808): Compiling query with Memory Budget=10189504512
+2017-11-29 14:58:21.635 (16808): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.635 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.635 (17536): (alter column [Extract].[Extract].[Level3_ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.635 (17536): Compiling query with Memory Budget=10189512704
+2017-11-29 14:58:21.636 (17536): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.636 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.636 (6676): (alter column [Extract].[Extract].[Level4_ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.636 (6676): Compiling query with Memory Budget=10189512704
+2017-11-29 14:58:21.637 (6676): Session1: QueryExecute: OK, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2017-11-29 14:58:21.637 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.637 (16980): (alter column [Extract].[Extract].[job_number_path] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.637 (16980): Compiling query with Memory Budget=10189512704
+2017-11-29 14:58:21.650 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.650 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.650 (16808): (alter column [Extract].[Extract].[job_name_path] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.650 (16808): Compiling query with Memory Budget=10189492224
+2017-11-29 14:58:21.662 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.663 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.663 (17536): (alter column [Extract].[Extract].[InvoiceDate] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.663 (17536): Compiling query with Memory Budget=10189492224
+2017-11-29 14:58:21.677 (17536): Session1: QueryExecute: OK, Elapsed time:0.014s, Compilation time:0.000s, Execution time:0.014s
+2017-11-29 14:58:21.677 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.677 (6676): (alter column [Extract].[Extract].[InvoiceHeaderID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.678 (6676): Compiling query with Memory Budget=10189217792
+2017-11-29 14:58:21.688 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.688 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.688 (16980): (alter column [Extract].[Extract].[InvoiceNumber] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.689 (16980): Compiling query with Memory Budget=10189217792
+2017-11-29 14:58:21.700 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.700 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.700 (16808): (alter column [Extract].[Extract].[InvoiceLineID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.700 (16808): Compiling query with Memory Budget=10189217792
+2017-11-29 14:58:21.733 (16808): Session1: QueryExecute: OK, Elapsed time:0.033s, Compilation time:0.000s, Execution time:0.033s
+2017-11-29 14:58:21.733 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.733 (17536): (alter column [Extract].[Extract].[Stockcode] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.733 (17536): Compiling query with Memory Budget=10186665984
+2017-11-29 14:58:21.735 (17536): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:21.735 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.735 (6676): (alter column [Extract].[Extract].[Quantity] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.736 (6676): Compiling query with Memory Budget=10186706944
+2017-11-29 14:58:21.905 (6676): Session1: QueryExecute: OK, Elapsed time:0.170s, Compilation time:0.000s, Execution time:0.170s
+2017-11-29 14:58:21.905 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.905 (16980): (alter column [Extract].[Extract].[UnitPrice] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.906 (16980): Compiling query with Memory Budget=10186784768
+2017-11-29 14:58:21.917 (16980): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.917 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.917 (16808): (alter column [Extract].[Extract].[UnitPriceIncTax] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.917 (16808): Compiling query with Memory Budget=10186522624
+2017-11-29 14:58:21.929 (16808): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.929 (17536): Session1: QueryExecute:
+2017-11-29 14:58:21.929 (17536): (alter column [Extract].[Extract].[UnitCost] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.930 (17536): Compiling query with Memory Budget=10186522624
+2017-11-29 14:58:21.941 (17536): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.942 (6676): Session1: QueryExecute:
+2017-11-29 14:58:21.942 (6676): (alter column [Extract].[Extract].[LineTotalIncTax] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.942 (6676): Compiling query with Memory Budget=10186522624
+2017-11-29 14:58:21.953 (6676): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.011s
+2017-11-29 14:58:21.953 (16980): Session1: QueryExecute:
+2017-11-29 14:58:21.953 (16980): (alter column [Extract].[Extract].[Client ID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.953 (16980): Compiling query with Memory Budget=10186522624
+2017-11-29 14:58:21.965 (16980): Session1: QueryExecute: OK, Elapsed time:0.012s, Compilation time:0.000s, Execution time:0.012s
+2017-11-29 14:58:21.965 (16808): Session1: QueryExecute:
+2017-11-29 14:58:21.965 (16808): (alter column [Extract].[Extract].[JobID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:21.966 (16808): Compiling query with Memory Budget=10186522624
+2017-11-29 14:58:21.999 (16808): Session1: QueryExecute: OK, Elapsed time:0.034s, Compilation time:0.000s, Execution time:0.034s
+2017-11-29 14:58:22.000 (17536): Session1: QueryExecute:
+2017-11-29 14:58:22.000 (17536): (alter column [Extract].[Extract].[JobDate] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:22.000 (17536): Compiling query with Memory Budget=10184880128
+2017-11-29 14:58:22.002 (17536): Session1: QueryExecute: OK, Elapsed time:0.003s, Compilation time:0.000s, Execution time:0.003s
+2017-11-29 14:58:22.003 (6676): Session1: QueryExecute:
+2017-11-29 14:58:22.003 (6676): (alter column [Extract].[Extract].[Notes] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:22.003 (6676): Compiling query with Memory Budget=10184097792
+2017-11-29 14:58:22.005 (6676): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2017-11-29 14:58:22.005 (16980): Session1: QueryExecute:
+2017-11-29 14:58:22.005 (16980): (alter column [Extract].[Extract].[TaxRate] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:22.005 (16980): Compiling query with Memory Budget=10184101888
+2017-11-29 14:58:22.014 (16980): Session1: QueryExecute: OK, Elapsed time:0.009s, Compilation time:0.000s, Execution time:0.009s
+2017-11-29 14:58:22.014 (16808): Session1: QueryExecute:
+2017-11-29 14:58:22.014 (16808): (alter column [Extract].[Extract].[TaxRateID] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2017-11-29 14:58:22.014 (16808): Compiling query with Memory Budget=10184081408
+2017-11-29 14:58:22.024 (16808): Session1: QueryExecute: OK, Elapsed time:0.011s, Compilation time:0.000s, Execution time:0.010s
+2017-11-29 14:58:22.025 (17536): Session1: QueryExecute:
+2017-11-29 14:58:22.025 (17536): (top (table [Extract].[Extract]) () 0)
+2017-11-29 14:58:22.031 (17536): Compiling query with DOP=4
+2017-11-29 14:58:22.037 (17536): Compiling query with Memory Budget=10184142848
+2017-11-29 14:58:22.055 (17536): Session1: QueryExecute: OK rowset_guid=5 n_columns=96, Elapsed time:0.027s, Compilation time:0.011s, Execution time:0.015s
+2017-11-29 14:58:22.058 (6676): Session1: RowsetClose:
+2017-11-29 14:58:22.060 (16980): Session1: QueryExecute:
+2017-11-29 14:58:22.060 (16980): (sort [Extract].[Extract] ( ( [InvoiceDate] asc) ( [Date] asc) ( [Inclusive] asc) ( [Is Year-End Adjustment] asc) ( [Freight Amount] asc) ( [Freight Tax Code] asc) ( [Freight Tax Amount] asc) ( [Purchase Status] asc) ( [- % Discount] asc) ( [Printed] asc) ( [IsHeader] asc) ( [Account Type] asc) ( [source] asc) ( [Status] asc) ( [GST (BAS) Reporting] asc) ( [Is Credit] asc) ( [First Name] asc) ( [Comment] asc) ( [- Discount Days] asc) ( [IsInactive] asc) ( [TaxRate] asc) ( [TaxRateID] asc) ( [Delivery Status] asc) ( [job_number3] asc) ( [FileName] asc) ( [Journal Type] asc) ( [Terms - Payment is Due] asc) ( [job_number1] asc) ( [- Balance Due Days] asc) ( [Day Services Business Unit ID] asc) ( [Day Services Business Unit Description] asc) ( [Sub-job of] asc) ( [Tax Code] asc) ( [job_name1] asc) ( [Cheque Account] asc) ( [job_name3] asc) ( [AccountType] asc) ( [Level1_ID] asc) ( [Salutation] asc) ( [job_name2] asc) ( [job_number2] asc) ( [SubType] asc) ( [Account No.] asc) ( [Job Number] asc) ( [Job Name] asc) ( [job_number_path] asc) ( [job_name_path] asc) ( [Job No.] asc) ( [Addr 1 - Line 4] asc) ( [Job] asc) ( [Addr 1 - Line 3] asc) ( [Level2_ID] asc) ( [Addr 1 - Line 2] asc) ( [Addr 1 - Line 1] asc) ( [Statement Text] asc) ( [UnitCost] asc) ( [UnitPrice] asc) ( [Level3_ID] asc) ( [UnitPriceIncTax] asc) ( [Level4_ID] asc) ( [Stockcode] asc) ( [Quantity] asc) ( [FirstName] asc) ( [NHINumber] asc) ( [Record ID] asc) ( [Account Number] asc) ( [FamilyName] asc) ( [Cheque No.] asc) ( [Client ID] asc) ( [name] asc) ( [Customer_RecordID] asc) ( [Client_Code] asc) ( [LineTotalIncTax] asc) ( [Card ID] asc) ( [Co./Last Name] asc) ( [Amount Paid] asc) ( [Journal Memo] asc) ( [Supplier Invoice No.] asc) ( [Tax Amount] asc) ( [Customer PO] asc) ( [Description] asc) ( [JobDate] asc) ( [Invoice No.] asc) ( [InvoiceHeaderID] asc) ( [InvoiceNumber] asc) ( [Memo] asc) ( [Amount] asc) ( [Journal Number] asc) ( [Adjusted Amount] asc) ( [Allocation Memo] asc) ( [JobID] asc) ( [InvoiceLineID] asc) ) )
+2017-11-29 14:58:22.064 (16980): Compiling query with Memory Budget=10184126464
+2017-11-29 14:58:23.170 (16980): LogScopeTime: Order::Build,153928,2017-11-29 14:58:22.0640,1.11
+2017-11-29 14:58:24.015 (16980): Session1: QueryExecute: OK, Elapsed time:1.955s, Compilation time:0.002s, Execution time:1.953s
+2017-11-29 14:58:24.015 (16808): Session1: QueryExecute:
+2017-11-29 14:58:24.015 (16808): (package)
+2017-11-29 14:58:24.015 (16808): Compiling query with Memory Budget=10177236992
+2017-11-29 14:58:24.022 (16808): PackageDatabase: in-place package of "C:\mip\Clients\Auruleun\Tableau\Attributed Cashflow.tde"
+2017-11-29 14:58:24.185 (16808): PackageDatabase: finished
+2017-11-29 14:58:24.186 (16808): Session1: QueryExecute: OK, Elapsed time:0.170s, Compilation time:0.000s, Execution time:0.170s
+2017-11-29 14:58:24.186 (12160): tdeserver: close session, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}, sess_guid=1
+2017-11-29 14:58:24.186 (9128): tdeserver: closing connection, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:24.187 (9320): endthread: send, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:24.187 (12160): tdeserver: connection dead: The pipe has been ended.
+2017-11-29 14:58:24.187 (12160):  - IPC_NamedPipe::Recv(ReadFile)
+2017-11-29 14:58:24.187 (12160): endthread: recv, connection=tab.pipe://./pipe/{02C1097E-0BF2-467D-AE66-D9D18DD1EEC9}
+2017-11-29 14:58:24.187 (9128): tdeserver: exit (0)

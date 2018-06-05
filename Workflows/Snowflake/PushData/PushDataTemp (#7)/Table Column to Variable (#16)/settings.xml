@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;201718-VIC-NSW-QLD-TAS-Price-Guide&quot; ( &quot;Registration Group&quot; varchar(256) , &quot;Support Item&quot; varchar(256) , &quot;Support Item Number&quot; varchar(256) , &quot;Support Item Description&quot; varchar(256) , &quot;Unit of Measure&quot; varchar(256) , &quot;Quote&quot; varchar(256) , &quot;Price&quot; varchar(256) , &quot;Price Control&quot; varchar(256) , &quot;Support Categories&quot; varchar(256) , &quot;Support Category Number&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;201718-VIC-NSW-QLD-TAS-Price-Guide&quot; ( &quot;ï»¿Registration Group&quot; varchar(256) , &quot;Support Item&quot; varchar(256) , &quot;Support Item Number&quot; varchar(256) , &quot;Support Item Description&quot; varchar(256) , &quot;Unit of Measure&quot; varchar(256) , &quot;Quote&quot; varchar(256) , &quot;Price&quot; varchar(256) , &quot;Price Control&quot; varchar(256) , &quot;Support Categories&quot; varchar(256) , &quot;Support Category Number&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="75cf1731-2523-4a4e-a45a-d6acdebe8e2e"/>
+<entry key="file_store_id" type="xstring" value="88c28b72-053c-45a4-ba60-029ba3a973f1"/>
 </config>
 </config>

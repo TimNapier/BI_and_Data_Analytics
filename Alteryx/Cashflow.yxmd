@@ -1,0 +1,1774 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="127" y="444" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\mip\Clients\Auruleun\Data\DataVault\customer_dimension.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>customer_dimension.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1327" y="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\mip\Clients\Auruleun\Tableau\sales.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>sales.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_6dfba735e61846c5bccd52f83aca145c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1111" y="432" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Customer_RecordID</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Customer_RecordID])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+            <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+            <Field name="Date" source="DateTime: To dd/MM/yy" type="Date" />
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+            <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+            <Field name="Date" source="DateTime: To dd/MM/yy" type="Date" />
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1207" y="468" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_12e0c7a175814f768314032ba843cc62_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="919" y="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\mip\Clients\Auruleun\Data\DataVault\jobs.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>jobs.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Job Number" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="Job Name" size="254" source="Formula: if Contains([Job Name], 'Diamond Creek/HB') then&#xA;'Diamond Creek'&#xA;else&#xA;[Job Name]&#xA;endif" type="V_String" />
+            <Field name="Sub-job of" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_number_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_name_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number1" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number2" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number3" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name1" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name2" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name3" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1135" y="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Day Services Business Unit Description</FieldFind>
+          <FieldSearch>Job Name</FieldSearch>
+          <ReplaceFoundField>Job Name</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Job Number" />
+            <Field field="Job Name" />
+            <Field field="Sub-job of" />
+            <Field field="job_number1" />
+            <Field field="job_number2" />
+            <Field field="job_number3" />
+            <Field field="job_name1" />
+            <Field field="job_name2" />
+            <Field field="job_name3" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+            <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+            <Field name="Date" source="DateTime: To dd/MM/yy" type="Date" />
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+            <Field name="Job Number" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="Job Name" size="254" source="Formula: if Contains([Job Name], 'Diamond Creek/HB') then&#xA;'Diamond Creek'&#xA;else&#xA;[Job Name]&#xA;endif" type="V_String" />
+            <Field name="Sub-job of" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number1" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number2" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number3" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name1" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name2" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name3" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1279" y="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_6215c6fc1abc4fb48eabe526f85db3c3_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1063" y="540" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Job</FieldFind>
+          <FieldSearch>Job Number</FieldSearch>
+          <ReplaceFoundField>Job Name</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Job Number" />
+            <Field field="Job Name" />
+            <Field field="Sub-job of" />
+            <Field field="job_number_path" />
+            <Field field="job_name_path" />
+            <Field field="job_number1" />
+            <Field field="job_number2" />
+            <Field field="job_number3" />
+            <Field field="job_name1" />
+            <Field field="job_name2" />
+            <Field field="job_name3" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Journal Number" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Memo" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="GST (BAS) Reporting" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Inclusive" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Account Number" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Is Credit" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+            <Field name="Job" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Tax Code" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Tax Amount" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Allocation Memo" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Category" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Is Year-End Adjustment" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Account Type" size="1073741823" source="Formula: 'Expenses'" type="V_WString" />
+            <Field name="Journal Type" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Date" source="DateTime: (Multiple Sources)" type="Date" />
+            <Field name="Adjusted Amount" scale="2" size="20" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+            <Field name="Card ID" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Co./Last Name" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="First Name" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 1" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 2" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 3" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 4" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Supplier Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Comment" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Journal Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Shipping Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Freight Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Freight Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Freight Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Purchase Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Terms - Payment is Due" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="- Discount Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="- Balance Due Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="- % Discount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Amount Paid" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Record ID" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Cheque Account" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Cheque No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Job No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Printed" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Statement Text" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="AccountType" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="IsHeader" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="IsInactive" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="SubType" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field description="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" name="Level1_ID" size="64" source="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" name="Level2_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" name="Level3_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" name="Level4_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" type="V_String" />
+            <Field name="Job Number" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="Job Name" size="254" source="Formula: if Contains([Job Name], 'Diamond Creek/HB') then&#xA;'Diamond Creek'&#xA;else&#xA;[Job Name]&#xA;endif" type="V_String" />
+            <Field name="Sub-job of" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_number_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_name_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number1" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number2" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number3" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name1" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name2" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name3" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1386" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_c715b282067b44fa922082ff22996d82_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1531" y="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Co./Last Name" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Ship Via" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Description" size="254" source="(Multiple Sources)" type="V_String" />
+            <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Amount" source="Formula: (Multiple Sources)" type="Double" />
+            <Field name="Job" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Category" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Card ID" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Account Type" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Date" source="(Multiple Sources)" type="Date" />
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+            <Field name="Job Number" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="Job Name" size="254" source="Formula: if Contains([Job Name], 'Diamond Creek/HB') then&#xA;'Diamond Creek'&#xA;else&#xA;[Job Name]&#xA;endif" type="V_String" />
+            <Field name="Sub-job of" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number1" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number2" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number3" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name1" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name2" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name3" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field name="Journal Number" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Memo" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="GST (BAS) Reporting" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Inclusive" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Account Number" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Is Credit" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Tax Code" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Tax Amount" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Allocation Memo" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Is Year-End Adjustment" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Journal Type" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Adjusted Amount" scale="2" size="20" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+            <Field name="First Name" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 1" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 2" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 3" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Addr 1 - Line 4" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Supplier Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Comment" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Journal Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Shipping Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Freight Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Freight Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Freight Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Purchase Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Terms - Payment is Due" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="- Discount Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="- Balance Due Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="- % Discount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Amount Paid" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+            <Field name="Record ID" size="254" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Cheque Account" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Cheque No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Job No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Printed" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Statement Text" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="AccountType" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="IsHeader" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="IsInactive" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="SubType" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field description="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" name="Level1_ID" size="64" source="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" name="Level2_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" name="Level3_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" name="Level4_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" type="V_String" />
+            <Field name="job_number_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_name_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="InvoiceDate" source="Formula: [_CurrentField_]" type="DateTime" />
+            <Field name="InvoiceHeaderID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="InvoiceNumber" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="InvoiceLineID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+            <Field name="Stockcode" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Quantity" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="UnitPrice" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="UnitPriceIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="UnitCost" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="LineTotalIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Client ID" size="5" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="String" />
+            <Field name="JobID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+            <Field name="JobDate" size="23" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+            <Field name="TaxRate" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+            <Field name="TaxRateID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1651" y="432" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\mip\Clients\Auruleun\Tableau\Attributed Cashflow.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Attributed Cashflow.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1099" y="648" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Day Services Business Unit Description</FieldFind>
+          <FieldSearch>Job Name</FieldSearch>
+          <ReplaceFoundField>Job Name</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Job Number" />
+            <Field field="Job Name" />
+            <Field field="Sub-job of" />
+            <Field field="job_number_path" />
+            <Field field="job_name_path" />
+            <Field field="job_number1" />
+            <Field field="job_number2" />
+            <Field field="job_number3" />
+            <Field field="job_name1" />
+            <Field field="job_name2" />
+            <Field field="job_name3" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" source="Formula: [_CurrentField_]" type="Date" />
+            <Field name="InvoiceDate" source="Formula: [_CurrentField_]" type="DateTime" />
+            <Field name="InvoiceHeaderID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="InvoiceNumber" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+            <Field name="InvoiceLineID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+            <Field name="Stockcode" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Description" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Quantity" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="UnitPrice" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="UnitPriceIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="UnitCost" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Amount" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="LineTotalIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+            <Field name="Client ID" size="5" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="String" />
+            <Field name="JobID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+            <Field name="JobDate" size="23" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+            <Field name="TaxRate" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+            <Field name="TaxRateID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+            <Field name="Account Type" size="1073741823" source="Formula: 'CSM Invoices'" type="V_WString" />
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+            <Field name="Job Number" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="Job Name" size="254" source="Formula: if Contains([Job Name], 'Diamond Creek/HB') then&#xA;'Diamond Creek'&#xA;else&#xA;[Job Name]&#xA;endif" type="V_String" />
+            <Field name="Sub-job of" size="254" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_number_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field name="job_name_path" size="255" source="In-DB:DB=araluen;" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number1" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number2" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_number_path" name="job_number3" size="255" source="RegEx: Parsed from job_number_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name1" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name2" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+            <Field description="RegEx: Parsed from job_name_path" name="job_name3" size="255" source="RegEx: Parsed from job_name_path" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="774" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Co./Last Name</FieldFind>
+          <FieldSearch>Client_Code</FieldSearch>
+          <ReplaceFoundField>source</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="Customer_RecordID" />
+            <Field field="name" />
+            <Field field="source" />
+            <Field field="Client_Code" />
+            <Field field="Salutation" />
+            <Field field="FamilyName" />
+            <Field field="FirstName" />
+            <Field field="NHINumber" />
+            <Field field="Status" />
+            <Field field="Day Services Business Unit ID" />
+            <Field field="Day Services Business Unit Description" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+            <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+            <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+            <Field name="Date" source="DateTime: To dd/MM/yy" type="Date" />
+            <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+            <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+            <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+            <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1626" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_1fb416699e4c4d5999292aa05a614844_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="354" y="414" width="138" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MYOB Purchases</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="379" y="458" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\mip\Clients\Auruleun\Data\MYOB\expenses.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>expenses.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Journal Number" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Memo" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="GST (BAS) Reporting" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+                <Field name="Inclusive" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Account Number" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Is Credit" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+                <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+                <Field name="Job" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Tax Code" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Tax Amount" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Allocation Memo" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Category" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Is Year-End Adjustment" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'Expenses'" type="V_WString" />
+                <Field name="Journal Type" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Date" source="DateTime: (Multiple Sources)" type="Date" />
+                <Field name="Adjusted Amount" scale="2" size="20" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+                <Field name="Card ID" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Co./Last Name" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="First Name" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Addr 1 - Line 1" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Addr 1 - Line 2" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Addr 1 - Line 3" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Addr 1 - Line 4" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Supplier Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Comment" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Journal Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Shipping Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Freight Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Freight Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Freight Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Purchase Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Terms - Payment is Due" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="- Discount Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="- Balance Due Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="- % Discount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Amount Paid" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Record ID" size="254" source="File: (Multiple Sources)" type="V_String" />
+                <Field name="Cheque Account" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+                <Field name="Cheque No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+                <Field name="Job No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+                <Field name="Printed" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+                <Field name="Statement Text" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+                <Field name="AccountType" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="IsHeader" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="IsInactive" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field name="SubType" size="1073741823" source="JSONParse: " type="V_WString" />
+                <Field description="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" name="Level1_ID" size="64" source="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" type="V_String" />
+                <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" name="Level2_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" type="V_String" />
+                <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" name="Level3_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" type="V_String" />
+                <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" name="Level4_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="889" height="218" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MYOB Sales</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="144.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>2</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SERVSALE.TXT</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="First Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 1" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 2" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 3" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 4" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Inclusive" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Comment" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Journal Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Salesperson Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Salesperson First Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Promised Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Referral Source" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Freight Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Freight Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Freight Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Sale Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Terms - Payment is Due" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="- Discount Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="- Balance Due Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="- % Discount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="- % Monthly Charge" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount Paid" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Payment Method" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Payment Notes" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Name on Card" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card Number" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Authorisation Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="BSB" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account Number" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Drawer/Account Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Cheque Number" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Record ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="559" y="108" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" field="Amount" size="254" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Amount = ReplaceChar(
+ReplaceChar([Amount], '$', ''),
+',','')
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="763" y="188" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_6e015395b42d4591b897a66545fc59f0_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="859" y="108" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Date" selected="False" type="Date" size="10" />
+                <SelectField field="Amount" selected="True" type="FixedDecimal" size="20.2" />
+                <SelectField field="Date2" selected="True" rename="Date" />
+                <SelectField field="Amount_Converted" selected="False" rename="Date" type="FixedDecimal" size="0.0" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" scale="2" size="20" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="FixedDecimal" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+                <Field name="Date" source="DateTime: To dd/MM/yy" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="307" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Co./Last Name</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Co./Last Name])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="199" y="111.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Co./Last Name" selected="True" />
+                <SelectField field="First Name" selected="False" />
+                <SelectField field="Addr 1 - Line 1" selected="False" />
+                <SelectField field="Addr 1 - Line 2" selected="False" />
+                <SelectField field="Addr 1 - Line 3" selected="False" />
+                <SelectField field="Addr 1 - Line 4" selected="False" />
+                <SelectField field="Inclusive" selected="False" />
+                <SelectField field="Invoice No." selected="True" />
+                <SelectField field="Date" selected="True" />
+                <SelectField field="Customer PO" selected="True" />
+                <SelectField field="Ship Via" selected="True" />
+                <SelectField field="Delivery Status" selected="True" />
+                <SelectField field="Description" selected="True" />
+                <SelectField field="Account No." selected="True" />
+                <SelectField field="Amount" selected="True" />
+                <SelectField field="Job" selected="True" />
+                <SelectField field="Comment" selected="False" />
+                <SelectField field="Journal Memo" selected="False" />
+                <SelectField field="Salesperson Last Name" selected="False" />
+                <SelectField field="Salesperson First Name" selected="False" />
+                <SelectField field="Promised Date" selected="False" />
+                <SelectField field="Referral Source" selected="False" />
+                <SelectField field="Tax Code" selected="False" />
+                <SelectField field="Tax Amount" selected="False" />
+                <SelectField field="Freight Amount" selected="False" />
+                <SelectField field="Freight Tax Code" selected="False" />
+                <SelectField field="Freight Tax Amount" selected="False" />
+                <SelectField field="Sale Status" selected="False" />
+                <SelectField field="Terms - Payment is Due" selected="False" />
+                <SelectField field="- Discount Days" selected="False" />
+                <SelectField field="- Balance Due Days" selected="False" />
+                <SelectField field="- % Discount" selected="False" />
+                <SelectField field="- % Monthly Charge" selected="False" />
+                <SelectField field="Amount Paid" selected="False" />
+                <SelectField field="Payment Method" selected="False" />
+                <SelectField field="Payment Notes" selected="False" />
+                <SelectField field="Name on Card" selected="False" />
+                <SelectField field="Card Number" selected="False" />
+                <SelectField field="Authorisation Code" selected="False" />
+                <SelectField field="BSB" selected="False" />
+                <SelectField field="Account Number" selected="False" />
+                <SelectField field="Drawer/Account Name" selected="False" />
+                <SelectField field="Cheque Number" selected="False" />
+                <SelectField field="Category" selected="True" />
+                <SelectField field="Card ID" selected="True" />
+                <SelectField field="Record ID" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="439" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Income'" field="Account Type" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Account Type = 'Income'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="691" y="108" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>dd/MM/yy</Format>
+              <OutputFieldName>Date</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+dd/MM/yy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Customer PO" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="Formula: ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\Sales\SERVSALE.TXT" type="V_String" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'Income'" type="V_WString" />
+                <Field name="Date2" source="DateTime: To dd/MM/yy" type="Date" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="787" y="108" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_ffcde3a5a3bf4a108cc3224aa067b2ce_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="187" y="696" width="493" height="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>CSM Invoices</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="212" y="752" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\mip\Clients\Auruleun\Data\DataVault\CSM Invoices.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>CSM Invoices.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" source="Formula: [_CurrentField_]" type="DateTime" />
+                <Field name="InvoiceDate" source="Formula: [_CurrentField_]" type="DateTime" />
+                <Field name="InvoiceHeaderID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceNumber" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceLineID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="Stockcode" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Description" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Quantity" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPrice" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPriceIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitCost" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Amount" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="LineTotalIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Client ID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="JobID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="JobDate" size="23" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+                <Field name="TaxRate" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="TaxRateID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="500" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Client ID</FieldFind>
+              <FieldSearch>Client_Code</FieldSearch>
+              <ReplaceFoundField>source</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Customer_RecordID" />
+                <Field field="name" />
+                <Field field="source" />
+                <Field field="Client_Code" />
+                <Field field="Salutation" />
+                <Field field="FamilyName" />
+                <Field field="FirstName" />
+                <Field field="NHINumber" />
+                <Field field="Status" />
+                <Field field="Day Services Business Unit ID" />
+                <Field field="Day Services Business Unit Description" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" source="Formula: [_CurrentField_]" type="Date" />
+                <Field name="InvoiceDate" source="Formula: [_CurrentField_]" type="DateTime" />
+                <Field name="InvoiceHeaderID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceNumber" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceLineID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="Stockcode" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Description" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Quantity" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPrice" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPriceIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitCost" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Amount" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="LineTotalIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Client ID" size="5" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="String" />
+                <Field name="JobID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="JobDate" size="23" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+                <Field name="TaxRate" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="TaxRateID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'CSM Invoices'" type="V_WString" />
+                <Field name="Customer_RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="name" size="1073741823" source="Summarize: GroupBy - name" type="V_WString" />
+                <Field name="source" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Client_Code" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                <Field name="Salutation" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+                <Field name="FamilyName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+                <Field name="FirstName" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+                <Field name="NHINumber" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+                <Field name="Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\clients.csv" type="V_WString" />
+                <Field name="Day Services Business Unit ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\assignedBusinessUnits.csv" type="V_WString" />
+                <Field name="Day Services Business Unit Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\CSM\business_unit.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="344" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'CSM Invoices'" field="Account Type" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Account Type = 'CSM Invoices'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" source="Formula: [_CurrentField_]" type="DateTime" />
+                <Field name="InvoiceDate" source="Formula: [_CurrentField_]" type="DateTime" />
+                <Field name="InvoiceHeaderID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceNumber" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceLineID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="Stockcode" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Description" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Quantity" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPrice" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPriceIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitCost" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Amount" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="LineTotalIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Client ID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="JobID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="JobDate" size="23" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+                <Field name="TaxRate" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="TaxRateID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'CSM Invoices'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="428" y="764" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="True" />
+              <SelectFields>
+                <SelectField field="Date" selected="True" type="Date" size="10" />
+                <SelectField field="Client ID" selected="True" type="String" size="5" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Date" source="Formula: [_CurrentField_]" type="Date" />
+                <Field name="InvoiceDate" source="Formula: [_CurrentField_]" type="DateTime" />
+                <Field name="InvoiceHeaderID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceNumber" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int16" />
+                <Field name="InvoiceLineID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="Stockcode" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Description" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Quantity" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPrice" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitPriceIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="UnitCost" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Amount" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="LineTotalIncTax" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Double" />
+                <Field name="Client ID" size="5" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="String" />
+                <Field name="JobID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Int32" />
+                <Field name="JobDate" size="23" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Notes" source="File: C:\mip\Clients\Auruleun\Data\CSM\InvoiceLine.csv" type="Bool" />
+                <Field name="TaxRate" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="TaxRateID" source="Formula: IF [_CurrentFieldName_] IN(&quot;InvoiceHeaderID&quot;,&quot;InvoiceDate&quot;,&quot;Right_InvoiceHeaderID&quot;,&quot;Right_FunderID&quot;,&quot;Right_InvoiceNumber&quot;,&quot;Right_TaxTotal&quot;,&quot;Right_ClientID&quot;) THEN   &#xA;       IF IsNull([_CurrentField_]) THEN &#xA;	    IF ( [_CurrentFieldType_] IN ('Byte', 'Int16', 'Int32', 'Int64', 'Float', 'Double', 'FixedDecimal')) THEN&#xA;       	0&#xA;    	    ELSE [_CurrentField_]&#xA;	    ENDIF&#xA;	ELSE [_CurrentField_]&#xA;	ENDIF&#xA;    ELSE [_CurrentField_]&#xA;    ENDIF" type="Byte" />
+                <Field name="Account Type" size="1073741823" source="Formula: 'CSM Invoices'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="596" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\temp\alteryx\temp\Engine_6736_3d0349df1b1b40dbbedfff5f0c7bf3f3_\Engine_17132_6b6a691a8e0a4adfa0841b844779263a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="15" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="15" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="36" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="36" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="False" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="24" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="26" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="26" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="43" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="43" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Cashflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (45)</Name>
+          <ToolId value="45" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="7" Selected="True" />
+        <Tool ToolId="9" Selected="False" />
+        <Tool ToolId="13" Selected="False" />
+        <Tool ToolId="17" Selected="False" />
+        <Tool ToolId="25" Selected="False" />
+        <Tool ToolId="28" Selected="False" />
+        <Tool ToolId="49" Selected="False" />
+        <Tool ToolId="33" Selected="True" />
+        <Tool ToolId="39" Selected="False" />
+        <Tool ToolId="48" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

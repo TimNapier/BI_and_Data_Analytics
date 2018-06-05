@@ -1,0 +1,1243 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>True</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <ImportLine>2</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>General Journal</Name>
+          <DefaultAnnotationText>GENERAL.TXT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Journal Number" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="GST (BAS) Reporting" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Inclusive" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Account Number" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Is Credit" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Allocation Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="Is Year-End Adjustment" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\GENERAL.TXT" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="360" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_9ef33181f6414c28abf19f3372dec115_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1110" y="396" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\mip\Clients\Auruleun\Data\MYOB\general.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>general.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="396" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" field="Amount" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Amount = ReplaceChar(
+ReplaceChar([Amount], '$', ''),
+',','')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="702" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Format>dd/MM/yyyy</Format>
+          <OutputFieldName>Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="990" y="516" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Date2" selected="True" rename="Date" />
+            <SelectField field="Adjusted Amount" selected="True" type="FixedDecimal" size="20.2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1194" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_0e3849a7ffc1469280964e5ee5d6324c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="798" y="432" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_b9cdc13624f74fbe930a5118bb0c45c0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="162" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Journal Number</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Journal Number])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="396" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Expenses'" field="Account Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Account Type = 'Expenses'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1182" y="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1602" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\mip\Clients\Auruleun\Data\MYOB\expenses.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>expenses.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1398" y="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_1ca53010d78746e58890e05f09963b43_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1242" y="384" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\mip\Clients\Auruleun\Data\MYOB\accounts dim.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>accounts dim.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AccountLevel" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="AccountName" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="AccountType" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="CurrentAccountBalance" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="Id" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="IsHeader" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="IsInactive" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field name="SubType" size="1073741823" source="JSONParse: " type="V_WString" />
+            <Field description="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" name="Level1_ID" size="64" source="Formula: if ([AccountLevel] = '1') then [Id] + ' ' + [AccountName]&#xA;else [Row-1:Level1_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" name="Level2_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ([Id] + ' ' + [AccountName])&#xA;else [Row-1:Level2_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" name="Level3_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then [Id]+ ' ' + [AccountName]&#xA;else [Row-1:Level3_ID]&#xA;endif" type="V_String" />
+            <Field description="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" name="Level4_ID" size="64" source="Formula: if ([AccountLevel] = '1') then ''&#xA;elseif ([AccountLevel] = '2') then ''&#xA;elseif ([AccountLevel] = '3') then ''&#xA;elseif ([AccountLevel] = '4') then [id]  + ' ' + [AccountName]&#xA;else [Row-1:Level4_ID]&#xA;endif" type="V_String" />
+            <Field name="Account Number" size="1073741823" source="Formula: ReplaceChar([Id], '-', '')" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1386" y="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>Account Number</FieldFind>
+          <FieldSearch>Account Number</FieldSearch>
+          <ReplaceFoundField>AccountName</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="AccountType" />
+            <Field field="IsHeader" />
+            <Field field="IsInactive" />
+            <Field field="SubType" />
+            <Field field="Level1_ID" />
+            <Field field="Level2_ID" />
+            <Field field="Level3_ID" />
+            <Field field="Level4_ID" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1650" y="408" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\mip\Clients\Auruleun\Tableau\expenses.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>expenses.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="504" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Amount" selected="True" type="FixedDecimal" size="20.2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="396" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'General Journal'" field="Journal Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Journal Type = 'General Journal'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="492" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if  [Is Credit]='Y' then&#xA;[Amount] * -1&#xA;else&#xA;[Amount]&#xA;endif" field="Adjusted Amount" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Adjusted Amount = if  [Is Credit]='Y' then
+[Amount] * -1
+else
+[Amount]
+endif
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>\t</Delimeter>
+            <IgnoreErrors>True</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>True</IgnoreQuotes>
+            <ImportLine>2</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SPENDMONEY.TXT</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Cheque Account" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Cheque No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Inclusive" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="First Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Addr 1 - Line 1" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Addr 1 - Line 2" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Addr 1 - Line 3" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Addr 1 - Line 4" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Allocation Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Job No." size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Printed" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Statement Text" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Allocation Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Record ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="Is Year-End Adjustment" size="254" source="File: C:\mip\Clients\Auruleun\Data\MYOB\SPENDMONEY.TXT" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_e9b822793022408bb67d239f7c0aa0fa_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Expenses'" field="Account Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Account Type = 'Expenses'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'Cash Deposit'" field="Journal Type" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Journal Type = 'Cash Deposit'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="630" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" field="Amount" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Amount = ReplaceChar(
+ReplaceChar([Amount], '$', ''),
+',','')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="786" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Date</InputFieldName>
+          <Format>dd/MM/yyyy</Format>
+          <OutputFieldName>Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Date From:
+dd/MM/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="990" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&#xA;[Amount]&#xA;" field="Adjusted Amount" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Adjusted Amount = 
+[Amount]
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1086" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date" selected="False" />
+            <SelectField field="Allocation Account No." selected="True" rename="Account Number" />
+            <SelectField field="Amount" selected="True" type="FixedDecimal" size="20.2" />
+            <SelectField field="Date2" selected="True" rename="Date" />
+            <SelectField field="Adjusted Amount" selected="True" type="FixedDecimal" size="20.2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1182" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_f7a6179e554643f4a9311c6ccbce390d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="282" y="54" width="924" height="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>MYOB Purchases</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="870" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>dd/MM/yy</Format>
+              <OutputFieldName>Date</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+dd/MM/yy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="966" y="242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Purchase No." selected="True" rename="Journal Number" />
+                <SelectField field="Date" selected="False" type="Date" size="10" />
+                <SelectField field="Account No." selected="True" rename="Account Number" />
+                <SelectField field="Amount" selected="True" type="FixedDecimal" size="20.2" />
+                <SelectField field="Date2" selected="True" rename="Date" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="702" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="ReplaceChar(&#xA;ReplaceChar([Amount], '$', ''),&#xA;',','')" field="Amount" size="254" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Amount = ReplaceChar(
+ReplaceChar([Amount], '$', ''),
+',','')
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="510" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Expenses'" field="Account Type" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Account Type = 'Expenses'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="403" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Card ID</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Card ID])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="535" y="266" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_6944f89b6bea41fdbcfa2564f6407cbe_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="307" y="194.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\mip\Clients\Auruleun\Data\SERVPUR.TXT</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>True</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>2</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>SERVPUR.TXT</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Card ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Co./Last Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="First Name" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 1" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 2" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 3" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Addr 1 - Line 4" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Inclusive" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Purchase No." size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Supplier Invoice No." size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Ship Via" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Delivery Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Description" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Account No." size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Job" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Comment" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Journal Memo" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Shipping Date" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Freight Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Freight Tax Code" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Freight Tax Amount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Purchase Status" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Terms - Payment is Due" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="- Discount Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="- Balance Due Days" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="- % Discount" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Amount Paid" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Category" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="Record ID" size="254" source="File: C:\mip\Clients\Auruleun\Data\SERVPUR.TXT" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1062" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_761690176bfe49fbbd658cfbba75eb7b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="606" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'Service Purchases'" field="Journal Type" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Journal Type = 'Service Purchases'
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1014" y="158" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Date</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>2017-07-01</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Date] = "2017-07-01"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1122" y="98" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\temp\alteryx\temp\Engine_15132_f3f18d1ddf5b4813bce71eea8208092e_\Engine_17132_e740882cab2442fa8f39ca783c525533_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1062" y="290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Amount]" field="Adjusted Amount" size="20.2" type="FixedDecimal" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Adjusted Amount = [Amount]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="28" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>expenses</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

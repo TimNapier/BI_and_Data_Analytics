@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="318" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Input3"><![CDATA[WF_Source=source
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output7">
+          <RecordInfo>
+            <Field name="WF_Source" size="256" source="TextInput:" type="V_String" />
+            <Field name="join_id" source="Formula: 1" type="Int16" />
+            <Field name="WF_Directory" size="256" source="Formula: [Engine.WorkflowDirectory]" type="V_String" />
+            <Field name="WF_Name" size="256" source="Formula: [Engine.WorkflowFileName]" type="V_String" />
+            <Field name="WF_Created" source="Formula: &#xA;DateTimeNow()&#xA;" type="DateTime" />
+            <Field name="WF_Modified" source="Formula: DateTimeNow()" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="..\..\From Tim's PC\Alteryx\Alteryx\Macros\wf_audit_columns.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="LockInGui.LockInInput.LockInInput">
+        <Position x="66" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>Araluen</Connection>
+          <Query>Select * From TestCMSAraluen.Client.ReferralDetails</Query>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=Araluen
+Table=Select * From TestCMSAraluen.Client.ReferralDetails</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="ReferralDetailsID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralTypeID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralBranchID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralRegionID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ClientID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralNumber" size="100" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="TotalHours" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="HoursPerWeek" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="FunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="StartDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="OpenJob" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="ReviewDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="ChildCare" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="MultiWorker" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubcontractorFunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="Notes" size="16777216" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="rowguid" size="255" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="ModifiedDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="SubConPortalChanged" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubConPortalStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="OpenReferral" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="NoJobsOnPubHoliday" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="126" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="source" />
+          </Fields>
+          <Data>
+            <r>
+              <c>'CMS.Client.ReferralDetails'</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="source" size="28" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="246" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="1" field="join_id" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[join_id = 1
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="source" size="28" source="TextInput:" type="String" />
+            <Field name="join_id" source="Formula: 1" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="LockInGui.LockInFormula.LockInFormula">
+        <Position x="198" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ValidateBeforeRun value="True" />
+          <FormulaFields>
+            <FormulaField field="join_id" type="Int16" expression="1" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>join_id=1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ReferralDetailsID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralTypeID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralBranchID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralRegionID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ClientID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralNumber" size="100" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="TotalHours" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="HoursPerWeek" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="FunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="StartDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="OpenJob" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="ReviewDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="ChildCare" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="MultiWorker" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubcontractorFunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="Notes" size="16777216" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="rowguid" size="255" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="ModifiedDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="SubConPortalChanged" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubConPortalStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="OpenReferral" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="NoJobsOnPubHoliday" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="join_id" source="In-DB:DB=Araluen;" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="LockInGui.LockInStreamIn.LockInStreamIn">
+        <Position x="438" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection>Araluen</Connection>
+          <CreateMode>TempTable</CreateMode>
+          <Table />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=Araluen
+Temporary Table</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="WF_Source" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="join_id" source="In-DB:DB=Araluen;" type="Int16" />
+            <Field name="WF_Directory" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="WF_Name" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="WF_Created" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="WF_Modified" source="In-DB:DB=Araluen;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInStreamIn" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="LockInGui.LockInJoin.LockInJoin">
+        <Position x="546" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinMode>INNER</JoinMode>
+          <JoinFields>
+            <JoinInfo connection="Left">
+              <Field field="join_id" />
+            </JoinInfo>
+            <JoinInfo connection="Right">
+              <Field field="join_id" />
+            </JoinInfo>
+          </JoinFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Inner Join</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo LockIn="True">
+            <Field name="WF_Source" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="join_id" source="In-DB:DB=Araluen;" type="Int16" />
+            <Field name="WF_Directory" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="WF_Name" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="WF_Created" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="WF_Modified" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="ReferralDetailsID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralTypeID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralBranchID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralRegionID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ClientID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralNumber" size="100" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="TotalHours" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="HoursPerWeek" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="FunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="StartDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="OpenJob" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="ReviewDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="ChildCare" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="MultiWorker" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubcontractorFunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="Notes" size="16777216" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="rowguid" size="255" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="ModifiedDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="SubConPortalChanged" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubConPortalStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="OpenReferral" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="NoJobsOnPubHoliday" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="R_join_id" source="In-DB:DB=Araluen;" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="LockInGui.LockInOutput.LockInOutput">
+        <Position x="666" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Table>LOAD_CSM.referral_details</Table>
+          <CreateMode>Overwrite</CreateMode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Table=LOAD_CSM.referral_details</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="WF_Source" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="join_id" source="In-DB:DB=Araluen;" type="Int16" />
+            <Field name="WF_Directory" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="WF_Name" size="256" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="WF_Created" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="WF_Modified" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="ReferralDetailsID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralTypeID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralBranchID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralRegionID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ClientID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="ReferralNumber" size="100" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="TotalHours" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="HoursPerWeek" source="In-DB:DB=Araluen;" type="Double" />
+            <Field name="FunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="StartDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="EndDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="OpenJob" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="ReviewDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="ChildCare" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="MultiWorker" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubcontractorFunderID" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="Notes" size="16777216" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="rowguid" size="255" source="In-DB:DB=Araluen;" type="V_String" />
+            <Field name="ModifiedDate" source="In-DB:DB=Araluen;" type="DateTime" />
+            <Field name="SubConPortalChanged" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="SubConPortalStatus" source="In-DB:DB=Araluen;" type="Int32" />
+            <Field name="OpenReferral" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="NoJobsOnPubHoliday" size="1" source="In-DB:DB=Araluen;" type="V_WString" />
+            <Field name="R_join_id" source="In-DB:DB=Araluen;" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="LockInEngine.dll" EngineDllEntryPoint="AlteryxLockInOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output7" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="4" Connection="Input3" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>load_csm_referral_details</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (13)</Name>
+          <ToolId value="13" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="4" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
