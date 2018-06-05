@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="select * from ARALUEN_DATAVAULT.LOAD_CSM.&quot;referral_details&quot;"/>
+<entry key="statement" type="xstring" value="use warehouse araluen;%%00010select &quot;Support Item Number&quot;,%%00010SHA1(&quot;Support Item Number&quot;) as h_ndis_support_item_sid%%00010from &quot;ARALUEN_DATAVAULT&quot;.&quot;LOAD_NDIS&quot;.&quot;201718-VIC-NSW-QLD-TAS-Price-Guide&quot;"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,12 +44,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 371, Cols: 25"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 592, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ad929867-f1f4-402c-8535-545cafbfdfa4"/>
+<entry key="file_store_id" type="xstring" value="16dc59a0-b707-48f1-bcf6-2e467966b851"/>
 </config>
 </config>

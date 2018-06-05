@@ -1,0 +1,45 @@
+
+C:\BI_and_Data_Analytics\Scripts>REM echo pushdata2snowflake.bat > pushdata2snowflake.log 
+
+C:\BI_and_Data_Analytics\Scripts>echo C:\BI_and_Data_Analytics\Data\NDIS  1>>pushdata2snowflake.log 
+
+C:\BI_and_Data_Analytics\Scripts>echo header  1>mockinfile.csv 
+
+C:\BI_and_Data_Analytics\Scripts>echo 1  1>>mockinfile.csv 
+
+C:\BI_and_Data_Analytics\Scripts>"C:\Program Files\Snowflake SnowSQL\snowsql.exe" -f snowflake.sql  
+* SnowSQL * v1.1.57
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.174s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.085s
++----------------------------------------+-------------------------------------------+-------------+-------------+--------------------+--------------------+---------+-----------------------------------------------------------------+
+| source                                 | target                                    | source_size | target_size | source_compression | target_compression | status  | message                                                         |
+|----------------------------------------+-------------------------------------------+-------------+-------------+--------------------+--------------------+---------+-----------------------------------------------------------------|
+| 201718-VIC-NSW-QLD-TAS-Price-Guide.csv | 201718-VIC-NSW-QLD-TAS-Price-Guide.csv.gz |      128037 |           0 | NONE               | GZIP               | SKIPPED | File with the same destination name and checksum already exists |
++----------------------------------------+-------------------------------------------+-------------+-------------+--------------------+--------------------+---------+-----------------------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.496s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.081s
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Copy executed with 0 files processed. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.959s
+Goodbye!
+
+C:\BI_and_Data_Analytics\Scripts>REM

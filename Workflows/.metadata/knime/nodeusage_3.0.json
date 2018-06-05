@@ -14,9 +14,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader",
-                "nrexecs":1,
-                "nrfails":6,
-                "exectime":2215,
+                "nrexecs":2,
+                "nrfails":10,
+                "exectime":34762,
                 "nrcreated":1,
                 "successor":"n/a"
             },
@@ -294,9 +294,9 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output",
-                "nrexecs":17,
+                "nrexecs":18,
                 "nrfails":0,
-                "exectime":5,
+                "exectime":6,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -402,11 +402,11 @@
             "nrcreated":0
         }
     },
-    "uptime":38540173,
-    "workflowsOpened":21,
+    "uptime":39304670,
+    "workflowsOpened":22,
     "remoteWorkflowsOpened":3,
     "launches":9,
-    "timeSinceLastStart":83973741,
+    "timeSinceLastStart":90854216,
     "crashes":0,
     "properlyShutDown":false
 }
