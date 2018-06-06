@@ -13,9 +13,9 @@
 <entry key="PathToExtExec" type="xstring" value="C:\BI_and_Data_Analytics\Scripts\pushdata2snowflake.bat"/>
 <entry key="ExtExecWorkDir" type="xstring" value="C:\BI_and_Data_Analytics\Scripts"/>
 <entry key="ExtExecArgs" type="xstring" value="C:\BI_and_Data_Analytics\Data\NDIS"/>
-<entry key="Output filename" type="xstring" value="C:\BI_and_Data_Analytics\Scripts\mockinfile.csv"/>
-<entry key="Outputfile separator" type="xstring" value=","/>
-<entry key="ContainsColHdr" type="xboolean" value="true"/>
+<entry key="Output filename" type="xstring" value="C:\BI_and_Data_Analytics\Scripts\pushdata2snowflake.log"/>
+<entry key="Outputfile separator" type="xstring" value="~"/>
+<entry key="ContainsColHdr" type="xboolean" value="false"/>
 <entry key="ContainsRowHdr" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -39,12 +39,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 99, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="044744b2-1d9e-47a3-995f-ca7cd057ddda"/>
+<entry key="file_store_id" type="xstring" value="0e017378-157b-407d-b482-5fa7c1a1a63a"/>
 </config>
 </config>
