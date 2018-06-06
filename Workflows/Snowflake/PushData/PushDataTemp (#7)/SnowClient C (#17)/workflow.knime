@@ -25,7 +25,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_2">
@@ -76,6 +76,22 @@
 </config>
 </config>
 </config>
+<config key="node_5">
+<entry key="id" type="xint" value="5"/>
+<entry key="node_settings_file" type="xstring" value="String Input (#5)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="224"/>
+<entry key="1" type="xint" value="277"/>
+<entry key="2" type="xint" value="71"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
 </config>
 <config key="connections">
 <config key="connection_0">
@@ -98,10 +114,10 @@
 </config>
 </config>
 <config key="workflow_editor_settings">
-<entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
-<entry key="workflow.editor.ShowGrid" type="xboolean" value="true"/>
-<entry key="workflow.editor.gridX" type="xint" value="20"/>
-<entry key="workflow.editor.gridY" type="xint" value="20"/>
+<entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
+<entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
+<entry key="workflow.editor.gridX" type="xint" value="-1"/>
+<entry key="workflow.editor.gridY" type="xint" value="-1"/>
 <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
 <entry key="workflow.editor.curvedConnections" type="xboolean" value="false"/>
 <entry key="workflow.editor.connectionWidth" type="xint" value="1"/>

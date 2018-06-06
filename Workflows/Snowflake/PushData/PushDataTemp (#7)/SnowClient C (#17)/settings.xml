@@ -21,7 +21,11 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="ERROR"/>
+<entry key="message" type="xstring" value="Not all contained nodes are executed:%%00010SnowClient Command 0:7:17:0: IDLE (start)%%00010  External Tool 0:7:17:0:2 (IDLE)*%%00010  WrappedNode Input 0:7:17:0:3 (EXECUTED)*%%00010  WrappedNode Output 0:7:17:0:4 (IDLE)*%%00010  String Input 0:7:17:0:5 (EXECUTED)*%%00010SnowClient Command 0:7:17:0(end)%%00010"/>
+</config>
 <entry key="virtual-in-ID" type="xint" value="3"/>
 <config key="inports">
 <config key="inport_0">

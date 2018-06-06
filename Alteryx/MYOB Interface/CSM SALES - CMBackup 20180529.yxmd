@@ -1,0 +1,1742 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Araluen - Datavault
+Table=Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ActualMins" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="AddedJob" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="AdhocBudget" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="AdhocJob" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="AdjustmentID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="AppointmentBudgetID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="AppointmentTemplateID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="AssignedByID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="AutoAlloc" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="BudgetID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="BudgetParked" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="CancelledBy" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="CancelledDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="CancelledDateTime" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="ClientCompanyID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="ClientID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="CompanyGroupID" size="254" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="CostPrice" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="CreatedByID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="CreatedDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="DateAssigned" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="DateCreated" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="Description" size="40" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="End Date - Budget" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="End Date - Referral" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="EndJobDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="EndJobDateOnly" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="EveningHours" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="EveningHoursHoliday" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="ExtraChargeID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="FilePayStatus" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="FilePayText" size="100" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="Frequency" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="FunderGroupID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="FunderID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="FunderReference" size="50" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="GenerateJob" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="GHBudget" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="GHJob" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="HolidayHours" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="HomeTravelTime" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="HomeTravelTimePay" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="HomeTravelTimeSell" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="HomeTravelUnitPay" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="HomeTravelUnits" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="HomeTravelUnitSell" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Hours - Budget" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Hours - Referral" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Hours Per Week - Referral" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="IBT" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="IBTBandID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="IgnoreInvoiceReason" size="200" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="IgnorePayrollReason" size="200" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="InvNo" size="20" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="InvNoBatchID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="InvoiceDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="InvoiceHeaderID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="InvoiceLineID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="InvoiceNumber" size="20" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="IsApproved" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="JobDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="JobDateOnly" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="JobID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="JobRequester" size="200" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="JobSource" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="JobSourceTypeID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="JobStartedTime" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="JobStatus" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="LastEdited" size="150" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="Line of Business" size="254" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="LineTotal" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="LineTotalIncTax" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="MobDataChanged" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="MobJobSeqno" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="ModifiedDate" size="254" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="NBInvPrice" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="NBInvQty" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="NormalHours" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Notes" size="16777216" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="OpenJob" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="OrigCarerID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="OrigTravelTime" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="OrigTravelUnits" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="OverridePayAmount" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="PackageID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="PaidHoliday" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="PanztelID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="ParkedEndDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="ParkedStartDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="PayHours" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="PayHrRate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="PayrollBatchID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="PONumber" size="50" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="PortalJobID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="PortalRate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="PostcodebandID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="Price1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price10" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price2" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price3" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price4" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price5" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price6" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price7" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price8" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Price9" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="Quantity" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="ReasonCancelled" size="200" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="ReasonCancelledID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="Reference1" size="50" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="Reference2" size="50" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="Reference3" size="50" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="ReferralDetailsID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="ReferralTypeDesc" size="254" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="ReferralTypeID" size="254" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="rowguid" size="254" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="RTSendEmail" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="SellPrice" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="ServicesID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="StaffCompanyID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="StaffFromVisitCacheID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="StaffID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="StaffToVisitCacheID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="Start Date - Budget" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="Start Date - Referral" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="Stockcode" size="50" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="SubConPortalChanged" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_WString" />
+            <Field name="TaxRate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TaxRateID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="TaxTotal" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TimeSheetBy" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="TimeSheetDate" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="TransType" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="TravelBuffer" size="1" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="String" />
+            <Field name="TravelTime" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelTimePay" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelTimeSell" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelUnitPay" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelUnits" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelUnitSell" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelUnitsWithClient" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelUnitsWithClientPay" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="TravelUnitsWithClientSell" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="UnitCost" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="UnitPrice" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="UnitPriceIncTax" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="VisitCacheID" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Int32" />
+            <Field name="WeekendHours" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="WeekendHoursHoliday" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="Double" />
+            <Field name="WF_Created" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="WF_Directory" size="256" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="WF_Modified" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="DateTime" />
+            <Field name="WF_Name" size="256" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+            <Field name="WF_Source" size="256" source="File: aka:Araluen - Datavault|||Select * From STAGING.csm_referral_type_2_invoice_line csm_referral_type_2_invoice_line1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:Araluen - Datavault|||"Araluen_Datavault"."LOAD_CSM"."csm_funder_account"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Araluen - Datavault
+Table="Araluen_Datavault"."LOAD_CSM"."csm_funder_account"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FunderAccountID" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="Int32" />
+            <Field name="AlphaCode" size="30" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="V_WString" />
+            <Field name="WF_Source" size="256" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="V_String" />
+            <Field name="WF_Directory" size="256" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="V_String" />
+            <Field name="WF_Name" size="256" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="V_String" />
+            <Field name="WF_Created" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="DateTime" />
+            <Field name="WF_Modified" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_CSM&quot;.&quot;csm_funder_account&quot;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FunderAccountID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FunderID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ActualMins" selected="True" />
+                <SelectField field="Right_AddedJob" selected="True" />
+                <SelectField field="Right_AdhocBudget" selected="True" />
+                <SelectField field="Right_AdhocJob" selected="True" />
+                <SelectField field="Right_AdjustmentID" selected="True" />
+                <SelectField field="Left_AlphaCode" selected="True" />
+                <SelectField field="Right_AppointmentBudgetID" selected="True" />
+                <SelectField field="Right_AppointmentTemplateID" selected="True" />
+                <SelectField field="Right_AssignedByID" selected="True" />
+                <SelectField field="Right_AutoAlloc" selected="True" />
+                <SelectField field="Right_BudgetID" selected="True" />
+                <SelectField field="Right_BudgetParked" selected="True" />
+                <SelectField field="Right_CancelledBy" selected="True" />
+                <SelectField field="Right_CancelledDate" selected="True" />
+                <SelectField field="Right_CancelledDateTime" selected="True" />
+                <SelectField field="Right_ClientCompanyID" selected="True" />
+                <SelectField field="Right_ClientID" selected="True" />
+                <SelectField field="Right_CompanyGroupID" selected="True" />
+                <SelectField field="Right_CostPrice" selected="True" />
+                <SelectField field="Right_CreatedByID" selected="True" />
+                <SelectField field="Right_CreatedDate" selected="True" />
+                <SelectField field="Right_DateAssigned" selected="True" />
+                <SelectField field="Right_DateCreated" selected="True" />
+                <SelectField field="Right_Description" selected="True" />
+                <SelectField field="Right_End Date - Budget" selected="True" />
+                <SelectField field="Right_End Date - Referral" selected="True" />
+                <SelectField field="Right_EndJobDate" selected="True" />
+                <SelectField field="Right_EndJobDateOnly" selected="True" />
+                <SelectField field="Right_EveningHours" selected="True" />
+                <SelectField field="Right_EveningHoursHoliday" selected="True" />
+                <SelectField field="Right_ExtraChargeID" selected="True" />
+                <SelectField field="Right_FilePayStatus" selected="True" />
+                <SelectField field="Right_FilePayText" selected="True" />
+                <SelectField field="Right_Frequency" selected="True" />
+                <SelectField field="Left_FunderAccountID" selected="True" />
+                <SelectField field="Right_FunderGroupID" selected="True" />
+                <SelectField field="Right_FunderID" selected="True" />
+                <SelectField field="Right_FunderReference" selected="True" />
+                <SelectField field="Right_GenerateJob" selected="True" />
+                <SelectField field="Right_GHBudget" selected="True" />
+                <SelectField field="Right_GHJob" selected="True" />
+                <SelectField field="Right_HolidayHours" selected="True" />
+                <SelectField field="Right_HomeTravelTime" selected="True" />
+                <SelectField field="Right_HomeTravelTimePay" selected="True" />
+                <SelectField field="Right_HomeTravelTimeSell" selected="True" />
+                <SelectField field="Right_HomeTravelUnitPay" selected="True" />
+                <SelectField field="Right_HomeTravelUnits" selected="True" />
+                <SelectField field="Right_HomeTravelUnitSell" selected="True" />
+                <SelectField field="Right_Hours - Budget" selected="True" />
+                <SelectField field="Right_Hours - Referral" selected="True" />
+                <SelectField field="Right_Hours Per Week - Referral" selected="True" />
+                <SelectField field="Right_IBT" selected="True" />
+                <SelectField field="Right_IBTBandID" selected="True" />
+                <SelectField field="Right_IgnoreInvoiceReason" selected="True" />
+                <SelectField field="Right_IgnorePayrollReason" selected="True" />
+                <SelectField field="Right_InvNo" selected="True" />
+                <SelectField field="Right_InvNoBatchID" selected="True" />
+                <SelectField field="Right_InvoiceDate" selected="True" />
+                <SelectField field="Right_InvoiceHeaderID" selected="True" />
+                <SelectField field="Right_InvoiceLineID" selected="True" />
+                <SelectField field="Right_InvoiceNumber" selected="True" />
+                <SelectField field="Right_IsApproved" selected="True" />
+                <SelectField field="Right_JobDate" selected="True" />
+                <SelectField field="Right_JobDateOnly" selected="True" />
+                <SelectField field="Right_JobID" selected="True" />
+                <SelectField field="Right_JobRequester" selected="True" />
+                <SelectField field="Right_JobSource" selected="True" />
+                <SelectField field="Right_JobSourceTypeID" selected="True" />
+                <SelectField field="Right_JobStartedTime" selected="True" />
+                <SelectField field="Right_JobStatus" selected="True" />
+                <SelectField field="Right_LastEdited" selected="True" />
+                <SelectField field="Right_Line of Business" selected="True" />
+                <SelectField field="Right_LineTotal" selected="True" />
+                <SelectField field="Right_LineTotalIncTax" selected="True" />
+                <SelectField field="Right_MobDataChanged" selected="True" />
+                <SelectField field="Right_MobJobSeqno" selected="True" />
+                <SelectField field="Right_ModifiedDate" selected="True" />
+                <SelectField field="Right_NBInvPrice" selected="True" />
+                <SelectField field="Right_NBInvQty" selected="True" />
+                <SelectField field="Right_NormalHours" selected="True" />
+                <SelectField field="Right_Notes" selected="True" />
+                <SelectField field="Right_OpenJob" selected="True" />
+                <SelectField field="Right_OrigCarerID" selected="True" />
+                <SelectField field="Right_OrigTravelTime" selected="True" />
+                <SelectField field="Right_OrigTravelUnits" selected="True" />
+                <SelectField field="Right_OverridePayAmount" selected="True" />
+                <SelectField field="Right_PackageID" selected="True" />
+                <SelectField field="Right_PaidHoliday" selected="True" />
+                <SelectField field="Right_PanztelID" selected="True" />
+                <SelectField field="Right_ParkedEndDate" selected="True" />
+                <SelectField field="Right_ParkedStartDate" selected="True" />
+                <SelectField field="Right_PayHours" selected="True" />
+                <SelectField field="Right_PayHrRate" selected="True" />
+                <SelectField field="Right_PayrollBatchID" selected="True" />
+                <SelectField field="Right_PONumber" selected="True" />
+                <SelectField field="Right_PortalJobID" selected="True" />
+                <SelectField field="Right_PortalRate" selected="True" />
+                <SelectField field="Right_PostcodebandID" selected="True" />
+                <SelectField field="Right_Price1" selected="True" />
+                <SelectField field="Right_Price10" selected="True" />
+                <SelectField field="Right_Price2" selected="True" />
+                <SelectField field="Right_Price3" selected="True" />
+                <SelectField field="Right_Price4" selected="True" />
+                <SelectField field="Right_Price5" selected="True" />
+                <SelectField field="Right_Price6" selected="True" />
+                <SelectField field="Right_Price7" selected="True" />
+                <SelectField field="Right_Price8" selected="True" />
+                <SelectField field="Right_Price9" selected="True" />
+                <SelectField field="Right_Quantity" selected="True" />
+                <SelectField field="Right_ReasonCancelled" selected="True" />
+                <SelectField field="Right_ReasonCancelledID" selected="True" />
+                <SelectField field="Right_Reference1" selected="True" />
+                <SelectField field="Right_Reference2" selected="True" />
+                <SelectField field="Right_Reference3" selected="True" />
+                <SelectField field="Right_ReferralDetailsID" selected="True" />
+                <SelectField field="Right_ReferralTypeDesc" selected="True" />
+                <SelectField field="Right_ReferralTypeID" selected="True" />
+                <SelectField field="Right_rowguid" selected="True" />
+                <SelectField field="Right_RTSendEmail" selected="True" />
+                <SelectField field="Right_SellPrice" selected="True" />
+                <SelectField field="Right_ServicesID" selected="True" />
+                <SelectField field="Right_StaffCompanyID" selected="True" />
+                <SelectField field="Right_StaffFromVisitCacheID" selected="True" />
+                <SelectField field="Right_StaffID" selected="True" />
+                <SelectField field="Right_StaffToVisitCacheID" selected="True" />
+                <SelectField field="Right_Start Date - Budget" selected="True" />
+                <SelectField field="Right_Start Date - Referral" selected="True" />
+                <SelectField field="Right_Stockcode" selected="True" />
+                <SelectField field="Right_SubConPortalChanged" selected="True" />
+                <SelectField field="Right_TaxRate" selected="True" />
+                <SelectField field="Right_TaxRateID" selected="True" />
+                <SelectField field="Right_TaxTotal" selected="True" />
+                <SelectField field="Right_TimeSheetBy" selected="True" />
+                <SelectField field="Right_TimeSheetDate" selected="True" />
+                <SelectField field="Right_TransType" selected="True" />
+                <SelectField field="Right_TravelBuffer" selected="True" />
+                <SelectField field="Right_TravelTime" selected="True" />
+                <SelectField field="Right_TravelTimePay" selected="True" />
+                <SelectField field="Right_TravelTimeSell" selected="True" />
+                <SelectField field="Right_TravelUnitPay" selected="True" />
+                <SelectField field="Right_TravelUnits" selected="True" />
+                <SelectField field="Right_TravelUnitSell" selected="True" />
+                <SelectField field="Right_TravelUnitsWithClient" selected="True" />
+                <SelectField field="Right_TravelUnitsWithClientPay" selected="True" />
+                <SelectField field="Right_TravelUnitsWithClientSell" selected="True" />
+                <SelectField field="Right_UnitCost" selected="True" />
+                <SelectField field="Right_UnitPrice" selected="True" />
+                <SelectField field="Right_UnitPriceIncTax" selected="True" />
+                <SelectField field="Right_VisitCacheID" selected="True" />
+                <SelectField field="Right_WeekendHours" selected="True" />
+                <SelectField field="Right_WeekendHoursHoliday" selected="True" />
+                <SelectField field="Right_WF_Created" selected="True" rename="Right_WF_Created" />
+                <SelectField field="Left_WF_Created" selected="True" />
+                <SelectField field="Right_WF_Directory" selected="True" rename="Right_WF_Directory" />
+                <SelectField field="Left_WF_Directory" selected="True" />
+                <SelectField field="Right_WF_Modified" selected="True" rename="Right_WF_Modified" />
+                <SelectField field="Left_WF_Modified" selected="True" />
+                <SelectField field="Left_WF_Name" selected="True" />
+                <SelectField field="Right_WF_Name" selected="True" rename="Right_WF_Name" />
+                <SelectField field="Left_WF_Source" selected="True" />
+                <SelectField field="Right_WF_Source" selected="True" rename="Right_WF_Source" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_16d8862a1b734ee7a23acce63010e630_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_58b634a3be3d428a88f5829e425fbe38_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:Araluen - Datavault|||"Araluen_Datavault"."LOAD_MYOB"."cust"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Araluen - Datavault
+Table="Araluen_Datavault"."LOAD_MYOB"."cust"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Co./Last Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="First Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Card ID" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Card Status" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Line 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Line 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Line 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Line 4" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - City" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - State" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Postcode" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Country" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Phone No. 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Phone No. 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Phone No. 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Fax No." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Email" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - WWW" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Contact Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 1 - Salutation" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Line 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Line 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Line 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Line 4" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - City" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - State" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Postcode" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Country" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Phone No. 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Phone No. 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Phone No. 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Fax No." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Email" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - WWW" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Contact Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 2 - Salutation" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Line 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Line 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Line 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Line 4" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - City" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - State" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Postcode" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Country" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Phone No. 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Phone No. 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Phone No. 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Fax No." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Email" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - WWW" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Contact Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 3 - Salutation" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Line 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Line 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Line 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Line 4" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - City" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - State" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Postcode" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Country" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Phone No. 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Phone No. 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Phone No. 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Fax No." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Email" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - WWW" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Contact Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 4 - Salutation" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Line 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Line 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Line 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Line 4" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - City" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - State" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Postcode" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Country" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Phone No. 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Phone No. 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Phone No. 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Fax No." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Email" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - WWW" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Contact Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Addr 5 - Salutation" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Notes" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Identifiers" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Custom List 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Custom List 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Custom List 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Custom Field 1" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Custom Field 2" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Custom Field 3" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Terms - Payment is Due" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="- Discount Days" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="- Balance Due Days" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="- % Discount" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="- % Monthly Charge" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Tax Code" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Credit Limit" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Tax ID No." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Volume Discount %" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Sales/Purchase Layout" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Payment Method" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Payment Notes" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Name on Card" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Card Number" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="BSB" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Account Number" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Account Name" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="A.B.N." size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="A.B.N. Branch" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Account" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Salesperson" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Salesperson Card ID" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Comment" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Shipping Method" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Printed Form" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Freight Tax Code" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Use Customer's Tax Code" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Receipt Memo" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Invoice/Purchase Order Delivery" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="Record ID" size="254" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="WF_Source" size="256" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="WF_Directory" size="256" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="WF_Name" size="256" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="V_String" />
+            <Field name="WF_Created" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="DateTime" />
+            <Field name="WF_Modified" source="File: aka:Araluen - Datavault|||&quot;Araluen_Datavault&quot;.&quot;LOAD_MYOB&quot;.&quot;cust&quot;" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="654" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="AlphaCode" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Card ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_- % Discount" selected="True" />
+                <SelectField field="Right_- % Monthly Charge" selected="True" />
+                <SelectField field="Right_- Balance Due Days" selected="True" />
+                <SelectField field="Right_- Discount Days" selected="True" />
+                <SelectField field="Right_A.B.N." selected="True" />
+                <SelectField field="Right_A.B.N. Branch" selected="True" />
+                <SelectField field="Right_Account" selected="True" />
+                <SelectField field="Right_Account Name" selected="True" />
+                <SelectField field="Right_Account Number" selected="True" />
+                <SelectField field="Left_ActualMins" selected="True" />
+                <SelectField field="Left_AddedJob" selected="True" />
+                <SelectField field="Right_Addr 1 - City" selected="True" />
+                <SelectField field="Right_Addr 1 - Contact Name" selected="True" />
+                <SelectField field="Right_Addr 1 - Country" selected="True" />
+                <SelectField field="Right_Addr 1 - Email" selected="True" />
+                <SelectField field="Right_Addr 1 - Fax No." selected="True" />
+                <SelectField field="Right_Addr 1 - Line 1" selected="True" />
+                <SelectField field="Right_Addr 1 - Line 2" selected="True" />
+                <SelectField field="Right_Addr 1 - Line 3" selected="True" />
+                <SelectField field="Right_Addr 1 - Line 4" selected="True" />
+                <SelectField field="Right_Addr 1 - Phone No. 1" selected="True" />
+                <SelectField field="Right_Addr 1 - Phone No. 2" selected="True" />
+                <SelectField field="Right_Addr 1 - Phone No. 3" selected="True" />
+                <SelectField field="Right_Addr 1 - Postcode" selected="True" />
+                <SelectField field="Right_Addr 1 - Salutation" selected="True" />
+                <SelectField field="Right_Addr 1 - State" selected="True" />
+                <SelectField field="Right_Addr 1 - WWW" selected="True" />
+                <SelectField field="Right_Addr 2 - City" selected="True" />
+                <SelectField field="Right_Addr 2 - Contact Name" selected="True" />
+                <SelectField field="Right_Addr 2 - Country" selected="True" />
+                <SelectField field="Right_Addr 2 - Email" selected="True" />
+                <SelectField field="Right_Addr 2 - Fax No." selected="True" />
+                <SelectField field="Right_Addr 2 - Line 1" selected="True" />
+                <SelectField field="Right_Addr 2 - Line 2" selected="True" />
+                <SelectField field="Right_Addr 2 - Line 3" selected="True" />
+                <SelectField field="Right_Addr 2 - Line 4" selected="True" />
+                <SelectField field="Right_Addr 2 - Phone No. 1" selected="True" />
+                <SelectField field="Right_Addr 2 - Phone No. 2" selected="True" />
+                <SelectField field="Right_Addr 2 - Phone No. 3" selected="True" />
+                <SelectField field="Right_Addr 2 - Postcode" selected="True" />
+                <SelectField field="Right_Addr 2 - Salutation" selected="True" />
+                <SelectField field="Right_Addr 2 - State" selected="True" />
+                <SelectField field="Right_Addr 2 - WWW" selected="True" />
+                <SelectField field="Right_Addr 3 - City" selected="True" />
+                <SelectField field="Right_Addr 3 - Contact Name" selected="True" />
+                <SelectField field="Right_Addr 3 - Country" selected="True" />
+                <SelectField field="Right_Addr 3 - Email" selected="True" />
+                <SelectField field="Right_Addr 3 - Fax No." selected="True" />
+                <SelectField field="Right_Addr 3 - Line 1" selected="True" />
+                <SelectField field="Right_Addr 3 - Line 2" selected="True" />
+                <SelectField field="Right_Addr 3 - Line 3" selected="True" />
+                <SelectField field="Right_Addr 3 - Line 4" selected="True" />
+                <SelectField field="Right_Addr 3 - Phone No. 1" selected="True" />
+                <SelectField field="Right_Addr 3 - Phone No. 2" selected="True" />
+                <SelectField field="Right_Addr 3 - Phone No. 3" selected="True" />
+                <SelectField field="Right_Addr 3 - Postcode" selected="True" />
+                <SelectField field="Right_Addr 3 - Salutation" selected="True" />
+                <SelectField field="Right_Addr 3 - State" selected="True" />
+                <SelectField field="Right_Addr 3 - WWW" selected="True" />
+                <SelectField field="Right_Addr 4 - City" selected="True" />
+                <SelectField field="Right_Addr 4 - Contact Name" selected="True" />
+                <SelectField field="Right_Addr 4 - Country" selected="True" />
+                <SelectField field="Right_Addr 4 - Email" selected="True" />
+                <SelectField field="Right_Addr 4 - Fax No." selected="True" />
+                <SelectField field="Right_Addr 4 - Line 1" selected="True" />
+                <SelectField field="Right_Addr 4 - Line 2" selected="True" />
+                <SelectField field="Right_Addr 4 - Line 3" selected="True" />
+                <SelectField field="Right_Addr 4 - Line 4" selected="True" />
+                <SelectField field="Right_Addr 4 - Phone No. 1" selected="True" />
+                <SelectField field="Right_Addr 4 - Phone No. 2" selected="True" />
+                <SelectField field="Right_Addr 4 - Phone No. 3" selected="True" />
+                <SelectField field="Right_Addr 4 - Postcode" selected="True" />
+                <SelectField field="Right_Addr 4 - Salutation" selected="True" />
+                <SelectField field="Right_Addr 4 - State" selected="True" />
+                <SelectField field="Right_Addr 4 - WWW" selected="True" />
+                <SelectField field="Right_Addr 5 - City" selected="True" />
+                <SelectField field="Right_Addr 5 - Contact Name" selected="True" />
+                <SelectField field="Right_Addr 5 - Country" selected="True" />
+                <SelectField field="Right_Addr 5 - Email" selected="True" />
+                <SelectField field="Right_Addr 5 - Fax No." selected="True" />
+                <SelectField field="Right_Addr 5 - Line 1" selected="True" />
+                <SelectField field="Right_Addr 5 - Line 2" selected="True" />
+                <SelectField field="Right_Addr 5 - Line 3" selected="True" />
+                <SelectField field="Right_Addr 5 - Line 4" selected="True" />
+                <SelectField field="Right_Addr 5 - Phone No. 1" selected="True" />
+                <SelectField field="Right_Addr 5 - Phone No. 2" selected="True" />
+                <SelectField field="Right_Addr 5 - Phone No. 3" selected="True" />
+                <SelectField field="Right_Addr 5 - Postcode" selected="True" />
+                <SelectField field="Right_Addr 5 - Salutation" selected="True" />
+                <SelectField field="Right_Addr 5 - State" selected="True" />
+                <SelectField field="Right_Addr 5 - WWW" selected="True" />
+                <SelectField field="Left_AdhocBudget" selected="True" />
+                <SelectField field="Left_AdhocJob" selected="True" />
+                <SelectField field="Left_AdjustmentID" selected="True" />
+                <SelectField field="Left_AlphaCode" selected="True" />
+                <SelectField field="Left_AppointmentBudgetID" selected="True" />
+                <SelectField field="Left_AppointmentTemplateID" selected="True" />
+                <SelectField field="Left_AssignedByID" selected="True" />
+                <SelectField field="Left_AutoAlloc" selected="True" />
+                <SelectField field="Right_BSB" selected="True" />
+                <SelectField field="Left_BudgetID" selected="True" />
+                <SelectField field="Left_BudgetParked" selected="True" />
+                <SelectField field="Left_CancelledBy" selected="True" />
+                <SelectField field="Left_CancelledDate" selected="True" />
+                <SelectField field="Left_CancelledDateTime" selected="True" />
+                <SelectField field="Right_Card ID" selected="True" />
+                <SelectField field="Right_Card Number" selected="True" />
+                <SelectField field="Right_Card Status" selected="True" />
+                <SelectField field="Left_ClientCompanyID" selected="True" />
+                <SelectField field="Left_ClientID" selected="True" />
+                <SelectField field="Right_Co./Last Name" selected="True" />
+                <SelectField field="Right_Comment" selected="True" />
+                <SelectField field="Left_CompanyGroupID" selected="True" />
+                <SelectField field="Left_CostPrice" selected="True" />
+                <SelectField field="Left_CreatedByID" selected="True" />
+                <SelectField field="Left_CreatedDate" selected="True" />
+                <SelectField field="Right_Credit Limit" selected="True" />
+                <SelectField field="Right_Custom Field 1" selected="True" />
+                <SelectField field="Right_Custom Field 2" selected="True" />
+                <SelectField field="Right_Custom Field 3" selected="True" />
+                <SelectField field="Right_Custom List 1" selected="True" />
+                <SelectField field="Right_Custom List 2" selected="True" />
+                <SelectField field="Right_Custom List 3" selected="True" />
+                <SelectField field="Left_DateAssigned" selected="True" />
+                <SelectField field="Left_DateCreated" selected="True" />
+                <SelectField field="Left_Description" selected="True" />
+                <SelectField field="Left_End Date - Budget" selected="True" />
+                <SelectField field="Left_End Date - Referral" selected="True" />
+                <SelectField field="Left_EndJobDate" selected="True" />
+                <SelectField field="Left_EndJobDateOnly" selected="True" />
+                <SelectField field="Left_EveningHours" selected="True" />
+                <SelectField field="Left_EveningHoursHoliday" selected="True" />
+                <SelectField field="Left_ExtraChargeID" selected="True" />
+                <SelectField field="Left_FilePayStatus" selected="True" />
+                <SelectField field="Left_FilePayText" selected="True" />
+                <SelectField field="Right_First Name" selected="True" />
+                <SelectField field="Right_Freight Tax Code" selected="True" />
+                <SelectField field="Left_Frequency" selected="True" />
+                <SelectField field="Left_FunderAccountID" selected="True" />
+                <SelectField field="Left_FunderGroupID" selected="True" />
+                <SelectField field="Left_FunderID" selected="True" />
+                <SelectField field="Left_FunderReference" selected="True" />
+                <SelectField field="Left_GenerateJob" selected="True" />
+                <SelectField field="Left_GHBudget" selected="True" />
+                <SelectField field="Left_GHJob" selected="True" />
+                <SelectField field="Left_HolidayHours" selected="True" />
+                <SelectField field="Left_HomeTravelTime" selected="True" />
+                <SelectField field="Left_HomeTravelTimePay" selected="True" />
+                <SelectField field="Left_HomeTravelTimeSell" selected="True" />
+                <SelectField field="Left_HomeTravelUnitPay" selected="True" />
+                <SelectField field="Left_HomeTravelUnits" selected="True" />
+                <SelectField field="Left_HomeTravelUnitSell" selected="True" />
+                <SelectField field="Left_Hours - Budget" selected="True" />
+                <SelectField field="Left_Hours - Referral" selected="True" />
+                <SelectField field="Left_Hours Per Week - Referral" selected="True" />
+                <SelectField field="Left_IBT" selected="True" />
+                <SelectField field="Left_IBTBandID" selected="True" />
+                <SelectField field="Right_Identifiers" selected="True" />
+                <SelectField field="Left_IgnoreInvoiceReason" selected="True" />
+                <SelectField field="Left_IgnorePayrollReason" selected="True" />
+                <SelectField field="Left_InvNo" selected="True" />
+                <SelectField field="Left_InvNoBatchID" selected="True" />
+                <SelectField field="Right_Invoice/Purchase Order Delivery" selected="True" />
+                <SelectField field="Left_InvoiceDate" selected="True" />
+                <SelectField field="Left_InvoiceHeaderID" selected="True" />
+                <SelectField field="Left_InvoiceLineID" selected="True" />
+                <SelectField field="Left_InvoiceNumber" selected="True" />
+                <SelectField field="Left_IsApproved" selected="True" />
+                <SelectField field="Left_JobDate" selected="True" />
+                <SelectField field="Left_JobDateOnly" selected="True" />
+                <SelectField field="Left_JobID" selected="True" />
+                <SelectField field="Left_JobRequester" selected="True" />
+                <SelectField field="Left_JobSource" selected="True" />
+                <SelectField field="Left_JobSourceTypeID" selected="True" />
+                <SelectField field="Left_JobStartedTime" selected="True" />
+                <SelectField field="Left_JobStatus" selected="True" />
+                <SelectField field="Left_LastEdited" selected="True" />
+                <SelectField field="Left_Line of Business" selected="True" />
+                <SelectField field="Left_LineTotal" selected="True" />
+                <SelectField field="Left_LineTotalIncTax" selected="True" />
+                <SelectField field="Left_MobDataChanged" selected="True" />
+                <SelectField field="Left_MobJobSeqno" selected="True" />
+                <SelectField field="Left_ModifiedDate" selected="True" />
+                <SelectField field="Right_Name on Card" selected="True" />
+                <SelectField field="Left_NBInvPrice" selected="True" />
+                <SelectField field="Left_NBInvQty" selected="True" />
+                <SelectField field="Left_NormalHours" selected="True" />
+                <SelectField field="Right_Notes" selected="True" rename="Right_Notes" />
+                <SelectField field="Left_Notes" selected="True" />
+                <SelectField field="Left_OpenJob" selected="True" />
+                <SelectField field="Left_OrigCarerID" selected="True" />
+                <SelectField field="Left_OrigTravelTime" selected="True" />
+                <SelectField field="Left_OrigTravelUnits" selected="True" />
+                <SelectField field="Left_OverridePayAmount" selected="True" />
+                <SelectField field="Left_PackageID" selected="True" />
+                <SelectField field="Left_PaidHoliday" selected="True" />
+                <SelectField field="Left_PanztelID" selected="True" />
+                <SelectField field="Left_ParkedEndDate" selected="True" />
+                <SelectField field="Left_ParkedStartDate" selected="True" />
+                <SelectField field="Left_PayHours" selected="True" />
+                <SelectField field="Left_PayHrRate" selected="True" />
+                <SelectField field="Right_Payment Method" selected="True" />
+                <SelectField field="Right_Payment Notes" selected="True" />
+                <SelectField field="Left_PayrollBatchID" selected="True" />
+                <SelectField field="Left_PONumber" selected="True" />
+                <SelectField field="Left_PortalJobID" selected="True" />
+                <SelectField field="Left_PortalRate" selected="True" />
+                <SelectField field="Left_PostcodebandID" selected="True" />
+                <SelectField field="Left_Price1" selected="True" />
+                <SelectField field="Left_Price10" selected="True" />
+                <SelectField field="Left_Price2" selected="True" />
+                <SelectField field="Left_Price3" selected="True" />
+                <SelectField field="Left_Price4" selected="True" />
+                <SelectField field="Left_Price5" selected="True" />
+                <SelectField field="Left_Price6" selected="True" />
+                <SelectField field="Left_Price7" selected="True" />
+                <SelectField field="Left_Price8" selected="True" />
+                <SelectField field="Left_Price9" selected="True" />
+                <SelectField field="Right_Printed Form" selected="True" />
+                <SelectField field="Left_Quantity" selected="True" />
+                <SelectField field="Left_ReasonCancelled" selected="True" />
+                <SelectField field="Left_ReasonCancelledID" selected="True" />
+                <SelectField field="Right_Receipt Memo" selected="True" />
+                <SelectField field="Right_Record ID" selected="True" />
+                <SelectField field="Left_Reference1" selected="True" />
+                <SelectField field="Left_Reference2" selected="True" />
+                <SelectField field="Left_Reference3" selected="True" />
+                <SelectField field="Left_ReferralDetailsID" selected="True" />
+                <SelectField field="Left_ReferralTypeDesc" selected="True" />
+                <SelectField field="Left_ReferralTypeID" selected="True" />
+                <SelectField field="Left_Right_WF_Created" selected="True" rename="Left_Right_WF_Created" />
+                <SelectField field="Left_Right_WF_Directory" selected="True" rename="Left_Right_WF_Directory" />
+                <SelectField field="Left_Right_WF_Modified" selected="True" rename="Left_Right_WF_Modified" />
+                <SelectField field="Left_Right_WF_Name" selected="True" rename="Left_Right_WF_Name" />
+                <SelectField field="Left_Right_WF_Source" selected="True" rename="Left_Right_WF_Source" />
+                <SelectField field="Left_rowguid" selected="True" />
+                <SelectField field="Left_RTSendEmail" selected="True" />
+                <SelectField field="Right_Sales/Purchase Layout" selected="True" />
+                <SelectField field="Right_Salesperson" selected="True" />
+                <SelectField field="Right_Salesperson Card ID" selected="True" />
+                <SelectField field="Left_SellPrice" selected="True" />
+                <SelectField field="Left_ServicesID" selected="True" />
+                <SelectField field="Right_Shipping Method" selected="True" />
+                <SelectField field="Left_StaffCompanyID" selected="True" />
+                <SelectField field="Left_StaffFromVisitCacheID" selected="True" />
+                <SelectField field="Left_StaffID" selected="True" />
+                <SelectField field="Left_StaffToVisitCacheID" selected="True" />
+                <SelectField field="Left_Start Date - Budget" selected="True" />
+                <SelectField field="Left_Start Date - Referral" selected="True" />
+                <SelectField field="Left_Stockcode" selected="True" />
+                <SelectField field="Left_SubConPortalChanged" selected="True" />
+                <SelectField field="Right_Tax Code" selected="True" />
+                <SelectField field="Right_Tax ID No." selected="True" />
+                <SelectField field="Left_TaxRate" selected="True" />
+                <SelectField field="Left_TaxRateID" selected="True" />
+                <SelectField field="Left_TaxTotal" selected="True" />
+                <SelectField field="Right_Terms - Payment is Due" selected="True" />
+                <SelectField field="Left_TimeSheetBy" selected="True" />
+                <SelectField field="Left_TimeSheetDate" selected="True" />
+                <SelectField field="Left_TransType" selected="True" />
+                <SelectField field="Left_TravelBuffer" selected="True" />
+                <SelectField field="Left_TravelTime" selected="True" />
+                <SelectField field="Left_TravelTimePay" selected="True" />
+                <SelectField field="Left_TravelTimeSell" selected="True" />
+                <SelectField field="Left_TravelUnitPay" selected="True" />
+                <SelectField field="Left_TravelUnits" selected="True" />
+                <SelectField field="Left_TravelUnitSell" selected="True" />
+                <SelectField field="Left_TravelUnitsWithClient" selected="True" />
+                <SelectField field="Left_TravelUnitsWithClientPay" selected="True" />
+                <SelectField field="Left_TravelUnitsWithClientSell" selected="True" />
+                <SelectField field="Left_UnitCost" selected="True" />
+                <SelectField field="Left_UnitPrice" selected="True" />
+                <SelectField field="Left_UnitPriceIncTax" selected="True" />
+                <SelectField field="Right_Use Customer's Tax Code" selected="True" />
+                <SelectField field="Left_VisitCacheID" selected="True" />
+                <SelectField field="Right_Volume Discount %" selected="True" />
+                <SelectField field="Left_WeekendHours" selected="True" />
+                <SelectField field="Left_WeekendHoursHoliday" selected="True" />
+                <SelectField field="Left_WF_Created" selected="True" />
+                <SelectField field="Right_WF_Created" selected="True" rename="Right_WF_Created" />
+                <SelectField field="Left_WF_Directory" selected="True" />
+                <SelectField field="Right_WF_Directory" selected="True" rename="Right_WF_Directory" />
+                <SelectField field="Left_WF_Modified" selected="True" />
+                <SelectField field="Right_WF_Modified" selected="True" rename="Right_WF_Modified" />
+                <SelectField field="Left_WF_Name" selected="True" />
+                <SelectField field="Right_WF_Name" selected="True" rename="Right_WF_Name" />
+                <SelectField field="Right_WF_Source" selected="True" rename="Right_WF_Source" />
+                <SelectField field="Left_WF_Source" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_95d6602cfd0d4d639cf7ca87ea914821_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="918" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_d9195cae630b4f7dba10f8173fecde30_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_d00ba0e886594d8e909317e8a039911a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="474" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>length([AlphaCode]) &gt; 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>length([AlphaCode]) &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_309a580c3894472d846968b6022688a2_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="570" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ADMINI~1\AppData\Local\Temp\Engine_61284_4852f6313f0244b79b0055b582fd8394_\Engine_57164_1cdc266045944baaaaecd0e3f756ff08_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="906" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="- % Discount" selected="True" />
+            <SelectField field="- % Monthly Charge" selected="True" />
+            <SelectField field="- Balance Due Days" selected="True" />
+            <SelectField field="- Discount Days" selected="True" />
+            <SelectField field="A.B.N." selected="True" />
+            <SelectField field="A.B.N. Branch" selected="True" />
+            <SelectField field="Account" selected="True" />
+            <SelectField field="Account Name" selected="True" />
+            <SelectField field="Account Number" selected="True" />
+            <SelectField field="ActualMins" selected="True" />
+            <SelectField field="AddedJob" selected="True" />
+            <SelectField field="Addr 1 - City" selected="True" />
+            <SelectField field="Addr 1 - Contact Name" selected="True" />
+            <SelectField field="Addr 1 - Country" selected="True" />
+            <SelectField field="Addr 1 - Email" selected="True" />
+            <SelectField field="Addr 1 - Fax No." selected="True" />
+            <SelectField field="Addr 1 - Line 1" selected="True" />
+            <SelectField field="Addr 1 - Line 2" selected="True" />
+            <SelectField field="Addr 1 - Line 3" selected="True" />
+            <SelectField field="Addr 1 - Line 4" selected="True" />
+            <SelectField field="Addr 1 - Phone No. 1" selected="True" />
+            <SelectField field="Addr 1 - Phone No. 2" selected="True" />
+            <SelectField field="Addr 1 - Phone No. 3" selected="True" />
+            <SelectField field="Addr 1 - Postcode" selected="True" />
+            <SelectField field="Addr 1 - Salutation" selected="True" />
+            <SelectField field="Addr 1 - State" selected="True" />
+            <SelectField field="Addr 1 - WWW" selected="True" />
+            <SelectField field="Addr 2 - City" selected="True" />
+            <SelectField field="Addr 2 - Contact Name" selected="True" />
+            <SelectField field="Addr 2 - Country" selected="True" />
+            <SelectField field="Addr 2 - Email" selected="True" />
+            <SelectField field="Addr 2 - Fax No." selected="True" />
+            <SelectField field="Addr 2 - Line 1" selected="True" />
+            <SelectField field="Addr 2 - Line 2" selected="True" />
+            <SelectField field="Addr 2 - Line 3" selected="True" />
+            <SelectField field="Addr 2 - Line 4" selected="True" />
+            <SelectField field="Addr 2 - Phone No. 1" selected="True" />
+            <SelectField field="Addr 2 - Phone No. 2" selected="True" />
+            <SelectField field="Addr 2 - Phone No. 3" selected="True" />
+            <SelectField field="Addr 2 - Postcode" selected="True" />
+            <SelectField field="Addr 2 - Salutation" selected="True" />
+            <SelectField field="Addr 2 - State" selected="True" />
+            <SelectField field="Addr 2 - WWW" selected="True" />
+            <SelectField field="Addr 3 - City" selected="True" />
+            <SelectField field="Addr 3 - Contact Name" selected="True" />
+            <SelectField field="Addr 3 - Country" selected="True" />
+            <SelectField field="Addr 3 - Email" selected="True" />
+            <SelectField field="Addr 3 - Fax No." selected="True" />
+            <SelectField field="Addr 3 - Line 1" selected="True" />
+            <SelectField field="Addr 3 - Line 2" selected="True" />
+            <SelectField field="Addr 3 - Line 3" selected="True" />
+            <SelectField field="Addr 3 - Line 4" selected="True" />
+            <SelectField field="Addr 3 - Phone No. 1" selected="True" />
+            <SelectField field="Addr 3 - Phone No. 2" selected="True" />
+            <SelectField field="Addr 3 - Phone No. 3" selected="True" />
+            <SelectField field="Addr 3 - Postcode" selected="True" />
+            <SelectField field="Addr 3 - Salutation" selected="True" />
+            <SelectField field="Addr 3 - State" selected="True" />
+            <SelectField field="Addr 3 - WWW" selected="True" />
+            <SelectField field="Addr 4 - City" selected="True" />
+            <SelectField field="Addr 4 - Contact Name" selected="True" />
+            <SelectField field="Addr 4 - Country" selected="True" />
+            <SelectField field="Addr 4 - Email" selected="True" />
+            <SelectField field="Addr 4 - Fax No." selected="True" />
+            <SelectField field="Addr 4 - Line 1" selected="True" />
+            <SelectField field="Addr 4 - Line 2" selected="True" />
+            <SelectField field="Addr 4 - Line 3" selected="True" />
+            <SelectField field="Addr 4 - Line 4" selected="True" />
+            <SelectField field="Addr 4 - Phone No. 1" selected="True" />
+            <SelectField field="Addr 4 - Phone No. 2" selected="True" />
+            <SelectField field="Addr 4 - Phone No. 3" selected="True" />
+            <SelectField field="Addr 4 - Postcode" selected="True" />
+            <SelectField field="Addr 4 - Salutation" selected="True" />
+            <SelectField field="Addr 4 - State" selected="True" />
+            <SelectField field="Addr 4 - WWW" selected="True" />
+            <SelectField field="Addr 5 - City" selected="True" />
+            <SelectField field="Addr 5 - Contact Name" selected="True" />
+            <SelectField field="Addr 5 - Country" selected="True" />
+            <SelectField field="Addr 5 - Email" selected="True" />
+            <SelectField field="Addr 5 - Fax No." selected="True" />
+            <SelectField field="Addr 5 - Line 1" selected="True" />
+            <SelectField field="Addr 5 - Line 2" selected="True" />
+            <SelectField field="Addr 5 - Line 3" selected="True" />
+            <SelectField field="Addr 5 - Line 4" selected="True" />
+            <SelectField field="Addr 5 - Phone No. 1" selected="True" />
+            <SelectField field="Addr 5 - Phone No. 2" selected="True" />
+            <SelectField field="Addr 5 - Phone No. 3" selected="True" />
+            <SelectField field="Addr 5 - Postcode" selected="True" />
+            <SelectField field="Addr 5 - Salutation" selected="True" />
+            <SelectField field="Addr 5 - State" selected="True" />
+            <SelectField field="Addr 5 - WWW" selected="True" />
+            <SelectField field="AdhocBudget" selected="True" />
+            <SelectField field="AdhocJob" selected="True" />
+            <SelectField field="AdjustmentID" selected="True" />
+            <SelectField field="AlphaCode" selected="True" />
+            <SelectField field="AppointmentBudgetID" selected="True" />
+            <SelectField field="AppointmentTemplateID" selected="True" />
+            <SelectField field="AssignedByID" selected="True" />
+            <SelectField field="AutoAlloc" selected="True" />
+            <SelectField field="BSB" selected="True" />
+            <SelectField field="BudgetID" selected="True" />
+            <SelectField field="BudgetParked" selected="True" />
+            <SelectField field="CancelledBy" selected="True" />
+            <SelectField field="CancelledDate" selected="True" />
+            <SelectField field="CancelledDateTime" selected="True" />
+            <SelectField field="Card ID" selected="True" />
+            <SelectField field="Card Number" selected="True" />
+            <SelectField field="Card Status" selected="True" />
+            <SelectField field="ClientCompanyID" selected="True" />
+            <SelectField field="ClientID" selected="True" />
+            <SelectField field="Co./Last Name" selected="True" />
+            <SelectField field="Comment" selected="True" />
+            <SelectField field="CompanyGroupID" selected="True" />
+            <SelectField field="CostPrice" selected="True" />
+            <SelectField field="CreatedByID" selected="True" />
+            <SelectField field="CreatedDate" selected="True" />
+            <SelectField field="Credit Limit" selected="True" />
+            <SelectField field="Custom Field 1" selected="True" />
+            <SelectField field="Custom Field 2" selected="True" />
+            <SelectField field="Custom Field 3" selected="True" />
+            <SelectField field="Custom List 1" selected="True" />
+            <SelectField field="Custom List 2" selected="True" />
+            <SelectField field="Custom List 3" selected="True" />
+            <SelectField field="DateAssigned" selected="True" />
+            <SelectField field="DateCreated" selected="True" />
+            <SelectField field="Description" selected="True" />
+            <SelectField field="EndJobDate" selected="True" />
+            <SelectField field="EndJobDateOnly" selected="True" />
+            <SelectField field="EveningHours" selected="True" />
+            <SelectField field="EveningHoursHoliday" selected="True" />
+            <SelectField field="ExtraChargeID" selected="True" />
+            <SelectField field="FilePayStatus" selected="True" />
+            <SelectField field="FilePayText" selected="True" />
+            <SelectField field="First Name" selected="True" />
+            <SelectField field="Freight Tax Code" selected="True" />
+            <SelectField field="Frequency" selected="True" />
+            <SelectField field="FunderAccountID" selected="True" />
+            <SelectField field="FunderGroupID" selected="True" />
+            <SelectField field="FunderID" selected="True" />
+            <SelectField field="FunderReference" selected="True" />
+            <SelectField field="GenerateJob" selected="True" />
+            <SelectField field="GHBudget" selected="True" />
+            <SelectField field="GHJob" selected="True" />
+            <SelectField field="HolidayHours" selected="True" />
+            <SelectField field="HomeTravelTime" selected="True" />
+            <SelectField field="HomeTravelTimePay" selected="True" />
+            <SelectField field="HomeTravelTimeSell" selected="True" />
+            <SelectField field="HomeTravelUnitPay" selected="True" />
+            <SelectField field="HomeTravelUnits" selected="True" />
+            <SelectField field="HomeTravelUnitSell" selected="True" />
+            <SelectField field="IBT" selected="True" />
+            <SelectField field="IBTBandID" selected="True" />
+            <SelectField field="Identifiers" selected="True" />
+            <SelectField field="IgnoreInvoiceReason" selected="True" />
+            <SelectField field="IgnorePayrollReason" selected="True" />
+            <SelectField field="InvNo" selected="True" />
+            <SelectField field="InvNoBatchID" selected="True" />
+            <SelectField field="Invoice/Purchase Order Delivery" selected="True" />
+            <SelectField field="InvoiceDate" selected="True" />
+            <SelectField field="InvoiceHeaderID" selected="True" />
+            <SelectField field="InvoiceLineID" selected="True" />
+            <SelectField field="InvoiceNumber" selected="True" />
+            <SelectField field="IsApproved" selected="True" />
+            <SelectField field="JobDate" selected="True" />
+            <SelectField field="JobDateOnly" selected="True" />
+            <SelectField field="JobID" selected="True" />
+            <SelectField field="JobRequester" selected="True" />
+            <SelectField field="JobSource" selected="True" />
+            <SelectField field="JobSourceTypeID" selected="True" />
+            <SelectField field="JobStartedTime" selected="True" />
+            <SelectField field="JobStatus" selected="True" />
+            <SelectField field="LastEdited" selected="True" />
+            <SelectField field="Left_Right_WF_Created" selected="True" />
+            <SelectField field="Left_Right_WF_Directory" selected="True" />
+            <SelectField field="Left_Right_WF_Modified" selected="True" />
+            <SelectField field="Left_Right_WF_Name" selected="True" />
+            <SelectField field="Left_Right_WF_Source" selected="True" />
+            <SelectField field="Line of Business" selected="True" />
+            <SelectField field="LineTotal" selected="True" />
+            <SelectField field="LineTotalIncTax" selected="True" />
+            <SelectField field="MobDataChanged" selected="True" />
+            <SelectField field="MobJobSeqno" selected="True" />
+            <SelectField field="ModifiedDate" selected="True" />
+            <SelectField field="Name on Card" selected="True" />
+            <SelectField field="NBInvPrice" selected="True" />
+            <SelectField field="NBInvQty" selected="True" />
+            <SelectField field="NormalHours" selected="True" />
+            <SelectField field="Notes" selected="True" />
+            <SelectField field="OpenJob" selected="True" />
+            <SelectField field="OrigCarerID" selected="True" />
+            <SelectField field="OrigTravelTime" selected="True" />
+            <SelectField field="OrigTravelUnits" selected="True" />
+            <SelectField field="OverridePayAmount" selected="True" />
+            <SelectField field="PackageID" selected="True" />
+            <SelectField field="PaidHoliday" selected="True" />
+            <SelectField field="PanztelID" selected="True" />
+            <SelectField field="ParkedEndDate" selected="True" />
+            <SelectField field="ParkedStartDate" selected="True" />
+            <SelectField field="PayHours" selected="True" />
+            <SelectField field="PayHrRate" selected="True" />
+            <SelectField field="Payment Method" selected="True" />
+            <SelectField field="Payment Notes" selected="True" />
+            <SelectField field="PayrollBatchID" selected="True" />
+            <SelectField field="PONumber" selected="True" />
+            <SelectField field="PortalJobID" selected="True" />
+            <SelectField field="PortalRate" selected="True" />
+            <SelectField field="PostcodebandID" selected="True" />
+            <SelectField field="Price1" selected="True" />
+            <SelectField field="Price10" selected="True" />
+            <SelectField field="Price2" selected="True" />
+            <SelectField field="Price3" selected="True" />
+            <SelectField field="Price4" selected="True" />
+            <SelectField field="Price5" selected="True" />
+            <SelectField field="Price6" selected="True" />
+            <SelectField field="Price7" selected="True" />
+            <SelectField field="Price8" selected="True" />
+            <SelectField field="Price9" selected="True" />
+            <SelectField field="Printed Form" selected="True" />
+            <SelectField field="Quantity" selected="True" />
+            <SelectField field="ReasonCancelled" selected="True" />
+            <SelectField field="ReasonCancelledID" selected="True" />
+            <SelectField field="Receipt Memo" selected="True" />
+            <SelectField field="Record ID" selected="True" />
+            <SelectField field="Reference1" selected="True" />
+            <SelectField field="Reference2" selected="True" />
+            <SelectField field="Reference3" selected="True" />
+            <SelectField field="ReferralDetailsID" selected="True" />
+            <SelectField field="ReferralTypeDesc" selected="True" />
+            <SelectField field="ReferralTypeID" selected="True" />
+            <SelectField field="Right_Notes" selected="True" />
+            <SelectField field="Right_WF_Created" selected="True" />
+            <SelectField field="Right_WF_Directory" selected="True" />
+            <SelectField field="Right_WF_Modified" selected="True" />
+            <SelectField field="Right_WF_Name" selected="True" />
+            <SelectField field="Right_WF_Source" selected="True" />
+            <SelectField field="rowguid" selected="True" />
+            <SelectField field="RTSendEmail" selected="True" />
+            <SelectField field="Sales/Purchase Layout" selected="True" />
+            <SelectField field="Salesperson" selected="True" />
+            <SelectField field="Salesperson Card ID" selected="True" />
+            <SelectField field="SellPrice" selected="True" />
+            <SelectField field="ServicesID" selected="True" />
+            <SelectField field="Shipping Method" selected="True" />
+            <SelectField field="StaffCompanyID" selected="True" />
+            <SelectField field="StaffFromVisitCacheID" selected="True" />
+            <SelectField field="StaffID" selected="True" />
+            <SelectField field="StaffToVisitCacheID" selected="True" />
+            <SelectField field="Stockcode" selected="True" />
+            <SelectField field="SubConPortalChanged" selected="True" />
+            <SelectField field="Tax Code" selected="True" />
+            <SelectField field="Tax ID No." selected="True" />
+            <SelectField field="TaxRate" selected="True" />
+            <SelectField field="TaxRateID" selected="True" />
+            <SelectField field="TaxTotal" selected="True" />
+            <SelectField field="Terms - Payment is Due" selected="True" />
+            <SelectField field="TimeSheetBy" selected="True" />
+            <SelectField field="TimeSheetDate" selected="True" />
+            <SelectField field="TransType" selected="True" />
+            <SelectField field="TravelBuffer" selected="True" />
+            <SelectField field="TravelTime" selected="True" />
+            <SelectField field="TravelTimePay" selected="True" />
+            <SelectField field="TravelTimeSell" selected="True" />
+            <SelectField field="TravelUnitPay" selected="True" />
+            <SelectField field="TravelUnits" selected="True" />
+            <SelectField field="TravelUnitSell" selected="True" />
+            <SelectField field="TravelUnitsWithClient" selected="True" />
+            <SelectField field="TravelUnitsWithClientPay" selected="True" />
+            <SelectField field="TravelUnitsWithClientSell" selected="True" />
+            <SelectField field="UnitCost" selected="True" />
+            <SelectField field="UnitPrice" selected="True" />
+            <SelectField field="UnitPriceIncTax" selected="True" />
+            <SelectField field="Use Customer's Tax Code" selected="True" />
+            <SelectField field="VisitCacheID" selected="True" />
+            <SelectField field="Volume Discount %" selected="True" />
+            <SelectField field="WeekendHours" selected="True" />
+            <SelectField field="WeekendHoursHoliday" selected="True" />
+            <SelectField field="WF_Created" selected="True" />
+            <SelectField field="WF_Directory" selected="True" />
+            <SelectField field="WF_Modified" selected="True" />
+            <SelectField field="WF_Name" selected="True" />
+            <SelectField field="WF_Source" selected="True" />
+            <SelectField field="End Date - Budget" selected="True" />
+            <SelectField field="End Date - Referral" selected="True" />
+            <SelectField field="Hours - Budget" selected="True" />
+            <SelectField field="Hours - Referral" selected="True" />
+            <SelectField field="Hours Per Week - Referral" selected="True" />
+            <SelectField field="Start Date - Budget" selected="True" />
+            <SelectField field="Start Date - Referral" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1686" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:Araluen - Datavault|||STAGING.csm_2_myob_interface</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>False</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:Araluen - Datavault
+Table=STAGING.csm_2_myob_interface</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1050" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>ClientID</FieldFind>
+          <FieldSearch>ClientID</FieldSearch>
+          <ReplaceFoundField>BusinessUnitID</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="MYOB Job" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1134" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>MYOB Job</Field>
+            <Operator>IsNotNull</Operator>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([MYOB Job])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1434" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1254" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BusinessUnitDesc" selected="False" />
+            <SelectField field="Type" selected="False" />
+            <SelectField field="MYOB Job" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+        <Position x="1362" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldFind>ClientID</FieldFind>
+          <FieldSearch>ClientID</FieldSearch>
+          <ReplaceFoundField>BusinessUnitID</ReplaceFoundField>
+          <FindMode>FindAny</FindMode>
+          <NoCase value="False" />
+          <MatchWholeWord value="False" />
+          <ReplaceMode>Append</ReplaceMode>
+          <ReplaceMultipleFound value="True" />
+          <ReplaceAppendFields>
+            <Field field="BusinessUnitDesc" />
+            <Field field="Type" />
+            <Field field="MYOB Job" />
+          </ReplaceAppendFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings>
+        <Position x="1518" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Input3"><![CDATA[WF_Source=WF_Source
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="P:\MIP\Araluen\Alteryx\Macros\wf_audit_columns.yxmc" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="1254" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Accomodation (35)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="P:\MIP\Araluen\Alteryx\Macros\lookups\Accomodation.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="870" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Day Services Lookup (36)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="P:\MIP\Araluen\Alteryx\Macros\lookups\Day Services Lookup.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Right" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Left" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Right" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="False" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="27" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output13" />
+      <Destination ToolID="27" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="False" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="34" Connection="Input3" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output13" />
+      <Destination ToolID="33" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output7" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CSM SALES</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
