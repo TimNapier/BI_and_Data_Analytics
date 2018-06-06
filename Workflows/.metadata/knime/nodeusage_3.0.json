@@ -54,9 +54,9 @@
             },
             {
                 "id":"org.knime.ext.exttool.ExtToolNodeFactory#External Tool",
-                "nrexecs":18,
-                "nrfails":4,
-                "exectime":27646,
+                "nrexecs":15,
+                "nrfails":3,
+                "exectime":4701,
                 "nrcreated":1,
                 "successor":"NodeContainer"
             },
@@ -294,9 +294,9 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output",
-                "nrexecs":23,
+                "nrexecs":22,
                 "nrfails":0,
-                "exectime":7,
+                "exectime":6,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -410,11 +410,11 @@
             "nrcreated":0
         }
     },
-    "uptime":35808370,
-    "workflowsOpened":23,
+    "uptime":32391258,
+    "workflowsOpened":24,
     "remoteWorkflowsOpened":3,
-    "launches":10,
-    "timeSinceLastStart":4341671,
-    "crashes":1,
+    "launches":11,
+    "timeSinceLastStart":60276,
+    "crashes":2,
     "properlyShutDown":true
 }
