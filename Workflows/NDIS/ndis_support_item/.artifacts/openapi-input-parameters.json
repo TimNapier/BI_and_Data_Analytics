@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-2":{
+            "type":"string",
+            "default":"C:\\BI_and_Data_Analytics\\Data\\NDIS\\201718-VIC-NSW-QLD-TAS-Price-Guide.csv",
+            "description":"Enter Description",
+            "example":"C:\\BI_and_Data_Analytics\\Data\\NDIS\\201718-VIC-NSW-QLD-TAS-Price-Guide.csv"
+        }
+    }
+}

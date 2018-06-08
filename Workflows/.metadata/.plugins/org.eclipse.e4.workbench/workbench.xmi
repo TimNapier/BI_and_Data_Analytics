@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_p51gYGlMEeiLWsSshQIcYA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_p51gYWlMEeiLWsSshQIcYA" bindingContexts="_p51iHGlMEeiLWsSshQIcYA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/NDIS_support_items/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/NDIS_support_items/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/NDIS/Pricing/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/NDIS/Pricing/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Snowflake/PushData/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Snowflake/PushData/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/NDIS/ndis_support_item/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/NDIS/ndis_support_item/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Snowflake/PushData/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Snowflake/PushData/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.meta.editor.editor.WorkflowSetMetaInfoEditor&quot; name=&quot;workflowset.meta&quot; tooltip=&quot;C:\BI_and_Data_Analytics\Workflows\Snowflake\PushData\workflowset.meta&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/BI_and_Data_Analytics/Workflows/Snowflake/PushData/workflowset.meta&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/NDIS/Pricing/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/NDIS/Pricing/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/NDIS_support_items/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/NDIS_support_items/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_p51gYWlMEeiLWsSshQIcYA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_p51gYmlMEeiLWsSshQIcYA" x="816" y="19" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_p51gYWlMEeiLWsSshQIcYA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_p51gYmlMEeiLWsSshQIcYA" x="-6" y="76" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -40,8 +40,9 @@
           <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_p51gZWlMEeiLWsSshQIcYA" selectedElement="_p51gZmlMEeiLWsSshQIcYA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_p51gZmlMEeiLWsSshQIcYA" containerData="3000" selectedElement="_p51gaWlMEeiLWsSshQIcYA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_p51gZmlMEeiLWsSshQIcYA" containerData="3000" selectedElement="_p51gZ2lMEeiLWsSshQIcYA">
               <children xsi:type="basic:PartStack" xmi:id="_p51gZ2lMEeiLWsSshQIcYA" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_p51gaGlMEeiLWsSshQIcYA">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_p51gaGlMEeiLWsSshQIcYA" elementId="org.knime.workbench.explorer.view" ref="_p51g52lMEeiLWsSshQIcYA"/>
               </children>
               <children xsi:type="basic:PartSashContainer" xmi:id="_p51gaWlMEeiLWsSshQIcYA" containerData="7000" selectedElement="_p51gbGlMEeiLWsSshQIcYA">
@@ -49,7 +50,6 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_p51ga2lMEeiLWsSshQIcYA" elementId="org.knime.workbench.workflowcoach.view" ref="_p51hE2lMEeiLWsSshQIcYA"/>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_p51gbGlMEeiLWsSshQIcYA" elementId="org.knime.workbench.repository.view.RepositoryViewMStack" containerData="5571" selectedElement="_p51gbWlMEeiLWsSshQIcYA">
-                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_p51gbWlMEeiLWsSshQIcYA" elementId="org.knime.workbench.repository.view.RepositoryView" ref="_p51g9WlMEeiLWsSshQIcYA">
                     <tags>NoClose</tags>
                   </children>
@@ -68,7 +68,9 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_p51gdWlMEeiLWsSshQIcYA" elementId="org.eclipse.ui.views.ContentOutline" ref="_p51hDWlMEeiLWsSshQIcYA"/>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_p51gdmlMEeiLWsSshQIcYA" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="7000" selectedElement="_p51gd2lMEeiLWsSshQIcYA">
+                  <tags>NodePit</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_p51gd2lMEeiLWsSshQIcYA" elementId="org.eclipse.ui.console.ConsoleView" ref="_p51hAGlMEeiLWsSshQIcYA"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_aIYRIWq9EeiWr772h_TKag" elementId="com.nodepit.knime.view.nodepit" ref="_aIYRIGq9EeiWr772h_TKag"/>
                 </children>
               </children>
             </children>
@@ -108,10 +110,11 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_p51g52lMEeiLWsSshQIcYA" elementId="org.knime.workbench.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="KNIME Explorer" iconURI="platform:/plugin/org.knime.workbench.explorer.view/icons/knime_explorer.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.knime.workbench.explorer.view.ExplorerView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.knime.workbench.explorer.view"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;LOCAL|LOCAL|LOCAL|LOCAL&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;LOCAL|LOCAL|LOCAL&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
       <tags>activeOnClose</tags>
+      <tags>active</tags>
       <menus xmi:id="_p51g6GlMEeiLWsSshQIcYA" elementId="org.knime.workbench.explorer.view">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -128,7 +131,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
       <menus xmi:id="_p51g9mlMEeiLWsSshQIcYA" elementId="org.knime.workbench.repository.view.RepositoryView">
         <tags>ViewMenu</tags>
@@ -191,6 +193,19 @@
         <tags>menuContribution:menu</tags>
       </menus>
       <toolbar xmi:id="_p51hFWlMEeiLWsSshQIcYA" elementId="org.knime.workbench.workflowcoach.view"/>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_aIYRIGq9EeiWr772h_TKag" elementId="com.nodepit.knime.view.nodepit" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="NodePit" iconURI="platform:/plugin/com.nodepit.knime.plugin/src/resources/nodepit-16.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewClass" value="com.nodepit.knime.view.NodepitView"/>
+      <persistedState key="originalCompatibilityViewBundle" value="com.nodepit.knime.plugin"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:NodePit</tags>
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_aIipMGq9EeiWr772h_TKag" elementId="com.nodepit.knime.view.nodepit">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_aIipMWq9EeiWr772h_TKag" elementId="com.nodepit.knime.view.nodepit" visible="false"/>
     </sharedElements>
     <trimBars xmi:id="_p51hF2lMEeiLWsSshQIcYA" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_p51hGGlMEeiLWsSshQIcYA" elementId="main">
@@ -702,6 +717,12 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.knime.workbench.workflowdiff"/>
     <tags>View</tags>
     <tags>categoryTag:KNIME Views</tags>
+  </descriptors>
+  <descriptors xmi:id="_ZOSncWq9EeiWr772h_TKag" elementId="com.nodepit.knime.view.nodepit" label="NodePit" iconURI="platform:/plugin/com.nodepit.knime.plugin/src/resources/nodepit-16.png" tooltip="" category="NodePit" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="com.nodepit.knime.view.NodepitView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="com.nodepit.knime.plugin"/>
+    <tags>View</tags>
+    <tags>categoryTag:NodePit</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">

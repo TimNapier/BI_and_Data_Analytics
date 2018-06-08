@@ -1,6 +1,6 @@
-sql
 use ARALUEN_DATAVAULT;
-use schema LOAD_CSM;
+use schema LOAD_NDIS;
 use warehouse ARALUEN;
-put file://C:\BI_and_Data_Analytics\Data\NDIS\201718-VIC-NSW-QLD-TAS-Price-Guide.csv @NDIS_STAGE;
-COPY INTO "ARALUEN_DATAVAULT"."LOAD_NDIS"."201718-VIC-NSW-QLD-TAS-Price-Guide" FROM @NDIS_STAGE;
+put file://C:\BI_and_Data_Analytics\Data\input_file.csv @STAGE_NDIS;
+COPY INTO "ARALUEN_DATAVAULT"."LOAD_NDIS"."201718-VIC-NSW-QLD-TAS-Price-Guide" FROM @STAGE_NDIS file_format='LOAD_CSM.CSVFORMAT';
+remove @STAGE_NDIS pattern='.*.csv.gz';

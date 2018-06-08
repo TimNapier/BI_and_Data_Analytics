@@ -1168,3 +1168,95 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-07 13:40:47.670
 !MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-06-08 11:31:43.299 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-06-08 11:31:54.987
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-08 11:31:54.987
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:31:58.047
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:31:58.109
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-06-08 11:43:44.831 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/BI_and_Data_Analytics/Workflows/
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:43:48.427
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:43:48.490
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:43:48.552
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:43:48.615
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.ui 2 0 2018-06-08 11:43:50.667
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-08 11:43:50.667
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-08 11:53:10.058
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://update.knime.com/community-contributions/trusted/3.5.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.basicRefreshRepository(AbstractRepositoryManager.java:200)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.refreshRepository(ArtifactRepositoryManager.java:108)
+	at org.eclipse.equinox.p2.ui.RepositoryManipulationPage$21.run(RepositoryManipulationPage.java:632)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2018-06-08 11:53:10.059
+!MESSAGE No repository found at http://update.knime.com/community-contributions/trusted/3.5.
+!SESSION 2018-06-08 11:54:47.579 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/BI_and_Data_Analytics/Workflows/
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:54:51.005
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:54:51.075
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:54:51.135
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 11:54:51.198
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.ui 2 0 2018-06-08 11:54:53.716
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-08 11:54:53.716
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+!SESSION 2018-06-08 15:30:10.325 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-06-08 15:30:15.949
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-08 15:30:15.949
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 15:30:17.820
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-08 15:30:17.877
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
