@@ -126,9 +126,9 @@
             },
             {
                 "id":"org.knime.js.base.node.quickform.input.string.StringInputQuickFormNodeFactory#String Input",
-                "nrexecs":16,
+                "nrexecs":17,
                 "nrfails":0,
-                "exectime":8,
+                "exectime":11,
                 "nrcreated":3,
                 "successor":"org.knime.core.node.workflow.SubNodeContainer"
             },
@@ -310,11 +310,11 @@
             "nrcreated":0
         }
     },
-    "uptime":10382929,
-    "workflowsOpened":42,
+    "uptime":6944217,
+    "workflowsOpened":44,
     "remoteWorkflowsOpened":0,
-    "launches":2,
-    "timeSinceLastStart":18305695,
+    "launches":3,
+    "timeSinceLastStart":66795,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }
