@@ -6,16 +6,16 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="inputColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inputColumn" type="xstring" value="Support Item Number"/>
 <config key="hashAlgorithm_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="hashAlgorithm" type="xstring" value="SHA1"/>
+<config key="inputColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inputColumn" type="xstring" value="Support Item Number"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -44,6 +44,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="83754e78-c0c9-49d1-b061-41bc7ab20071"/>
+<entry key="file_store_id" type="xstring" value="cd7e285a-b3c9-4c14-9267-548a071ea604"/>
 </config>
 </config>
