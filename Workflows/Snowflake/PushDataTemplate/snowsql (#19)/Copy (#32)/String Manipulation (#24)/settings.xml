@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="join(%%00010%%00009&quot;COPY INTO \&quot;ARALUEN_DATAVAULT\&quot;.\&quot;LOAD_NDIS\&quot;&quot;,%%00010%%00009&quot;.\&quot;&quot;,$File name$,&quot;\&quot;&quot;, %%00010%%00009&quot; FROM @STAGE_NDIS&quot;,%%00010%%00009&quot; file_format='LOAD_CSM.CSVFORMAT';&quot;%%00010%%00009)"/>
+<entry key="expression" type="xstring" value="join(%%00010%%00009&quot;COPY INTO \&quot;ARALUEN_DATAVAULT\&quot;.\&quot;LOAD_NDIS\&quot;&quot;,%%00010%%00009&quot;.\&quot;&quot;,$local_var_core_business_concept$,&quot;\&quot;&quot;, %%00010%%00009&quot; FROM @STAGE_NDIS&quot;,%%00010%%00009&quot; file_format='LOAD_CSM.CSVFORMAT';&quot;%%00010%%00009)"/>
 <entry key="replaced_column" type="xstring" value="sql"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>

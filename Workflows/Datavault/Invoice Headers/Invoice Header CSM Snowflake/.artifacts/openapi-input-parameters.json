@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-14":{
+            "type":"string",
+            "default":"invoice_header",
+            "description":"Name of the Core Business Concept this Module will create",
+            "example":"invoice_header"
+        }
+    }
+}

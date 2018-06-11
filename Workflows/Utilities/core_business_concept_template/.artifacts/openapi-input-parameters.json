@@ -1,0 +1,18 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-7:14":{
+            "type":"string",
+            "default":"ndis_support_item",
+            "description":"Name of the Core Business Concept this Module will create",
+            "example":"ndis_support_item"
+        },
+        "string-input-2":{
+            "type":"string",
+            "default":"C:\\BI_and_Data_Analytics\\Data\\NDIS\\201718-VIC-NSW-QLD-TAS-Price-Guide.csv",
+            "description":"Enter local file name",
+            "example":"C:\\BI_and_Data_Analytics\\Data\\NDIS\\201718-VIC-NSW-QLD-TAS-Price-Guide.csv"
+        }
+    }
+}
