@@ -100,7 +100,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_p51gw2lMEeiLWsSshQIcYA" elementId="org.eclipse.ui.editorss" selectedElement="_p51gxGlMEeiLWsSshQIcYA">
-      <children xsi:type="basic:PartStack" xmi:id="_p51gxGlMEeiLWsSshQIcYA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_p51gxmlMEeiLWsSshQIcYA">
+      <children xsi:type="basic:PartStack" xmi:id="_p51gxGlMEeiLWsSshQIcYA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_p51gxWlMEeiLWsSshQIcYA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <children xsi:type="basic:Part" xmi:id="_p51gxWlMEeiLWsSshQIcYA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Welcome to KNIME Analytics Platform" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.gif" closeable="true">
@@ -123,11 +123,11 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_p51g52lMEeiLWsSshQIcYA" elementId="org.knime.workbench.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="KNIME Explorer" iconURI="platform:/plugin/org.knime.workbench.explorer.view/icons/knime_explorer.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.knime.workbench.explorer.view.ExplorerView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.knime.workbench.explorer.view"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;LOCAL|LOCAL&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;LOCAL|LOCAL|LOCAL&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
-      <tags>active</tags>
       <tags>activeOnClose</tags>
+      <tags>active</tags>
       <menus xmi:id="_p51g6GlMEeiLWsSshQIcYA" elementId="org.knime.workbench.explorer.view">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
