@@ -13,13 +13,14 @@
 <entry key="0" type="xstring" value="sql"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="6"/>
+<entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xstring" value="column1"/>
-<entry key="1" type="xstring" value="local_file_name"/>
-<entry key="2" type="xstring" value="Parent folder"/>
-<entry key="3" type="xstring" value="File name"/>
-<entry key="4" type="xstring" value="File extension"/>
-<entry key="5" type="xstring" value="File path"/>
+<entry key="1" type="xstring" value="local_var_core_business_concept"/>
+<entry key="2" type="xstring" value="local_file_name"/>
+<entry key="3" type="xstring" value="Parent folder"/>
+<entry key="4" type="xstring" value="File name"/>
+<entry key="5" type="xstring" value="File extension"/>
+<entry key="6" type="xstring" value="File path"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">

@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-2":{
+            "type":"string",
+            "default":"business_unit_type",
+            "description":"Enter core business concept",
+            "example":"business_unit_type"
+        }
+    }
+}
