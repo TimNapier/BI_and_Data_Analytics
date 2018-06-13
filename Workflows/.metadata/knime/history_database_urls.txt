@@ -1,8 +1,8 @@
 jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com
 <protocol>://<host>:<port>/<database_name>
-jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive
+jdbc:sqlite:/var/folders/1c/ttd7z6wx6z9by2mrdjs48_c00000gp/T/knime_tempcreator_38542437-ff31-4e50-b829-311dfdcf33b0/tempdb.sql
+jdbc:sqlite:C:\Users\Administrator\AppData\Local\Temp\2\knime_02_Database_Adv18595\knime_tempcreator_qjyet79rukl9/tempdb.sql
+jdbc:sqlite:/var/folders/1c/ttd7z6wx6z9by2mrdjs48_c00000gp/T/knime_tempcreator_3d4d4a58-758d-42a6-9661-34d7819ddb7f/tempdb.sql
 jdbc:jtds:sybase://<host>:<port>/<database_name>
+jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive
 jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CSMAraluenLive
-tp72531.ap-southeast-2.snowflakecomputing.com
-jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com/?user=kylep/?db=ARALUEN_DATAVAULT
-jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com/?user=kylep

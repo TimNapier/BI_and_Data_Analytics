@@ -4829,3 +4829,23 @@ Caused by: java.util.NoSuchElementException: No value present
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
 	... 23 more
+!SESSION 2018-06-13 21:40:08.505 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-13 21:40:17.912
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2018-06-13 21:40:18.391
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-13 21:40:18.391
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-13 21:40:21.234
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-13 21:40:21.312
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
