@@ -9,22 +9,22 @@
 <config key="all_columns">
 <config key="0">
 <entry key="old_column_name" type="xstring" value="Date&amp;Time"/>
-<entry key="new_column_name" type="xstring" value="load_date_time"/>
+<entry key="new_column_name" type="xstring" value="LOAD_DATE_TIME"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="1">
 <entry key="old_column_name" type="xstring" value="context.workflow.path"/>
-<entry key="new_column_name" type="xstring" value="workflow_path"/>
+<entry key="new_column_name" type="xstring" value="WORKFLOW_PATH"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="2">
 <entry key="old_column_name" type="xstring" value="context.workflow.name"/>
-<entry key="new_column_name" type="xstring" value="workflow_name"/>
+<entry key="new_column_name" type="xstring" value="WORKFLOW_NAME"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="3">
 <entry key="old_column_name" type="xstring" value="knime.workspace"/>
-<entry key="new_column_name" type="xstring" value="workspace"/>
+<entry key="new_column_name" type="xstring" value="WORKSPACE"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 </config>

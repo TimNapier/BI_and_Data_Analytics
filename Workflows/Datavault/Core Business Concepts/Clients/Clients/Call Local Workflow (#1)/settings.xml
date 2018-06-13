@@ -6,10 +6,14 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="workflow" type="xstring" value="/Datavault\Clients\Clients_CSM_Snowflake"/>
+<entry key="workflow" type="xstring" value="/Datavault\Core Business Concepts\Clients\Clients_CSM_Snowflake"/>
 <entry key="reportFormatOrNull" type="xstring" isnull="true" value=""/>
 <entry key="useFullyQualifiedParameterNames" type="xboolean" value="true"/>
-<config key="parameterToJsonConfigMap"/>
+<config key="parameterToJsonConfigMap">
+<config key="string-input-14">
+<entry key="json" type="xstring" value="&quot;CLIENT&quot;"/>
+</config>
+</config>
 <config key="parameterToJsonColumnMap"/>
 </config>
 <config key="nodeAnnotation">
@@ -53,6 +57,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f893a25e-99ee-4ac9-bf5a-9d8115f72dab"/>
+<entry key="file_store_id" type="xstring" value="490808ae-5022-4731-acab-ba6d79a8e387"/>
 </config>
 </config>

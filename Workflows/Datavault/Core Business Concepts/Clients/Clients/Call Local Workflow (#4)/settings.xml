@@ -6,12 +6,12 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="workflow" type="xstring" value="/Datavault\Clients\Clients_Datavault"/>
+<entry key="workflow" type="xstring" value="/Datavault\Core Business Concepts\Clients\Clients_Datavault"/>
 <entry key="reportFormatOrNull" type="xstring" isnull="true" value=""/>
 <entry key="useFullyQualifiedParameterNames" type="xboolean" value="false"/>
 <config key="parameterToJsonConfigMap">
 <config key="string-input">
-<entry key="json" type="xstring" value="&quot;client&quot;"/>
+<entry key="json" type="xstring" value="&quot;CLIENT&quot;"/>
 </config>
 </config>
 <config key="parameterToJsonColumnMap"/>
@@ -43,6 +43,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1f0a9527-97ae-4f24-8fcd-40af8a38e101"/>
+<entry key="file_store_id" type="xstring" value="bd74b073-a6bb-400f-ae02-7596143d23bc"/>
 </config>
 </config>

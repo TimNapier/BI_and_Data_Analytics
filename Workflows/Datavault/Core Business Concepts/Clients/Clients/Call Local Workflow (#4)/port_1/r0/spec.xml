@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Completed in 2 secs"/>
+<entry key="StringCell" type="xstring" value="Failure, workflow was not executed.%%00010Database Column Filter 4:19:0:19: Not all columns available in input spec: &quot;CLIENT_ID&quot; &quot;workflow_path&quot; &quot;workflow_name&quot; &quot;workspace&quot; &quot;load_date_time&quot; %%00010Database Column Filter 4:20:0:20: Not all columns available in input spec: &quot;CLIENT_ID&quot; &quot;workflow_path&quot; &quot;workflow_name&quot; &quot;workspace&quot; &quot;load_date_time&quot; "/>
 </config>
 </config>
 </config>

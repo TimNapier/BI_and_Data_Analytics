@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT &quot;ClientID&quot;, &quot;Salutation&quot;, &quot;FamilyName&quot;, &quot;FirstName&quot;, &quot;FullName&quot;, %%00010&quot;Sex&quot;, DOB, &quot;Age&quot;, &quot;context.workflow.path&quot;, &quot;context.workflow.name&quot;, &quot;knime.workspace&quot;, &quot;load_date_time&quot;%%00010FROM ARALUEN_DATAVAULT.LOAD_NDIS.&quot;client&quot;"/>
+<entry key="statement" type="xstring" value="SELECT * %%00010FROM ARALUEN_DATAVAULT.LOAD_NDIS.&quot;$${Slocal_var_core_business_concept}$$&quot;"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 12 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 13 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="890a92cc-651e-4099-8755-ed37df4048bc"/>
+<entry key="file_store_id" type="xstring" value="a08c23dc-821d-44e4-88ba-233aa268bce6"/>
 </config>
 </config>
