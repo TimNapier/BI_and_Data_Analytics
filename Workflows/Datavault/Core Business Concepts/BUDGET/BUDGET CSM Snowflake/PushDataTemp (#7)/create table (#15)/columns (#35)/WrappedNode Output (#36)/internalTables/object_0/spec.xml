@@ -12,7 +12,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="13"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -64,22 +64,28 @@
 <config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_PATH&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;L_REFERRAL_BUDGT_SID&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_NAME&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_PATH&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;WORKSPACE&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_NAME&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="11">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;WORKSPACE&quot; varchar(256) ,"/>
+</config>
+</config>
+<config key="12">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="&quot;LOAD_DATE_TIME&quot; varchar(256) )"/>

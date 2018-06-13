@@ -12,7 +12,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="13"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -64,22 +64,28 @@
 <config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="WORKFLOW_PATH"/>
+<entry key="StringCell" type="xstring" value="L_REFERRAL_BUDGT_SID"/>
 </config>
 </config>
 <config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="WORKFLOW_NAME"/>
+<entry key="StringCell" type="xstring" value="WORKFLOW_PATH"/>
 </config>
 </config>
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="WORKSPACE"/>
+<entry key="StringCell" type="xstring" value="WORKFLOW_NAME"/>
 </config>
 </config>
 <config key="11">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="WORKSPACE"/>
+</config>
+</config>
+<config key="12">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="LOAD_DATE_TIME"/>
@@ -140,7 +146,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="11"/>
+<entry key="IntCell" type="xint" value="12"/>
 </config>
 </config>
 </config>
@@ -224,13 +230,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="12"/>
+<entry key="IntCell" type="xint" value="13"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="12"/>
+<entry key="IntCell" type="xint" value="13"/>
 </config>
 </config>
 </config>

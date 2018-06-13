@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;ReferralTypeID&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;REFERRAL_TYPE_ID&quot; varchar(256) , &quot;CLIENT_BK&quot; varchar(256) , &quot;TOTAL_HOURS&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;REFERRAL_TYPE_DESCRIPTION&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_CLIENT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 </config>

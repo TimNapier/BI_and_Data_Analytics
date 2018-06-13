@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;BUDGET&quot; ( &quot;BUDGET_BK&quot; varchar(256) , &quot;HOURS&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;ACTIVITY_BK&quot; varchar(256) , &quot;REFERRAL_BK&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_BUDGET_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;BUDGET&quot; ( &quot;BUDGET_BK&quot; varchar(256) , &quot;HOURS&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;ACTIVITY_BK&quot; varchar(256) , &quot;REFERRAL_BK&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_BUDGET_SID&quot; varchar(256) , &quot;L_REFERRAL_BUDGT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 </config>

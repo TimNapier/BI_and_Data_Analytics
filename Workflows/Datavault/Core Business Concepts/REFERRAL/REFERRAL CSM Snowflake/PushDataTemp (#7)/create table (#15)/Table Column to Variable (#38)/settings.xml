@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;ReferralTypeID&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;REFERRAL_TYPE_ID&quot; varchar(256) , &quot;CLIENT_BK&quot; varchar(256) , &quot;TOTAL_HOURS&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;REFERRAL_TYPE_DESCRIPTION&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_CLIENT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5b0fea7b-5a9a-439e-a78a-d747c4f9c376"/>
+<entry key="file_store_id" type="xstring" value="7292d842-ad36-491b-9d95-17d7fb61a179"/>
 </config>
 </config>
