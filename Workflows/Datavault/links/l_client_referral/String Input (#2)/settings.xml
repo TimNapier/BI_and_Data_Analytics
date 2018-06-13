@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_core_business_concept"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="REFERRAL_BUDGET"/>
+<entry key="value" type="xstring" value="CLIENT_REFERRAL"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_core_business_concept"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="REFERRAL_BUDGET"/>
+<entry key="value" type="xstring" value="CLIENT_REFERRAL"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -20,7 +20,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="string" type="xstring" value="REFERRAL_BUDGET"/>
+<entry key="string" type="xstring" value="CLIENT_REFERRAL"/>
 </config>
 <entry key="label" type="xstring" value="Core Business Concept"/>
 <entry key="description" type="xstring" value="Enter core business concept"/>
@@ -64,6 +64,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="47cd8b18-1475-4222-81d7-6b9c67d06b79"/>
+<entry key="file_store_id" type="xstring" value="0a091713-b7dd-4e03-a781-6fb550349462"/>
 </config>
 </config>
