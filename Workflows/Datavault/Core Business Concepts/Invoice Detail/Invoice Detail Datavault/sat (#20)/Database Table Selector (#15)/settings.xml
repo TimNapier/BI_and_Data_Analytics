@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT &quot;InvoiceLineID&quot;,&quot;FunderID&quot;,%%00010&quot;InvoiceNumber&quot;,%%00010&quot;Stockcode&quot;,%%00010&quot;Quantity&quot;,%%00010&quot;UnitPrice&quot;,&quot;LineTotal&quot;,%%00010&quot;ClientID&quot;,%%00010&quot;JobDate&quot;,%%00010&quot;h_invoice_detail_sid&quot;,&quot;context.workflow.path&quot;,&quot;context.workflow.name&quot;,&quot;knime.workspace&quot;,%%00010&quot;load_date_time&quot; FROM (SELECT * FROM araluen_datavault.load_ndis.&quot;invoice_detail&quot;) table_1517993114"/>
+<entry key="statement" type="xstring" value="SELECT * FROM araluen_datavault.load_ndis.&quot;invoice_detail&quot;"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 14 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 23 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="46cb1877-d158-4af3-9886-bf87f87e1b29"/>
+<entry key="file_store_id" type="xstring" value="fce38669-983c-432b-9e5c-8bc5a98beee8"/>
 </config>
 </config>

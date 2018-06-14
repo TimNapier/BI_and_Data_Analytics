@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_core_business_concept"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="invoice_detail"/>
+<entry key="value" type="xstring" value="INVOICE_DETAIL"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_core_business_concept"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="invoice_detail"/>
+<entry key="value" type="xstring" value="INVOICE_DETAIL"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -20,7 +20,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="string" type="xstring" value="invoice_detail"/>
+<entry key="string" type="xstring" value="INVOICE_DETAIL"/>
 </config>
 <entry key="label" type="xstring" value="Core Business Concept"/>
 <entry key="description" type="xstring" value="Enter core business concept"/>
@@ -64,6 +64,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6d0cede9-5c3c-460f-bdb9-2cbf7eac3789"/>
+<entry key="file_store_id" type="xstring" value="d1bbbcda-797b-4459-9d9c-81b205fbd654"/>
 </config>
 </config>
