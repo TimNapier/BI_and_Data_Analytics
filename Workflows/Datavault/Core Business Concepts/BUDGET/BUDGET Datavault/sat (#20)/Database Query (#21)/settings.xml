@@ -6,36 +6,27 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="column_filter_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="column_filter">
-<config key="InclList">
-<entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xstring" value="START_DATE"/>
-<entry key="1" type="xstring" value="END_DATE"/>
-<entry key="2" type="xstring" value="H_BUDGET_SID"/>
-<entry key="3" type="xstring" value="WORKFLOW_PATH"/>
-<entry key="4" type="xstring" value="WORKFLOW_NAME"/>
-<entry key="5" type="xstring" value="WORKSPACE"/>
-<entry key="6" type="xstring" value="LOAD_DATE_TIME"/>
-</config>
-<config key="ExclList">
-<entry key="array-size" type="xint" value="5"/>
-<entry key="0" type="xstring" value="BUDGET_BK"/>
-<entry key="1" type="xstring" value="HOURS"/>
-<entry key="2" type="xstring" value="ACTIVITY_BK"/>
-<entry key="3" type="xstring" value="REFERRAL_BK"/>
-<entry key="4" type="xstring" value="H_REFERRAL_SID"/>
-</config>
-<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
-</config>
+<entry key="statement" type="xstring" value="SELECT %%00010H_BUDGET_SID,%%00010TO_NUMBER(HOURS, 10,4) as BUDGET_HOURS_TOTAL,%%00010START_DATE as BUDGET_START_DATE,%%00010END_DATE as BUDGET_END_DATE,WORKFLOW_PATH,WORKFLOW_NAME,WORKSPACE,LOAD_DATE_TIME%%00010from%%00010(SELECT * FROM #table#)"/>
+<entry key="execute_without_configure" type="xboolean" value="true"/>
+<entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+<entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" isnull="true" value=""/>
+<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="3.5.3"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBColumnFilterNodeFactory"/>
-<entry key="node-name" type="xstring" value="Database Column Filter"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBQueryNodeFactory2"/>
+<entry key="node-name" type="xstring" value="Database Query"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -45,7 +36,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Database Column Filter"/>
+<entry key="name" type="xstring" value="Database Query"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -53,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 7 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 8 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -61,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e9315cff-2050-4b62-87e2-0dba7cc96e1c"/>
+<entry key="file_store_id" type="xstring" value="9f8abd39-f0d5-4393-a4e6-a3fd5831370f"/>
 </config>
 </config>
