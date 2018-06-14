@@ -246,9 +246,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer",
-                "nrexecs":47,
+                "nrexecs":49,
                 "nrfails":4,
-                "exectime":74689,
+                "exectime":76784,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -334,27 +334,27 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBQueryNodeFactory2#Database Query",
-                "nrexecs":8,
+                "nrexecs":10,
                 "nrfails":7,
-                "exectime":6127,
-                "nrcreated":5,
+                "exectime":7257,
+                "nrcreated":6,
                 "successor":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer"
             }
         ],
         "metaNodes":{
         },
         "wrappedNodes":{
-            "nrexecs":405,
+            "nrexecs":406,
             "nrfails":17,
-            "exectime":2244351,
+            "exectime":2246329,
             "nrcreated":0
         }
     },
-    "uptime":7058458,
-    "workflowsOpened":117,
+    "uptime":7279112,
+    "workflowsOpened":119,
     "remoteWorkflowsOpened":1,
     "launches":11,
-    "timeSinceLastStart":1211893,
+    "timeSinceLastStart":3639089,
     "crashes":2,
     "properlyShutDown":false
 }

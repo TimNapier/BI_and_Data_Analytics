@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT %%00010H_BUDGET_SID,%%00010TO_NUMBER(HOURS, 10,4) as BUDGET_HOURS_TOTAL,%%00010START_DATE as BUDGET_START_DATE,%%00010END_DATE as BUDGET_END_DATE,WORKFLOW_PATH,WORKFLOW_NAME,WORKSPACE,LOAD_DATE_TIME%%00010from%%00010(SELECT * FROM #table#)"/>
+<entry key="statement" type="xstring" value="SELECT %%00010H_BUDGET_SID,%%00010TO_NUMBER(HOURS, 10,4) as BUDGET_HOURS_PER_WEEK,%%00010TO_DATE(START_DATE) as BUDGET_START_DATE,%%00010TO_DATE(END_DATE) as BUDGET_END_DATE,WORKFLOW_PATH,WORKFLOW_NAME,WORKSPACE,LOAD_DATE_TIME%%00010from%%00010(SELECT * FROM #table#)"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="9f8abd39-f0d5-4393-a4e6-a3fd5831370f"/>
+<entry key="file_store_id" type="xstring" value="a0edb7f7-3a91-466f-b95a-d52d53e32179"/>
 </config>
 </config>
