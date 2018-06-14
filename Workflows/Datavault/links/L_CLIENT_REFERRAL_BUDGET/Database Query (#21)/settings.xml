@@ -6,13 +6,13 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT *%%00010FROM ARALUEN_DATAVAULT.LOAD_NDIS.&quot;BUDGET&quot;"/>
+<entry key="statement" type="xstring" value="select %%00010L_REFERRAL_BUDGT_SID as L_CLIENT_REFERRAL_BUDGET_SID,%%00010sha1(&quot;ClientID&quot;) as H_CLIENT_SID,%%00010H_REFERRAL_SID,%%00010H_BUDGET_SID%%00010%%00010%%00010%%00010from (%%00010SELECT * FROM #table#%%00010)"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
 <entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
 <entry key="userName" type="xstring" isnull="true" value=""/>
-<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
+<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
 <entry key="password" type="xstring" isnull="true" value=""/>
 <entry key="timezone" type="xstring" value="current"/>
 <entry key="validateConnection" type="xboolean" value="false"/>
@@ -25,8 +25,8 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory"/>
-<entry key="node-name" type="xstring" value="Database Table Selector"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBQueryNodeFactory2"/>
+<entry key="node-name" type="xstring" value="Database Query"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -36,7 +36,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Database Table Selector"/>
+<entry key="name" type="xstring" value="Database Query"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 13 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 4 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="36c0dc5e-53c6-495f-9626-50b1f7c9fb8b"/>
+<entry key="file_store_id" type="xstring" value="46c445bc-491f-40d1-a4e1-a716f74daa9f"/>
 </config>
 </config>

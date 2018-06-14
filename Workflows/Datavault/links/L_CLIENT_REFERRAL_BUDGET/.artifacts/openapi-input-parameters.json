@@ -4,9 +4,9 @@
     "properties":{
         "string-input-2":{
             "type":"string",
-            "default":"REFERRAL_BUDGET",
+            "default":"CLIENT_REFERRAL_BUDGET",
             "description":"Enter core business concept",
-            "example":"REFERRAL_BUDGET"
+            "example":"CLIENT_REFERRAL_BUDGET"
         }
     }
 }
