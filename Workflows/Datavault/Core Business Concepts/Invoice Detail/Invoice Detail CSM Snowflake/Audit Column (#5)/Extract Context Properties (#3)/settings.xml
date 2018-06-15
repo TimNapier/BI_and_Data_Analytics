@@ -39,7 +39,15 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
+<<<<<<< HEAD
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Outer workflow does not have input data, execute it first"/>
+</config>
+=======
 <entry key="state" type="xstring" value="EXECUTED"/>
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037
 <entry key="factory" type="xstring" value="org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory"/>
 <entry key="node-name" type="xstring" value="Extract Context Properties"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>

@@ -53,7 +53,11 @@
 <entry key="locale" type="xstring" value="en-AU"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
+<<<<<<< HEAD
+<entry key="state" type="xstring" value="IDLE"/>
+=======
 <entry key="state" type="xstring" value="EXECUTED"/>
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037
 <entry key="factory" type="xstring" value="org.knime.time.node.convert.datetimetostring.DateTimeToStringNodeFactory"/>
 <entry key="node-name" type="xstring" value="Date&amp;Time to String"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Date and Time Handling"/>
