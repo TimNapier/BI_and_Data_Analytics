@@ -3,6 +3,11 @@
 <entry key="created_by" type="xstring" value="3.5.3.v201804031105"/>
 <entry key="created_by_nightly" type="xboolean" value="false"/>
 <entry key="version" type="xstring" value="3.1.0"/>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2018-06-15 10:52:36"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/Snowflake/PushDataTemplate"/>
+</config>
 <entry key="name" type="xstring" value="PushDataTemplate"/>
 <config key="authorInformation">
 <entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
@@ -11,7 +16,7 @@
 <entry key="lastEdited-when" type="xstring" value="2018-06-11 14:05:44 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_3">

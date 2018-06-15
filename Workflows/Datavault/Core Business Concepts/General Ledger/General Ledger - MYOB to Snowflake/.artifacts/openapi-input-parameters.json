@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-14":{
+            "type":"string",
+            "default":"GENERAL_LEDGER",
+            "description":"Name of the Core Business Concept this Module will create",
+            "example":"GENERAL_LEDGER"
+        }
+    }
+}
