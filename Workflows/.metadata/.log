@@ -4943,6 +4943,7 @@ Caused by: java.util.NoSuchElementException: No value present
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
 	... 23 more
+<<<<<<< HEAD
 !SESSION 2018-06-14 15:16:35.224 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_152
@@ -4959,6 +4960,10 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !MESSAGE Removing part descriptor with the 'com.nodepit.knime.view.nodepit' id and the 'NodePit' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
 !ENTRY org.eclipse.jface 4 0 2018-06-14 15:17:19.130
+=======
+
+!ENTRY org.eclipse.jface 4 0 2018-06-14 15:51:46.697
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037
 !MESSAGE Unhandled event loop exception during blocked modal context.
 !STACK 0
 org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
@@ -5017,7 +5022,11 @@ Caused by: java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
 	... 46 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 4 0 2018-06-14 15:17:19.160
+=======
+!ENTRY org.eclipse.jface 4 0 2018-06-14 15:51:46.703
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037
 !MESSAGE Unhandled event loop exception during blocked modal context.
 !STACK 0
 org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
@@ -5076,6 +5085,7 @@ Caused by: java.lang.NullPointerException
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
 	... 46 more
 
+<<<<<<< HEAD
 !ENTRY org.knime.product 4 0 2018-06-14 16:17:28.540
 !MESSAGE Error while saving workspace
 !STACK 1
@@ -5221,6 +5231,17 @@ java.io.FileNotFoundException: C:\BI_and_Data_Analytics\Workflows\.metadata\.plu
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+=======
+!ENTRY org.eclipse.ui 4 0 2018-06-14 16:06:51.165
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: No such node ID: 4:15)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -5242,3 +5263,13 @@ java.io.FileNotFoundException: C:\BI_and_Data_Analytics\Workflows\.metadata\.plu
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< HEAD
+=======
+Caused by: java.lang.IllegalArgumentException: No such node ID: 4:15
+	at org.knime.core.node.workflow.WorkflowManager.getNodeContainer(WorkflowManager.java:6305)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getNodeContainer(WorkflowManagerWrapper.java:368)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 23 more
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037

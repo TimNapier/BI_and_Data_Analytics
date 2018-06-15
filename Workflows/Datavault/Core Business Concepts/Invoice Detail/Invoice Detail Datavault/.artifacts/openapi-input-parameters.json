@@ -4,9 +4,9 @@
     "properties":{
         "string-input-2":{
             "type":"string",
-            "default":"invoice_detail",
+            "default":"INVOICE_DETAIL",
             "description":"Enter core business concept",
-            "example":"invoice_detail"
+            "example":"INVOICE_DETAIL"
         }
     }
 }

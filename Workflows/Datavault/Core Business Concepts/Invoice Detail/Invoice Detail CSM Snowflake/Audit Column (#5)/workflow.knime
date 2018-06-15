@@ -3,7 +3,7 @@
 <entry key="created_by" type="xstring" value="3.5.3.v201804031105"/>
 <entry key="created_by_nightly" type="xboolean" value="false"/>
 <entry key="version" type="xstring" value="3.1.0"/>
-<entry key="name" type="xstring" value="Audit Columns"/>
+<entry key="name" type="xstring" value="Audit Columns Flow"/>
 <config key="authorInformation">
 <entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
 <entry key="authored-when" type="xstring" value="1970-01-01 10:00:00 +1000"/>
@@ -25,7 +25,11 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
+<<<<<<< HEAD
 <entry key="state" type="xstring" value="IDLE"/>
+=======
+<entry key="state" type="xstring" value="EXECUTED"/>
+>>>>>>> f3b468225e18869be6391f5d2ed0340286a4c037
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_3">
