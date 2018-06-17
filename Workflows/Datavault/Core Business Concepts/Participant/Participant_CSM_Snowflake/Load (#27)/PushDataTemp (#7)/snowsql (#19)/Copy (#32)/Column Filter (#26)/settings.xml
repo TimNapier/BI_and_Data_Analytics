@@ -13,14 +13,15 @@
 <entry key="0" type="xstring" value="sql"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="7"/>
+<entry key="array-size" type="xint" value="8"/>
 <entry key="0" type="xstring" value="column1"/>
-<entry key="1" type="xstring" value="local_var_core_business_concept"/>
-<entry key="2" type="xstring" value="local_file_name"/>
-<entry key="3" type="xstring" value="Parent folder"/>
-<entry key="4" type="xstring" value="File name"/>
-<entry key="5" type="xstring" value="File extension"/>
-<entry key="6" type="xstring" value="File path"/>
+<entry key="1" type="xstring" value="Core Business Concept"/>
+<entry key="2" type="xstring" value="local_var_core_business_concept"/>
+<entry key="3" type="xstring" value="local_file_name"/>
+<entry key="4" type="xstring" value="Parent folder"/>
+<entry key="5" type="xstring" value="File name"/>
+<entry key="6" type="xstring" value="File extension"/>
+<entry key="7" type="xstring" value="File path"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
 <config key="name_pattern">
@@ -41,7 +42,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -54,16 +55,19 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="f293c7e9-b61c-4194-8c6b-073b74ca7cf6"/>
 </config>
 </config>

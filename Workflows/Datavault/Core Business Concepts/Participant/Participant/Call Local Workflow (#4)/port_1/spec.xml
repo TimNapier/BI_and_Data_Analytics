@@ -37,7 +37,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Failure, workflow was not executed.%%00010Microsoft SQL Server Connector 4:25:0:0:0:1: Execute failed: Could not create connection to database: ARL-HQ-RDS-12"/>
+<entry key="StringCell" type="xstring" value="Failure, workflow was not executed.%%00010Variable to Table Column 2:27:0:7:6: No variables selected%%00010Database Connector 2:27:0:7:15:0:0:1: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:15:0:15: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:15:0:26:0:18: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:15:0:35:0:35: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:17:0:3: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:19:0:19: Outer workflow does not have input data, execute it first%%00010Table Creator 2:27:0:7:19:0:21: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:19:0:32:0:27: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:19:0:33:0:23: Outer workflow does not have input data, execute it first%%00010WrappedNode Input 2:27:0:7:19:0:34:0:30: Outer workflow does not have input data, execute it first"/>
 </config>
 </config>
 </config>
@@ -58,7 +58,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Failure, workflow was not executed.%%00010Database Table Selector 3:19:0:12: Configure failed (NoSuchElementException): No such variable &quot;local_var_core_business_concept&quot; of type STRING%%00010Database Table Selector 3:20:0:15: Configure failed (NoSuchElementException): No such variable &quot;local_var_core_business_concept&quot; of type STRING"/>
+<entry key="StringCell" type="xstring" value="Failure, workflow was not executed.%%00010Database Table Selector 4:20:0:15: Configure failed (NoSuchElementException): No such variable &quot;local_var_core_business_concept&quot; of type STRING"/>
 </config>
 </config>
 </config>
