@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-2":{
+            "type":"string",
+            "default":"PARTICIPANT_REFERRAL",
+            "description":"Enter core business concept",
+            "example":"PARTICIPANT_REFERRAL"
+        }
+    }
+}
