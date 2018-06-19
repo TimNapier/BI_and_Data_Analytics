@@ -15,7 +15,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="inputColumn" type="xstring" value="ClientID"/>
+<entry key="inputColumn" type="xstring" value="FunderID"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -38,12 +38,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 149413, Cols: 9"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 149791, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f3e040e0-5a54-4914-9af2-e8c248220ef0"/>
+<entry key="file_store_id" type="xstring" value="fc55aa48-38f6-4df4-baf3-ce7f4dd0f58c"/>
 </config>
 </config>

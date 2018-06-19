@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-2":{
+            "type":"string",
+            "default":"NDIS Invoice Detail",
+            "description":"Enter core business concept",
+            "example":"NDIS Invoice Detail"
+        }
+    }
+}

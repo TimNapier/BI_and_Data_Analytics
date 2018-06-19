@@ -12,11 +12,15 @@
 </config>
 <config key="include">
 <config key="InclList">
-<entry key="array-size" type="xint" value="4"/>
+<entry key="array-size" type="xint" value="8"/>
 <entry key="0" type="xstring" value="InvoiceLineID"/>
-<entry key="1" type="xstring" value="Quantity"/>
-<entry key="2" type="xstring" value="UnitPrice"/>
-<entry key="3" type="xstring" value="LineTotal"/>
+<entry key="1" type="xstring" value="FunderID"/>
+<entry key="2" type="xstring" value="Quantity"/>
+<entry key="3" type="xstring" value="UnitPrice"/>
+<entry key="4" type="xstring" value="LineTotal"/>
+<entry key="5" type="xstring" value="JobID"/>
+<entry key="6" type="xstring" value="PayrollBatchID"/>
+<entry key="7" type="xstring" value="FunderGroupID"/>
 </config>
 <config key="ExclList">
 <entry key="array-size" type="xint" value="0"/>
@@ -45,12 +49,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 149413, Cols: 7"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 149791, Cols: 12"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="921f0b73-c8bf-47b7-b2cf-f634908bc332"/>
+<entry key="file_store_id" type="xstring" value="201a8f34-1473-4093-9d90-600d0fe6f5bf"/>
 </config>
 </config>

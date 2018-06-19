@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder_Invoice_header&quot; ( &quot;InvoiceHeaderID&quot; varchar(256) , &quot;FunderID&quot; varchar(256) , &quot;NDIS_INVOICE_HEADER_BK&quot; varchar(256) , &quot;INVOICE_DATE&quot; varchar(256) , &quot;InvBatchNo&quot; varchar(256) , &quot;ClientID&quot; varchar(256) , &quot;H_NDIS_INVOICE_HEADER_SID&quot; varchar(256) , &quot;H_PARTICIPANT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder_Invoice_Detail&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;FunderID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;Stockcode&quot; varchar(256) , &quot;Quantity&quot; varchar(256) , &quot;UnitPrice&quot; varchar(256) , &quot;LineTotal&quot; varchar(256) , &quot;JobID&quot; varchar(256) , &quot;JobDate&quot; varchar(256) , &quot;PayrollBatchID&quot; varchar(256) , &quot;FunderGroupID&quot; varchar(256) , &quot;NDIS_SUPPORT_ITEM_BK&quot; varchar(256) , &quot;H_NDIS_INVOICE_HEADER_SID&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;H_NDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;H_FUNDER_SID&quot; varchar(256) , &quot;H_NDIS_SUPPORT_ITEM_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -28,7 +28,7 @@
 <entry key="ignore missing" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablecoltovariable.TableColumnToVariableNodeFactory"/>
 <entry key="node-name" type="xstring" value="Table Column to Variable"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -41,16 +41,21 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Column to Variable"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="671bf5b6-9688-4867-96ec-011961d60900"/>
 </config>
 </config>
