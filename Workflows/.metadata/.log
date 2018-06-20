@@ -9602,3 +9602,20 @@ Caused by: java.lang.IllegalArgumentException: No such node ID: 0:20
 	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
 	... 23 more
+!SESSION 2018-06-20 22:23:17.483 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-06-20 22:23:24.549
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-20 22:23:24.549
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-20 22:23:26.344
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-06-20 22:23:26.394
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.

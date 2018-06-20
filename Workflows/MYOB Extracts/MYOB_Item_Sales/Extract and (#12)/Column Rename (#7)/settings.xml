@@ -33,22 +33,27 @@
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="5">
-<entry key="old_column_name" type="xstring" value="sum:LINE_TOTAL:ok"/>
-<entry key="new_column_name" type="xstring" value="Inc-Tax Total"/>
+<entry key="old_column_name" type="xstring" value="Support Item Number"/>
+<entry key="new_column_name" type="xstring" value="Item Number"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="6">
-<entry key="old_column_name" type="xstring" value="sum:QUANTITY:ok"/>
-<entry key="new_column_name" type="xstring" value="Quantity"/>
+<entry key="old_column_name" type="xstring" value="LINE_TOTAL"/>
+<entry key="new_column_name" type="xstring" value="Inc-Tax Total"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="7">
-<entry key="old_column_name" type="xstring" value="sum:UNIT_PRICE:ok"/>
-<entry key="new_column_name" type="xstring" value="Unit Price"/>
+<entry key="old_column_name" type="xstring" value="QUANTITY"/>
+<entry key="new_column_name" type="xstring" value="Quantity"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="8">
-<entry key="old_column_name" type="xstring" value="sum:Calculation_745064274383380480:ok"/>
+<entry key="old_column_name" type="xstring" value="UNIT_PRICE"/>
+<entry key="new_column_name" type="xstring" value="Price"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="9">
+<entry key="old_column_name" type="xstring" value="LINE_TOTAL (#1)"/>
 <entry key="new_column_name" type="xstring" value="Total"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
@@ -75,12 +80,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 227, Cols: 16"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 16"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4dac0056-e233-4b5e-8ca6-91c25435b2bf"/>
+<entry key="file_store_id" type="xstring" value="16076a2c-4aab-484e-bf71-30eb9675a36f"/>
 </config>
 </config>
