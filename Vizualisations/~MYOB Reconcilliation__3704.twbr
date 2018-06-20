@@ -2140,7 +2140,7 @@
         <folder-item name='[Unit of Measure]' type='field' />
         <folder-item name='[source]' type='field' />
       </folder>
-      <layout dim-ordering='alphabetic' dim-percentage='0.84131' measure-ordering='alphabetic' measure-percentage='0.15869' show-structure='false' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.767003' measure-ordering='alphabetic' measure-percentage='0.232997' show-structure='false' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -2186,6 +2186,7 @@
             <column-instance column='[QUANTITY]' derivation='Sum' name='[sum:QUANTITY:qk]' pivot='key' type='quantitative' />
             <column-instance column='[UNIT_PRICE]' derivation='Sum' name='[sum:UNIT_PRICE:qk]' pivot='key' type='quantitative' />
             <column-instance column='[ACTIVITY_DATE]' derivation='Day-Trunc' name='[tdy:ACTIVITY_DATE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[INVOICE_DATE]' derivation='Day-Trunc' name='[tdy:INVOICE_DATE:qk]' pivot='key' type='quantitative' />
             <column-instance column='[INVOICE_DATE]' derivation='Year' name='[yr:INVOICE_DATE:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]'>
@@ -2206,6 +2207,7 @@
             <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
               <groupfilter function='member' level='[none:PAYROLL_BATCH_ID:nk]' member='&quot;935&quot;' />
               <groupfilter function='member' level='[none:PAYROLL_BATCH_ID:nk]' member='&quot;936&quot;' />
+              <groupfilter function='member' level='[none:PAYROLL_BATCH_ID:nk]' member='&quot;941&quot;' />
               <groupfilter function='member' level='[none:PAYROLL_BATCH_ID:nk]' member='&quot;945&quot;' />
             </groupfilter>
           </filter>
@@ -2253,7 +2255,7 @@
           </pane>
         </panes>
         <rows>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:NDIS_INVOICE_HEADER_BK:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:Support Item Number:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_FINANCE_REFERENCE:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:Support Item:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_NAME:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[tdy:ACTIVITY_DATE:ok])))))</rows>
-        <cols>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:ACCOUNT_NUMBER:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:MYOB Job:nk]))</cols>
+        <cols>(([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:ACCOUNT_NUMBER:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:MYOB Job:nk])) * [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[tdy:INVOICE_DATE:qk])</cols>
         <pages>
           <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:nk]</column>
         </pages>
