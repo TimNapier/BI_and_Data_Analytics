@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="FunderAccountID"/>
+<entry key="1" type="xstring" value="Name"/>
+<entry key="2" type="xstring" value="AlphaCode"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="63"/>
+<entry key="0" type="xstring" value="Address1"/>
+<entry key="1" type="xstring" value="Address2"/>
+<entry key="2" type="xstring" value="Address3"/>
+<entry key="3" type="xstring" value="Address4"/>
+<entry key="4" type="xstring" value="DelAddr1"/>
+<entry key="5" type="xstring" value="DelAddr2"/>
+<entry key="6" type="xstring" value="DelAddr3"/>
+<entry key="7" type="xstring" value="DelAddr4"/>
+<entry key="8" type="xstring" value="Phone"/>
+<entry key="9" type="xstring" value="Fax"/>
+<entry key="10" type="xstring" value="Email"/>
+<entry key="11" type="xstring" value="InvAliasName"/>
+<entry key="12" type="xstring" value="InvUserName"/>
+<entry key="13" type="xstring" value="InvByClient"/>
+<entry key="14" type="xstring" value="InvLayout"/>
+<entry key="15" type="xstring" value="ContractNo"/>
+<entry key="16" type="xstring" value="ProviderNo"/>
+<entry key="17" type="xstring" value="DefBranch"/>
+<entry key="18" type="xstring" value="ExoConnName"/>
+<entry key="19" type="xstring" value="ProviderName"/>
+<entry key="20" type="xstring" value="UseExtDesc"/>
+<entry key="21" type="xstring" value="ACCFile"/>
+<entry key="22" type="xstring" value="MOHAccount"/>
+<entry key="23" type="xstring" value="MOHFilePrefix"/>
+<entry key="24" type="xstring" value="PrivateFunder"/>
+<entry key="25" type="xstring" value="InvConn"/>
+<entry key="26" type="xstring" value="ACCFileInvPrefix"/>
+<entry key="27" type="xstring" value="NeedsLevel"/>
+<entry key="28" type="xstring" value="Postcode"/>
+<entry key="29" type="xstring" value="DelPostcode"/>
+<entry key="30" type="xstring" value="CompanyID"/>
+<entry key="31" type="xstring" value="ParentCompanyID"/>
+<entry key="32" type="xstring" value="RegistrationDate"/>
+<entry key="33" type="xstring" value="Status"/>
+<entry key="34" type="xstring" value="SubContractorTypeID"/>
+<entry key="35" type="xstring" value="NOMCodeTypeID"/>
+<entry key="36" type="xstring" value="ClientRelationshipTypeID"/>
+<entry key="37" type="xstring" value="IsSubContractor"/>
+<entry key="38" type="xstring" value="BusUnit"/>
+<entry key="39" type="xstring" value="MFilesDataChanged"/>
+<entry key="40" type="xstring" value="SubConPortalChanged"/>
+<entry key="41" type="xstring" value="TravelBufferMins"/>
+<entry key="42" type="xstring" value="IBTBulkFFS"/>
+<entry key="43" type="xstring" value="IBTFunderName"/>
+<entry key="44" type="xstring" value="PayIBT"/>
+<entry key="45" type="xstring" value="PayIBTFirstVisit"/>
+<entry key="46" type="xstring" value="PromptUserForPO"/>
+<entry key="47" type="xstring" value="InvoiceTerms"/>
+<entry key="48" type="xstring" value="InvoiceDelivery"/>
+<entry key="49" type="xstring" value="InvoiceClientKM"/>
+<entry key="50" type="xstring" value="InvLayoutName"/>
+<entry key="51" type="xstring" value="MOHFileSuffix"/>
+<entry key="52" type="xstring" value="InvoiceTravelKms"/>
+<entry key="53" type="xstring" value="InvoiceTravelTime"/>
+<entry key="54" type="xstring" value="GTDataChanged"/>
+<entry key="55" type="xstring" value="InvoicePrefix"/>
+<entry key="56" type="xstring" value="SeperateInvoiceForTravel"/>
+<entry key="57" type="xstring" value="BulkPrinting"/>
+<entry key="58" type="xstring" value="SeperateInvoiceForCredit"/>
+<entry key="59" type="xstring" value="HealthHubChanged"/>
+<entry key="60" type="xstring" value="HealthHubEnabled"/>
+<entry key="61" type="xstring" value="DocushareCollectionID"/>
+<entry key="62" type="xstring" value="CompanyGroupID"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 563, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="a33742ee-729c-49c7-80b2-7261f4c6d6b4"/>
+</config>
+</config>
