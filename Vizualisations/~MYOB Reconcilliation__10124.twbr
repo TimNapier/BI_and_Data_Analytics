@@ -203,6 +203,8 @@
           <map key='[H_NDIS_INVOICE_HEADER_SID (h_NDIS_Invoice_Header)]' value='[h_NDIS_Invoice_Header].[H_NDIS_INVOICE_HEADER_SID]' />
           <map key='[H_NDIS_INVOICE_HEADER_SID (s_NDIS_Invoice_Header)]' value='[s_NDIS_Invoice_Header].[H_NDIS_INVOICE_HEADER_SID]' />
           <map key='[H_NDIS_INVOICE_HEADER_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_HEADER_SID]' />
+          <map key='[H_NDIS_SUPPORT_ITEM]' value='[S_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM]' />
+          <map key='[H_NDIS_SUPPORT_ITEM_SID (H_NDIS_SUPPORT_ITEM)]' value='[H_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM_SID]' />
           <map key='[H_NDIS_SUPPORT_ITEM_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_NDIS_SUPPORT_ITEM_SID]' />
           <map key='[H_PARTICIPANT_SID (H_Participant)]' value='[H_Participant].[H_PARTICIPANT_SID]' />
           <map key='[H_PARTICIPANT_SID (L_PARTICIPANT_BUSINESS_UNIT)]' value='[L_PARTICIPANT_BUSINESS_UNIT].[H_PARTICIPANT_SID]' />
@@ -232,20 +234,20 @@
           <map key='[NDIS_INVOICE_HEADER_BK]' value='[h_NDIS_Invoice_Header].[NDIS_INVOICE_HEADER_BK]' />
           <map key='[PARTICIPANT_BK]' value='[H_Participant].[PARTICIPANT_BK]' />
           <map key='[PAYROLL_BATCH_ID]' value='[s_NDIS_Invoice_Detail].[PAYROLL_BATCH_ID]' />
-          <map key='[Price Control]' value='[S_NDIS_SUPPORT_ITEM].[Price Control]' />
-          <map key='[Price]' value='[S_NDIS_SUPPORT_ITEM].[Price]' />
+          <map key='[PRICE]' value='[S_NDIS_SUPPORT_ITEM].[PRICE]' />
+          <map key='[PRICE_CONTROL]' value='[S_NDIS_SUPPORT_ITEM].[PRICE_CONTROL]' />
           <map key='[QUANTITY]' value='[s_NDIS_Invoice_Detail].[QUANTITY]' />
-          <map key='[Quote]' value='[S_NDIS_SUPPORT_ITEM].[Quote]' />
+          <map key='[QUOTE]' value='[S_NDIS_SUPPORT_ITEM].[QUOTE]' />
           <map key='[REGISTRATION_GROUP]' value='[S_NDIS_SUPPORT_ITEM].[REGISTRATION_GROUP]' />
           <map key='[SALUTATION]' value='[S_PARTICIPANT].[SALUTATION]' />
-          <map key='[Support Categories]' value='[S_NDIS_SUPPORT_ITEM].[Support Categories]' />
-          <map key='[Support Category Number]' value='[S_NDIS_SUPPORT_ITEM].[Support Category Number]' />
-          <map key='[Support Item Description]' value='[S_NDIS_SUPPORT_ITEM].[Support Item Description]' />
-          <map key='[Support Item Number (S_NDIS_SUPPORT_ITEM)]' value='[S_NDIS_SUPPORT_ITEM].[Support Item Number]' />
-          <map key='[Support Item Number]' value='[H_NDIS_SUPPORT_ITEM].[Support Item Number]' />
-          <map key='[Support Item]' value='[S_NDIS_SUPPORT_ITEM].[Support Item]' />
+          <map key='[SUPPORT_CATEGORIES]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_CATEGORIES]' />
+          <map key='[SUPPORT_CATEGORY_NUMBER]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_CATEGORY_NUMBER]' />
+          <map key='[SUPPORT_ITEM]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM]' />
+          <map key='[SUPPORT_ITEM_BK]' value='[H_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_BK]' />
+          <map key='[SUPPORT_ITEM_DESCRIPTION]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_DESCRIPTION]' />
+          <map key='[SUPPORT_ITEM_NUMBER]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_NUMBER]' />
+          <map key='[UNIT_OF_MEASURE]' value='[S_NDIS_SUPPORT_ITEM].[UNIT_OF_MEASURE]' />
           <map key='[UNIT_PRICE]' value='[s_NDIS_Invoice_Detail].[UNIT_PRICE]' />
-          <map key='[Unit of Measure]' value='[S_NDIS_SUPPORT_ITEM].[Unit of Measure]' />
           <map key='[WORKFLOW_NAME (H_BUSINESS_UNIT)]' value='[H_BUSINESS_UNIT].[WORKFLOW_NAME]' />
           <map key='[WORKFLOW_NAME (H_Participant)]' value='[H_Participant].[WORKFLOW_NAME]' />
           <map key='[WORKFLOW_NAME (L_PARTICIPANT_BUSINESS_UNIT)]' value='[L_PARTICIPANT_BUSINESS_UNIT].[WORKFLOW_NAME]' />
@@ -291,9 +293,6 @@
           <map key='[WORKSPACE (s_NDIS_Invoice_Detail)]' value='[s_NDIS_Invoice_Detail].[WORKSPACE]' />
           <map key='[WORKSPACE (s_NDIS_Invoice_Header)]' value='[s_NDIS_Invoice_Header].[WORKSPACE]' />
           <map key='[WORKSPACE]' value='[L_NDIS_INVOICE_DETAIL].[WORKSPACE]' />
-          <map key='[h_ndis_support_item_sid (S_NDIS_SUPPORT_ITEM)]' value='[S_NDIS_SUPPORT_ITEM].[h_ndis_support_item_sid]' />
-          <map key='[h_ndis_support_item_sid]' value='[H_NDIS_SUPPORT_ITEM].[h_ndis_support_item_sid]' />
-          <map key='[source]' value='[S_NDIS_SUPPORT_ITEM].[source]' />
         </cols>
         <metadata-records>
           <metadata-record class='column'>
@@ -1296,11 +1295,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Support Item Number</remote-name>
+            <remote-name>SUPPORT_ITEM_BK</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Support Item Number]</local-name>
+            <local-name>[SUPPORT_ITEM_BK]</local-name>
             <parent-name>[H_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Support Item Number</remote-alias>
+            <remote-alias>SUPPORT_ITEM_BK</remote-alias>
             <ordinal>65</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1314,11 +1313,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>h_ndis_support_item_sid</remote-name>
+            <remote-name>H_NDIS_SUPPORT_ITEM_SID</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[h_ndis_support_item_sid]</local-name>
+            <local-name>[H_NDIS_SUPPORT_ITEM_SID (H_NDIS_SUPPORT_ITEM)]</local-name>
             <parent-name>[H_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>h_ndis_support_item_sid</remote-alias>
+            <remote-alias>H_NDIS_SUPPORT_ITEM_SID</remote-alias>
             <ordinal>66</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1332,11 +1331,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>h_ndis_support_item_sid</remote-name>
+            <remote-name>H_NDIS_SUPPORT_ITEM</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[h_ndis_support_item_sid (S_NDIS_SUPPORT_ITEM)]</local-name>
+            <local-name>[H_NDIS_SUPPORT_ITEM]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>h_ndis_support_item_sid</remote-alias>
+            <remote-alias>H_NDIS_SUPPORT_ITEM</remote-alias>
             <ordinal>68</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1368,11 +1367,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Support Item</remote-name>
+            <remote-name>SUPPORT_ITEM</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Support Item]</local-name>
+            <local-name>[SUPPORT_ITEM]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Support Item</remote-alias>
+            <remote-alias>SUPPORT_ITEM</remote-alias>
             <ordinal>70</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1386,11 +1385,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Support Item Number</remote-name>
+            <remote-name>SUPPORT_ITEM_NUMBER</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Support Item Number (S_NDIS_SUPPORT_ITEM)]</local-name>
+            <local-name>[SUPPORT_ITEM_NUMBER]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Support Item Number</remote-alias>
+            <remote-alias>SUPPORT_ITEM_NUMBER</remote-alias>
             <ordinal>71</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1404,11 +1403,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Support Item Description</remote-name>
+            <remote-name>SUPPORT_ITEM_DESCRIPTION</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Support Item Description]</local-name>
+            <local-name>[SUPPORT_ITEM_DESCRIPTION]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Support Item Description</remote-alias>
+            <remote-alias>SUPPORT_ITEM_DESCRIPTION</remote-alias>
             <ordinal>72</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1422,11 +1421,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Unit of Measure</remote-name>
+            <remote-name>UNIT_OF_MEASURE</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Unit of Measure]</local-name>
+            <local-name>[UNIT_OF_MEASURE]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Unit of Measure</remote-alias>
+            <remote-alias>UNIT_OF_MEASURE</remote-alias>
             <ordinal>73</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1440,11 +1439,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Quote</remote-name>
+            <remote-name>QUOTE</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Quote]</local-name>
+            <local-name>[QUOTE]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Quote</remote-alias>
+            <remote-alias>QUOTE</remote-alias>
             <ordinal>74</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1458,11 +1457,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Price</remote-name>
+            <remote-name>PRICE</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Price]</local-name>
+            <local-name>[PRICE]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Price</remote-alias>
+            <remote-alias>PRICE</remote-alias>
             <ordinal>75</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1476,11 +1475,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Price Control</remote-name>
+            <remote-name>PRICE_CONTROL</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Price Control]</local-name>
+            <local-name>[PRICE_CONTROL]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Price Control</remote-alias>
+            <remote-alias>PRICE_CONTROL</remote-alias>
             <ordinal>76</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1494,11 +1493,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Support Categories</remote-name>
+            <remote-name>SUPPORT_CATEGORIES</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Support Categories]</local-name>
+            <local-name>[SUPPORT_CATEGORIES]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Support Categories</remote-alias>
+            <remote-alias>SUPPORT_CATEGORIES</remote-alias>
             <ordinal>77</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -1512,30 +1511,12 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Support Category Number</remote-name>
+            <remote-name>SUPPORT_CATEGORY_NUMBER</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Support Category Number]</local-name>
+            <local-name>[SUPPORT_CATEGORY_NUMBER]</local-name>
             <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>Support Category Number</remote-alias>
+            <remote-alias>SUPPORT_CATEGORY_NUMBER</remote-alias>
             <ordinal>78</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <width>256</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
-              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
-              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>source</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[source]</local-name>
-            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
-            <remote-alias>source</remote-alias>
-            <ordinal>79</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1553,7 +1534,7 @@
             <local-name>[H_NDIS_INVOICE_HEADER_SID (L_PARTICIPANT_NDIS_INVOICE)]</local-name>
             <parent-name>[L_PARTICIPANT_NDIS_INVOICE]</parent-name>
             <remote-alias>H_NDIS_INVOICE_HEADER_SID</remote-alias>
-            <ordinal>81</ordinal>
+            <ordinal>80</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1571,7 +1552,7 @@
             <local-name>[H_PARTICIPANT_SID]</local-name>
             <parent-name>[L_PARTICIPANT_NDIS_INVOICE]</parent-name>
             <remote-alias>H_PARTICIPANT_SID</remote-alias>
-            <ordinal>82</ordinal>
+            <ordinal>81</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1589,7 +1570,7 @@
             <local-name>[PARTICIPANT_BK]</local-name>
             <parent-name>[H_Participant]</parent-name>
             <remote-alias>PARTICIPANT_BK</remote-alias>
-            <ordinal>84</ordinal>
+            <ordinal>83</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1607,7 +1588,7 @@
             <local-name>[H_PARTICIPANT_SID (H_Participant)]</local-name>
             <parent-name>[H_Participant]</parent-name>
             <remote-alias>H_PARTICIPANT_SID</remote-alias>
-            <ordinal>85</ordinal>
+            <ordinal>84</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1625,7 +1606,7 @@
             <local-name>[WORKFLOW_PATH (H_Participant)]</local-name>
             <parent-name>[H_Participant]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>86</ordinal>
+            <ordinal>85</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1643,7 +1624,7 @@
             <local-name>[WORKFLOW_NAME (H_Participant)]</local-name>
             <parent-name>[H_Participant]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>87</ordinal>
+            <ordinal>86</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1661,7 +1642,7 @@
             <local-name>[WORKSPACE (H_Participant)]</local-name>
             <parent-name>[H_Participant]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>88</ordinal>
+            <ordinal>87</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1679,7 +1660,7 @@
             <local-name>[LOAD_DATE_TIME (H_Participant)]</local-name>
             <parent-name>[H_Participant]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>89</ordinal>
+            <ordinal>88</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1697,7 +1678,7 @@
             <local-name>[H_PARTICIPANT_SID (L_PARTICIPANT_BUSINESS_UNIT)]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>H_PARTICIPANT_SID</remote-alias>
-            <ordinal>91</ordinal>
+            <ordinal>90</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1715,7 +1696,7 @@
             <local-name>[H_BUSINESS_UNIT_SID]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>H_BUSINESS_UNIT_SID</remote-alias>
-            <ordinal>92</ordinal>
+            <ordinal>91</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1733,7 +1714,7 @@
             <local-name>[L_PARTICIPANT_BUSINESS_UNIT_SID]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>L_PARTICIPANT_BUSINESS_UNIT_SID</remote-alias>
-            <ordinal>93</ordinal>
+            <ordinal>92</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1751,7 +1732,7 @@
             <local-name>[WORKFLOW_PATH (L_PARTICIPANT_BUSINESS_UNIT)]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>94</ordinal>
+            <ordinal>93</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1769,7 +1750,7 @@
             <local-name>[WORKFLOW_NAME (L_PARTICIPANT_BUSINESS_UNIT)]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>95</ordinal>
+            <ordinal>94</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1787,7 +1768,7 @@
             <local-name>[WORKSPACE (L_PARTICIPANT_BUSINESS_UNIT)]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>96</ordinal>
+            <ordinal>95</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1805,7 +1786,7 @@
             <local-name>[LOAD_DATE_TIME (L_PARTICIPANT_BUSINESS_UNIT)]</local-name>
             <parent-name>[L_PARTICIPANT_BUSINESS_UNIT]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>97</ordinal>
+            <ordinal>96</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1823,7 +1804,7 @@
             <local-name>[BUSINESS_UNIT_BK]</local-name>
             <parent-name>[H_BUSINESS_UNIT]</parent-name>
             <remote-alias>BUSINESS_UNIT_BK</remote-alias>
-            <ordinal>99</ordinal>
+            <ordinal>98</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1841,7 +1822,7 @@
             <local-name>[H_BUSINESS_UNIT_SID (H_BUSINESS_UNIT)]</local-name>
             <parent-name>[H_BUSINESS_UNIT]</parent-name>
             <remote-alias>H_BUSINESS_UNIT_SID</remote-alias>
-            <ordinal>100</ordinal>
+            <ordinal>99</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1859,7 +1840,7 @@
             <local-name>[WORKFLOW_PATH (H_BUSINESS_UNIT)]</local-name>
             <parent-name>[H_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>101</ordinal>
+            <ordinal>100</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1877,7 +1858,7 @@
             <local-name>[WORKFLOW_NAME (H_BUSINESS_UNIT)]</local-name>
             <parent-name>[H_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>102</ordinal>
+            <ordinal>101</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1895,7 +1876,7 @@
             <local-name>[WORKSPACE (H_BUSINESS_UNIT)]</local-name>
             <parent-name>[H_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>103</ordinal>
+            <ordinal>102</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1913,7 +1894,7 @@
             <local-name>[LOAD_DATE_TIME (H_BUSINESS_UNIT)]</local-name>
             <parent-name>[H_BUSINESS_UNIT]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>104</ordinal>
+            <ordinal>103</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1931,7 +1912,7 @@
             <local-name>[BUSINESS_UNIT_TYPE]</local-name>
             <parent-name>[S_BUSINESS_UNIT_TYPE]</parent-name>
             <remote-alias>BUSINESS_UNIT_TYPE</remote-alias>
-            <ordinal>106</ordinal>
+            <ordinal>105</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1949,7 +1930,7 @@
             <local-name>[H_BUSINESS_UNIT_SID (S_BUSINESS_UNIT_TYPE)]</local-name>
             <parent-name>[S_BUSINESS_UNIT_TYPE]</parent-name>
             <remote-alias>H_BUSINESS_UNIT_SID</remote-alias>
-            <ordinal>107</ordinal>
+            <ordinal>106</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1967,7 +1948,7 @@
             <local-name>[WORKFLOW_PATH (S_BUSINESS_UNIT_TYPE)]</local-name>
             <parent-name>[S_BUSINESS_UNIT_TYPE]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>108</ordinal>
+            <ordinal>107</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -1985,7 +1966,7 @@
             <local-name>[WORKFLOW_NAME (S_BUSINESS_UNIT_TYPE)]</local-name>
             <parent-name>[S_BUSINESS_UNIT_TYPE]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>109</ordinal>
+            <ordinal>108</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2003,7 +1984,7 @@
             <local-name>[WORKSPACE (S_BUSINESS_UNIT_TYPE)]</local-name>
             <parent-name>[S_BUSINESS_UNIT_TYPE]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>110</ordinal>
+            <ordinal>109</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2021,7 +2002,7 @@
             <local-name>[LOAD_DATE_TIME (S_BUSINESS_UNIT_TYPE)]</local-name>
             <parent-name>[S_BUSINESS_UNIT_TYPE]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>111</ordinal>
+            <ordinal>110</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2039,7 +2020,7 @@
             <local-name>[BUSINESS_UNIT_TIE_BREAKER]</local-name>
             <parent-name>[S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER]</parent-name>
             <remote-alias>BUSINESS_UNIT_TIE_BREAKER</remote-alias>
-            <ordinal>113</ordinal>
+            <ordinal>112</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <precision>18</precision>
@@ -2056,7 +2037,7 @@
             <local-name>[L_PARTICIPANT_BUSINESS_UNIT_SID (S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER)]</local-name>
             <parent-name>[S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER]</parent-name>
             <remote-alias>L_PARTICIPANT_BUSINESS_UNIT_SID</remote-alias>
-            <ordinal>114</ordinal>
+            <ordinal>113</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2074,7 +2055,7 @@
             <local-name>[WORKFLOW_PATH (S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER)]</local-name>
             <parent-name>[S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>115</ordinal>
+            <ordinal>114</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2092,7 +2073,7 @@
             <local-name>[WORKFLOW_NAME (S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER)]</local-name>
             <parent-name>[S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>116</ordinal>
+            <ordinal>115</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2110,7 +2091,7 @@
             <local-name>[WORKSPACE (S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER)]</local-name>
             <parent-name>[S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>117</ordinal>
+            <ordinal>116</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2128,7 +2109,7 @@
             <local-name>[LOAD_DATE_TIME (S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER)]</local-name>
             <parent-name>[S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>118</ordinal>
+            <ordinal>117</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2146,7 +2127,7 @@
             <local-name>[SALUTATION]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>SALUTATION</remote-alias>
-            <ordinal>120</ordinal>
+            <ordinal>119</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2164,7 +2145,7 @@
             <local-name>[FAMILY_NAME]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>FAMILY_NAME</remote-alias>
-            <ordinal>121</ordinal>
+            <ordinal>120</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2182,7 +2163,7 @@
             <local-name>[FIRST_NAME]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>FIRST_NAME</remote-alias>
-            <ordinal>122</ordinal>
+            <ordinal>121</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2200,7 +2181,7 @@
             <local-name>[FULL_NAME]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>FULL_NAME</remote-alias>
-            <ordinal>123</ordinal>
+            <ordinal>122</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2218,7 +2199,7 @@
             <local-name>[GENDER]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>GENDER</remote-alias>
-            <ordinal>124</ordinal>
+            <ordinal>123</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2236,7 +2217,7 @@
             <local-name>[DATE_OF_BIRTH]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>DATE_OF_BIRTH</remote-alias>
-            <ordinal>125</ordinal>
+            <ordinal>124</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2254,7 +2235,7 @@
             <local-name>[AGE]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>AGE</remote-alias>
-            <ordinal>126</ordinal>
+            <ordinal>125</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2272,7 +2253,7 @@
             <local-name>[H_PARTICIPANT_SID (S_PARTICIPANT)]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>H_PARTICIPANT_SID</remote-alias>
-            <ordinal>127</ordinal>
+            <ordinal>126</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2290,7 +2271,7 @@
             <local-name>[WORKFLOW_PATH (S_PARTICIPANT)]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>128</ordinal>
+            <ordinal>127</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2308,7 +2289,7 @@
             <local-name>[WORKFLOW_NAME (S_PARTICIPANT)]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>129</ordinal>
+            <ordinal>128</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2326,7 +2307,7 @@
             <local-name>[WORKSPACE (S_PARTICIPANT)]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>130</ordinal>
+            <ordinal>129</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2344,7 +2325,7 @@
             <local-name>[LOAD_DATE_TIME (S_PARTICIPANT)]</local-name>
             <parent-name>[S_PARTICIPANT]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>131</ordinal>
+            <ordinal>130</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2362,7 +2343,7 @@
             <local-name>[BUSINESS_UNIT_NAME]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>BUSINESS_UNIT_NAME</remote-alias>
-            <ordinal>133</ordinal>
+            <ordinal>132</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2380,7 +2361,7 @@
             <local-name>[BUSINESS_UNIT_COST_CENTRE]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>BUSINESS_UNIT_COST_CENTRE</remote-alias>
-            <ordinal>134</ordinal>
+            <ordinal>133</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2398,7 +2379,7 @@
             <local-name>[H_BUSINESS_UNIT_SID (S_BUSINESS_UNIT)]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>H_BUSINESS_UNIT_SID</remote-alias>
-            <ordinal>135</ordinal>
+            <ordinal>134</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2416,7 +2397,7 @@
             <local-name>[WORKFLOW_PATH (S_BUSINESS_UNIT)]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKFLOW_PATH</remote-alias>
-            <ordinal>136</ordinal>
+            <ordinal>135</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2434,7 +2415,7 @@
             <local-name>[WORKFLOW_NAME (S_BUSINESS_UNIT)]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKFLOW_NAME</remote-alias>
-            <ordinal>137</ordinal>
+            <ordinal>136</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2452,7 +2433,7 @@
             <local-name>[WORKSPACE (S_BUSINESS_UNIT)]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>WORKSPACE</remote-alias>
-            <ordinal>138</ordinal>
+            <ordinal>137</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2470,7 +2451,7 @@
             <local-name>[LOAD_DATE_TIME (S_BUSINESS_UNIT)]</local-name>
             <parent-name>[S_BUSINESS_UNIT]</parent-name>
             <remote-alias>LOAD_DATE_TIME</remote-alias>
-            <ordinal>139</ordinal>
+            <ordinal>138</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <width>256</width>
@@ -2535,7 +2516,6 @@
       <column caption='LOAD DATE TIME (s NDIS Invoice Header)' datatype='string' hidden='true' name='[LOAD_DATE_TIME (s_NDIS_Invoice_Header)]' role='dimension' type='nominal' />
       <column caption='Load Date Time' datatype='string' hidden='true' name='[LOAD_DATE_TIME]' role='dimension' type='nominal' />
       <column caption='L Participant Business Unit Sid (S Participant Business Unit Type Tie Breaker)' datatype='string' name='[L_PARTICIPANT_BUSINESS_UNIT_SID (S_PARTICIPANT_BUSINESS_UNIT_TYPE_TIE_BREAKER)]' role='dimension' type='nominal' />
-      <column caption='Job' datatype='string' name='[MYOB Job]' role='dimension' type='nominal' />
       <column caption='Ndis Invoice Detail Bk' datatype='string' name='[NDIS_INVOICE_DETAIL_BK]' role='dimension' type='nominal' />
       <column caption='NDIS Invoice Detail Description' datatype='string' name='[NDIS_INVOICE_DETAIL_DESCRIPTION]' role='dimension' type='nominal' />
       <column caption='Customer PO' datatype='string' name='[NDIS_INVOICE_HEADER_BK]' role='dimension' type='nominal' />
@@ -2547,7 +2527,6 @@
       <column caption='Quantity' datatype='real' name='[QUANTITY]' role='measure' type='quantitative' />
       <column caption='Registration Group' datatype='string' name='[REGISTRATION_GROUP]' role='dimension' type='nominal' />
       <column caption='Salutation' datatype='string' name='[SALUTATION]' role='dimension' type='nominal' />
-      <column caption='Support Item Number (S NDIS SUPPORT ITEM)' datatype='string' name='[Support Item Number (S_NDIS_SUPPORT_ITEM)]' role='dimension' type='nominal' />
       <column aggregation='Max' caption='Unit Price' datatype='real' name='[UNIT_PRICE]' role='measure' type='quantitative' />
       <column caption='WORKFLOW NAME (H Participant)' datatype='string' hidden='true' name='[WORKFLOW_NAME (H_Participant)]' role='dimension' type='nominal' />
       <column caption='Workflow Name (S Business Unit)' datatype='string' name='[WORKFLOW_NAME (S_BUSINESS_UNIT)]' role='dimension' type='nominal' />
@@ -2584,7 +2563,6 @@
       <column caption='Workspace' datatype='string' hidden='true' name='[WORKSPACE]' role='dimension' type='nominal' />
       <column caption='h ndis support item sid (S NDIS SUPPORT ITEM)' datatype='string' hidden='true' name='[h_ndis_support_item_sid (S_NDIS_SUPPORT_ITEM)]' role='dimension' type='nominal' />
       <column caption='H Ndis Support Item Sid' datatype='string' hidden='true' name='[h_ndis_support_item_sid]' role='dimension' type='nominal' />
-      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
       <group caption='Action (Payroll Batch ID)' hidden='true' name='[Action (Payroll Batch ID)]' name-style='unqualified' user:auto-column='sheet_link'>
         <groupfilter function='crossjoin'>
           <groupfilter function='level-members' level='[PAYROLL_BATCH_ID]' />
@@ -2753,7 +2731,7 @@
             <groupfilter function='member' level='[none:BUSINESS_UNIT_TIE_BREAKER:ok]' member='1' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:BUSINESS_UNIT_TYPE:nk]'>
-            <groupfilter function='member' level='[none:BUSINESS_UNIT_TYPE:nk]' member='&quot;Day Services&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[none:BUSINESS_UNIT_TYPE:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]'>
             <groupfilter function='level-members' level='[none:PAYROLL_BATCH_ID:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
@@ -2797,7 +2775,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' name='Invoices Per Batch'>
+    <window class='worksheet' maximized='true' name='Invoices Per Batch'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2819,7 +2797,7 @@
         </edge>
       </cards>
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' name='Sheet 1'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2842,6 +2820,7 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
+            <card param='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:BUSINESS_UNIT_TYPE:nk]' type='filter' />
             <card param='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:BUSINESS_UNIT_TIE_BREAKER:ok]' type='filter' />
             <card param='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[Action (Payroll Batch ID)]' type='filter' />
             <card param='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]' type='filter' />

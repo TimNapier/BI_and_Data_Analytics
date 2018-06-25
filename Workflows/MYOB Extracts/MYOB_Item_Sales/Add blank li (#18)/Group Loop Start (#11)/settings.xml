@@ -19,30 +19,354 @@
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="H_PARTICIPANT_SID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="H_BUSINESS_UNIT_SID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="L_PARTICIPANT_BUSINESS_UNIT_SID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_TIE_BREAKER"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_BK"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_TYPE"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_NAME"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=""/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="groupIdentifier"/>
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value=""/>
 </config>
-<config key="Loop_Execute_4">
+<config key="Loop_Execute_31">
 <entry key="type" type="xstring" value="loopcontext_execute"/>
 </config>
-<config key="Variable_5">
+<config key="Variable_32">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
 <entry key="value" type="xint" value="0"/>
 </config>
-<config key="Variable_6">
+<config key="Variable_33">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Customer PO"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="13557"/>
+<entry key="value" type="xstring" value="13540"/>
 </config>
-<config key="Variable_7">
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="H_PARTICIPANT_SID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="17503a6b2326f09fbc4e3a7c03874c7333002038"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="H_BUSINESS_UNIT_SID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="c1dfd96eea8cc2b62785275bca38ac261256e278"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="L_PARTICIPANT_BUSINESS_UNIT_SID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="9d8974baddfc0e53300829f37e5fc88b0f5ce61b"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Datavault/links/Client 2 Business Unit/Client 2 Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Client 2 Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018-06-12 11:53:28.0"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_TIE_BREAKER"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1.00"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Datavault/links/Client 2 Business Unit/Client 2 Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Client 2 Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018-06-12 11:53:28.0"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_BK"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="6"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/Business Unit/Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#2)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018-06-25 13:10:15.0"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_TYPE"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Day Services"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/Business Unit/Business Unit Type Snowflake"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Business Unit Type Snowflake"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#1) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018-06-12 11:37:06.0"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="BUSINESS_UNIT_NAME"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Lower Plenty"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_PATH (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/Business Unit/Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKFLOW_NAME (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="WORKSPACE (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="LOAD_DATE_TIME (#2) (#1)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018-06-25 13:10:15.0"/>
+</config>
+<config key="Variable_61">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="groupIdentifier"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="%13557%"/>
+<entry key="value" type="xstring" value="%13540%%00037%17503a6b2326f09fbc4e3a7c03874c7333002038%%00037%c1dfd96eea8cc2b62785275bca38ac261256e278%%00037%9d8974baddfc0e53300829f37e5fc88b0f5ce61b%%00037%/Datavault/links/Client 2 Business Unit/Client 2 Business Unit CSM Snowflake%%00037%Client 2 Business Unit CSM Snowflake%%00037%C:\BI_and_Data_Analytics\Workflows%%00037%2018-06-12 11:53:28.0%%00037%1.00%%00037%/Datavault/links/Client 2 Business Unit/Client 2 Business Unit CSM Snowflake%%00037%Client 2 Business Unit CSM Snowflake%%00037%C:\BI_and_Data_Analytics\Workflows%%00037%2018-06-12 11:53:28.0%%00037%6%%00037%/Datavault/Core Business Concepts/Business Unit/Business Unit CSM Snowflake%%00037%Business Unit CSM Snowflake%%00037%C:\BI_and_Data_Analytics\Workflows%%00037%2018-06-25 13:10:15.0%%00037%Day Services%%00037%/Datavault/Core Business Concepts/Business Unit/Business Unit Type Snowflake%%00037%Business Unit Type Snowflake%%00037%C:\BI_and_Data_Analytics\Workflows%%00037%2018-06-12 11:37:06.0%%00037%Lower Plenty%%00037%/Datavault/Core Business Concepts/Business Unit/Business Unit CSM Snowflake%%00037%Business Unit CSM Snowflake%%00037%C:\BI_and_Data_Analytics\Workflows%%00037%2018-06-25 13:10:15.0%"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -125,12 +449,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 18"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 196, Cols: 44"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="12bfe8a9-0162-42fc-ace1-66fb3b54505b"/>
+<entry key="file_store_id" type="xstring" value="bb9e2c1e-f22c-4def-981f-db56cfb1424f"/>
 </config>
 </config>
