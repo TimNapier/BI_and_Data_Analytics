@@ -1,0 +1,1 @@
+"C:\Program Files\KNIME\knime" -nosplash -consoleLog -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="C:\BI_and_Data_Analytics\Workflows\Utilities\Test Project" >> whatknimedid.log

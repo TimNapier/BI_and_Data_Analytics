@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Row0"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;REFERRAL_TYPE_ID&quot; varchar(256) , &quot;CLIENT_BK&quot; varchar(256) , &quot;TOTAL_HOURS&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;REFERRAL_TYPE_DESCRIPTION&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_CLIENT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
