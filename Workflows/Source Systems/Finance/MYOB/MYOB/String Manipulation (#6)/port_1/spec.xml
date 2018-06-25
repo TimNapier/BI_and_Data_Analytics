@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="3"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="URI"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="https://secure.myob.com/oauth2/v1/authorize"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="method"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="POST"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="body"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="code=7vr2%21IAAAAPH7gSWmnFA6i1atoveIbuz_7C8Qg57H__Bn_QxMDyZPAQEAAAEAwBUbXwSUW36uSokeClu3FyVIUoP_2Fcgsyas9lBwETaEhk3DM2qmkK67i1JW1lO1kVyjCASVJPN2NFpb0r6ROfZmAxN2j98RiGtqZ5KeolMd8Us1GI0Et4GWoesMbBv5-1iYDl0LEV-vicgM2jdUObvEh3GIjQ05iMfzKQywDlEuzEehYaWpGWBfi7_sJOqcq8HV1pgvBO2eDH0i-NIT-z1dPxq-pQUnsTRMTnXG065zDVXbke4pkMmAbLguR6INP9ZueHG9dwnR5bW0Xxv_xoV5O8VghSNKyf0_-tjUgYdO166Bh_h9wHmDvbBdUVbgyUCnt0v_cS1ev0QOuTO8&amp;redirect_uri=https%3A%2F%2Fwww.google.com%2F&amp;client_id=v55jkugsyydh5d3te7sk63pj&amp;scope=CompanyFile&amp;client_secret=4caqDwv5VJa9sb2v9KAHrTb5&amp;grant_type=authorization_code"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+</config>

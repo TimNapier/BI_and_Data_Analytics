@@ -7,8 +7,8 @@
 </config>
 <config key="model">
 <entry key="Use constant URI" type="xboolean" value="true"/>
-<entry key="Constant URI" type="xstring" value="https://secure.myob.com/oauth2/account/authorize?client_id=v55jkugsyydh5d3te7sk63pj&amp;redirect_uri=http:/localhost:8080&amp;response_type=code&amp;scope=CompanyFile"/>
-<entry key="URI column" type="xstring" isnull="true" value=""/>
+<entry key="Constant URI" type="xstring" value="https://secure.myob.com/oauth2/v1/authorize"/>
+<entry key="URI column" type="xstring" value="URI"/>
 <entry key="delay_enabled" type="xboolean" value="false"/>
 <entry key="delay" type="xlong" value="0"/>
 <entry key="concurrency" type="xint" value="1"/>
@@ -49,7 +49,7 @@
 </config>
 <entry key="Body column name" type="xstring" value="body"/>
 <config key="None"/>
-<entry key="None_enabled" type="xboolean" value="false"/>
+<entry key="None_enabled" type="xboolean" value="true"/>
 <config key="Basic">
 <config key="BASIC auth_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
@@ -75,12 +75,12 @@
 <entry key="selectedType" type="xstring" value="USER_PWD"/>
 </config>
 </config>
-<entry key="Digest_enabled" type="xboolean" value="true"/>
+<entry key="Digest_enabled" type="xboolean" value="false"/>
 <entry key="follow redirects" type="xboolean" value="true"/>
 <entry key="timeout" type="xint" value="2"/>
 <entry key="Use constant request body" type="xboolean" value="true"/>
 <entry key="Constant request body" type="xstring" value=""/>
-<entry key="Request body column" type="xstring" isnull="true" value=""/>
+<entry key="Request body column" type="xstring" value="body"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -103,12 +103,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0d38024b-3264-4624-9cab-fb79f6e73d9a"/>
+<entry key="file_store_id" type="xstring" value="7018efe0-5e0f-450a-8473-e4d6aeb0d2f9"/>
 </config>
 </config>

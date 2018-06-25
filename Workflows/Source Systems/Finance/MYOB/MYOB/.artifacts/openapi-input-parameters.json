@@ -1,0 +1,54 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-20:11":{
+            "type":"string",
+            "default":"https%3A%2F%2Fwww.google.com%2F",
+            "description":"Enter Description\t\t\t\t\t\t\t\t\t\t\t",
+            "example":"https%3A%2F%2Fwww.google.com%2F"
+        },
+        "string-input-20:10":{
+            "type":"string",
+            "default":"4caqDwv5VJa9sb2v9KAHrTb5",
+            "description":"Enter Description\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+            "example":"4caqDwv5VJa9sb2v9KAHrTb5"
+        },
+        "string-input-20:24":{
+            "type":"string",
+            "default":"https://secure.myob.com/oauth2/v1/authorize",
+            "description":"Enter Description",
+            "example":"https://secure.myob.com/oauth2/v1/authorize"
+        },
+        "string-input-20:13":{
+            "type":"string",
+            "default":"CompanyFile",
+            "description":"Enter Description\t\t\t\t\t\t\t\t",
+            "example":"CompanyFile"
+        },
+        "string-input-20:12":{
+            "type":"string",
+            "default":"code",
+            "description":"Enter Description",
+            "example":"code"
+        },
+        "string-input-20:9":{
+            "type":"string",
+            "default":"v55jkugsyydh5d3te7sk63pj",
+            "description":"Enter Description",
+            "example":"v55jkugsyydh5d3te7sk63pj"
+        },
+        "string-input-20:25":{
+            "type":"string",
+            "default":"7vr2%21IAAAABKMuzl1b9KtWtRhHgoDFTxho_i-l47xb2y3Jtj9nQd2AQEAAAGzPoF0dxTqzBPg28UCe8O1zp9KsZCdOHr_kQ9FDRhUsOpd17wjPH_EEoAuKKY066EfgQECxQnibY0d_X1NiUaZr09HY4AowFBi2LkEmd9UY5P3Fy7LPAjuLwZt9vkFSYJ0bVdcSpDH4oVax0ET0Svp5v7xZIcGe4m1WSfldmzxsiSr323tegkFUcCeW4ATvGyaW-HH8IXT9g5_gJoDYlHUkBVlbhJ8oRPAOmBTGHb3itq6C_YM7GS2D28MpXTmHV3HyRqdKbdWMoD2E53G1d-U1N9-dmLdQCN2pZqceqDDbwwy-AsOKySt4k-YKvm1W-TrKRXsAeDNvobdE0YDEDbJ",
+            "description":"Enter Description",
+            "example":"7vr2%21IAAAABKMuzl1b9KtWtRhHgoDFTxho_i-l47xb2y3Jtj9nQd2AQEAAAGzPoF0dxTqzBPg28UCe8O1zp9KsZCdOHr_kQ9FDRhUsOpd17wjPH_EEoAuKKY066EfgQECxQnibY0d_X1NiUaZr09HY4AowFBi2LkEmd9UY5P3Fy7LPAjuLwZt9vkFSYJ0bVdcSpDH4oVax0ET0Svp5v7xZIcGe4m1WSfldmzxsiSr323tegkFUcCeW4ATvGyaW-HH8IXT9g5_gJoDYlHUkBVlbhJ8oRPAOmBTGHb3itq6C_YM7GS2D28MpXTmHV3HyRqdKbdWMoD2E53G1d-U1N9-dmLdQCN2pZqceqDDbwwy-AsOKySt4k-YKvm1W-TrKRXsAeDNvobdE0YDEDbJ"
+        },
+        "string-input-20:8":{
+            "type":"string",
+            "default":"https://secure.myob.com/oauth2/account/authorize?",
+            "description":"Enter Description",
+            "example":"https://secure.myob.com/oauth2/account/authorize?"
+        }
+    }
+}

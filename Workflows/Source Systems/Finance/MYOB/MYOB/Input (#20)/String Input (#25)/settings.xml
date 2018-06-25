@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="code"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="7vr2%21IAAAABKMuzl1b9KtWtRhHgoDFTxho_i-l47xb2y3Jtj9nQd2AQEAAAGzPoF0dxTqzBPg28UCe8O1zp9KsZCdOHr_kQ9FDRhUsOpd17wjPH_EEoAuKKY066EfgQECxQnibY0d_X1NiUaZr09HY4AowFBi2LkEmd9UY5P3Fy7LPAjuLwZt9vkFSYJ0bVdcSpDH4oVax0ET0Svp5v7xZIcGe4m1WSfldmzxsiSr323tegkFUcCeW4ATvGyaW-HH8IXT9g5_gJoDYlHUkBVlbhJ8oRPAOmBTGHb3itq6C_YM7GS2D28MpXTmHV3HyRqdKbdWMoD2E53G1d-U1N9-dmLdQCN2pZqceqDDbwwy-AsOKySt4k-YKvm1W-TrKRXsAeDNvobdE0YDEDbJ"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="code"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="7vr2%21IAAAABKMuzl1b9KtWtRhHgoDFTxho_i-l47xb2y3Jtj9nQd2AQEAAAGzPoF0dxTqzBPg28UCe8O1zp9KsZCdOHr_kQ9FDRhUsOpd17wjPH_EEoAuKKY066EfgQECxQnibY0d_X1NiUaZr09HY4AowFBi2LkEmd9UY5P3Fy7LPAjuLwZt9vkFSYJ0bVdcSpDH4oVax0ET0Svp5v7xZIcGe4m1WSfldmzxsiSr323tegkFUcCeW4ATvGyaW-HH8IXT9g5_gJoDYlHUkBVlbhJ8oRPAOmBTGHb3itq6C_YM7GS2D28MpXTmHV3HyRqdKbdWMoD2E53G1d-U1N9-dmLdQCN2pZqceqDDbwwy-AsOKySt4k-YKvm1W-TrKRXsAeDNvobdE0YDEDbJ"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="defaultValue">
+<entry key="string" type="xstring" value="7vr2%21IAAAABKMuzl1b9KtWtRhHgoDFTxho_i-l47xb2y3Jtj9nQd2AQEAAAGzPoF0dxTqzBPg28UCe8O1zp9KsZCdOHr_kQ9FDRhUsOpd17wjPH_EEoAuKKY066EfgQECxQnibY0d_X1NiUaZr09HY4AowFBi2LkEmd9UY5P3Fy7LPAjuLwZt9vkFSYJ0bVdcSpDH4oVax0ET0Svp5v7xZIcGe4m1WSfldmzxsiSr323tegkFUcCeW4ATvGyaW-HH8IXT9g5_gJoDYlHUkBVlbhJ8oRPAOmBTGHb3itq6C_YM7GS2D28MpXTmHV3HyRqdKbdWMoD2E53G1d-U1N9-dmLdQCN2pZqceqDDbwwy-AsOKySt4k-YKvm1W-TrKRXsAeDNvobdE0YDEDbJ"/>
+</config>
+<entry key="label" type="xstring" value="code"/>
+<entry key="description" type="xstring" value="Enter Description"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="hideInDialog" type="xboolean" value="false"/>
+<entry key="required" type="xboolean" value="true"/>
+<entry key="parameterName" type="xstring" value="string-input"/>
+<entry key="flowvariablename" type="xstring" value="code"/>
+<entry key="regex" type="xstring" value=""/>
+<entry key="error_message" type="xstring" value=""/>
+<entry key="editorType" type="xstring" value="Single-line"/>
+<entry key="multilineEditorWidth" type="xint" value="60"/>
+<entry key="multilineEditorHeight" type="xint" value="5"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="code returned"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="327"/>
+<entry key="y-coordinate" type="xint" value="659"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.input.string.StringInputQuickFormNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Input"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.2.v201802051356"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.3.v201804031047"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Input"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e5c6b628-0ee8-4380-9fae-63938d7e88b6"/>
+</config>
+</config>

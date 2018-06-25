@@ -8,10 +8,10 @@
 <entry key="authored-by" type="xstring" value="Administrator"/>
 <entry key="authored-when" type="xstring" value="2018-06-20 14:52:59 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
-<entry key="lastEdited-when" type="xstring" value="2018-06-20 16:16:52 +1000"/>
+<entry key="lastEdited-when" type="xstring" value="2018-06-25 12:39:17 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
@@ -23,16 +23,32 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="444"/>
-<entry key="1" type="xint" value="217"/>
+<entry key="0" type="xint" value="504"/>
+<entry key="1" type="xint" value="137"/>
 <entry key="2" type="xint" value="90"/>
 <entry key="3" type="xint" value="78"/>
 </config>
 </config>
 </config>
-<config key="node_2">
-<entry key="id" type="xint" value="2"/>
-<entry key="node_settings_file" type="xstring" value="GET Request (#2)/settings.xml"/>
+<config key="node_5">
+<entry key="id" type="xint" value="5"/>
+<entry key="node_settings_file" type="xstring" value="Table Creator (#5)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="124"/>
+<entry key="1" type="xint" value="17"/>
+<entry key="2" type="xint" value="83"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_6">
+<entry key="id" type="xint" value="6"/>
+<entry key="node_settings_file" type="xstring" value="String Manipulation (#6)/settings.xml"/>
 <entry key="node_is_meta" type="xboolean" value="false"/>
 <entry key="node_type" type="xstring" value="NativeNode"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
@@ -40,14 +56,65 @@
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="344"/>
-<entry key="1" type="xint" value="337"/>
+<entry key="1" type="xint" value="97"/>
+<entry key="2" type="xint" value="119"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_7">
+<entry key="id" type="xint" value="7"/>
+<entry key="node_settings_file" type="xstring" value="GET Request (#7)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="424"/>
+<entry key="1" type="xint" value="137"/>
 <entry key="2" type="xint" value="79"/>
 <entry key="3" type="xint" value="78"/>
 </config>
 </config>
 </config>
+<config key="node_20">
+<entry key="id" type="xint" value="20"/>
+<entry key="node_settings_file" type="xstring" value="Input (#20)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="344"/>
+<entry key="1" type="xint" value="412"/>
+<entry key="2" type="xint" value="50"/>
+<entry key="3" type="xint" value="78"/>
 </config>
-<config key="connections"/>
+</config>
+</config>
+</config>
+<config key="connections">
+<config key="connection_0">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="7"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_1">
+<entry key="sourceID" type="xint" value="5"/>
+<entry key="destID" type="xint" value="6"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_2">
+<entry key="sourceID" type="xint" value="6"/>
+<entry key="destID" type="xint" value="1"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+</config>
 <config key="workflow_editor_settings">
 <entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
 <entry key="workflow.editor.ShowGrid" type="xboolean" value="true"/>

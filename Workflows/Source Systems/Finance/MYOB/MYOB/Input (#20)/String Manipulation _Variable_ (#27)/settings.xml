@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="body"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="code=7vr2%21IAAAABKMuzl1b9KtWtRhHgoDFTxho_i-l47xb2y3Jtj9nQd2AQEAAAGzPoF0dxTqzBPg28UCe8O1zp9KsZCdOHr_kQ9FDRhUsOpd17wjPH_EEoAuKKY066EfgQECxQnibY0d_X1NiUaZr09HY4AowFBi2LkEmd9UY5P3Fy7LPAjuLwZt9vkFSYJ0bVdcSpDH4oVax0ET0Svp5v7xZIcGe4m1WSfldmzxsiSr323tegkFUcCeW4ATvGyaW-HH8IXT9g5_gJoDYlHUkBVlbhJ8oRPAOmBTGHb3itq6C_YM7GS2D28MpXTmHV3HyRqdKbdWMoD2E53G1d-U1N9-dmLdQCN2pZqceqDDbwwy-AsOKySt4k-YKvm1W-TrKRXsAeDNvobdE0YDEDbJ&amp;redirect_uri=https%3A%2F%2Fwww.google.com%2F&amp;client_id=v55jkugsyydh5d3te7sk63pj&amp;scope=CompanyFile&amp;4caqDwv5VJa9sb2v9KAHrTb5&amp;grant_type=authorisation_code"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="expression" type="xstring" value="joinSep(&quot;&amp;&quot;,%%00010%%00009$${Scode}$$,%%00010%%00009$${Sredirect_URI}$$,%%00010%%00009$${Sclient_id}$$,%%00010%%00009$${Sscope}$$,%%00010%%00009$${Sclient_secret}$$,%%00010%%00009&quot;grant_type=authorisation_code&quot;%%00010%%00009)"/>
+<entry key="replaced_column" type="xstring" value="body"/>
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
+<entry key="insert_missing_as_null" type="xboolean" value="false"/>
+<entry key="return_type" type="xstring" value="java.lang.String"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory"/>
+<entry key="node-name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804031105"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="String Manipulation (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="62683eab-a76c-4883-ba2a-3508a5576fbf"/>
+</config>
+</config>
