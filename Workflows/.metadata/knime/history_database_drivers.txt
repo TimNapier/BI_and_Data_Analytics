@@ -1,8 +1,8 @@
 com.snowflake.client.jdbc.SnowflakeDriver
+net.sourceforge.jtds.jdbc.Driver
 org.apache.hive.jdbc.HiveDriver
 com.cloudera.hive.jdbc41.HS2Driver
 com.amazon.hive.jdbc41.HS2Driver
 com.amazon.redshift.jdbc.Driver
 com.amazonaws.athena.jdbc.AthenaDriver
 org.sqlite.JDBC
-net.sourceforge.jtds.jdbc.Driver

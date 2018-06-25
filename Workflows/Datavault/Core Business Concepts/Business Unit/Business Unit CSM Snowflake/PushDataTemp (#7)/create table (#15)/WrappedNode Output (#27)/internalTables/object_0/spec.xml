@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;business_unit&quot; ( &quot;BusinessUnitID&quot; varchar(256) , &quot;BusinessUnitDesc&quot; varchar(256) , &quot;PayCostCentre&quot; varchar(256) , &quot;h_business_unit_sid&quot; varchar(256) , &quot;workflow_path&quot; varchar(256) , &quot;workflow_name&quot; varchar(256) , &quot;workspace&quot; varchar(256) , &quot;load_date_time&quot; varchar(256) )"/>
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;business_unit&quot; ( &quot;BUSINESS_UNIT_BK&quot; varchar(256) , &quot;BUSINESS_UNIT_NAME&quot; varchar(256) , &quot;BUSINESS_UNIT_COST_CENTRE&quot; varchar(256) , &quot;H_BUSINESS_UNIT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 </config>

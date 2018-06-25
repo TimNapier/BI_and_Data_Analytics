@@ -1,4 +1,0 @@
-100080 (22000): Number of columns in file (7) does not match that of the corresponding table (8), use file format option error_on_column_count_mismatch=false to ignore this error
-  File 'input_file.csv.gz', line 3, character 1
-  Row 1 starts at line 2, column ""business_unit""["workspace":7]
-  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.

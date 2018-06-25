@@ -8,14 +8,10 @@
 <entry key="authored-by" type="xstring" value="Administrator"/>
 <entry key="authored-when" type="xstring" value="2018-06-11 14:23:21 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
-<entry key="lastEdited-when" type="xstring" value="2018-06-25 12:51:30 +1000"/>
+<entry key="lastEdited-when" type="xstring" value="2018-06-25 14:31:45 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Error in sub flow."/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_0">
@@ -66,18 +62,18 @@
 </config>
 </config>
 </config>
-<config key="node_20">
-<entry key="id" type="xint" value="20"/>
-<entry key="node_settings_file" type="xstring" value="Extract Context Properties (#20)/settings.xml"/>
-<entry key="node_is_meta" type="xboolean" value="false"/>
-<entry key="node_type" type="xstring" value="NativeNode"/>
+<config key="node_21">
+<entry key="id" type="xint" value="21"/>
+<entry key="node_settings_file" type="xstring" value="Workflow Nam (#21)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="124"/>
-<entry key="1" type="xint" value="37"/>
-<entry key="2" type="xint" value="96"/>
+<entry key="0" type="xint" value="104"/>
+<entry key="1" type="xint" value="117"/>
+<entry key="2" type="xint" value="138"/>
 <entry key="3" type="xint" value="93"/>
 </config>
 </config>
@@ -105,7 +101,7 @@
 </config>
 </config>
 <config key="connection_2">
-<entry key="sourceID" type="xint" value="20"/>
+<entry key="sourceID" type="xint" value="21"/>
 <entry key="destID" type="xint" value="16"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="0"/>

@@ -3,7 +3,7 @@
 <entry key="spec_name" type="xstring" value="default"/>
 <entry key="number_columns" type="xint" value="4"/>
 <config key="column_spec_0">
-<entry key="column_name" type="xstring" value="BusinessUnitID"/>
+<entry key="column_name" type="xstring" value="BUSINESS_UNIT_BK"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -162,7 +162,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_1">
-<entry key="column_name" type="xstring" value="BusinessUnitDesc"/>
+<entry key="column_name" type="xstring" value="BUSINESS_UNIT_NAME"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -321,7 +321,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_2">
-<entry key="column_name" type="xstring" value="PayCostCentre"/>
+<entry key="column_name" type="xstring" value="BUSINESS_UNIT_COST_CENTRE"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -468,7 +468,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_3">
-<entry key="column_name" type="xstring" value="h_business_unit_sid"/>
+<entry key="column_name" type="xstring" value="H_BUSINESS_UNIT_SID"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>

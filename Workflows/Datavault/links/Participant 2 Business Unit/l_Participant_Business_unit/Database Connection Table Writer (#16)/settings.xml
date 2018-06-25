@@ -14,16 +14,12 @@
 </config>
 <config key="variables">
 <config key="table_name">
-<entry key="used_variable" type="xstring" value="context.workflow.name"/>
+<entry key="used_variable" type="xstring" value="local_var_core_business_concept"/>
 <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Execute failed: Cannot perform CREATE TABLE. This session does not have a current database. Call 'USE DATABASE', or use a qualified name."/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBConnectionWriterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Database Connection Table Writer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -36,11 +32,11 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Connection Table Writer"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="37a7ffad-7d25-45ac-bfbf-3c67d87cf1de"/>
 </config>
 </config>

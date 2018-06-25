@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;business_unit&quot; ( &quot;BusinessUnitID&quot; varchar(256) , &quot;BusinessUnitDesc&quot; varchar(256) , &quot;PayCostCentre&quot; varchar(256) , &quot;h_business_unit_sid&quot; varchar(256) , &quot;workflow_path&quot; varchar(256) , &quot;workflow_name&quot; varchar(256) , &quot;workspace&quot; varchar(256) , &quot;load_date_time&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;business_unit&quot; ( &quot;BUSINESS_UNIT_BK&quot; varchar(256) , &quot;BUSINESS_UNIT_NAME&quot; varchar(256) , &quot;BUSINESS_UNIT_COST_CENTRE&quot; varchar(256) , &quot;H_BUSINESS_UNIT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="37bc715a-e18e-443d-9ebe-83f5da64f323"/>
+<entry key="file_store_id" type="xstring" value="09edc886-375a-4e01-9ed7-9dd5fd81fddb"/>
 </config>
 </config>

@@ -6,14 +6,14 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="table_name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ARALUEN_DATAVAULT.DATAVAULT.&quot;h_business_unit&quot;"/>
+<entry key="value" type="xstring" value="ARALUEN_DATAVAULT.DATAVAULT.&quot;H_BUSINESS_UNIT&quot;"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="join(%%00010%%00009&quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;,%%00010%%00009&quot;\&quot;&quot;,%%00010%%00009&quot;h_&quot;,$${Slocal_var_core_business_concept}$$,%%00010%%00009&quot;\&quot;&quot;)"/>
+<entry key="expression" type="xstring" value="upperCase(%%00010join(%%00010%%00009&quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;,%%00010%%00009&quot;\&quot;&quot;,%%00010%%00009&quot;h_&quot;,$${Slocal_var_core_business_concept}$$,%%00010%%00009&quot;\&quot;&quot;)%%00010%%00009)"/>
 <entry key="replaced_column" type="xstring" value="table_name"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -63,6 +63,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="fb16b519-c3de-43fe-9ca3-4ecc47cb3796"/>
+<entry key="file_store_id" type="xstring" value="8e189621-5e97-4a80-97c6-2f9f57ab730e"/>
 </config>
 </config>

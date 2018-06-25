@@ -25,7 +25,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_12">
@@ -133,21 +133,21 @@
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_1">
-<entry key="sourceID" type="xint" value="12"/>
-<entry key="destID" type="xint" value="14"/>
-<entry key="sourcePort" type="xint" value="1"/>
-<entry key="destPort" type="xint" value="1"/>
-</config>
-<config key="connection_2">
 <entry key="sourceID" type="xint" value="15"/>
 <entry key="destID" type="xint" value="12"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
-<config key="connection_3">
+<config key="connection_2">
 <entry key="sourceID" type="xint" value="15"/>
 <entry key="destID" type="xint" value="18"/>
 <entry key="sourcePort" type="xint" value="2"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_3">
+<entry key="sourceID" type="xint" value="17"/>
+<entry key="destID" type="xint" value="14"/>
+<entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_4">
