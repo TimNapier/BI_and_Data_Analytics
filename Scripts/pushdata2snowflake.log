@@ -1687,3 +1687,44 @@ Type SQL statements or !help
 +------------------------------+---------+
 1 Row(s) produced. Time Elapsed: 0.217s
 Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.57
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.102s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.093s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.090s
+input_file.csv_c.gz(4.99MB): [#---------] 5.01% (0.299s, 16.69MB/s)input_file.csv_c.gz(4.99MB): [#---------] 10.02% (0.492s, 10.14MB/s)input_file.csv_c.gz(4.99MB): [##--------] 15.02% (0.569s, 8.77MB/s)input_file.csv_c.gz(4.99MB): [##--------] 20.03% (0.669s, 7.46MB/s)input_file.csv_c.gz(4.99MB): [###-------] 25.04% (0.772s, 6.47MB/s)input_file.csv_c.gz(4.99MB): [###-------] 30.05% (1.062s, 4.70MB/s)input_file.csv_c.gz(4.99MB): [####------] 35.05% (1.741s, 2.87MB/s)input_file.csv_c.gz(4.99MB): [####------] 40.06% (1.875s, 2.66MB/s)input_file.csv_c.gz(4.99MB): [#####-----] 45.07% (1.979s, 2.52MB/s)input_file.csv_c.gz(4.99MB): [#####-----] 50.08% (2.058s, 2.43MB/s)input_file.csv_c.gz(4.99MB): [######----] 55.08% (2.129s, 2.34MB/s)input_file.csv_c.gz(4.99MB): [######----] 60.09% (2.191s, 2.28MB/s)input_file.csv_c.gz(4.99MB): [#######---] 65.10% (2.252s, 2.22MB/s)input_file.csv_c.gz(4.99MB): [#######---] 70.11% (2.316s, 2.16MB/s)input_file.csv_c.gz(4.99MB): [########--] 75.12% (2.376s, 2.10MB/s)input_file.csv_c.gz(4.99MB): [########--] 80.12% (2.435s, 2.05MB/s)input_file.csv_c.gz(4.99MB): [#########-] 85.13% (2.495s, 2.00MB/s)input_file.csv_c.gz(4.99MB): [#########-] 90.14% (2.555s, 1.95MB/s)input_file.csv_c.gz(4.99MB): [##########] 95.15% (2.614s, 1.91MB/s)input_file.csv_c.gz(4.99MB): [##########] 100.00% Done (2.726s, 1.83MB/s).
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target            | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| input_file.csv | input_file.csv.gz |    30632605 |     5234842 | NONE               | GZIP               | UPLOADED |         |
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 4.670s
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                         | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| stage_ndis/input_file.csv.gz | LOADED |      141684 |      141684 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 2.168s
++------------------------------+---------+
+| name                         | result  |
+|------------------------------+---------|
+| stage_ndis/input_file.csv.gz | removed |
++------------------------------+---------+
+1 Row(s) produced. Time Elapsed: 0.161s
+Goodbye!

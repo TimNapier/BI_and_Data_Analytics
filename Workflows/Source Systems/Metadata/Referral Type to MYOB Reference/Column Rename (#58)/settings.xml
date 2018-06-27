@@ -12,6 +12,11 @@
 <entry key="new_column_name" type="xstring" value="HNDIS_INVOICE_DETAIL_SID"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
+<config key="1">
+<entry key="old_column_name" type="xstring" value="Finance Reference"/>
+<entry key="new_column_name" type="xstring" value="FINANCE_REFRENCE_JOB"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -41,6 +46,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="98d610ad-154c-4509-87cb-84b4d47256dd"/>
+<entry key="file_store_id" type="xstring" value="93da2885-d209-4e14-a1e4-38bd45656d73"/>
 </config>
 </config>

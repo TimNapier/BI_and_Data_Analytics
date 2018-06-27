@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;NDIS_INVOICE_DETAIL_FINANCE_REF&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;Finance Reference&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;HNDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;NDIS_INVOICE_DETAIL_FINANCE_REF&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;FINANCE_REFRENCE_JOB&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;HNDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f6278578-3468-43bc-a966-ade09f31ca0a"/>
+<entry key="file_store_id" type="xstring" value="57ee18ec-e6af-4fca-b22d-572b8c123a31"/>
 </config>
 </config>

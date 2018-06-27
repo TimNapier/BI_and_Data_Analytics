@@ -30,7 +30,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Outer workflow does not have input data, execute it first"/>
+</config>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
 <entry key="node-name" type="xstring" value="WrappedNode Output"/>
@@ -44,15 +48,11 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="WrappedNode Output"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content"/>
-</config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5fd2afb4-74b4-4324-8214-b53b7611b3cc"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
