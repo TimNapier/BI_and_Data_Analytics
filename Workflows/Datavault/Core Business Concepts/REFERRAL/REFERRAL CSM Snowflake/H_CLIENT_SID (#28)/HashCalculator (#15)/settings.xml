@@ -6,19 +6,19 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="inputColumn_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="inputColumn" type="xstring" value="CLIENT_BK"/>
 <config key="hashAlgorithm_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="hashAlgorithm" type="xstring" value="SHA1"/>
+<config key="inputColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="inputColumn" type="xstring" value="CLIENT_BK"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="ws.palladian.nodes.helper.hash.HashCalculatorNodeFactory"/>
 <entry key="node-name" type="xstring" value="HashCalculator"/>
 <entry key="node-bundle-name" type="xstring" value="Palladian Nodes for KNIME Workbench"/>
@@ -31,19 +31,16 @@
 <entry key="node-feature-version" type="xstring" value="1.7.0.v201804171810"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="HashCalculator"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1591, Cols: 10"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="058d1f75-b51c-4a05-9c62-1746994e56ca"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

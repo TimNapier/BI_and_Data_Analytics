@@ -1,7 +1,7 @@
 jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com
-<protocol>://<host>:<port>/<database_name>
 jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive
 jdbc:jtds:sybase://<host>:<port>/<database_name>
+<protocol>://<host>:<port>/<database_name>
 jdbc:sqlite:C:\Users\Administrator\AppData\Local\Temp\2\knime_temp_space_Administrator_40261\04_Advanced_Row_Filters40263\04_Advanced_Row_Filters\data\WebActivity.sqlite
 jdbc:sqlite://<host>:<port>/<database_name>
 jdbc:sqlite:C:\Users\rosy\knime_3.2.0\workspace\All_Row_Filters\Advanced_Row_Filters\data\WebActivity.sqlite

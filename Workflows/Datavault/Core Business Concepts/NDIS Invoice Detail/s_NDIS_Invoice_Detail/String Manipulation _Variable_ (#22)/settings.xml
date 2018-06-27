@@ -4,17 +4,17 @@
 <config key="flow_stack">
 <config key="Variable_0">
 <entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="context.workflow.name"/>
+<entry key="name" type="xstring" value="context.workflow.last.time.modified"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ARALUEN_DATAVAULT.DATAVAULT.&quot;s_NDIS_Invoice_Detail&quot;"/>
+<entry key="value" type="xstring" value="ARALUEN_DATAVAULT.DATAVAULT.&quot;S_NDIS_INVOICE_DETAIL&quot;"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="join(&quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;,%%00010&quot;\&quot;&quot;,%%00010$${Scontext.workflow.name}$$,%%00010&quot;\&quot;&quot;%%00010)"/>
-<entry key="replaced_column" type="xstring" value="context.workflow.name"/>
+<entry key="expression" type="xstring" value="upperCase(join(&quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;,%%00010&quot;\&quot;&quot;,%%00010$${Scontext.workflow.name}$$,%%00010&quot;\&quot;&quot;%%00010)%%00010)"/>
+<entry key="replaced_column" type="xstring" value="context.workflow.last.time.modified"/>
 <entry key="append_column" type="xboolean" value="true"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
 <entry key="insert_missing_as_null" type="xboolean" value="false"/>
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7ff1175b-17a7-4a21-aa74-8a96bd5de314"/>
+<entry key="file_store_id" type="xstring" value="b937da24-e20c-4303-ac0b-872c20ecbdec"/>
 </config>
 </config>

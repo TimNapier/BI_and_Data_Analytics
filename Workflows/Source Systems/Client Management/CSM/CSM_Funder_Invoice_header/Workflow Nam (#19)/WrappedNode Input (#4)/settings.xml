@@ -24,10 +24,12 @@
 <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
 <entry key="sub-node-description" type="xstring" value=""/>
 <config key="port-names">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Port 1"/>
 </config>
 <config key="port-descriptions">
-<entry key="array-size" type="xint" value="0"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value=""/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -66,6 +68,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f60aa449-ea21-415b-947d-25c42f2f9f72"/>
+<entry key="file_store_id" type="xstring" value="965aeaae-7567-4aec-abd6-07b8294115c8"/>
 </config>
 </config>

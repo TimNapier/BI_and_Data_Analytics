@@ -12,7 +12,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/LOAD_CLIENT_MANAGEMENT/CSM_Funder_Invoice_header"/>
+<entry key="value" type="xstring" value="/Source Systems/Client Management/CSM/CSM_Funder_Invoice_header"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
@@ -24,7 +24,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/LOAD_CLIENT_MANAGEMENT/CSM_Funder_Invoice_header"/>
+<entry key="value" type="xstring" value="/Source Systems/Client Management/CSM/CSM_Funder_Invoice_header"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -67,6 +67,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6cb7bc4d-bae0-4e86-9c65-201d2e69189b"/>
+<entry key="file_store_id" type="xstring" value="b16bddc4-2c8f-49bb-a4a6-ebbc39ab6386"/>
 </config>
 </config>
