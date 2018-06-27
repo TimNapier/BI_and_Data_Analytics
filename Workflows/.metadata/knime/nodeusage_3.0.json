@@ -46,33 +46,33 @@
             },
             {
                 "id":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector",
-                "nrexecs":78,
-                "nrfails":12,
-                "exectime":58465,
+                "nrexecs":81,
+                "nrfails":13,
+                "exectime":59767,
                 "nrcreated":3,
                 "successor":"org.knime.base.node.io.database.DBJoinerNodeFactory#Database Joiner"
             },
             {
                 "id":"org.knime.base.node.io.database.DBQueryNodeFactory2#Database Query",
-                "nrexecs":14,
+                "nrexecs":18,
                 "nrfails":7,
-                "exectime":7423,
+                "exectime":8529,
                 "nrcreated":5,
                 "successor":"org.knime.base.node.io.database.DBConnectionNodeFactory#Database Connection Table Reader"
             },
             {
                 "id":"org.knime.base.node.io.database.DBColumnFilterNodeFactory#Database Column Filter",
-                "nrexecs":13,
+                "nrexecs":17,
                 "nrfails":0,
-                "exectime":141,
+                "exectime":187,
                 "nrcreated":2,
                 "successor":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer"
             },
             {
                 "id":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer",
-                "nrexecs":23,
-                "nrfails":9,
-                "exectime":39667,
+                "nrexecs":24,
+                "nrfails":11,
+                "exectime":41961,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -550,9 +550,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.columnrename.DBColumnRenameNodeFactory#Database Column Rename",
-                "nrexecs":11,
+                "nrexecs":17,
                 "nrfails":0,
-                "exectime":101,
+                "exectime":168,
                 "nrcreated":4,
                 "successor":"n/a"
             }
@@ -564,17 +564,17 @@
             "nrcreated":0
         },
         "wrappedNodes":{
-            "nrexecs":78,
+            "nrexecs":79,
             "nrfails":7,
-            "exectime":77509,
+            "exectime":78726,
             "nrcreated":0
         }
     },
-    "uptime":19797778,
-    "workflowsOpened":37,
+    "uptime":15559332,
+    "workflowsOpened":39,
     "remoteWorkflowsOpened":5,
-    "launches":6,
-    "timeSinceLastStart":900653,
+    "launches":8,
+    "timeSinceLastStart":5626823,
     "crashes":0,
     "properlyShutDown":true
 }
