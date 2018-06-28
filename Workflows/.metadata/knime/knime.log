@@ -22700,3 +22700,755 @@ Caused by: org.knime.core.node.InvalidSettingsException: Unknown variable "local
 2018-06-28 15:24:54,744 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 4:0:1 : Removing all (0) views from model.
 2018-06-28 15:24:54,744 : DEBUG : main : Node : Database Connector : 4:0:1 : clean output ports.
 2018-06-28 15:24:54,744 : DEBUG : main : WorkflowManager : S_NDIS_SUPPORT_ITEM : 4 : Project "S_NDIS_SUPPORT_ITEM 4" removed (4 remaining)
+2018-06-28 15:25:39,390 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2018-06-28 15:25:39,391 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2018-06-28 15:25:39,391 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@6307382 from file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/NDIS_Invoice_Header/h_NDIS_Invoice_Header/. 0 left.
+2018-06-28 15:25:39,391 : DEBUG : main : ProjectWorkflowMap : h_NDIS_Invoice_Header : 3 : Removing "file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/NDIS_Invoice_Header/h_NDIS_Invoice_Header/" from project map (1 remaining)
+2018-06-28 15:25:39,392 : DEBUG : main : WorkflowManager : h_NDIS_Invoice_Header : 3 : Removing project "h_NDIS_Invoice_Header 3"
+2018-06-28 15:25:39,393 : DEBUG : main : DBConnectionWriterNodeModel : Database Connection Table Writer : 3:14 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : Database Connection Table Writer : 3:14 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : DBColumnFilterNodeModel : Database Column Filter : 3:23 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : Database Column Filter : 3:23 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : DBTableSelectorNodeModel : Database Table Selector : 3:12 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : Database Table Selector : 3:12 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 3:22:0:24 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : WrappedNode Output : 3:22:0:24 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 3:22:0:21 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : String Manipulation (Variable) : 3:22:0:21 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 3:22:0:22 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : WrappedNode Input : 3:22:0:22 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 3:22:0:20:0:3 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : WrappedNode Output : 3:22:0:20:0:3 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 3:22:0:20:0:4 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : String Manipulation (Variable) : 3:22:0:20:0:4 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 3:22:0:20:0:2 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : WrappedNode Input : 3:22:0:20:0:2 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : ReadContextPropertyNodeModel : Extract Context Properties : 3:22:0:20:0:1 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : Extract Context Properties : 3:22:0:20:0:1 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : DBSQLExecutorNodeModel : Database SQL Executor : 3:0:2 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : Database SQL Executor : 3:0:2 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 3:0:1 : Removing all (0) views from model.
+2018-06-28 15:25:39,393 : DEBUG : main : Node : Database Connector : 3:0:1 : clean output ports.
+2018-06-28 15:25:39,393 : DEBUG : main : WorkflowManager : h_NDIS_Invoice_Header : 3 : Project "h_NDIS_Invoice_Header 3" removed (3 remaining)
+2018-06-28 15:25:41,201 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2018-06-28 15:25:41,202 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2018-06-28 15:25:41,202 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@79bcaf78 from file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/NDIS_Invoice_Header/s_NDIS_Invoice_Header/. 0 left.
+2018-06-28 15:25:41,202 : DEBUG : main : ProjectWorkflowMap : s_NDIS_Invoice_Header : 0 : Removing "file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/NDIS_Invoice_Header/s_NDIS_Invoice_Header/" from project map (0 remaining)
+2018-06-28 15:25:41,202 : DEBUG : main : WorkflowManager : s_NDIS_Invoice_Header : 0 : Removing project "s_NDIS_Invoice_Header 0"
+2018-06-28 15:25:41,203 : DEBUG : main : DBConnectionWriterNodeModel : Database Connection Table Writer : 0:14 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database Connection Table Writer : 0:14 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : DBColumnRenameNodeModel : Database Column Rename : 0:25 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database Column Rename : 0:25 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : DBColumnFilterNodeModel : Database Column Filter : 0:23 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database Column Filter : 0:23 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : DBQueryNodeModel2 : Database Query : 0:24 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database Query : 0:24 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : DBTableSelectorNodeModel : Database Table Selector : 0:12 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database Table Selector : 0:12 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 0:22:0:24 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : WrappedNode Output : 0:22:0:24 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:22:0:21 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : String Manipulation (Variable) : 0:22:0:21 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 0:22:0:22 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : WrappedNode Input : 0:22:0:22 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 0:22:0:20:0:3 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : WrappedNode Output : 0:22:0:20:0:3 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:22:0:20:0:4 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : String Manipulation (Variable) : 0:22:0:20:0:4 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 0:22:0:20:0:2 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : WrappedNode Input : 0:22:0:20:0:2 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : ReadContextPropertyNodeModel : Extract Context Properties : 0:22:0:20:0:1 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Extract Context Properties : 0:22:0:20:0:1 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : DBSQLExecutorNodeModel : Database SQL Executor : 0:0:2 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : clean output ports.
+2018-06-28 15:25:41,203 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 0:0:1 : Removing all (0) views from model.
+2018-06-28 15:25:41,203 : DEBUG : main : Node : Database Connector : 0:0:1 : clean output ports.
+2018-06-28 15:25:41,204 : DEBUG : main : WorkflowManager : s_NDIS_Invoice_Header : 0 : Project "s_NDIS_Invoice_Header 0" removed (2 remaining)
+2018-06-28 15:25:44,404 : DEBUG : main : WorkflowEditor :  :  : Creating WorkflowEditor...
+2018-06-28 15:25:44,404 : DEBUG : main : WorkflowEditor :  :  : creating editor actions...
+2018-06-28 15:25:44,405 : DEBUG : main : WorkflowEditor :  :  : Initializing editor UI...
+2018-06-28 15:25:44,405 : DEBUG : main : WorkflowEditor :  :  : Opening workflow Editor on workflow.knime
+2018-06-28 15:25:44,405 : DEBUG : main : WorkflowEditor :  :  : Setting input into editor...
+2018-06-28 15:25:44,405 : DEBUG : main : WorkflowEditor :  :  : Resource File's project: file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Participant/Participant_Datavault/
+2018-06-28 15:25:44,419 : DEBUG : ModalContext : WorkflowManager :  :  : Loading workflow from "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault" (version "V3010" with loader class "FileWorkflowPersistor")
+2018-06-28 15:25:44,420 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:0
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:19:0
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:20:0
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:21
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21(0) to node 0:20(2)
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:19(1)
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:20(1)
+2018-06-28 15:25:44,442 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21(0) to node 0:19(2)
+2018-06-28 15:25:44,446 : DEBUG : ModalContext : JDBCConnectorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,451 : DEBUG : ModalContext : DBSQLExecutorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,451 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0:1(1) to node 0:0:2(1)
+2018-06-28 15:25:44,451 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0:2(1) to node 0:0(0)
+2018-06-28 15:25:44,472 : DEBUG : ModalContext : ReadContextPropertyNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,476 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,481 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,484 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,488 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,492 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,497 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 0:21 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:20(1) to node 0:21:21(1)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:22(1) to node 0:21:23(1)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:24(1) to node 0:21:25(1)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:21(1) to node 0:21:22(1)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:25(1) to node 0:21:26(1)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:26(1) to node 0:21(0)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:18(1) to node 0:21:20(1)
+2018-06-28 15:25:44,501 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:21:23(1) to node 0:21:24(1)
+2018-06-28 15:25:44,502 : WARN  : ModalContext : Node : Extract Context Properties : 0:21:18 : Loading model settings failed: Boolean for key "isExtractAllProps" not found.
+2018-06-28 15:25:44,502 : DEBUG : ModalContext : Node : Extract Context Properties : 0:21:18 : Loading model settings failed: Boolean for key "isExtractAllProps" not found.
+org.knime.core.node.InvalidSettingsException: Boolean for key "isExtractAllProps" not found.
+	at org.knime.core.node.config.base.ConfigBase.getBoolean(ConfigBase.java:482)
+	at org.knime.base.node.io.extractcontextprop.ReadContextPropertyConfiguration.loadSettings(ReadContextPropertyConfiguration.java:141)
+	at org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeModel.validateSettings(ReadContextPropertyNodeModel.java:134)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:622)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndWashModelSettings(FileNativeNodeContainerPersistor.java:224)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:267)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7855)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7746)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7871)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7746)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7871)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7746)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7700)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7621)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7594)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7439)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:168)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+2018-06-28 15:25:44,508 : DEBUG : ModalContext : NodeContainer :  :  : Setting dirty flag on Extract Context Properties 0:21:18
+2018-06-28 15:25:44,508 : DEBUG : ModalContext : NodeContainer :  :  : Setting dirty flag on Get Core Business Concept from Workflow Path 0:21
+2018-06-28 15:25:44,508 : DEBUG : ModalContext : NodeContainer :  :  : Setting dirty flag on Participant_Datavault 0
+2018-06-28 15:25:44,525 : DEBUG : ModalContext : DBTableSelectorNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,529 : DEBUG : ModalContext : DBConnectionWriterNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,542 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,546 : DEBUG : ModalContext : DBColumnFilterNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,547 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:15(1) to node 0:19:0:12(1)
+2018-06-28 15:25:44,547 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:18(1) to node 0:19:0:14(0)
+2018-06-28 15:25:44,547 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:15(2) to node 0:19:0:18(1)
+2018-06-28 15:25:44,547 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:19(1) to node 0:19:0:14(1)
+2018-06-28 15:25:44,547 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:12(1) to node 0:19:0:19(1)
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : Database Table Selector : 0:19:0:12 : reset
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : Database Table Selector : 0:19:0:12 : clean output ports.
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on Database Table Selector 0:19:0:12
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on hub 0:19:0
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Database Table Selector 0:19:0:12 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : Database Connection Table Writer : 0:19:0:14 : reset
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : Database Connection Table Writer : 0:19:0:14 : clean output ports.
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on Database Connection Table Writer 0:19:0:14
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Database Connection Table Writer 0:19:0:14 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : WrappedNode Input : 0:19:0:15 : reset
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : WrappedNode Input : 0:19:0:15 : clean output ports.
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on WrappedNode Input 0:19:0:15
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : WrappedNode Input 0:19:0:15 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : WrappedNode Output : 0:19:0:16 : reset
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : WrappedNode Output : 0:19:0:16 : clean output ports.
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on WrappedNode Output 0:19:0:16
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : WrappedNode Output 0:19:0:16 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:19:0:18 : reset
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:19:0:18 : clean output ports.
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on String Manipulation (Variable) 0:19:0:18
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : String Manipulation (Variable) 0:19:0:18 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : Database Column Filter : 0:19:0:19 : reset
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : Database Column Filter : 0:19:0:19 : clean output ports.
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Setting dirty flag on Database Column Filter 0:19:0:19
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Database Column Filter 0:19:0:19 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : hub 0:19:0 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer :  :  : hub 0:19 has new state: IDLE
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : WrappedNode Input : 0:19:0:15 : Configure succeeded. (WrappedNode Input)
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : WrappedNode Input 0:19:0:15 has new state: CONFIGURED
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : Node : WrappedNode Output : 0:19:0:16 : Configure succeeded. (WrappedNode Output)
+2018-06-28 15:25:44,567 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : WrappedNode Output 0:19:0:16 has new state: CONFIGURED
+2018-06-28 15:25:44,568 : DEBUG : ModalContext : Node : Database Table Selector : 0:19:0:12 : Configure succeeded. (Database Table Selector)
+2018-06-28 15:25:44,569 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : Database Table Selector 0:19:0:12 has new state: CONFIGURED
+2018-06-28 15:25:44,602 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:19:0:18 : Configure succeeded. (String Manipulation (Variable))
+2018-06-28 15:25:44,602 : DEBUG : ModalContext : NodeContainer : hub : 0:19 : String Manipulation (Variable) 0:19:0:18 has new state: CONFIGURED
+2018-06-28 15:25:44,607 : DEBUG : ModalContext : DBTableSelectorNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,610 : DEBUG : ModalContext : DBConnectionWriterNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,623 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : DBColumnFilterNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : NodeContainer :  :  : sat 0:20:0 has new state: CONFIGURED
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : NodeContainer :  :  : sat 0:20:0 has new state: IDLE
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:17(2) to node 0:20:0:19(1)
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:19(1) to node 0:20:0:16(0)
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:20(1) to node 0:20:0:16(1)
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:15(1) to node 0:20:0:20(1)
+2018-06-28 15:25:44,627 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:17(1) to node 0:20:0:15(1)
+2018-06-28 15:25:44,628 : DEBUG : ModalContext : Node : WrappedNode Input : 0:20:0:17 : Configure succeeded. (WrappedNode Input)
+2018-06-28 15:25:44,628 : DEBUG : ModalContext : Node : WrappedNode Output : 0:20:0:18 : Configure succeeded. (WrappedNode Output)
+2018-06-28 15:25:44,658 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:20:0:19 : Configure succeeded. (String Manipulation (Variable))
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : Database Table Selector : 0:20:0:15 : Configure succeeded. (Database Table Selector)
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : Database Table Selector : 0:20:0:15 : reset
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : Database Table Selector : 0:20:0:15 : clean output ports.
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Setting dirty flag on Database Table Selector 0:20:0:15
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Setting dirty flag on sat 0:20:0
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Database Table Selector 0:20:0:15 has new state: IDLE
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : WrappedNode Input : 0:20:0:17 : reset
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : WrappedNode Input : 0:20:0:17 : clean output ports.
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Setting dirty flag on WrappedNode Input 0:20:0:17
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : WrappedNode Input 0:20:0:17 has new state: IDLE
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : WrappedNode Output : 0:20:0:18 : reset
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : WrappedNode Output : 0:20:0:18 : clean output ports.
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Setting dirty flag on WrappedNode Output 0:20:0:18
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : WrappedNode Output 0:20:0:18 has new state: IDLE
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:20:0:19 : reset
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:20:0:19 : clean output ports.
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Setting dirty flag on String Manipulation (Variable) 0:20:0:19
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : String Manipulation (Variable) 0:20:0:19 has new state: IDLE
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : Node : WrappedNode Input : 0:20:0:17 : Configure succeeded. (WrappedNode Input)
+2018-06-28 15:25:44,667 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : WrappedNode Input 0:20:0:17 has new state: CONFIGURED
+2018-06-28 15:25:44,668 : DEBUG : ModalContext : Node : WrappedNode Output : 0:20:0:18 : Configure succeeded. (WrappedNode Output)
+2018-06-28 15:25:44,668 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : WrappedNode Output 0:20:0:18 has new state: CONFIGURED
+2018-06-28 15:25:44,696 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 0:20:0:19 : Configure succeeded. (String Manipulation (Variable))
+2018-06-28 15:25:44,696 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : String Manipulation (Variable) 0:20:0:19 has new state: CONFIGURED
+2018-06-28 15:25:44,698 : DEBUG : ModalContext : Node : Database Table Selector : 0:20:0:15 : Configure succeeded. (Database Table Selector)
+2018-06-28 15:25:44,698 : DEBUG : ModalContext : NodeContainer : sat : 0:20 : Database Table Selector 0:20:0:15 has new state: CONFIGURED
+2018-06-28 15:25:44,698 : DEBUG : ModalContext : WorkflowManager :  :  : Loaded workflow from "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault"  with warnings
+2018-06-28 15:25:44,699 : WARN  : ModalContext : LoadWorkflowRunnable :  :  : Warnings during load: Status: Warning: Participant_Datavault 0 loaded with warnings
+2018-06-28 15:25:44,699 : WARN  : ModalContext : LoadWorkflowRunnable :  :  :   Status: Warning: Participant_Datavault 0
+2018-06-28 15:25:44,699 : WARN  : ModalContext : LoadWorkflowRunnable :  :  :     Status: Warning: Get Core Business Concept from Workflow Path 0:21
+2018-06-28 15:25:44,699 : WARN  : ModalContext : LoadWorkflowRunnable :  :  :       Status: Warning: Extract Context Properties 0:21:18
+2018-06-28 15:25:44,699 : WARN  : ModalContext : LoadWorkflowRunnable :  :  :         Status: Warning: Loading model settings failed: Boolean for key "isExtractAllProps" not found.
+2018-06-28 15:25:51,456 : DEBUG : main : ProjectWorkflowMap :  :  : Adding "file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Participant/Participant_Datavault/" to project map (1 in total)
+2018-06-28 15:25:51,457 : DEBUG : main : ProjectWorkflowMap :  :  : registering org.knime.workbench.editor2.WorkflowEditor@78f28dbb to file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Participant/Participant_Datavault/. 1 registered clients now.
+2018-06-28 15:25:51,476 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:25:51,476 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:25:51,476 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:25:51,476 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:25:51,476 : DEBUG : main : WorkflowRootEditPart :  :  : part: SubworkflowEditPart( (WFM) Snowflake Connection Template 0:0 (EXECUTED) )
+2018-06-28 15:25:51,477 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) and index 0
+2018-06-28 15:25:51,477 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) index 0 nr outports 1 and tooltip Connected to: Database Connection
+2018-06-28 15:25:51,477 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@10333997 state: EXECUTED
+2018-06-28 15:25:51,477 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:25:51,477 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,477 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:25:51,477 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,477 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( hub 0:19 (IDLE) )
+2018-06-28 15:25:51,478 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:25:51,478 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,478 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:21(0) -> 0:19( 2)]
+2018-06-28 15:25:51,478 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,478 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( sat 0:20 (IDLE) )
+2018-06-28 15:25:51,479 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:25:51,479 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,479 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:21(0) -> 0:20( 2)]
+2018-06-28 15:25:51,479 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,479 : DEBUG : main : WorkflowRootEditPart :  :  : part: SubworkflowEditPart( (WFM) Get Core Business Concept from Workflow Path 0:21 (EXECUTED) )
+2018-06-28 15:25:51,481 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(PortObjectSpec,FlowVariablePortObject) and index 0
+2018-06-28 15:25:51,481 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(PortObjectSpec,FlowVariablePortObject) index 0 nr outports 1 and tooltip Connected to: Appended variables
+2018-06-28 15:25:51,481 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@521474f5 state: EXECUTED
+2018-06-28 15:25:51,481 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:21(0) -> 0:20( 2)]
+2018-06-28 15:25:51,481 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,481 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:21(0) -> 0:19( 2)]
+2018-06-28 15:25:51,481 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:25:51,596 : DEBUG : main : CheckUpdateMetaNodeLinkAction :  :  : Checking for updates for 2 node link(s)...
+2018-06-28 15:25:51,603 : WARN  : ModalContext : CheckUpdateMetaNodeLinkAction :  :  : Unable to check for update on node "Snowflake Connection Template 0:0": The content of elements must consist of well-formed character data or markup.
+2018-06-28 15:25:51,604 : DEBUG : ModalContext : CheckUpdateMetaNodeLinkAction :  :  : Unable to check for update on node "Snowflake Connection Template 0:0": The content of elements must consist of well-formed character data or markup.
+org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.knime.core.node.config.base.XMLConfig.load(XMLConfig.java:155)
+	at org.knime.core.node.config.Config.load(Config.java:937)
+	at org.knime.core.node.config.Config.loadFromXML(Config.java:925)
+	at org.knime.core.node.NodeSettings.loadFromXML(NodeSettings.java:105)
+	at org.knime.core.node.workflow.WorkflowLoadHelper.createTemplateLoadPersistor(WorkflowLoadHelper.java:261)
+	at org.knime.core.node.workflow.WorkflowManager.loadMetaNodeTemplate(WorkflowManager.java:6691)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLinkWithCache(WorkflowManager.java:6632)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLink(WorkflowManager.java:6589)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAction$CheckUpdateRunnableWithProgress.run(CheckUpdateMetaNodeLinkAction.java:322)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+2018-06-28 15:25:51,611 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 0:21 : Workflow being loaded ("Get Core Business Concept from Workflow Path") is not locked
+2018-06-28 15:25:51,611 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Loading workflow from "C:\BI_and_Data_Analytics\Workflows\Utilities\Get Core Business Concept from Workflow Path" (version "V3010" with loader class "FileWorkflowPersistor")
+2018-06-28 15:25:51,615 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Created subworkflow 2:0
+2018-06-28 15:25:51,615 : DEBUG : ModalContext : NodeContainer : Get Core Business Concept from Workflow Path : 0:21 : Workflow Template Root 2 has new state: IDLE
+2018-06-28 15:25:51,615 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("Extract Context Properties (#18)") is not locked
+2018-06-28 15:25:51,620 : DEBUG : ModalContext : ReadContextPropertyNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,620 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#20)") is not locked
+2018-06-28 15:25:51,625 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,626 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#21)") is not locked
+2018-06-28 15:25:51,630 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,630 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#22)") is not locked
+2018-06-28 15:25:51,635 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,635 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#23)") is not locked
+2018-06-28 15:25:51,639 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,639 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#24)") is not locked
+2018-06-28 15:25:51,643 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,643 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#25)") is not locked
+2018-06-28 15:25:51,647 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,648 : DEBUG : ModalContext : FileNodeContainerMetaPersistor : Get Core Business Concept from Workflow Path : 2:0 : Workflow being loaded ("String Manipulation _Variable_ (#26)") is not locked
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : Get Core Business Concept from Workflow Path : 2:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:20(1) to node 2:0:21(1)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:22(1) to node 2:0:23(1)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:24(1) to node 2:0:25(1)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:21(1) to node 2:0:22(1)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:25(1) to node 2:0:26(1)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:26(1) to node 2:0(0)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:18(1) to node 2:0:20(1)
+2018-06-28 15:25:51,652 : DEBUG : ModalContext : WorkflowManager : Get Core Business Concept from Workflow Path : 0:21 : Added new connection from node 2:0:23(1) to node 2:0:24(1)
+2018-06-28 15:25:51,652 : WARN  : ModalContext : Node : Extract Context Properties : 2:0:18 : Auto-configuration: extracting all available properties
+2018-06-28 15:25:51,653 : ERROR : ModalContext : Node : Extract Context Properties : 2:0:18 : Configure failed (NullPointerException): null
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : Extract Context Properties : 2:0:18 : Configure failed (NullPointerException): null
+java.lang.NullPointerException
+	at org.knime.base.node.io.extractcontextprop.ReadContextPropertyConfiguration.extractContextProperty(ReadContextPropertyConfiguration.java:192)
+	at org.knime.base.node.io.extractcontextprop.ReadContextPropertyConfiguration.readAllProps(ReadContextPropertyConfiguration.java:178)
+	at org.knime.base.node.io.extractcontextprop.ReadContextPropertyConfiguration.createResult(ReadContextPropertyConfiguration.java:252)
+	at org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeModel.configure(ReadContextPropertyNodeModel.java:92)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1051)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1839)
+	at org.knime.core.node.Node.configure(Node.java:1775)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:532)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:302)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:187)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:5933)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7908)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7746)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7871)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7746)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7700)
+	at org.knime.core.node.workflow.WorkflowManager.loadMetaNodeTemplate(WorkflowManager.java:6693)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLinkWithCache(WorkflowManager.java:6632)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLink(WorkflowManager.java:6589)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAction$CheckUpdateRunnableWithProgress.run(CheckUpdateMetaNodeLinkAction.java:322)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:26 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:26 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:25 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:25 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:24 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:24 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:23 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:23 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:22 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:22 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:21 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:21 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : StringManipulationVariableNodeModel : String Manipulation (Variable) : 2:0:20 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : String Manipulation (Variable) : 2:0:20 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : ReadContextPropertyNodeModel : Extract Context Properties : 2:0:18 : Removing all (0) views from model.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : Node : Extract Context Properties : 2:0:18 : clean output ports.
+2018-06-28 15:25:51,653 : DEBUG : ModalContext : NodeContainer :  :  : Workflow Template Root 2 has new state: EXECUTED
+2018-06-28 15:25:55,308 : INFO  : main : CheckUpdateMetaNodeLinkAction :  :  : No updates available (2 node link(s))
+2018-06-28 15:25:56,595 : DEBUG : main : NodeContainerEditPart :  :  : (WFM) Get Core Business Concept from Workflow Path 0:21 (EXECUTED)
+2018-06-28 15:25:56,595 : DEBUG : main : NodeContainerEditPart :  :  : (WFM) Snowflake Connection Template 0:0 (EXECUTED)
+2018-06-28 15:25:59,690 : DEBUG : main : VerifyingCompoundCommand :  :  : Executing <1> commands.
+2018-06-28 15:25:59,690 : DEBUG : main : Node : Database Table Selector : 0:19:0:12 : reset
+2018-06-28 15:25:59,690 : DEBUG : main : Node : Database Table Selector : 0:19:0:12 : clean output ports.
+2018-06-28 15:25:59,690 : DEBUG : main : NodeContainer : hub : 0:19 : Database Table Selector 0:19:0:12 has new state: IDLE
+2018-06-28 15:25:59,690 : DEBUG : main : Node : WrappedNode Input : 0:19:0:15 : reset
+2018-06-28 15:25:59,690 : DEBUG : main : Node : WrappedNode Input : 0:19:0:15 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : hub : 0:19 : WrappedNode Input 0:19:0:15 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : Node : WrappedNode Output : 0:19:0:16 : reset
+2018-06-28 15:25:59,691 : DEBUG : main : Node : WrappedNode Output : 0:19:0:16 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : hub : 0:19 : WrappedNode Output 0:19:0:16 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : Node : String Manipulation (Variable) : 0:19:0:18 : reset
+2018-06-28 15:25:59,691 : DEBUG : main : Node : String Manipulation (Variable) : 0:19:0:18 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : hub : 0:19 : String Manipulation (Variable) 0:19:0:18 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : Node : Database Table Selector : 0:20:0:15 : reset
+2018-06-28 15:25:59,691 : DEBUG : main : Node : Database Table Selector : 0:20:0:15 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : sat : 0:20 : Database Table Selector 0:20:0:15 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : Node : WrappedNode Input : 0:20:0:17 : reset
+2018-06-28 15:25:59,691 : DEBUG : main : Node : WrappedNode Input : 0:20:0:17 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : sat : 0:20 : WrappedNode Input 0:20:0:17 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : Node : WrappedNode Output : 0:20:0:18 : reset
+2018-06-28 15:25:59,691 : DEBUG : main : Node : WrappedNode Output : 0:20:0:18 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:0(0) -> 0:19( 1)];new=null;timestamp=Jun 28, 2018 3:25:59 PM]
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : sat : 0:20 : WrappedNode Output 0:20:0:18 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : Node : String Manipulation (Variable) : 0:20:0:19 : reset
+2018-06-28 15:25:59,691 : DEBUG : main : Node : String Manipulation (Variable) : 0:20:0:19 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : NodeContainer : sat : 0:20 : String Manipulation (Variable) 0:20:0:19 has new state: IDLE
+2018-06-28 15:25:59,691 : DEBUG : main : DBSQLExecutorNodeModel : Database SQL Executor : 0:0:2 : Removing all (0) views from model.
+2018-06-28 15:25:59,691 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 0:0:1 : Removing all (0) views from model.
+2018-06-28 15:25:59,691 : DEBUG : main : Node : Database Connector : 0:0:1 : clean output ports.
+2018-06-28 15:25:59,691 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:0(0) -> 0:20( 1)];new=null;timestamp=Jun 28, 2018 3:25:59 PM]
+2018-06-28 15:25:59,691 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=(WFM) Snowflake Connection Template 0:0 (EXECUTED);new=null;timestamp=Jun 28, 2018 3:25:59 PM]
+2018-06-28 15:26:02,498 : DEBUG : main : FileNodeContainerMetaPersistor :  :  : Workflow being loaded ("Snowflake Connection Template") is not locked
+2018-06-28 15:26:02,498 : DEBUG : main : WorkflowManager :  :  : Loading workflow from "C:\BI_and_Data_Analytics\Workflows\Utilities\Snowflake Connection Template" (version "V3010" with loader class "FileWorkflowPersistor")
+2018-06-28 15:26:02,499 : DEBUG : main : WorkflowManager :  :  : Created subworkflow 0:0
+2018-06-28 15:26:02,499 : DEBUG : main : FileNodeContainerMetaPersistor : Snowflake Connection Template : 0:0 : Workflow being loaded ("Database Connector (#1)") is not locked
+2018-06-28 15:26:02,500 : DEBUG : main : JDBCConnectorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:02,500 : DEBUG : main : FileNodeContainerMetaPersistor : Snowflake Connection Template : 0:0 : Workflow being loaded ("Database SQL Executor (#2)") is not locked
+2018-06-28 15:26:02,501 : DEBUG : main : DBSQLExecutorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:02,502 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0:1(1) to node 0:0:2(1)
+2018-06-28 15:26:02,502 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0:2(1) to node 0:0(0)
+2018-06-28 15:26:02,507 : DEBUG : main : Node : Database Connector : 0:0:1 : Configure succeeded. (Database Connector)
+2018-06-28 15:26:02,508 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : Configure succeeded. (Database SQL Executor)
+2018-06-28 15:26:02,508 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:0;old=null;new=(WFM) Snowflake Connection Template 0:0 (CONFIGURED);timestamp=Jun 28, 2018 3:26:02 PM]
+2018-06-28 15:26:02,535 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:26:02,536 : DEBUG : main : WorkflowRootEditPart :  :  : part: SubworkflowEditPart( (WFM) Snowflake Connection Template 0:0 (CONFIGURED) )
+2018-06-28 15:26:02,537 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) and index 0
+2018-06-28 15:26:02,537 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) index 0 nr outports 1 and tooltip Connected to: Database Connection
+2018-06-28 15:26:02,537 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@6d27fe0c state: CONFIGURED
+2018-06-28 15:26:10,364 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 0:0 0 to 0:19 1
+2018-06-28 15:26:10,364 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:19(1)
+2018-06-28 15:26:10,364 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:0(0) -> 0:19( 1)];timestamp=Jun 28, 2018 3:26:10 PM]
+2018-06-28 15:26:10,367 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:26:10,367 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:10,367 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:26:10,367 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:13,267 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 0:0 0 to 0:20 1
+2018-06-28 15:26:13,267 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:20(1)
+2018-06-28 15:26:13,267 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:0(0) -> 0:20( 1)];timestamp=Jun 28, 2018 3:26:13 PM]
+2018-06-28 15:26:13,269 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:26:13,269 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:13,269 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:26:13,269 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:14,358 : DEBUG : main : NodeContainerEditPart :  :  : (WFM) Snowflake Connection Template 0:0 (CONFIGURED)
+2018-06-28 15:26:17,446 : DEBUG : main : WorkflowEditor :  :  : Saving workflow Participant_Datavault 0
+2018-06-28 15:26:17,470 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\Snowflake Co (#0)"
+2018-06-28 15:26:17,471 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\Snowflake Co (#0)\Database Connector (#1)"
+2018-06-28 15:26:17,473 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\Snowflake Co (#0)\Database SQL Executor (#2)"
+2018-06-28 15:26:17,481 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)"
+2018-06-28 15:26:17,485 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)\Database Table Selector (#12)"
+2018-06-28 15:26:17,491 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)\Database Connection Table Writer (#14)"
+2018-06-28 15:26:17,501 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)\WrappedNode Input (#15)"
+2018-06-28 15:26:17,508 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)\WrappedNode Output (#16)"
+2018-06-28 15:26:17,516 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)\String Manipulation _Variable_ (#18)"
+2018-06-28 15:26:17,524 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\hub (#19)\Database Column Filter (#19)"
+2018-06-28 15:26:17,537 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\sat (#20)"
+2018-06-28 15:26:17,539 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\sat (#20)\Database Table Selector (#15)"
+2018-06-28 15:26:17,543 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\sat (#20)\WrappedNode Input (#17)"
+2018-06-28 15:26:17,545 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\sat (#20)\WrappedNode Output (#18)"
+2018-06-28 15:26:17,548 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\sat (#20)\String Manipulation _Variable_ (#19)"
+2018-06-28 15:26:17,560 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Participant\Participant_Datavault\Get Core Bus (#21)\Extract Context Properties (#18)"
+2018-06-28 15:26:17,706 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2018-06-28 15:26:17,707 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2018-06-28 15:26:17,707 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@78f28dbb from file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Participant/Participant_Datavault/. 0 left.
+2018-06-28 15:26:17,707 : DEBUG : main : ProjectWorkflowMap : Participant_Datavault : 0 : Removing "file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Participant/Participant_Datavault/" from project map (0 remaining)
+2018-06-28 15:26:17,707 : DEBUG : main : WorkflowManager : Participant_Datavault : 0 : Removing project "Participant_Datavault 0"
+2018-06-28 15:26:17,708 : DEBUG : main : DBConnectionWriterNodeModel : Database Connection Table Writer : 0:20:0:16 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Connection Table Writer : 0:20:0:16 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : DBColumnFilterNodeModel : Database Column Filter : 0:20:0:20 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Column Filter : 0:20:0:20 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : DBTableSelectorNodeModel : Database Table Selector : 0:20:0:15 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Table Selector : 0:20:0:15 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:20:0:19 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:20:0:19 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 0:20:0:18 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : WrappedNode Output : 0:20:0:18 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 0:20:0:17 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : WrappedNode Input : 0:20:0:17 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : DBConnectionWriterNodeModel : Database Connection Table Writer : 0:19:0:14 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Connection Table Writer : 0:19:0:14 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : DBColumnFilterNodeModel : Database Column Filter : 0:19:0:19 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Column Filter : 0:19:0:19 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:19:0:18 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:19:0:18 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : DBTableSelectorNodeModel : Database Table Selector : 0:19:0:12 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Table Selector : 0:19:0:12 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 0:19:0:16 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : WrappedNode Output : 0:19:0:16 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 0:19:0:15 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : WrappedNode Input : 0:19:0:15 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:26 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:26 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:25 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:25 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:24 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:24 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:23 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:23 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:22 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:22 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:21 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:21 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:21:20 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : String Manipulation (Variable) : 0:21:20 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : ReadContextPropertyNodeModel : Extract Context Properties : 0:21:18 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Extract Context Properties : 0:21:18 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : DBSQLExecutorNodeModel : Database SQL Executor : 0:0:2 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 0:0:1 : Removing all (0) views from model.
+2018-06-28 15:26:17,708 : DEBUG : main : Node : Database Connector : 0:0:1 : clean output ports.
+2018-06-28 15:26:17,708 : DEBUG : main : WorkflowManager : Participant_Datavault : 0 : Project "Participant_Datavault 0" removed (2 remaining)
+2018-06-28 15:26:50,250 : DEBUG : main : WorkflowEditor :  :  : Creating WorkflowEditor...
+2018-06-28 15:26:50,250 : DEBUG : main : WorkflowEditor :  :  : creating editor actions...
+2018-06-28 15:26:50,250 : DEBUG : main : WorkflowEditor :  :  : Initializing editor UI...
+2018-06-28 15:26:50,250 : DEBUG : main : WorkflowEditor :  :  : Opening workflow Editor on workflow.knime
+2018-06-28 15:26:50,250 : DEBUG : main : WorkflowEditor :  :  : Setting input into editor...
+2018-06-28 15:26:50,251 : DEBUG : main : WorkflowEditor :  :  : Resource File's project: file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Payroll%20Job/Payroll%20Job%20Datavault/
+2018-06-28 15:26:50,264 : DEBUG : ModalContext : WorkflowManager :  :  : Loading workflow from "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault" (version "V3010" with loader class "FileWorkflowPersistor")
+2018-06-28 15:26:50,265 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0
+2018-06-28 15:26:50,286 : DEBUG : ModalContext : StringInputQuickFormNodeFactory : Payroll Job Datavault : 0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,315 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:0
+2018-06-28 15:26:50,316 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:19:0
+2018-06-28 15:26:50,316 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0:20:0
+2018-06-28 15:26:50,316 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:2(1) to node 0:19(2)
+2018-06-28 15:26:50,316 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:19(1)
+2018-06-28 15:26:50,316 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:20(1)
+2018-06-28 15:26:50,316 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:2(1) to node 0:20(2)
+2018-06-28 15:26:50,321 : DEBUG : ModalContext : JDBCConnectorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,325 : DEBUG : ModalContext : DBSQLExecutorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,326 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0:1(1) to node 0:0:2(1)
+2018-06-28 15:26:50,326 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:0:2(1) to node 0:0(0)
+2018-06-28 15:26:50,348 : DEBUG : ModalContext : DBTableSelectorNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,352 : DEBUG : ModalContext : DBConnectionWriterNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,365 : DEBUG : ModalContext : DBColumnFilterNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,370 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : hub : 0:19 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,370 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:15(1) to node 0:19:0:12(1)
+2018-06-28 15:26:50,370 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:18(1) to node 0:19:0:14(0)
+2018-06-28 15:26:50,370 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:12(1) to node 0:19:0:17(1)
+2018-06-28 15:26:50,370 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:15(2) to node 0:19:0:18(1)
+2018-06-28 15:26:50,370 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:19:0:17(1) to node 0:19:0:14(1)
+2018-06-28 15:26:50,395 : DEBUG : ModalContext : DBTableSelectorNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,399 : DEBUG : ModalContext : DBConnectionWriterNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,412 : DEBUG : ModalContext : StringManipulationVariableNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,416 : DEBUG : ModalContext : DBColumnFilterNodeFactory : sat : 0:20 : Factory is already initialized. Nothing to do.
+2018-06-28 15:26:50,416 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:17(2) to node 0:20:0:19(1)
+2018-06-28 15:26:50,417 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:19(1) to node 0:20:0:16(0)
+2018-06-28 15:26:50,417 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:20(1) to node 0:20:0:16(1)
+2018-06-28 15:26:50,417 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:15(1) to node 0:20:0:20(1)
+2018-06-28 15:26:50,417 : DEBUG : ModalContext : WorkflowManager :  :  : Added new connection from node 0:20:0:17(1) to node 0:20:0:15(1)
+2018-06-28 15:26:50,435 : DEBUG : ModalContext : WorkflowManager :  :  : Loaded workflow from "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault"  with no errors
+2018-06-28 15:26:50,438 : DEBUG : main : ProjectWorkflowMap :  :  : Adding "file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Payroll%20Job/Payroll%20Job%20Datavault/" to project map (1 in total)
+2018-06-28 15:26:50,439 : DEBUG : main : ProjectWorkflowMap :  :  : registering org.knime.workbench.editor2.WorkflowEditor@53506644 to file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Payroll%20Job/Payroll%20Job%20Datavault/. 1 registered clients now.
+2018-06-28 15:26:50,458 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:26:50,458 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:26:50,458 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:26:50,458 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:26:50,458 : DEBUG : main : WorkflowRootEditPart :  :  : part: SubworkflowEditPart( (WFM) Snowflake Connection Template 0:0 (EXECUTED) )
+2018-06-28 15:26:50,459 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) and index 0
+2018-06-28 15:26:50,459 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) index 0 nr outports 1 and tooltip Connected to: Database Connection
+2018-06-28 15:26:50,459 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@63e11e81 state: EXECUTED
+2018-06-28 15:26:50,459 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:26:50,459 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,459 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:26:50,459 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,459 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( String Input 0:2 (EXECUTED) )
+2018-06-28 15:26:50,460 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:2(1) -> 0:20( 2)]
+2018-06-28 15:26:50,460 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,460 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:2(1) -> 0:19( 2)]
+2018-06-28 15:26:50,460 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,460 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( hub 0:19 (EXECUTED) )
+2018-06-28 15:26:50,460 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:26:50,460 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,461 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:2(1) -> 0:19( 2)]
+2018-06-28 15:26:50,461 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,461 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( sat 0:20 (EXECUTED) )
+2018-06-28 15:26:50,461 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:26:50,461 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,461 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:2(1) -> 0:20( 2)]
+2018-06-28 15:26:50,461 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:26:50,568 : DEBUG : main : CheckUpdateMetaNodeLinkAction :  :  : Checking for updates for 1 node link(s)...
+2018-06-28 15:26:50,576 : WARN  : ModalContext : CheckUpdateMetaNodeLinkAction :  :  : Unable to check for update on node "Snowflake Connection Template 0:0": The content of elements must consist of well-formed character data or markup.
+2018-06-28 15:26:50,576 : DEBUG : ModalContext : CheckUpdateMetaNodeLinkAction :  :  : Unable to check for update on node "Snowflake Connection Template 0:0": The content of elements must consist of well-formed character data or markup.
+org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.knime.core.node.config.base.XMLConfig.load(XMLConfig.java:155)
+	at org.knime.core.node.config.Config.load(Config.java:937)
+	at org.knime.core.node.config.Config.loadFromXML(Config.java:925)
+	at org.knime.core.node.NodeSettings.loadFromXML(NodeSettings.java:105)
+	at org.knime.core.node.workflow.WorkflowLoadHelper.createTemplateLoadPersistor(WorkflowLoadHelper.java:261)
+	at org.knime.core.node.workflow.WorkflowManager.loadMetaNodeTemplate(WorkflowManager.java:6691)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLinkWithCache(WorkflowManager.java:6632)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLink(WorkflowManager.java:6589)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAction$CheckUpdateRunnableWithProgress.run(CheckUpdateMetaNodeLinkAction.java:322)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+2018-06-28 15:26:55,050 : DEBUG : main : NodeContainerEditPart :  :  : sat 0:20 (EXECUTED)
+2018-06-28 15:26:55,050 : DEBUG : main : NodeContainerEditPart :  :  : (WFM) Snowflake Connection Template 0:0 (EXECUTED)
+2018-06-28 15:27:01,893 : DEBUG : main : CheckUpdateMetaNodeLinkAction :  :  : Checking for updates for 1 node link(s)...
+2018-06-28 15:27:01,900 : WARN  : ModalContext : CheckUpdateMetaNodeLinkAction :  :  : Unable to check for update on node "Snowflake Connection Template 0:0": The content of elements must consist of well-formed character data or markup.
+2018-06-28 15:27:01,900 : DEBUG : ModalContext : CheckUpdateMetaNodeLinkAction :  :  : Unable to check for update on node "Snowflake Connection Template 0:0": The content of elements must consist of well-formed character data or markup.
+org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLScanner.reportFatalError(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.knime.core.node.config.base.XMLConfig.load(XMLConfig.java:155)
+	at org.knime.core.node.config.Config.load(Config.java:937)
+	at org.knime.core.node.config.Config.loadFromXML(Config.java:925)
+	at org.knime.core.node.NodeSettings.loadFromXML(NodeSettings.java:105)
+	at org.knime.core.node.workflow.WorkflowLoadHelper.createTemplateLoadPersistor(WorkflowLoadHelper.java:261)
+	at org.knime.core.node.workflow.WorkflowManager.loadMetaNodeTemplate(WorkflowManager.java:6691)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLinkWithCache(WorkflowManager.java:6632)
+	at org.knime.core.node.workflow.WorkflowManager.checkUpdateMetaNodeLink(WorkflowManager.java:6589)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAction$CheckUpdateRunnableWithProgress.run(CheckUpdateMetaNodeLinkAction.java:322)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+2018-06-28 15:27:17,205 : DEBUG : main : VerifyingCompoundCommand :  :  : Executing <1> commands.
+2018-06-28 15:27:17,205 : DEBUG : main : Node : Database Table Selector : 0:19:0:12 : reset
+2018-06-28 15:27:17,205 : DEBUG : main : Node : Database Table Selector : 0:19:0:12 : clean output ports.
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on Database Table Selector 0:19:0:12
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on hub 0:19:0
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on Payroll Job Datavault 0
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Database Table Selector 0:19:0:12 has new state: IDLE
+2018-06-28 15:27:17,205 : DEBUG : main : Node : Database Connection Table Writer : 0:19:0:14 : reset
+2018-06-28 15:27:17,205 : DEBUG : main : Node : Database Connection Table Writer : 0:19:0:14 : clean output ports.
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on Database Connection Table Writer 0:19:0:14
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Database Connection Table Writer 0:19:0:14 has new state: IDLE
+2018-06-28 15:27:17,205 : DEBUG : main : Node : WrappedNode Input : 0:19:0:15 : reset
+2018-06-28 15:27:17,205 : DEBUG : main : Node : WrappedNode Input : 0:19:0:15 : clean output ports.
+2018-06-28 15:27:17,205 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on WrappedNode Input 0:19:0:15
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : WrappedNode Input 0:19:0:15 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : WrappedNode Output : 0:19:0:16 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : WrappedNode Output : 0:19:0:16 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on WrappedNode Output 0:19:0:16
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : WrappedNode Output 0:19:0:16 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Column Filter : 0:19:0:17 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Column Filter : 0:19:0:17 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on Database Column Filter 0:19:0:17
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : Database Column Filter 0:19:0:17 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : String Manipulation (Variable) : 0:19:0:18 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : String Manipulation (Variable) : 0:19:0:18 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=Jun 28, 2018 3:27:17 PM]
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : Setting dirty flag on String Manipulation (Variable) 0:19:0:18
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : String Manipulation (Variable) 0:19:0:18 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : hub : 0:19 : hub 0:19:0 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer :  :  : hub 0:19 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Table Selector : 0:20:0:15 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Table Selector : 0:20:0:15 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on Database Table Selector 0:20:0:15
+2018-06-28 15:27:17,206 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:0(0) -> 0:19( 1)];new=null;timestamp=Jun 28, 2018 3:27:17 PM]
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on sat 0:20:0
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Database Table Selector 0:20:0:15 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Connection Table Writer : 0:20:0:16 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Connection Table Writer : 0:20:0:16 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on Database Connection Table Writer 0:20:0:16
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Database Connection Table Writer 0:20:0:16 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : WrappedNode Input : 0:20:0:17 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : WrappedNode Input : 0:20:0:17 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on WrappedNode Input 0:20:0:17
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : WrappedNode Input 0:20:0:17 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : WrappedNode Output : 0:20:0:18 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : WrappedNode Output : 0:20:0:18 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on WrappedNode Output 0:20:0:18
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : WrappedNode Output 0:20:0:18 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : String Manipulation (Variable) : 0:20:0:19 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : String Manipulation (Variable) : 0:20:0:19 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on String Manipulation (Variable) 0:20:0:19
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : String Manipulation (Variable) 0:20:0:19 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Column Filter : 0:20:0:20 : reset
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Column Filter : 0:20:0:20 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Setting dirty flag on Database Column Filter 0:20:0:20
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : Database Column Filter 0:20:0:20 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer : sat : 0:20 : sat 0:20:0 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer :  :  : sat 0:20 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : main : DBSQLExecutorNodeModel : Database SQL Executor : 0:0:2 : Removing all (0) views from model.
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 0:0:1 : Removing all (0) views from model.
+2018-06-28 15:27:17,206 : DEBUG : main : Node : Database Connector : 0:0:1 : clean output ports.
+2018-06-28 15:27:17,206 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_REMOVED;node=null;old=STD[0:0(0) -> 0:20( 1)];new=null;timestamp=Jun 28, 2018 3:27:17 PM]
+2018-06-28 15:27:17,206 : DEBUG : main : NodeContainer :  :  : Payroll Job Datavault 0 has new state: IDLE
+2018-06-28 15:27:17,206 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_REMOVED;node=0;old=(WFM) Snowflake Connection Template 0:0 (EXECUTED);new=null;timestamp=Jun 28, 2018 3:27:17 PM]
+2018-06-28 15:27:24,095 : DEBUG : main : FileNodeContainerMetaPersistor :  :  : Workflow being loaded ("Snowflake Connection Template") is not locked
+2018-06-28 15:27:24,095 : DEBUG : main : WorkflowManager :  :  : Loading workflow from "C:\BI_and_Data_Analytics\Workflows\Utilities\Snowflake Connection Template" (version "V3010" with loader class "FileWorkflowPersistor")
+2018-06-28 15:27:24,095 : DEBUG : main : WorkflowManager :  :  : Created subworkflow 0:0
+2018-06-28 15:27:24,096 : DEBUG : main : FileNodeContainerMetaPersistor : Snowflake Connection Template : 0:0 : Workflow being loaded ("Database Connector (#1)") is not locked
+2018-06-28 15:27:24,097 : DEBUG : main : JDBCConnectorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:27:24,097 : DEBUG : main : FileNodeContainerMetaPersistor : Snowflake Connection Template : 0:0 : Workflow being loaded ("Database SQL Executor (#2)") is not locked
+2018-06-28 15:27:24,098 : DEBUG : main : DBSQLExecutorNodeFactory : Snowflake Connection Template : 0:0 : Factory is already initialized. Nothing to do.
+2018-06-28 15:27:24,098 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0:1(1) to node 0:0:2(1)
+2018-06-28 15:27:24,098 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0:2(1) to node 0:0(0)
+2018-06-28 15:27:24,104 : DEBUG : main : Node : Database Connector : 0:0:1 : Configure succeeded. (Database Connector)
+2018-06-28 15:27:24,105 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : Configure succeeded. (Database SQL Executor)
+2018-06-28 15:27:24,105 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:0;old=null;new=(WFM) Snowflake Connection Template 0:0 (CONFIGURED);timestamp=Jun 28, 2018 3:27:24 PM]
+2018-06-28 15:27:24,130 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2018-06-28 15:27:24,130 : DEBUG : main : WorkflowRootEditPart :  :  : part: SubworkflowEditPart( (WFM) Snowflake Connection Template 0:0 (CONFIGURED) )
+2018-06-28 15:27:24,131 : DEBUG : main : MetaNodeOutPortEditPart :  :  : created sub workflow out port edit part with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) and index 0
+2018-06-28 15:27:24,131 : DEBUG : main : MetaNodeOutPortEditPart :  :  : returning new sub metanode out port figure  with type PortType(DatabaseConnectionPortObjectSpec,DatabaseConnectionPortObject) index 0 nr outports 1 and tooltip Connected to: Database Connection
+2018-06-28 15:27:24,131 : DEBUG : main : MetaNodeOutPortEditPart :  :  : model: org.knime.core.node.workflow.NodeContainerOutPort@6748d248 state: CONFIGURED
+2018-06-28 15:27:26,550 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 0:0 0 to 0:20 1
+2018-06-28 15:27:26,550 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:20(1)
+2018-06-28 15:27:26,551 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:0(0) -> 0:20( 1)];timestamp=Jun 28, 2018 3:27:26 PM]
+2018-06-28 15:27:26,552 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:27:26,552 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:27:26,552 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:20( 1)]
+2018-06-28 15:27:26,552 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:27:29,441 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 0:0 0 to 0:19 1
+2018-06-28 15:27:29,441 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:0(0) to node 0:19(1)
+2018-06-28 15:27:29,441 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:0(0) -> 0:19( 1)];timestamp=Jun 28, 2018 3:27:29 PM]
+2018-06-28 15:27:29,444 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:27:29,444 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:27:29,444 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:0(0) -> 0:19( 1)]
+2018-06-28 15:27:29,444 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: null
+2018-06-28 15:27:32,618 : DEBUG : main : WorkflowEditor :  :  : Saving workflow Payroll Job Datavault 0
+2018-06-28 15:27:32,641 : DEBUG : ModalContext : WorkflowManager :  :  : Deleted obsolete node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\Snowflake Co (#0)"
+2018-06-28 15:27:32,642 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\Snowflake Co (#0)\Database Connector (#1)"
+2018-06-28 15:27:32,644 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\Snowflake Co (#0)\Database SQL Executor (#2)"
+2018-06-28 15:27:32,655 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)"
+2018-06-28 15:27:32,657 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)\Database Table Selector (#12)"
+2018-06-28 15:27:32,663 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)\Database Connection Table Writer (#14)"
+2018-06-28 15:27:32,670 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)\WrappedNode Input (#15)"
+2018-06-28 15:27:32,676 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)\WrappedNode Output (#16)"
+2018-06-28 15:27:32,682 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)\Database Column Filter (#17)"
+2018-06-28 15:27:32,689 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\hub (#19)\String Manipulation _Variable_ (#18)"
+2018-06-28 15:27:32,700 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Created node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)"
+2018-06-28 15:27:32,703 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)\Database Table Selector (#15)"
+2018-06-28 15:27:32,709 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)\Database Connection Table Writer (#16)"
+2018-06-28 15:27:32,716 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)\WrappedNode Input (#17)"
+2018-06-28 15:27:32,719 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)\WrappedNode Output (#18)"
+2018-06-28 15:27:32,723 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)\String Manipulation _Variable_ (#19)"
+2018-06-28 15:27:32,731 : DEBUG : ModalContext : FileSingleNodeContainerPersistor :  :  : Replaced node directory "C:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Payroll Job\Payroll Job Datavault\sat (#20)\Database Column Filter (#20)"
+2018-06-28 15:27:32,748 : DEBUG : ModalContext : OpenAPIDefinitionGenerator :  :  : Writing OpenAPI definition for input parameters of Payroll Job Datavault
+2018-06-28 15:27:32,869 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2018-06-28 15:27:32,870 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2018-06-28 15:27:32,870 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@53506644 from file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Payroll%20Job/Payroll%20Job%20Datavault/. 0 left.
+2018-06-28 15:27:32,870 : DEBUG : main : ProjectWorkflowMap : Payroll Job Datavault : 0 : Removing "file:/C:/BI_and_Data_Analytics/Workflows/Datavault/Core%20Business%20Concepts/Payroll%20Job/Payroll%20Job%20Datavault/" from project map (0 remaining)
+2018-06-28 15:27:32,871 : DEBUG : main : WorkflowManager : Payroll Job Datavault : 0 : Removing project "Payroll Job Datavault 0"
+2018-06-28 15:27:32,872 : DEBUG : main : DBConnectionWriterNodeModel : Database Connection Table Writer : 0:19:0:14 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Connection Table Writer : 0:19:0:14 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : DBColumnFilterNodeModel : Database Column Filter : 0:19:0:17 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Column Filter : 0:19:0:17 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:19:0:18 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : String Manipulation (Variable) : 0:19:0:18 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : DBTableSelectorNodeModel : Database Table Selector : 0:19:0:12 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Table Selector : 0:19:0:12 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 0:19:0:16 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : WrappedNode Output : 0:19:0:16 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 0:19:0:15 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : WrappedNode Input : 0:19:0:15 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : DBConnectionWriterNodeModel : Database Connection Table Writer : 0:20:0:16 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Connection Table Writer : 0:20:0:16 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : DBColumnFilterNodeModel : Database Column Filter : 0:20:0:20 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Column Filter : 0:20:0:20 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : DBTableSelectorNodeModel : Database Table Selector : 0:20:0:15 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Table Selector : 0:20:0:15 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : StringManipulationVariableNodeModel : String Manipulation (Variable) : 0:20:0:19 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : String Manipulation (Variable) : 0:20:0:19 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 0:20:0:18 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : WrappedNode Output : 0:20:0:18 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 0:20:0:17 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : WrappedNode Input : 0:20:0:17 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 0:2 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : String Input : 0:2 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : DBSQLExecutorNodeModel : Database SQL Executor : 0:0:2 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database SQL Executor : 0:0:2 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : JDBCConnectorNodeModel : Database Connector : 0:0:1 : Removing all (0) views from model.
+2018-06-28 15:27:32,872 : DEBUG : main : Node : Database Connector : 0:0:1 : clean output ports.
+2018-06-28 15:27:32,872 : DEBUG : main : WorkflowManager : Payroll Job Datavault : 0 : Project "Payroll Job Datavault 0" removed (2 remaining)
