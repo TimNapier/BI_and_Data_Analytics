@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="table_meta_info">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Column Rename (#53)/port_1/data.xml
-<entry key="table_ID" type="xint" value="5933"/>
-=======
-<entry key="table_ID" type="xint" value="3478"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Extract and (#12)/Column Rename (#7)/port_1/data.xml
+<entry key="table_ID" type="xint" value="6022"/>
 <entry key="table_type" type="xstring" value="new_spec_table"/>
 <config key="table_references">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="meta_internal">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Column Rename (#53)/port_1/data.xml
-<entry key="table_reference_ID" type="xint" value="5932"/>
-=======
-<entry key="table_reference_ID" type="xint" value="3476"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Extract and (#12)/Column Rename (#7)/port_1/data.xml
+<entry key="table_reference_ID" type="xint" value="6021"/>
 </config>
 <entry key="table_file_name" type="xstring" isnull="true" value=""/>
 </config>

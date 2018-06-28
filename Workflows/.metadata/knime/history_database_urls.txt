@@ -1,8 +1,8 @@
 jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com
+jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive
+jdbc:jtds:sybase://<host>:<port>/<database_name>
 <protocol>://<host>:<port>/<database_name>
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
->>>>>>> b8c006983eb3210390ad3f0b9ba96d9583a0375e
-jdbc:jtds:sybase://<host>:<port>/<database_name>

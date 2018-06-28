@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="number_columns" type="xint" value="15"/>
-=======
-<entry key="number_columns" type="xint" value="45"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="ReferralDetailsID"/>
 <config key="element_names">
@@ -31,11 +27,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_1">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="ReferralTypeID"/>
-=======
-<entry key="column_name" type="xstring" value="Card ID"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -43,20 +35,10 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
 <entry key="IntCell" type="xint" value="2"/>
-=======
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="CUS000300"/>
-</config>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="upper_bound">
@@ -69,11 +51,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_2">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="ClientID"/>
-=======
-<entry key="column_name" type="xstring" value="FUNDER_NAME"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -81,20 +59,10 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
 <entry key="IntCell" type="xint" value="1"/>
-=======
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="NDIA:Mooney Dominic"/>
-</config>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="upper_bound">
@@ -107,11 +75,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_3">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="BudgetID"/>
-=======
-<entry key="column_name" type="xstring" value="Customer PO"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -119,20 +83,10 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
 <entry key="IntCell" type="xint" value="34"/>
-=======
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="13540"/>
-</config>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="upper_bound">
@@ -145,11 +99,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_4">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="JobID"/>
-=======
-<entry key="column_name" type="xstring" value="PAYROLL_BATCH_ID"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -157,19 +107,10 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
 <entry key="IntCell" type="xint" value="95"/>
-=======
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="936"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="upper_bound">
@@ -182,11 +123,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_5">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="InvoiceLineID"/>
-=======
-<entry key="column_name" type="xstring" value="Item Number"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -194,7 +131,6 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
@@ -229,39 +165,11 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
 <entry key="IntCell" type="xint" value="10360"/>
-=======
-<config key="possible_values">
-<entry key="array-size" type="xint" value="4"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="06_431_0131_2_2"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="04_112_0136_6_1"/>
-</config>
-</config>
-<config key="2">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="07_002_0106_8_3"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="column_spec_7">
 <entry key="column_name" type="xstring" value="InvoiceNumber"/>
 <config key="element_names">
@@ -275,10 +183,6 @@
 </config>
 <config key="column_spec_8">
 <entry key="column_name" type="xstring" value="ReferralTypeDesc"/>
-=======
-<config key="column_spec_6">
-<entry key="column_name" type="xstring" value="Support Item"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -287,25 +191,16 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="array-size" type="xint" value="17"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Accommodation"/>
-=======
-<entry key="array-size" type="xint" value="4"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Specialist Disability Accommodation"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Activity Costing"/>
 </config>
 </config>
@@ -328,18 +223,6 @@
 </config>
 </config>
 <config key="5">
-=======
-<entry key="StringCell" type="xstring" value="group based community, social and recreational activities - Saturday"/>
-</config>
-</config>
-<config key="2">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="coordination of supports"/>
-</config>
-</config>
-<config key="3">
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Home Modifications"/>
@@ -351,61 +234,28 @@
 <entry key="StringCell" type="xstring" value="Other"/>
 </config>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="7">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Out of hours support"/>
-=======
-<config key="column_properties"/>
-</config>
-<config key="column_spec_7">
-<entry key="column_name" type="xstring" value="Inc-Tax Total"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Reporting outcomes"/>
-=======
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="4"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="97.14"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Saturday Support"/>
-=======
-<entry key="StringCell" type="xstring" value="186.12"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Skill Development"/>
-=======
-<entry key="StringCell" type="xstring" value="141.09"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="11">
@@ -419,60 +269,29 @@
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Summer Recreation"/>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
-=======
-<config key="column_spec_8">
-<entry key="column_name" type="xstring" value="Total"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 <config key="13">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Support Connection"/>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 </config>
 <config key="14">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Support Coordination"/>
-=======
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="4"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="97.14"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="15">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Transport"/>
-=======
-<entry key="StringCell" type="xstring" value="186.12"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="16">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Weekday Support"/>
-=======
-<entry key="StringCell" type="xstring" value="141.09"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 </config>
@@ -480,11 +299,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_9">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="Finance Reference"/>
-=======
-<entry key="column_name" type="xstring" value="Quantity"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -493,15 +308,9 @@
 </config>
 <config key="column_domain">
 <config key="lower_bound">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
 <entry key="IntCell" type="xint" value="1200"/>
-=======
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="1.0"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="upper_bound">
@@ -514,11 +323,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_10">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="Parent Job"/>
-=======
-<entry key="column_name" type="xstring" value="Price"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -527,37 +332,17 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="4"/>
+<entry key="array-size" type="xint" value="2"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Accomodation"/>
-=======
-<entry key="StringCell" type="xstring" value="97.14"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="Day Support"/>
-=======
-<entry key="StringCell" type="xstring" value="31.02"/>
-</config>
-</config>
-<config key="2">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="94.06"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 </config>
@@ -565,11 +350,7 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_11">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="Notes"/>
-=======
-<entry key="column_name" type="xstring" value="ACTIVITY_DATE"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -577,7 +358,6 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="possible_values">
 <entry key="array-size" type="xint" value="2"/>
 <config key="0">
@@ -591,35 +371,13 @@
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Per assigned business unit for day support"/>
 </config>
-=======
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.date.DateAndTimeCell"/>
-<config key="org.knime.core.data.date.DateAndTimeCell">
-<entry key="hasDate" type="xboolean" value="true"/>
-<entry key="hasTime" type="xboolean" value="false"/>
-<entry key="hasMillis" type="xboolean" value="false"/>
-<entry key="timeInMillis" type="xlong" value="1499040000000"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.date.DateAndTimeCell"/>
-<config key="org.knime.core.data.date.DateAndTimeCell">
-<entry key="hasDate" type="xboolean" value="true"/>
-<entry key="hasTime" type="xboolean" value="false"/>
-<entry key="hasMillis" type="xboolean" value="false"/>
-<entry key="timeInMillis" type="xlong" value="1526688000000"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 </config>
 <config key="column_spec_12">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="column_name" type="xstring" value="rowguid"/>
-=======
-<entry key="column_name" type="xstring" value="Date"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -627,7 +385,6 @@
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
 <config key="column_domain">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="possible_values">
 <entry key="array-size" type="xint" value="17"/>
 <config key="0">
@@ -640,24 +397,6 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="E8349396-A5A0-4D2E-A4F6-800899145D71"/>
-=======
-<config key="lower_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.date.DateAndTimeCell"/>
-<config key="org.knime.core.data.date.DateAndTimeCell">
-<entry key="hasDate" type="xboolean" value="true"/>
-<entry key="hasTime" type="xboolean" value="false"/>
-<entry key="hasMillis" type="xboolean" value="false"/>
-<entry key="timeInMillis" type="xlong" value="1526774400000"/>
-</config>
-</config>
-<config key="upper_bound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.date.DateAndTimeCell"/>
-<config key="org.knime.core.data.date.DateAndTimeCell">
-<entry key="hasDate" type="xboolean" value="true"/>
-<entry key="hasTime" type="xboolean" value="false"/>
-<entry key="hasMillis" type="xboolean" value="false"/>
-<entry key="timeInMillis" type="xlong" value="1526774400000"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="2">
@@ -666,113 +405,28 @@
 <entry key="StringCell" type="xstring" value="90B3F97C-6857-4624-9A69-0326CE2C27FA"/>
 </config>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="8388D399-208B-4AFF-8BEB-C2C135091A50"/>
-=======
-<config key="column_spec_13">
-<entry key="column_name" type="xstring" value="NDIS_INVOICE_DETAIL_DESCRIPTION"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="7CA5C1A7-C43E-4990-9558-5EDEDCD5DA8E"/>
-=======
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="4"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="SDA LEVEL 1"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="7E4939BB-0736-4A0F-96C7-8AE36E2BB54A"/>
-=======
-<entry key="StringCell" type="xstring" value="REC &amp; LEISURE"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="6">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="342B0AA1-3546-43D1-804C-92D43E8F9166"/>
-=======
-<entry key="StringCell" type="xstring" value="COORDINATION OF SUPPORTS"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_14">
-<entry key="column_name" type="xstring" value="H_PARTICIPANT_SID"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="17503a6b2326f09fbc4e3a7c03874c7333002038"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_15">
-<entry key="column_name" type="xstring" value="H_BUSINESS_UNIT_SID"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="c1dfd96eea8cc2b62785275bca38ac261256e278"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="7">
@@ -786,13 +440,6 @@
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="90BEF0DA-399E-469F-984C-8E2CC733CE18"/>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
-=======
-<config key="column_spec_16">
-<entry key="column_name" type="xstring" value="L_PARTICIPANT_BUSINESS_UNIT_SID"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 <config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
@@ -803,11 +450,7 @@
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="8CCA753E-1D61-4E0F-8E46-BD245B954D71"/>
-=======
-<entry key="StringCell" type="xstring" value="9d8974baddfc0e53300829f37e5fc88b0f5ce61b"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="11">
@@ -850,13 +493,8 @@
 </config>
 <config key="column_properties"/>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="column_spec_13">
 <entry key="column_name" type="xstring" value="ModifiedDate"/>
-=======
-<config key="column_spec_17">
-<entry key="column_name" type="xstring" value="WORKFLOW_PATH"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -865,158 +503,56 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="array-size" type="xint" value="17"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="49:40.3"/>
-=======
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="/Datavault/links/Client 2 Business Unit/Client 2 Business Unit CSM Snowflake"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="11:22.2"/>
-=======
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_18">
-<entry key="column_name" type="xstring" value="WORKFLOW_NAME"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
+<config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="49:47.7"/>
-=======
-<entry key="StringCell" type="xstring" value="Client 2 Business Unit CSM Snowflake"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-<config key="1">
+<config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="30:18.1"/>
-=======
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_19">
-<entry key="column_name" type="xstring" value="WORKSPACE"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
+<config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="11:55.4"/>
-=======
-<entry key="StringCell" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-<config key="1">
+<config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="11:31.3"/>
-=======
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_20">
-<entry key="column_name" type="xstring" value="LOAD_DATE_TIME"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
+<config key="6">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="50:06.2"/>
-=======
-<entry key="StringCell" type="xstring" value="2018-06-12 11:53:28.0"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-<config key="1">
+<config key="7">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <entry key="StringCell" type="xstring" value="11:05.1"/>
-=======
-<entry key="StringCell" type="xstring" value=" "/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 </config>
 </config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_21">
-<entry key="column_name" type="xstring" value="BUSINESS_UNIT_TIE_BREAKER"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="1.00"/>
-</config>
-</config>
-<config key="1">
+<config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="41:55.4"/>
@@ -1074,895 +610,8 @@
 </config>
 <config key="column_properties"/>
 </config>
-<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Row Splitter (#43)/port_2/spec.xml
 <config key="column_spec_14">
 <entry key="column_name" type="xstring" value="CompanyGroupID"/>
-=======
-<config key="column_spec_22">
-<entry key="column_name" type="xstring" value="WORKFLOW_PATH (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="/Datavault/links/Client 2 Business Unit/Client 2 Business Unit CSM Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_23">
-<entry key="column_name" type="xstring" value="WORKFLOW_NAME (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Client 2 Business Unit CSM Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_24">
-<entry key="column_name" type="xstring" value="WORKSPACE (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_25">
-<entry key="column_name" type="xstring" value="LOAD_DATE_TIME (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-06-12 11:53:28.0"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_26">
-<entry key="column_name" type="xstring" value="BUSINESS_UNIT_BK"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="6"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_27">
-<entry key="column_name" type="xstring" value="WORKFLOW_PATH (#2)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="/Datavault/Core Business Concepts/Business Unit/Business Unit CSM Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_28">
-<entry key="column_name" type="xstring" value="WORKFLOW_NAME (#2)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Business Unit CSM Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_29">
-<entry key="column_name" type="xstring" value="WORKSPACE (#2)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_30">
-<entry key="column_name" type="xstring" value="LOAD_DATE_TIME (#2)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-06-25 13:10:15.0"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_31">
-<entry key="column_name" type="xstring" value="BUSINESS_UNIT_TYPE"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Day Services"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_32">
-<entry key="column_name" type="xstring" value="WORKFLOW_PATH (#1) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="/Datavault/Core Business Concepts/Business Unit/Business Unit Type Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_33">
-<entry key="column_name" type="xstring" value="WORKFLOW_NAME (#1) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Business Unit Type Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_34">
-<entry key="column_name" type="xstring" value="WORKSPACE (#1) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_35">
-<entry key="column_name" type="xstring" value="LOAD_DATE_TIME (#1) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-06-12 11:37:06.0"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_36">
-<entry key="column_name" type="xstring" value="BUSINESS_UNIT_NAME"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Lower Plenty"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_37">
-<entry key="column_name" type="xstring" value="Job"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="3300"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_38">
-<entry key="column_name" type="xstring" value="WORKFLOW_PATH (#2) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="/Datavault/Core Business Concepts/Business Unit/Business Unit CSM Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_39">
-<entry key="column_name" type="xstring" value="WORKFLOW_NAME (#2) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Business Unit CSM Snowflake"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_40">
-<entry key="column_name" type="xstring" value="WORKSPACE (#2) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="C:\BI_and_Data_Analytics\Workflows"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_41">
-<entry key="column_name" type="xstring" value="LOAD_DATE_TIME (#2) (#1)"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-06-25 13:10:15.0"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_42">
-<entry key="column_name" type="xstring" value="Comment"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="2"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Produced by MYOB_Item_Sales for Payroll Batch 936"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_43">
-<entry key="column_name" type="xstring" value="Description"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="50"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-07-03 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="1">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-07-10 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="2">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-07-17 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-07-24 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="4">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-07-31 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="5">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-08-05 REC &amp; LEISURE"/>
-</config>
-</config>
-<config key="6">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-08-07 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="7">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-08-14 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="8">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-08-21 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="9">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-08-28 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="10">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-09-04 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="11">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-09-11 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="12">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-09-18 COORDINATION OF SUPPORTS"/>
-</config>
-</config>
-<config key="13">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-09-18 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="14">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-09-25 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="15">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-10-02 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="16">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-10-09 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="17">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-10-16 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="18">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-10-23 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="19">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-10-30 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="20">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-11-06 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="21">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-11-13 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="22">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-11-20 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="23">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-11-27 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="24">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-12-04 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="25">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-12-11 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="26">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-12-18 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="27">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2017-12-25 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="28">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-01-01 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="29">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-01-08 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="30">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-01-15 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="31">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-01-22 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="32">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-01-29 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="33">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-02-05 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="34">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-02-12 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="35">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-02-19 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="36">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-02-26 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="37">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-03-05 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="38">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-03-12 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="39">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-03-19 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="40">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-03-26 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="41">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-04-02 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="42">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-04-09 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="43">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-04-16 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="44">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-04-23 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="45">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-04-30 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="46">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-05-07 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="47">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-05-14 SDA LEVEL 1"/>
-</config>
-</config>
-<config key="48">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="2018-05-19 REC &amp; LEISURE"/>
-</config>
-</config>
-<config key="49">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=" "/>
-</config>
-</config>
-</config>
-</config>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_44">
-<entry key="column_name" type="xstring" value="Iteration"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/WrappedNode Output (#20)/internalTables/object_0/spec.xml
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
