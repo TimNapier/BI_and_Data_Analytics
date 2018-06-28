@@ -14,6 +14,12 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="l_participant_NDIS_invoice"/>
 </config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="local_var_core_business_concept"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="l_participant_NDIS_invoice"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -48,8 +54,8 @@
 </config>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Link"/>
-<entry key="timestamp" type="xstring" value="2018-06-19 14:14:19"/>
-<entry key="sourceURI" type="xstring" value="knime://LOCAL/Utilities/Workflow%20Name%20(becomes%20the%20object%20name)"/>
+<entry key="timestamp" type="xstring" value="2018-06-27 15:23:29"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/Workflows/Utilities/Workflow%20Name%20(becomes%20the%20object%20name)"/>
 </config>
 <config key="layoutInfos"/>
 <entry key="layoutJSON" type="xstring" value=""/>

@@ -85,12 +85,16 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 936, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 951, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<<<<<<< HEAD:Workflows/MYOB Extracts/MYOB_Item_Sales/Domain Calculator (#4)/settings.xml
+<entry key="file_store_id" type="xstring" value="687d3e88-c687-41eb-91e0-1d57b4d6a4ee"/>
+=======
 <entry key="file_store_id" type="xstring" value="e8d0e65b-ba7e-4a82-87c2-ba412c197a67"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Select Payro (#26)/Domain Calculator (#4)/settings.xml
 </config>
 </config>

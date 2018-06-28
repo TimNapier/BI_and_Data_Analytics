@@ -5,7 +5,11 @@
 <entry key="version" type="xstring" value="3.1.0"/>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Link"/>
+<<<<<<< HEAD
+<entry key="timestamp" type="xstring" value="2018-06-27 15:27:22"/>
+=======
 <entry key="timestamp" type="xstring" value="2018-06-26 08:48:33"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
 <entry key="sourceURI" type="xstring" value="knime://LOCAL/Snowflake/Snowflake%20Connection%20Template"/>
 </config>
 <entry key="name" type="xstring" value="Snowflake Connection Template"/>
@@ -13,10 +17,14 @@
 <entry key="authored-by" type="xstring" value="Administrator"/>
 <entry key="authored-when" type="xstring" value="2018-06-07 13:53:44 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
+<<<<<<< HEAD
+<entry key="lastEdited-when" type="xstring" value="2018-06-27 15:27:22 +1000"/>
+=======
 <entry key="lastEdited-when" type="xstring" value="2018-06-26 08:48:33 +1000"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">

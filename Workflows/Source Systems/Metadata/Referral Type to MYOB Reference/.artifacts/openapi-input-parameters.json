@@ -1,0 +1,12 @@
+
+{
+    "type":"object",
+    "properties":{
+        "string-input-14":{
+            "type":"string",
+            "default":"NDIS_INVOICE_DETAIL_FINANCE_REF",
+            "description":"Name of the Core Business Concept this Module will create",
+            "example":"NDIS_INVOICE_DETAIL_FINANCE_REF"
+        }
+    }
+}

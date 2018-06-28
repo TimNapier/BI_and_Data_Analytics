@@ -1,8 +1,11 @@
 jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com
 <protocol>://<host>:<port>/<database_name>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> b8c006983eb3210390ad3f0b9ba96d9583a0375e
 jdbc:jtds:sybase://<host>:<port>/<database_name>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
 jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive
-jdbc:sqlite:C:\Users\Administrator\AppData\Local\Temp\2\knime_temp_space_Administrator_40261\04_Advanced_Row_Filters40263\04_Advanced_Row_Filters\data\WebActivity.sqlite
-jdbc:sqlite://<host>:<port>/<database_name>
-jdbc:sqlite:C:\Users\rosy\knime_3.2.0\workspace\All_Row_Filters\Advanced_Row_Filters\data\WebActivity.sqlite
-jdbc:sqlite:/var/folders/1c/ttd7z6wx6z9by2mrdjs48_c00000gp/T/knime_tempcreator_38542437-ff31-4e50-b829-311dfdcf33b0/tempdb.sql
+jdbc:jtds:sybase://<host>:<port>/<database_name>

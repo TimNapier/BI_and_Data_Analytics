@@ -44,12 +44,16 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 936, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 951, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<<<<<<< HEAD:Workflows/MYOB Extracts/MYOB_Item_Sales/Database Reader (#3)/settings.xml
+<entry key="file_store_id" type="xstring" value="76498229-3e93-4acd-952f-b103046f2ccf"/>
+=======
 <entry key="file_store_id" type="xstring" value="fb768b45-2e77-44d4-b194-c2f0a23e2557"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Select Payro (#26)/Database Reader (#3)/settings.xml
 </config>
 </config>
