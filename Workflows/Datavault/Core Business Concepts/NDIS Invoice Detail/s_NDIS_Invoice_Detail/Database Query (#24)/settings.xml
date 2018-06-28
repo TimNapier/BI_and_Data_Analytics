@@ -6,7 +6,22 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="select %%00010*,%%00010'40700' as ACCOUNT_NUMBER,%%00010&quot;PayrollBatchID&quot; as PAYROLL_BATCH_ID,%%00010to_number(&quot;Quantity&quot;,10,2) as QUANTITY,%%00010to_number(&quot;UnitPrice&quot;, 10,2) as UNIT_PRICE,%%00010to_number(&quot;LineTotal&quot;, 10,2) as LINE_TOTAL,%%00010to_date(&quot;JobDate&quot;) as ACTIVITY_DATE%%00010from (%%00010SELECT * FROM #table#%%00010)"/>
+<entry key="statement" type="xstring" value="select %%00010'40700' as ACCOUNT_NUMBER,%%00010&quot;PayrollBatchID&quot; as PAYROLL_BATCH_ID,%%00010to_number(&quot;Quantity&quot;,10,2) as QUANTITY,%%00010to_number(&quot;UnitPrice&quot;, 10,2) as UNIT_PRICE,%%00010to_number(&quot;LineTotal&quot;, 10,2) as LINE_TOTAL,%%00010to_date(&quot;JobDate&quot;) as ACTIVITY_DATE,%%00010* from (%%00010SELECT * FROM #table#%%00010)"/>
+<entry key="execute_without_configure" type="xboolean" value="true"/>
+<entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+<entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" isnull="true" value=""/>
+<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="3.5.3"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -37,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="00e4cfc1-74ce-4a2f-a8cf-832dec1ae242"/>
+<entry key="file_store_id" type="xstring" value="63b9b366-97c4-46e2-989d-56263cb7280e"/>
 </config>
 </config>
