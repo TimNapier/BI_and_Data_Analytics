@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="table_meta_info">
+<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Concatenate (#50)/port_1/data.xml
 <entry key="table_ID" type="xint" value="5931"/>
+=======
+<entry key="table_ID" type="xint" value="3491"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/Loop End (#17)/port_1/data.xml
 <entry key="table_type" type="xstring" value="concatenate_table"/>
 <config key="table_references">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="meta_internal">
 <config key="table_reference_IDS">
+<<<<<<< HEAD:Workflows/Source Systems/Metadata/Referral Type to MYOB Reference/Get Job Code (#55)/Concatenate (#50)/port_1/data.xml
 <entry key="array-size" type="xint" value="2"/>
 <entry key="0" type="xint" value="5930"/>
 <entry key="1" type="xint" value="5925"/>
 </config>
 <entry key="table_rowcount" type="xint" value="133410"/>
 <entry key="duplicate_row_key_suffix" type="xstring" value="_dup"/>
+=======
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xint" value="3490"/>
+</config>
+<entry key="table_rowcount" type="xint" value="197"/>
+<entry key="duplicate_row_key_suffix" type="xstring" isnull="true" value=""/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Add blank li (#18)/Loop End (#17)/port_1/data.xml
 </config>
 <entry key="table_file_name" type="xstring" isnull="true" value=""/>
 </config>

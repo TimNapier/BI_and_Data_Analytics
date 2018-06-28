@@ -6,7 +6,11 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="file_name"/>
 <entry key="class" type="xstring" value="STRING"/>
+<<<<<<< HEAD
 <entry key="value" type="xstring" value="C:\BI\DATA\MYOB\Item Sales Extract\973.txt"/>
+=======
+<entry key="value" type="xstring" value="C:\BI\DATA\MYOB\Item Sales Extract\936.txt"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -44,6 +48,10 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<<<<<<< HEAD
 <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+=======
+<entry key="file_store_id" type="xstring" value="6270e48c-4af9-48ae-9a3f-24513f720a97"/>
+>>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
 </config>
 </config>
