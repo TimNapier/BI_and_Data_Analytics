@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="use warehouse ARALUEN;%%00010select distinct PAYROLL_BATCH_ID as value, PAYROLL_BATCH_ID as label%%00010from%%00010&quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;s_NDIS_Invoice_Detail&quot;%%00010order by to_number(PAYROLL_BATCH_ID) desc"/>
+<entry key="statement" type="xstring" value="use warehouse ARALUEN;%%00010select distinct PAYROLL_BATCH_ID as value, PAYROLL_BATCH_ID as label%%00010from%%00010&quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;S_NDIS_INVOICE_DETAIL&quot;%%00010order by to_number(PAYROLL_BATCH_ID) desc"/>
 <entry key="execute_without_configure" type="xboolean" value="false"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,12 +44,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 936, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 951, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f99f014b-321c-4c77-917e-70915294e2da"/>
+<entry key="file_store_id" type="xstring" value="76498229-3e93-4acd-952f-b103046f2ccf"/>
 </config>
 </config>
