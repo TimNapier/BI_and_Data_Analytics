@@ -14,6 +14,18 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="VALUE"/>
 </config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="local_var_payroll_batch"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="936"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="local_var_payroll_batch (column)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="VALUE"/>
+</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

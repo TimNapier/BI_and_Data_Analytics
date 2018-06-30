@@ -94,11 +94,11 @@
             },
             {
                 "id":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
-                "nrexecs":18,
+                "nrexecs":19,
                 "nrfails":0,
-                "exectime":20,
+                "exectime":23,
                 "nrcreated":0,
-                "successor":"n/a"
+                "successor":"org.knime.core.node.workflow.SubNodeContainer"
             },
             {
                 "id":"org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
@@ -586,11 +586,11 @@
             "nrcreated":0
         }
     },
-    "uptime":10578862,
-    "workflowsOpened":78,
-    "remoteWorkflowsOpened":5,
-    "launches":14,
-    "timeSinceLastStart":1455212,
+    "uptime":10202209,
+    "workflowsOpened":93,
+    "remoteWorkflowsOpened":11,
+    "launches":15,
+    "timeSinceLastStart":4929076,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }

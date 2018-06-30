@@ -22,6 +22,10 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: Add blank line at the end of each invoice (MYOB Requirement) 0:18%%00010  Status: DataLoadError: WrappedNode Input 0:18:0:18%%00010    Status: DataLoadError: Unable to load port content for node &quot;WrappedNode Input&quot;: No BufferedDataTable  with ID 3482%%00010  Status: DataLoadError: Add Empty Rows 0:18:0:16%%00010    Status: DataLoadError: Unable to load port content for node &quot;Add Empty Rows&quot;: No such data file: C:\BI_and_Data_Analytics\Workflows\MYOB Extracts\MYOB_Item_Sales\Add blank li (#18)\Add Empty Rows (#16)\port_1\data.xml%%00010  Status: DataLoadError: Loop End 0:18:0:17%%00010    Status: DataLoadError: Unable to load port content for node &quot;Loop End&quot;: No such data file: C:\BI_and_Data_Analytics\Workflows\MYOB Extracts\MYOB_Item_Sales\Add blank li (#18)\Loop End (#17)\port_1\data.xml"/>
+</config>
 <entry key="virtual-in-ID" type="xint" value="18"/>
 <config key="inports">
 <config key="inport_0">
