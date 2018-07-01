@@ -6,7 +6,7 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory#Extract Context Properties",
-                "nrexecs":24,
+                "nrexecs":25,
                 "nrfails":0,
                 "exectime":11,
                 "nrcreated":3,
@@ -14,9 +14,9 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#WrappedNode Input",
-                "nrexecs":85,
+                "nrexecs":98,
                 "nrfails":0,
-                "exectime":997,
+                "exectime":1053,
                 "nrcreated":0,
                 "successor":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector"
             },
@@ -38,17 +38,17 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output",
-                "nrexecs":88,
+                "nrexecs":98,
                 "nrfails":0,
-                "exectime":41,
+                "exectime":53,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector",
-                "nrexecs":86,
-                "nrfails":15,
-                "exectime":64213,
+                "nrexecs":102,
+                "nrfails":18,
+                "exectime":88637,
                 "nrcreated":3,
                 "successor":"org.knime.base.node.io.database.DBJoinerNodeFactory#Database Joiner"
             },
@@ -78,17 +78,17 @@
             },
             {
                 "id":"org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory#String Manipulation (Variable)",
-                "nrexecs":47,
+                "nrexecs":48,
                 "nrfails":0,
-                "exectime":28,
+                "exectime":29,
                 "nrcreated":12,
                 "successor":"org.knime.base.node.flowvariable.appendvariabletotable2.AppendVariableToTable2NodeFactory#Variable to Table Column"
             },
             {
                 "id":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader",
-                "nrexecs":11,
+                "nrexecs":14,
                 "nrfails":13,
-                "exectime":29925,
+                "exectime":33489,
                 "nrcreated":2,
                 "successor":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename"
             },
@@ -102,9 +102,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
-                "nrexecs":43,
+                "nrexecs":45,
                 "nrfails":0,
-                "exectime":5573,
+                "exectime":5657,
                 "nrcreated":6,
                 "successor":"org.knime.base.node.preproc.rounddouble.RoundDoubleNodeFactory#Round Double"
             },
@@ -182,9 +182,9 @@
             },
             {
                 "id":"org.knime.js.base.node.quickform.selection.value.ValueSelectionQuickFormNodeFactory#Value Selection",
-                "nrexecs":10,
+                "nrexecs":13,
                 "nrfails":0,
-                "exectime":5691,
+                "exectime":5694,
                 "nrcreated":0,
                 "successor":"org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory#String Manipulation (Variable)"
             },
@@ -198,25 +198,25 @@
             },
             {
                 "id":"org.knime.base.node.preproc.rounddouble.RoundDoubleNodeFactory#Round Double",
-                "nrexecs":11,
+                "nrexecs":12,
                 "nrfails":0,
-                "exectime":33,
+                "exectime":41,
                 "nrcreated":1,
                 "successor":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output"
             },
             {
                 "id":"org.knime.base.node.preproc.domain.dialog2.DomainNodeFactory#Domain Calculator",
-                "nrexecs":3,
+                "nrexecs":6,
                 "nrfails":0,
-                "exectime":11,
+                "exectime":19,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
-                "nrexecs":11,
+                "nrexecs":12,
                 "nrfails":0,
-                "exectime":76,
+                "exectime":125,
                 "nrcreated":2,
                 "successor":"n/a"
             },
@@ -470,9 +470,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBJoinerNodeFactory#Database Joiner",
-                "nrexecs":44,
+                "nrexecs":54,
                 "nrfails":0,
-                "exectime":503,
+                "exectime":607,
                 "nrcreated":10,
                 "successor":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader"
             },
@@ -550,9 +550,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.columnrename.DBColumnRenameNodeFactory#Database Column Rename",
-                "nrexecs":18,
+                "nrexecs":20,
                 "nrfails":0,
-                "exectime":178,
+                "exectime":192,
                 "nrcreated":4,
                 "successor":"n/a"
             },
@@ -580,17 +580,17 @@
             "nrcreated":0
         },
         "wrappedNodes":{
-            "nrexecs":81,
-            "nrfails":7,
-            "exectime":83415,
+            "nrexecs":90,
+            "nrfails":9,
+            "exectime":105420,
             "nrcreated":0
         }
     },
-    "uptime":10202209,
-    "workflowsOpened":93,
+    "uptime":9629312,
+    "workflowsOpened":97,
     "remoteWorkflowsOpened":11,
-    "launches":15,
-    "timeSinceLastStart":4929076,
+    "launches":16,
+    "timeSinceLastStart":438672,
     "crashes":0,
     "properlyShutDown":false
 }
