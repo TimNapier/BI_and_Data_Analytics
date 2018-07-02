@@ -4,9 +4,9 @@
     "properties":{
         "string-input-20:11":{
             "type":"string",
-            "default":"https%3A%2F%2Fwww.google.com%2F",
+            "default":"http://localhost:9000",
             "description":"Enter Description\t\t\t\t\t\t\t\t\t\t\t",
-            "example":"https%3A%2F%2Fwww.google.com%2F"
+            "example":"http://localhost:9000"
         },
         "string-input-20:10":{
             "type":"string",

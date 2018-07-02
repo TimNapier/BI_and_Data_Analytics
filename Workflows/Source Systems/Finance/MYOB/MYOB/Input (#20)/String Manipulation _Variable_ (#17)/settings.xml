@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Authorisation_code_request"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="https://secure.myob.com/oauth2/account/authorize?client_id=v55jkugsyydh5d3te7sk63pj&amp;redirect_uri=https%3A%2F%2Fwww.google.com%2F&amp;scope=CompanyFile&amp;response_type=code"/>
+<entry key="value" type="xstring" value="https://secure.myob.com/oauth2/account/authorize?client_id=v55jkugsyydh5d3te7sk63pj&amp;redirect_uri=http://localhost:9000&amp;scope=CompanyFile&amp;response_type=code"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="dc306600-acf8-4e7e-86cc-d224d5ba3ea7"/>
+<entry key="file_store_id" type="xstring" value="a99f4232-4e7d-4dfc-b6aa-41f716a52ba2"/>
 </config>
 </config>
