@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_core_business_concept"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ndis_support_item"/>
+<entry key="value" type="xstring" value="NDIS_SUPPORT_ITEM"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_core_business_concept"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="ndis_support_item"/>
+<entry key="value" type="xstring" value="NDIS_SUPPORT_ITEM"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -20,7 +20,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="string" type="xstring" value="ndis_support_item"/>
+<entry key="string" type="xstring" value="NDIS_SUPPORT_ITEM"/>
 </config>
 <entry key="label" type="xstring" value="Core Business Concept"/>
 <entry key="description" type="xstring" value="Enter core business concept"/>
@@ -64,6 +64,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6a2a9f41-272b-4da6-992f-25e941154e94"/>
+<entry key="file_store_id" type="xstring" value="c4fa0eb4-6120-477d-b2ef-1209e7bdcd64"/>
 </config>
 </config>

@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="ndis_support_item"/>
+<entry key="StringCell" type="xstring" value="NDIS_SUPPORT_ITEM"/>
 </config>
 </config>
 </config>
@@ -33,77 +33,125 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="12"/>
+<entry key="array-size" type="xint" value="20"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;ndis_support_item&quot; ("/>
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;NDIS_SUPPORT_ITEM&quot; ("/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Registration Group&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;REGISTRATION_GROUP&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Support Item&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_ITEM&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Support Item Number&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_ITEM_NUMBER&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Support Item Description&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_ITEM_DESCRIPTION&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Unit of Measure&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;UNIT_OF_MEASURE&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="6">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Quote&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;QUOTE&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="7">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Price&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;PRICE&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Price Control&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;PRICE_CONTROL&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Support Categories&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_CATEGORIES&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;Support Category Number&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_CATEGORY_NUMBER&quot; varchar(1000) ,"/>
 </config>
 </config>
 <config key="11">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;h_ndis_support_item_sid&quot; varchar(256) )"/>
+<entry key="StringCell" type="xstring" value="&quot;SOURCE&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="12">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;H_NDIS_SUPPORT_ITEM_SID&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="13">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;EFFECTIVE_FROM_DATE&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="14">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;EFFECTIVE_TO_DATE&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="15">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_CATEGORY_NUMBER (#1)&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="16">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;SUPPORT_ITEM_LINE_NUMBER&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="17">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;REGISTRATION_GROUP (#1)&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="18">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;OUTCOME_DOMAIN&quot; varchar(1000) ,"/>
+</config>
+</config>
+<config key="19">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;FUNDING_TYPE&quot; varchar(1000) )"/>
 </config>
 </config>
 </config>
