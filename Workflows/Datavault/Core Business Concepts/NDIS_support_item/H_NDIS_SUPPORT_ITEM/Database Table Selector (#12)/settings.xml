@@ -6,13 +6,13 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT &quot;Support Item Number&quot; as SUPPORT_ITEM_BK,%%00010&quot;h_ndis_support_item_sid&quot; as H_NDIS_SUPPORT_ITEM_SID %%00010FROM  &quot;ARALUEN_DATAVAULT&quot;.&quot;LOAD_NDIS&quot;.&quot;ndis_support_item&quot;"/>
+<entry key="statement" type="xstring" value="select distinct%%00010SUPPORT_ITEM_NUMBER as SUPPORT_ITEM_BK,%%00010H_NDIS_SUPPORT_ITEM_SID,%%00010min(SOURCE) as SOURCE %%00010from %%00010&quot;ARALUEN_DATAVAULT&quot;.&quot;LOAD_NDIS&quot;.&quot;NDIS_SUPPORT_ITEM&quot;%%00010group by %%00010SUPPORT_ITEM_NUMBER ,%%00010H_NDIS_SUPPORT_ITEM_SID"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
 <entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
 <entry key="userName" type="xstring" isnull="true" value=""/>
-<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
+<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
 <entry key="password" type="xstring" isnull="true" value=""/>
 <entry key="timezone" type="xstring" value="current"/>
 <entry key="validateConnection" type="xboolean" value="false"/>
@@ -24,7 +24,7 @@
 <entry key="knimeVersion" type="xstring" value="3.5.3"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory"/>
 <entry key="node-name" type="xstring" value="Database Table Selector"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -37,16 +37,21 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Table Selector"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 3 DB: snowflake"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="2e310499-0307-46eb-a12d-b529467eef49"/>
 </config>
 </config>
