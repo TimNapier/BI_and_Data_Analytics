@@ -8,10 +8,10 @@
 <entry key="authored-by" type="xstring" value="Administrator"/>
 <entry key="authored-when" type="xstring" value="2018-05-29 14:33:24 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
-<entry key="lastEdited-when" type="xstring" value="2018-07-09 17:12:56 +1000"/>
+<entry key="lastEdited-when" type="xstring" value="2018-07-10 08:31:35 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_0">
@@ -78,6 +78,22 @@
 </config>
 </config>
 </config>
+<config key="node_15">
+<entry key="id" type="xint" value="15"/>
+<entry key="node_settings_file" type="xstring" value="Data to Report (#15)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="524"/>
+<entry key="1" type="xint" value="137"/>
+<entry key="2" type="xint" value="89"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
 </config>
 <config key="connections">
 <config key="connection_0">
@@ -101,6 +117,12 @@
 <config key="connection_3">
 <entry key="sourceID" type="xint" value="14"/>
 <entry key="destID" type="xint" value="0"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_4">
+<entry key="sourceID" type="xint" value="14"/>
+<entry key="destID" type="xint" value="15"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
