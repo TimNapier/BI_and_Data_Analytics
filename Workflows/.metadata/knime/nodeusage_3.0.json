@@ -14,23 +14,83 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":851,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader",
+                "nrexecs":1,
+                "nrfails":1,
+                "exectime":3948,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id":"org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory#Database Connector",
                 "nrexecs":1,
                 "nrfails":0,
-                "exectime":472,
+                "exectime":3541,
                 "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":166,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id":"org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":985,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.filter.row.RowFilter2PortNodeFactory#Row Splitter"
+            },
+            {
+                "id":"org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory#Number To String",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":20,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.filter.row.RowFilter2PortNodeFactory#Row Splitter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":158,
+                "nrcreated":1,
                 "successor":"n/a"
             }
         ],
         "metaNodes":{
+            "nrexecs":0,
+            "nrfails":0,
+            "exectime":0,
+            "nrcreated":0
         },
         "wrappedNodes":{
         }
     },
-    "uptime":328726,
+    "uptime":886596,
     "workflowsOpened":10,
     "remoteWorkflowsOpened":0,
-    "launches":2,
-    "timeSinceLastStart":101004,
-    "crashes":0,
-    "properlyShutDown":false
+    "launches":3,
+    "timeSinceLastStart":2002336,
+    "crashes":1,
+    "properlyShutDown":true
 }
