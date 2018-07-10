@@ -17,7 +17,7 @@
 <entry key="0" type="xstring" value="FunderGroupID"/>
 </config>
 <config key="leftColumns">
-<entry key="array-size" type="xint" value="11"/>
+<entry key="array-size" type="xint" value="13"/>
 <entry key="0" type="xstring" value="InvoiceLineID"/>
 <entry key="1" type="xstring" value="FunderID"/>
 <entry key="2" type="xstring" value="InvoiceNumber"/>
@@ -27,8 +27,10 @@
 <entry key="6" type="xstring" value="LineTotal"/>
 <entry key="7" type="xstring" value="JobID"/>
 <entry key="8" type="xstring" value="JobDate"/>
-<entry key="9" type="xstring" value="PayrollBatchID"/>
-<entry key="10" type="xstring" value="FunderGroupID"/>
+<entry key="9" type="xstring" value="ClientID"/>
+<entry key="10" type="xstring" value="PayrollBatchID"/>
+<entry key="11" type="xstring" value="FunderGroupID"/>
+<entry key="12" type="xstring" value="PackageID"/>
 </config>
 <config key="rightColumns">
 <entry key="array-size" type="xint" value="2"/>
@@ -63,7 +65,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 13 DB: jtds"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 14 DB: jtds"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -71,6 +73,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f36cd66e-bc99-4559-a762-2574c49f82bb"/>
+<entry key="file_store_id" type="xstring" value="8ed31678-1c43-4e6e-91e8-3e206caae572"/>
 </config>
 </config>

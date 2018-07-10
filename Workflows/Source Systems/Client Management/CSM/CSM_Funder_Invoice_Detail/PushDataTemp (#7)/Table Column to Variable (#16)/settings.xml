@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder_Invoice_Detail&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;FunderID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;Stockcode&quot; varchar(256) , &quot;Quantity&quot; varchar(256) , &quot;UnitPrice&quot; varchar(256) , &quot;LineTotal&quot; varchar(256) , &quot;JobID&quot; varchar(256) , &quot;JobDate&quot; varchar(256) , &quot;PARTICIPANT_BKEY&quot; varchar(256) , &quot;PayrollBatchID&quot; varchar(256) , &quot;FunderGroupID&quot; varchar(256) , &quot;NDIS_SUPPORT_ITEM_BK&quot; varchar(256) , &quot;H_PARTICIPANT_SID&quot; varchar(256) , &quot;H_NDIS_INVOICE_HEADER_SID&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;H_NDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;H_FUNDER_SID&quot; varchar(256) , &quot;H_NDIS_SUPPORT_ITEM_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder_Invoice_Detail&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;FunderID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;Stockcode&quot; varchar(256) , &quot;Quantity&quot; varchar(256) , &quot;UnitPrice&quot; varchar(256) , &quot;LineTotal&quot; varchar(256) , &quot;JobID&quot; varchar(256) , &quot;JobDate&quot; varchar(256) , &quot;PARTICIPANT_BKEY&quot; varchar(256) , &quot;PayrollBatchID&quot; varchar(256) , &quot;FunderGroupID&quot; varchar(256) , &quot;PackageID&quot; varchar(256) , &quot;NDIS_SUPPORT_ITEM_BK&quot; varchar(256) , &quot;H_PARTICIPANT_SID&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_NDIS_INVOICE_HEADER_SID&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;H_NDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;H_FUNDER_SID&quot; varchar(256) , &quot;H_NDIS_SUPPORT_ITEM_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="003c2341-8821-4b45-92c4-87bbe1ec3f48"/>
+<entry key="file_store_id" type="xstring" value="f4e1b20a-a06f-44e3-ab9e-6ac6f5e7ecbb"/>
 </config>
 </config>
