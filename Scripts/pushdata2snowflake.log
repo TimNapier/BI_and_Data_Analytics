@@ -2658,3 +2658,202 @@ Type SQL statements or !help
 +------------------------------+---------+
 1 Row(s) produced. Time Elapsed: 0.155s
 Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.58
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.088s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.085s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.101s
+input_file.csv_c.gz(0.09MB): [##########] 100.00% Done (0.208s, 0.42MB/s).
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target            | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| input_file.csv | input_file.csv.gz |      544244 |       92533 | NONE               | GZIP               | UPLOADED |         |
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 2.105s
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                         | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| stage_ndis/input_file.csv.gz | LOADED |        1748 |        1748 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 1.514s
++------------------------------+---------+
+| name                         | result  |
+|------------------------------+---------|
+| stage_ndis/input_file.csv.gz | removed |
++------------------------------+---------+
+1 Row(s) produced. Time Elapsed: 0.132s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.58
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.109s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.096s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.044s
+input_file.csv_c.gz(10.96MB): [----------] 2.28% (0.627s, 17.49MB/s)input_file.csv_c.gz(10.96MB): [----------] 4.56% (0.753s, 14.56MB/s)input_file.csv_c.gz(10.96MB): [#---------] 6.84% (0.786s, 13.95MB/s)input_file.csv_c.gz(10.96MB): [#---------] 9.12% (0.824s, 13.31MB/s)input_file.csv_c.gz(10.96MB): [#---------] 11.40% (0.851s, 12.88MB/s)input_file.csv_c.gz(10.96MB): [#---------] 13.68% (0.888s, 12.35MB/s)input_file.csv_c.gz(10.96MB): [##--------] 15.96% (0.941s, 11.65MB/s)input_file.csv_c.gz(10.96MB): [##--------] 18.24% (0.959s, 11.43MB/s)input_file.csv_c.gz(10.96MB): [##--------] 20.52% (1.007s, 10.89MB/s)input_file.csv_c.gz(10.96MB): [##--------] 22.80% (1.025s, 10.70MB/s)input_file.csv_c.gz(10.96MB): [###-------] 25.08% (1.071s, 10.24MB/s)input_file.csv_c.gz(10.96MB): [###-------] 27.36% (1.088s, 10.08MB/s)input_file.csv_c.gz(10.96MB): [###-------] 29.64% (1.134s, 9.67MB/s)input_file.csv_c.gz(10.96MB): [###-------] 31.92% (1.151s, 9.53MB/s)input_file.csv_c.gz(10.96MB): [###-------] 34.20% (1.198s, 9.15MB/s)input_file.csv_c.gz(10.96MB): [####------] 36.48% (1.217s, 9.01MB/s)input_file.csv_c.gz(10.96MB): [####------] 38.76% (1.347s, 8.14MB/s)input_file.csv_c.gz(10.96MB): [####------] 41.04% (1.370s, 8.00MB/s)input_file.csv_c.gz(10.96MB): [####------] 43.32% (1.409s, 7.78MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 45.60% (1.437s, 7.63MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 47.88% (1.480s, 7.41MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 50.16% (1.547s, 7.09MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 52.12% (1.563s, 7.01MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 54.40% (1.696s, 6.46MB/s)input_file.csv_c.gz(10.96MB): [######----] 56.68% (1.759s, 6.23MB/s)input_file.csv_c.gz(10.96MB): [######----] 58.96% (1.826s, 6.00MB/s)input_file.csv_c.gz(10.96MB): [######----] 61.24% (1.889s, 5.80MB/s)input_file.csv_c.gz(10.96MB): [######----] 63.52% (1.954s, 5.61MB/s)input_file.csv_c.gz(10.96MB): [#######---] 65.80% (2.018s, 5.43MB/s)input_file.csv_c.gz(10.96MB): [#######---] 68.08% (2.085s, 5.26MB/s)input_file.csv_c.gz(10.96MB): [#######---] 70.36% (2.149s, 5.10MB/s)input_file.csv_c.gz(10.96MB): [#######---] 72.64% (2.211s, 4.96MB/s)input_file.csv_c.gz(10.96MB): [#######---] 74.92% (2.314s, 4.74MB/s)input_file.csv_c.gz(10.96MB): [########--] 77.20% (2.378s, 4.61MB/s)input_file.csv_c.gz(10.96MB): [########--] 79.48% (2.441s, 4.49MB/s)input_file.csv_c.gz(10.96MB): [########--] 81.76% (2.551s, 4.30MB/s)input_file.csv_c.gz(10.96MB): [########--] 84.04% (2.622s, 4.18MB/s)input_file.csv_c.gz(10.96MB): [#########-] 86.32% (2.685s, 4.08MB/s)input_file.csv_c.gz(10.96MB): [#########-] 88.60% (2.748s, 3.99MB/s)input_file.csv_c.gz(10.96MB): [#########-] 90.88% (2.858s, 3.84MB/s)input_file.csv_c.gz(10.96MB): [#########-] 93.16% (2.919s, 3.76MB/s)input_file.csv_c.gz(10.96MB): [##########] 95.44% (2.981s, 3.68MB/s)input_file.csv_c.gz(10.96MB): [##########] 97.72% (3.043s, 3.60MB/s)input_file.csv_c.gz(10.96MB): [##########] 100.00% Done (3.106s, 3.53MB/s).
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target            | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| input_file.csv | input_file.csv.gz |    70832235 |    11496890 | NONE               | GZIP               | UPLOADED |         |
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 17.596s
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                         | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| stage_ndis/input_file.csv.gz | LOADED |      152681 |      152681 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 3.726s
++------------------------------+---------+
+| name                         | result  |
+|------------------------------+---------|
+| stage_ndis/input_file.csv.gz | removed |
++------------------------------+---------+
+1 Row(s) produced. Time Elapsed: 0.953s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.58
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.098s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.168s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.104s
+input_file.csv_c.gz(10.96MB): [----------] 2.28% (0.265s, 41.37MB/s)input_file.csv_c.gz(10.96MB): [----------] 4.56% (0.330s, 33.22MB/s)input_file.csv_c.gz(10.96MB): [#---------] 6.84% (0.384s, 28.55MB/s)input_file.csv_c.gz(10.96MB): [#---------] 9.12% (0.399s, 27.48MB/s)input_file.csv_c.gz(10.96MB): [#---------] 11.40% (0.456s, 24.04MB/s)input_file.csv_c.gz(10.96MB): [#---------] 13.68% (0.462s, 23.73MB/s)input_file.csv_c.gz(10.96MB): [##--------] 15.96% (0.519s, 21.12MB/s)input_file.csv_c.gz(10.96MB): [##--------] 18.24% (0.526s, 20.84MB/s)input_file.csv_c.gz(10.96MB): [##--------] 20.52% (0.575s, 19.07MB/s)input_file.csv_c.gz(10.96MB): [##--------] 22.80% (0.584s, 18.77MB/s)input_file.csv_c.gz(10.96MB): [###-------] 25.08% (0.630s, 17.40MB/s)input_file.csv_c.gz(10.96MB): [###-------] 27.36% (0.658s, 16.66MB/s)input_file.csv_c.gz(10.96MB): [###-------] 29.64% (0.701s, 15.64MB/s)input_file.csv_c.gz(10.96MB): [###-------] 31.92% (0.724s, 15.14MB/s)input_file.csv_c.gz(10.96MB): [###-------] 34.20% (0.764s, 14.35MB/s)input_file.csv_c.gz(10.96MB): [####------] 36.48% (0.789s, 13.90MB/s)input_file.csv_c.gz(10.96MB): [####------] 38.76% (0.826s, 13.27MB/s)input_file.csv_c.gz(10.96MB): [####------] 41.04% (0.850s, 12.90MB/s)input_file.csv_c.gz(10.96MB): [####------] 43.32% (0.887s, 12.36MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 45.60% (0.914s, 12.00MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 47.88% (0.948s, 11.56MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 50.16% (1.005s, 10.91MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 52.12% (1.035s, 10.59MB/s)input_file.csv_c.gz(10.96MB): [#####-----] 54.40% (1.070s, 10.25MB/s)input_file.csv_c.gz(10.96MB): [######----] 56.68% (1.132s, 9.69MB/s)input_file.csv_c.gz(10.96MB): [######----] 58.96% (1.188s, 9.23MB/s)input_file.csv_c.gz(10.96MB): [######----] 61.24% (1.248s, 8.78MB/s)input_file.csv_c.gz(10.96MB): [######----] 63.52% (1.317s, 8.32MB/s)input_file.csv_c.gz(10.96MB): [#######---] 65.80% (1.386s, 7.91MB/s)input_file.csv_c.gz(10.96MB): [#######---] 68.08% (1.444s, 7.59MB/s)input_file.csv_c.gz(10.96MB): [#######---] 70.36% (1.508s, 7.27MB/s)input_file.csv_c.gz(10.96MB): [#######---] 72.64% (1.570s, 6.98MB/s)input_file.csv_c.gz(10.96MB): [#######---] 74.92% (1.627s, 6.74MB/s)input_file.csv_c.gz(10.96MB): [########--] 77.20% (1.686s, 6.50MB/s)input_file.csv_c.gz(10.96MB): [########--] 79.48% (1.747s, 6.28MB/s)input_file.csv_c.gz(10.96MB): [########--] 81.76% (1.811s, 6.05MB/s)input_file.csv_c.gz(10.96MB): [########--] 84.04% (1.880s, 5.83MB/s)input_file.csv_c.gz(10.96MB): [#########-] 86.32% (1.947s, 5.63MB/s)input_file.csv_c.gz(10.96MB): [#########-] 88.60% (2.011s, 5.45MB/s)input_file.csv_c.gz(10.96MB): [#########-] 90.88% (2.074s, 5.29MB/s)input_file.csv_c.gz(10.96MB): [#########-] 93.16% (2.168s, 5.06MB/s)input_file.csv_c.gz(10.96MB): [##########] 95.44% (2.242s, 4.89MB/s)input_file.csv_c.gz(10.96MB): [##########] 97.72% (2.317s, 4.73MB/s)input_file.csv_c.gz(10.96MB): [##########] 100.00% Done (2.427s, 4.52MB/s).
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target            | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| input_file.csv | input_file.csv.gz |    70832235 |    11496890 | NONE               | GZIP               | UPLOADED |         |
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 13.471s
++------------------------------+---------+
+| name                         | result  |
+|------------------------------+---------|
+| stage_ndis/input_file.csv.gz | removed |
++------------------------------+---------+
+1 Row(s) produced. Time Elapsed: 1.027s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.113s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.084s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.091s
+input_file.csv_c.gz(0.09MB): [##########] 100.00% Done (0.204s, 0.45MB/s).
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target            | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| input_file.csv | input_file.csv.gz |      559691 |       97066 | NONE               | GZIP               | UPLOADED |         |
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 1.213s
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                         | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| stage_ndis/input_file.csv.gz | LOADED |        1748 |        1748 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 0.788s
++------------------------------+---------+
+| name                         | result  |
+|------------------------------+---------|
+| stage_ndis/input_file.csv.gz | removed |
++------------------------------+---------+
+1 Row(s) produced. Time Elapsed: 0.182s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.58
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.084s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.082s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.084s
+input_file.csv_c.gz(12.61MB): [----------] 1.98% (0.259s, 48.67MB/s)input_file.csv_c.gz(12.61MB): [----------] 3.97% (0.317s, 39.77MB/s)input_file.csv_c.gz(12.61MB): [#---------] 5.95% (0.370s, 34.07MB/s)input_file.csv_c.gz(12.61MB): [#---------] 7.93% (0.375s, 33.62MB/s)input_file.csv_c.gz(12.61MB): [#---------] 9.91% (0.438s, 28.78MB/s)input_file.csv_c.gz(12.61MB): [#---------] 11.90% (0.438s, 28.78MB/s)input_file.csv_c.gz(12.61MB): [#---------] 13.88% (0.494s, 25.52MB/s)input_file.csv_c.gz(12.61MB): [##--------] 15.86% (0.501s, 25.16MB/s)input_file.csv_c.gz(12.61MB): [##--------] 17.85% (0.553s, 22.80MB/s)input_file.csv_c.gz(12.61MB): [##--------] 19.83% (0.573s, 22.00MB/s)input_file.csv_c.gz(12.61MB): [##--------] 21.81% (0.623s, 20.23MB/s)input_file.csv_c.gz(12.61MB): [##--------] 23.80% (0.631s, 19.98MB/s)input_file.csv_c.gz(12.61MB): [###-------] 25.78% (0.682s, 18.48MB/s)input_file.csv_c.gz(12.61MB): [###-------] 27.76% (0.736s, 17.13MB/s)input_file.csv_c.gz(12.61MB): [###-------] 29.74% (0.740s, 17.04MB/s)input_file.csv_c.gz(12.61MB): [###-------] 31.73% (0.814s, 15.49MB/s)input_file.csv_c.gz(12.61MB): [###-------] 33.71% (0.821s, 15.35MB/s)input_file.csv_c.gz(12.61MB): [####------] 35.69% (0.874s, 14.42MB/s)input_file.csv_c.gz(12.61MB): [####------] 37.68% (0.879s, 14.34MB/s)input_file.csv_c.gz(12.61MB): [####------] 39.66% (0.930s, 13.56MB/s)input_file.csv_c.gz(12.61MB): [####------] 41.64% (0.943s, 13.37MB/s)input_file.csv_c.gz(12.61MB): [####------] 43.63% (0.984s, 12.81MB/s)input_file.csv_c.gz(12.61MB): [#####-----] 45.61% (0.999s, 12.62MB/s)input_file.csv_c.gz(12.61MB): [#####-----] 47.59% (1.054s, 11.96MB/s)input_file.csv_c.gz(12.61MB): [#####-----] 49.57% (1.063s, 11.86MB/s)input_file.csv_c.gz(12.61MB): [#####-----] 51.56% (1.112s, 11.34MB/s)input_file.csv_c.gz(12.61MB): [#####-----] 53.54% (1.135s, 11.11MB/s)input_file.csv_c.gz(12.61MB): [######----] 55.52% (1.167s, 10.80MB/s)input_file.csv_c.gz(12.61MB): [######----] 57.51% (1.201s, 10.50MB/s)input_file.csv_c.gz(12.61MB): [######----] 59.49% (1.238s, 10.18MB/s)input_file.csv_c.gz(12.61MB): [######----] 61.47% (1.261s, 10.00MB/s)input_file.csv_c.gz(12.61MB): [######----] 63.46% (1.306s, 9.65MB/s)input_file.csv_c.gz(12.61MB): [#######---] 65.44% (1.316s, 9.58MB/s)input_file.csv_c.gz(12.61MB): [#######---] 67.42% (1.370s, 9.20MB/s)input_file.csv_c.gz(12.61MB): [#######---] 69.40% (1.376s, 9.16MB/s)input_file.csv_c.gz(12.61MB): [#######---] 70.26% (1.447s, 8.71MB/s)input_file.csv_c.gz(12.61MB): [#######---] 72.24% (1.447s, 8.71MB/s)input_file.csv_c.gz(12.61MB): [#######---] 74.22% (1.539s, 8.19MB/s)input_file.csv_c.gz(12.61MB): [########--] 76.20% (1.620s, 7.78MB/s)input_file.csv_c.gz(12.61MB): [########--] 78.19% (1.729s, 7.29MB/s)input_file.csv_c.gz(12.61MB): [########--] 80.17% (1.819s, 6.93MB/s)input_file.csv_c.gz(12.61MB): [########--] 82.15% (1.887s, 6.68MB/s)input_file.csv_c.gz(12.61MB): [########--] 84.14% (1.966s, 6.41MB/s)input_file.csv_c.gz(12.61MB): [#########-] 86.12% (2.099s, 6.01MB/s)input_file.csv_c.gz(12.61MB): [#########-] 88.10% (2.209s, 5.71MB/s)input_file.csv_c.gz(12.61MB): [#########-] 90.09% (2.298s, 5.49MB/s)input_file.csv_c.gz(12.61MB): [#########-] 92.07% (2.368s, 5.32MB/s)input_file.csv_c.gz(12.61MB): [#########-] 94.05% (2.485s, 5.07MB/s)input_file.csv_c.gz(12.61MB): [##########] 96.03% (2.577s, 4.89MB/s)input_file.csv_c.gz(12.61MB): [##########] 98.02% (2.654s, 4.75MB/s)input_file.csv_c.gz(12.61MB): [##########] 100.00% Done (2.721s, 4.63MB/s).
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source         | target            | source_size | target_size | source_compression | target_compression | status   | message |
+|----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| input_file.csv | input_file.csv.gz |    77695545 |    13219579 | NONE               | GZIP               | UPLOADED |         |
++----------------+-------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 7.717s
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                         | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| stage_ndis/input_file.csv.gz | LOADED |      152681 |      152681 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 3.406s
++------------------------------+---------+
+| name                         | result  |
+|------------------------------+---------|
+| stage_ndis/input_file.csv.gz | removed |
++------------------------------+---------+
+1 Row(s) produced. Time Elapsed: 0.219s
+Goodbye!
