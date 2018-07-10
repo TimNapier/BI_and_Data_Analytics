@@ -12,17 +12,18 @@
 </config>
 <config key="column_filter">
 <config key="InclList">
-<entry key="array-size" type="xint" value="10"/>
-<entry key="0" type="xstring" value="HOURS_PER_WORK"/>
-<entry key="1" type="xstring" value="REFERRAL_TYPE_DESCRIPTION"/>
-<entry key="2" type="xstring" value="H_REFERRAL_SID"/>
-<entry key="3" type="xstring" value="WORKFLOW_PATH"/>
-<entry key="4" type="xstring" value="WORKFLOW_NAME"/>
-<entry key="5" type="xstring" value="WORKSPACE"/>
-<entry key="6" type="xstring" value="LOAD_DATE_TIME"/>
-<entry key="7" type="xstring" value="TO_NUMBER(TOTAL_HOURS,10,4)"/>
-<entry key="8" type="xstring" value="TO_DATE(START_DATE)"/>
-<entry key="9" type="xstring" value="TO_DATE(END_DATE)"/>
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="NDIS_REFERRAL_NUMBER"/>
+<entry key="1" type="xstring" value="HOURS_PER_WORK"/>
+<entry key="2" type="xstring" value="REFERRAL_TYPE_DESCRIPTION"/>
+<entry key="3" type="xstring" value="H_REFERRAL_SID"/>
+<entry key="4" type="xstring" value="WORKFLOW_PATH"/>
+<entry key="5" type="xstring" value="WORKFLOW_NAME"/>
+<entry key="6" type="xstring" value="WORKSPACE"/>
+<entry key="7" type="xstring" value="LOAD_DATE_TIME"/>
+<entry key="8" type="xstring" value="TO_NUMBER(TOTAL_HOURS,10,4)"/>
+<entry key="9" type="xstring" value="TO_DATE(START_DATE)"/>
+<entry key="10" type="xstring" value="TO_DATE(END_DATE)"/>
 </config>
 <config key="ExclList">
 <entry key="array-size" type="xint" value="7"/>
@@ -58,7 +59,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 10 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 11 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -66,10 +67,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<<<<<<< HEAD
-<entry key="file_store_id" type="xstring" value="c8d9f10f-8be3-422c-adf9-12f47b30da68"/>
-=======
-<entry key="file_store_id" type="xstring" value="921c5850-6cb6-4a50-9bdf-9ae64e64b663"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
+<entry key="file_store_id" type="xstring" value="bd57373b-0610-4e93-9d90-4de77269dd09"/>
 </config>
 </config>

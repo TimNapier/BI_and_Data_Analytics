@@ -19,11 +19,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Existing table &quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;H_REFERRAL&quot;&quot; will be dropped!"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBConnectionWriterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Database Connection Table Writer"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -36,15 +32,11 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Connection Table Writer"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<<<<<<< HEAD
-<entry key="file_store_id" type="xstring" value="a245ea25-773f-4296-a744-1f0736d60a5b"/>
-=======
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
+<entry key="file_store_id" type="xstring" value="f271e52e-943f-4bdb-bb98-30717cfcc65a"/>
 </config>
 </config>
