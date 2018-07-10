@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="GRANT SELECT ON ALL TABLES IN SCHEMA ARALUEN_DATAVAULT.DATAVAULT TO ROLE DATAREADER;"/>
+<entry key="statement" type="xstring" value="GRANT SELECT ON ALL  TABLES IN SCHEMA ARALUEN_DATAVAULT.DATAVAULT TO ROLE DATAREADER;"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -37,6 +37,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7a1c34fe-ea5f-4482-ae15-6677004f066f"/>
+<entry key="file_store_id" type="xstring" value="fcf2a96a-7228-4d15-a3d5-bab890c718ac"/>
 </config>
 </config>
