@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_zmJs0XRREeiF5fztAon08g" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_zmJs0nRREeiF5fztAon08g" bindingContexts="_zmJs2HRREeiF5fztAon08g">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.birt.report.designer.ui.editors.ReportEditor&quot; name=&quot;default_report.rptdesign&quot; tooltip=&quot;Source Systems/External/NDIS/ndis_support_item_snowflake/default_report.rptdesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Source Systems/External/NDIS/ndis_support_item_snowflake/default_report.rptdesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/H_NDIS_SUPPORT_ITEM/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/H_NDIS_SUPPORT_ITEM/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/S_NDIS_SUPPORT_ITEM/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/S_NDIS_SUPPORT_ITEM/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_header/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_header/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_Detail/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_Detail/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Sources/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Sources/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/WIP/Read%20List%20of%20Files/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/WIP/Read%20List%20of%20Files/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/MYOB%20Extracts/MYOB_Item_Sales/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/MYOB%20Extracts/MYOB_Item_Sales/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Finance/MYOB/MYOB/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Finance/MYOB/MYOB/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/Referral/REFERRAL%20CSM%20Snowflake/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/Referral/REFERRAL%20CSM%20Snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.birt.report.designer.ui.editors.ReportEditor&quot; name=&quot;default_report.rptdesign&quot; tooltip=&quot;Source Systems/External/NDIS/ndis_support_item_snowflake/default_report.rptdesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Source Systems/External/NDIS/ndis_support_item_snowflake/default_report.rptdesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/H_NDIS_SUPPORT_ITEM/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/H_NDIS_SUPPORT_ITEM/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/S_NDIS_SUPPORT_ITEM/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/S_NDIS_SUPPORT_ITEM/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_header/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_header/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_Detail/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Client%20Management/CSM/CSM_Funder_Invoice_Detail/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Sources/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Sources/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/WIP/Read%20List%20of%20Files/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/WIP/Read%20List%20of%20Files/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/MYOB%20Extracts/MYOB_Item_Sales/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/MYOB%20Extracts/MYOB_Item_Sales/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; tooltip=&quot;knime://LOCAL/Source%20Systems/Finance/MYOB/MYOB/workflow.knime&quot;>&#xD;&#xA;&lt;persistable uri=&quot;knime://LOCAL/Source%20Systems/Finance/MYOB/MYOB/workflow.knime&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_zmJs0nRREeiF5fztAon08g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_zvcLsXRREeiF5fztAon08g" x="0" y="0" width="1501" height="780">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_zmJs0nRREeiF5fztAon08g" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_zvcLsXRREeiF5fztAon08g" x="0" y="0" width="1376" height="780">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -13,7 +13,7 @@
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_zvcLsXRREeiF5fztAon08g" selectedElement="_zvcLsnRREeiF5fztAon08g" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_zvcLsnRREeiF5fztAon08g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_FUfvgINIEeiC8qy2V9cUNA">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_zvcLsnRREeiF5fztAon08g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_0P2KEXRREeiF5fztAon08g">
         <children xsi:type="advanced:Perspective" xmi:id="_0P2KEXRREeiF5fztAon08g" elementId="org.knime.workbench.ui.ModellerPerspective" selectedElement="_0P2KEnRREeiF5fztAon08g" label="KNIME" iconURI="platform:/plugin/org.knime.workbench.ui/icons/knime_default.png">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
           <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
@@ -40,7 +40,7 @@
           <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KEnRREeiF5fztAon08g" selectedElement="_0P2KG3RREeiF5fztAon08g" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KE3RREeiF5fztAon08g" containerData="2201" selectedElement="_0P2KFnRREeiF5fztAon08g">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KE3RREeiF5fztAon08g" containerData="2201" selectedElement="_0P2KFHRREeiF5fztAon08g">
               <children xsi:type="basic:PartStack" xmi:id="_0P2KFHRREeiF5fztAon08g" elementId="org.knime.workbench.explorer.viewMStack" containerData="5129" selectedElement="_0P2KFXRREeiF5fztAon08g">
                 <children xsi:type="advanced:Placeholder" xmi:id="_0P2KFXRREeiF5fztAon08g" elementId="org.knime.workbench.explorer.view" ref="_0PzGwHRREeiF5fztAon08g"/>
               </children>
@@ -55,19 +55,21 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KG3RREeiF5fztAon08g" containerData="7799" selectedElement="_0P2KHHRREeiF5fztAon08g">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KHHRREeiF5fztAon08g" containerData="7000" selectedElement="_0P2xIHRREeiF5fztAon08g" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KG3RREeiF5fztAon08g" containerData="7799" selectedElement="_0P2xI3RREeiF5fztAon08g">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_0P2KHHRREeiF5fztAon08g" containerData="3673" selectedElement="_0P2xIHRREeiF5fztAon08g" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_0P2xIHRREeiF5fztAon08g" elementId="org.eclipse.ui.editorss" containerData="6777" ref="_0PxRkHRREeiF5fztAon08g"/>
                 <children xsi:type="basic:PartStack" xmi:id="_0P2xIXRREeiF5fztAon08g" elementId="org.knime.workbench.helpviewMStack" containerData="3223" selectedElement="_0P2xInRREeiF5fztAon08g">
                   <children xsi:type="advanced:Placeholder" xmi:id="_0P2xInRREeiF5fztAon08g" elementId="org.knime.workbench.helpview" ref="_0P1jAXRREeiF5fztAon08g"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_0P2xI3RREeiF5fztAon08g" containerData="3000" selectedElement="_0P2xJHRREeiF5fztAon08g" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_0P2xI3RREeiF5fztAon08g" containerData="6327" selectedElement="_0P2xJnRREeiF5fztAon08g" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_0P2xJHRREeiF5fztAon08g" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="3000" selectedElement="_0P2xJXRREeiF5fztAon08g">
                   <children xsi:type="advanced:Placeholder" xmi:id="_0P2xJXRREeiF5fztAon08g" elementId="org.eclipse.ui.views.ContentOutline" ref="_0P1jAHRREeiF5fztAon08g"/>
                 </children>
-                <children xsi:type="basic:PartStack" xmi:id="_0P2xJnRREeiF5fztAon08g" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="7000" selectedElement="_0P2xJ3RREeiF5fztAon08g">
+                <children xsi:type="basic:PartStack" xmi:id="_0P2xJnRREeiF5fztAon08g" elementId="org.eclipse.ui.console.ConsoleViewMStack" containerData="7000" selectedElement="_8M65AIPhEeiacoWerGb_Fw">
+                  <tags>General</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_0P2xJ3RREeiF5fztAon08g" elementId="org.eclipse.ui.console.ConsoleView" ref="_0P078HRREeiF5fztAon08g"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_8M65AIPhEeiacoWerGb_Fw" elementId="org.eclipse.pde.runtime.LogView" ref="_8M6R8IPhEeiacoWerGb_Fw"/>
                 </children>
               </children>
             </children>
@@ -90,8 +92,10 @@
           <tags>persp.viewSC:org.eclipse.birt.report.designer.ui.views.data.DataView</tags>
           <tags>persp.viewSC:org.eclipse.ui.views.ResourceNavigator</tags>
           <tags>persp.viewSC:org.knime.workbench.explorer.view</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_FUfvgYNIEeiC8qy2V9cUNA" selectedElement="_FUfvioNIEeiC8qy2V9cUNA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_FUfvgoNIEeiC8qy2V9cUNA" containerData="2000" selectedElement="_FUfvhYNIEeiC8qy2V9cUNA">
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_FUfvgYNIEeiC8qy2V9cUNA" selectedElement="_FUfvgoNIEeiC8qy2V9cUNA" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_FUfvgoNIEeiC8qy2V9cUNA" containerData="2000" selectedElement="_FUfvg4NIEeiC8qy2V9cUNA">
               <children xsi:type="basic:PartStack" xmi:id="_FUfvg4NIEeiC8qy2V9cUNA" elementId="org.knime.workbench.explorer.viewMStack" containerData="3500" selectedElement="_FUfvhINIEeiC8qy2V9cUNA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_FUfvhINIEeiC8qy2V9cUNA" elementId="org.knime.workbench.explorer.view" ref="_0PzGwHRREeiF5fztAon08g"/>
               </children>
@@ -145,29 +149,16 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_0PxRkHRREeiF5fztAon08g" elementId="org.eclipse.ui.editorss" selectedElement="_0PxRkXRREeiF5fztAon08g">
-      <children xsi:type="basic:PartStack" xmi:id="_0PxRkXRREeiF5fztAon08g" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_PVFw4IMrEei0S4MCWDfssQ">
+      <children xsi:type="basic:PartStack" xmi:id="_0PxRkXRREeiF5fztAon08g" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_DVT4AIPiEeiacoWerGb_Fw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_PVFw4IMrEei0S4MCWDfssQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="0: ndis_support_item_snowflake" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;0: ndis_support_item_snowflake&quot; title=&quot;0: ndis_support_item_snowflake&quot; tooltip=&quot;0: ndis_support_item_snowflake&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Source%20Systems/External/NDIS/ndis_support_item_snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_DVT4AIPiEeiacoWerGb_Fw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; title=&quot;workflow.knime&quot; tooltip=&quot;&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/Referral/REFERRAL%20CSM%20Snowflake/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.knime.workbench.editor.WorkflowEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>activeOnClose</tags>
           <tags>active</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_VfuRsIMsEei0S4MCWDfssQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="3: S_NDIS_SUPPORT_ITEM" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;3: S_NDIS_SUPPORT_ITEM&quot; title=&quot;3: S_NDIS_SUPPORT_ITEM&quot; tooltip=&quot;3: S_NDIS_SUPPORT_ITEM&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/Datavault/Core%20Business%20Concepts/ndis_support_item/S_NDIS_SUPPORT_ITEM/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.knime.workbench.editor.WorkflowEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_oUfukINIEeiC8qy2V9cUNA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Report: ndis_support_item_snowflake" iconURI="platform:/plugin/org.eclipse.birt.report.designer.ui/icons/eview16/report.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.birt.report.designer.ui.editors.ReportEditor&quot; name=&quot;default_report.rptdesign&quot; partName=&quot;Report: ndis_support_item_snowflake&quot; title=&quot;Report: ndis_support_item_snowflake&quot; tooltip=&quot;Source Systems/External/NDIS/ndis_support_item_snowflake/default_report.rptdesign&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Source Systems/External/NDIS/ndis_support_item_snowflake/default_report.rptdesign&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.birt.report.designer.ui.editors.ReportEditor</tags>
-          <tags>removeOnHide</tags>
           <tags>activeOnClose</tags>
         </children>
       </children>
@@ -208,7 +199,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_0YGuMXRREeiF5fztAon08g" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_0YGuMXRREeiF5fztAon08g" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0P1jAHRREeiF5fztAon08g" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.contentoutline.ContentOutline"/>
@@ -248,7 +239,7 @@
       </menus>
       <toolbar xmi:id="_0VopAHRREeiF5fztAon08g" elementId="org.knime.workbench.workflowcoach.view"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_FUehYINIEeiC8qy2V9cUNA" elementId="com.knime.reporting.designer.view.dataset.explorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Data set view" iconURI="platform:/plugin/com.knime.reporting.designer/icons/knime_data_set.png" tooltip="" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_FUehYINIEeiC8qy2V9cUNA" elementId="com.knime.reporting.designer.view.dataset.explorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Data Sets" iconURI="platform:/plugin/com.knime.reporting.designer/icons/knime_data_set.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.knime.reporting.designer.views.datasets.DataSetExplorerView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.knime.reporting.designer"/>
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
@@ -296,6 +287,18 @@
       </menus>
       <toolbar xmi:id="_b4igAYNPEeiC8qy2V9cUNA" elementId="org.eclipse.ui.views.PropertySheet" visible="false"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_8M6R8IPhEeiacoWerGb_Fw" elementId="org.eclipse.pde.runtime.LogView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Error Log" iconURI="platform:/plugin/org.eclipse.ui.views.log/icons/eview16/error_log.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views.log"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.log.LogView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view activate=&quot;true&quot; allSessions=&quot;true&quot; column2=&quot;745&quot; column3=&quot;150&quot; column4=&quot;150&quot; error=&quot;true&quot; groupBy=&quot;0&quot; info=&quot;true&quot; limit=&quot;50&quot; maxLogTailSize=&quot;1&quot; ok=&quot;true&quot; orderType=&quot;2&quot; orderValue=&quot;-1&quot; show_filter_text=&quot;true&quot; useLimit=&quot;true&quot; warning=&quot;true&quot;/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:General</tags>
+      <menus xmi:id="_8NSscIPhEeiacoWerGb_Fw" elementId="org.eclipse.pde.runtime.LogView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_8NSscYPhEeiacoWerGb_Fw" elementId="org.eclipse.pde.runtime.LogView"/>
+    </sharedElements>
     <trimBars xmi:id="_zmJs03RREeiF5fztAon08g" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.ui.workbench">
       <children xsi:type="menu:ToolBar" xmi:id="_0OIS0HRREeiF5fztAon08g" elementId="main">
         <tags>Draggable</tags>
@@ -304,7 +307,10 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_0OzoQXRREeiF5fztAon08g" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_FSGi0INIEeiC8qy2V9cUNA" elementId="org.eclipse.birt.report.designer.ui.publishActionSet">
+      <children xsi:type="menu:ToolBar" xmi:id="_FSGi0INIEeiC8qy2V9cUNA" elementId="org.eclipse.birt.report.designer.ui.publishActionSet" visible="false">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_lQQwAIPhEeiacoWerGb_Fw" elementId="org.knime.workbench.editor.WorkflowEditor">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0a8m0HRREeiF5fztAon08g" elementId="group.editor" toBeRendered="false">
@@ -2032,7 +2038,7 @@
   <addons xmi:id="_zmJs5HRREeiF5fztAon08g" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_zmJs5XRREeiF5fztAon08g" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_zmN-QHRREeiF5fztAon08g" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_iR79sYPhEeiacoWerGb_Fw" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_zmYWUHRREeiF5fztAon08g" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_zmYWUXRREeiF5fztAon08g" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
