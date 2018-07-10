@@ -6,25 +6,12 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
-<entry key="database" type="xstring" value="jdbc:snowflake://tp72531.ap-southeast-2.snowflakecomputing.com"/>
-<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
-<entry key="userName" type="xstring" value="kylep"/>
-<entry key="passwordEncrypted" type="xpassword" value="013923E1DDC4F25E872C2AFA48B287C48F"/>
-<entry key="password" type="xstring" isnull="true" value=""/>
-<entry key="timezone" type="xstring" value="current"/>
-<entry key="validateConnection" type="xboolean" value="false"/>
-<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
-<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
-<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
-<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
-<entry key="kerberos" type="xboolean" value="false"/>
-<entry key="knimeVersion" type="xstring" value="3.5.3"/>
+<entry key="statement" type="xstring" value="GRANT SELECT ON ALL TABLES IN SCHEMA ARALUEN_DATAVAULT.DATAVAULT TO ROLE DATAREADER;"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory"/>
-<entry key="node-name" type="xstring" value="Database Connector"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBSQLExecutorNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database SQL Executor"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -34,7 +21,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Database Connector"/>
+<entry key="name" type="xstring" value="Database SQL Executor"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -50,6 +37,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="61431785-fde5-4044-8114-437e4adbb90f"/>
+<entry key="file_store_id" type="xstring" value="7a1c34fe-ea5f-4482-ae15-6677004f066f"/>
 </config>
 </config>
