@@ -5,18 +5,18 @@
 <entry key="version" type="xstring" value="3.1.0"/>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Link"/>
-<entry key="timestamp" type="xstring" value="2018-06-27 15:27:22"/>
-<entry key="sourceURI" type="xstring" value="knime://LOCAL/Workflows/Snowflake/Snowflake%20Connection%20Template"/>
+<entry key="timestamp" type="xstring" value="2018-06-20 22:22:26"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/Snowflake/Snowflake%20Connection"/>
 </config>
-<entry key="name" type="xstring" value="Snowflake Connection Template"/>
+<entry key="name" type="xstring" value="Snowflake Connection"/>
 <config key="authorInformation">
-<entry key="authored-by" type="xstring" value="Administrator"/>
-<entry key="authored-when" type="xstring" value="2018-06-07 13:53:44 +1000"/>
+<entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
+<entry key="authored-when" type="xstring" value="1970-01-01 10:00:00 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
-<entry key="lastEdited-when" type="xstring" value="2018-06-14 13:14:56 +1000"/>
+<entry key="lastEdited-when" type="xstring" value="2018-06-20 22:22:26 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
@@ -35,32 +35,10 @@
 </config>
 </config>
 </config>
-<config key="node_2">
-<entry key="id" type="xint" value="2"/>
-<entry key="node_settings_file" type="xstring" value="Database SQL Executor (#2)/settings.xml"/>
-<entry key="node_is_meta" type="xboolean" value="false"/>
-<entry key="node_type" type="xstring" value="NativeNode"/>
-<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-<config key="ui_settings">
-<config key="extrainfo.node.bounds">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="464"/>
-<entry key="1" type="xint" value="197"/>
-<entry key="2" type="xint" value="89"/>
-<entry key="3" type="xint" value="93"/>
-</config>
-</config>
-</config>
 </config>
 <config key="connections">
 <config key="connection_0">
 <entry key="sourceID" type="xint" value="1"/>
-<entry key="destID" type="xint" value="2"/>
-<entry key="sourcePort" type="xint" value="1"/>
-<entry key="destPort" type="xint" value="1"/>
-</config>
-<config key="connection_1">
-<entry key="sourceID" type="xint" value="2"/>
 <entry key="destID" type="xint" value="-1"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="0"/>
@@ -71,7 +49,7 @@
 <config key="port_enum">
 <config key="outport_0">
 <entry key="index" type="xint" value="0"/>
-<entry key="name" type="xstring" value="Connected to: Database Connection"/>
+<entry key="name" type="xstring" value="Connected to: Database JDBC Connection"/>
 <config key="type">
 <entry key="object_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObject"/>
 </config>

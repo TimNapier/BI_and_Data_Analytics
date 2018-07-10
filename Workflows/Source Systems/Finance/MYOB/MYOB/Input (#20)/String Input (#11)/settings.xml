@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="redirect_URI"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="https%3A%2F%2Fwww.google.com%2F"/>
+<entry key="value" type="xstring" value="http://localhost:9000"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="redirect_URI"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="https%3A%2F%2Fwww.google.com%2F"/>
+<entry key="value" type="xstring" value="http://localhost:9000"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -20,7 +20,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="string" type="xstring" value="https%3A%2F%2Fwww.google.com%2F"/>
+<entry key="string" type="xstring" value="http://localhost:9000"/>
 </config>
 <entry key="label" type="xstring" value="redirect URI"/>
 <entry key="description" type="xstring" value="Enter Description%%00009%%00009%%00009%%00009%%00009%%00009%%00009%%00009%%00009%%00009%%00009"/>
@@ -78,6 +78,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0547bc24-ee6d-4342-82c5-0e93326d076b"/>
+<entry key="file_store_id" type="xstring" value="4610321c-48fc-4351-9f4e-acbf89196fa4"/>
 </config>
 </config>

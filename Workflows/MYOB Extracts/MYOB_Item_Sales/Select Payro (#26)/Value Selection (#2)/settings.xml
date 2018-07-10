@@ -12,7 +12,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_payroll_batch"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="936"/>
+<entry key="value" type="xstring" value="973"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
@@ -24,23 +24,8 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="local_var_payroll_batch"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="936"/>
-</config>
-<<<<<<< HEAD:Workflows/MYOB Extracts/MYOB_Item_Sales/Value Selection (#2)/settings.xml
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="local_var_payroll_batch (column)"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="VALUE"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="local_var_payroll_batch"/>
-<entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="973"/>
 </config>
-=======
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Select Payro (#26)/Value Selection (#2)/settings.xml
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -1977,10 +1962,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<<<<<<< HEAD:Workflows/MYOB Extracts/MYOB_Item_Sales/Value Selection (#2)/settings.xml
-<entry key="file_store_id" type="xstring" value="68cc5a7a-5765-4000-8d4a-2dc9bc34ac1c"/>
-=======
-<entry key="file_store_id" type="xstring" value="883b74f8-4817-432b-abbd-91478bf5cb19"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f:Workflows/MYOB Extracts/MYOB_Item_Sales/Select Payro (#26)/Value Selection (#2)/settings.xml
+<entry key="file_store_id" type="xstring" value="26747a4c-1799-4fba-a035-4facd5b0f397"/>
 </config>
 </config>

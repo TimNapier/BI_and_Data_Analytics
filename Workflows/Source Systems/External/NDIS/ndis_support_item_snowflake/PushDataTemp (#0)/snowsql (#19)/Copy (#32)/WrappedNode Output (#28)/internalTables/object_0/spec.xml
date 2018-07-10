@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="ndis_support_item"/>
+<entry key="StringCell" type="xstring" value="NDIS_SUPPORT_ITEM"/>
 </config>
 </config>
 </config>
@@ -37,7 +37,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="COPY INTO &quot;ARALUEN_DATAVAULT&quot;.&quot;LOAD_NDIS&quot;.&quot;ndis_support_item&quot; FROM @STAGE_NDIS file_format='LOAD_CSM.CSVFORMAT';"/>
+<entry key="StringCell" type="xstring" value="COPY INTO &quot;ARALUEN_DATAVAULT&quot;.&quot;LOAD_NDIS&quot;.&quot;NDIS_SUPPORT_ITEM&quot; FROM @STAGE_NDIS file_format='LOAD_CSM.CSVFORMAT';"/>
 </config>
 </config>
 </config>

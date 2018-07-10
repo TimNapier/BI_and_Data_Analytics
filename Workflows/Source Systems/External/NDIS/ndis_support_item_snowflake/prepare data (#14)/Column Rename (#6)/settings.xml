@@ -13,8 +13,8 @@
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="1">
-<entry key="old_column_name" type="xstring" value="ï»¿Registration Group"/>
-<entry key="new_column_name" type="xstring" value="Registration Group"/>
+<entry key="old_column_name" type="xstring" value="url"/>
+<entry key="new_column_name" type="xstring" value="source"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 </config>
@@ -40,12 +40,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 592, Cols: 11"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1248, Cols: 25"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e9661f53-0e89-408e-bfc5-03a08be3daaf"/>
+<entry key="file_store_id" type="xstring" value="2dacd898-6b91-4c0e-a218-e959a5c568bb"/>
 </config>
 </config>

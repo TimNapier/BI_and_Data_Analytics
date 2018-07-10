@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="redirect_URI"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="redirect_uri=https%3A%2F%2Fwww.google.com%2F"/>
+<entry key="value" type="xstring" value="redirect_uri=http://localhost:9000"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f099280b-86ab-4fab-bea4-ccf97eb46aa9"/>
+<entry key="file_store_id" type="xstring" value="b0753f22-4289-4ea0-8ebf-2edbc29777e4"/>
 </config>
 </config>

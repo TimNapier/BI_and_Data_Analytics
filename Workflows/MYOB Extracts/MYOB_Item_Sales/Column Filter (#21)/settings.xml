@@ -52,7 +52,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -65,27 +65,19 @@
 <entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<<<<<<< HEAD
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
-=======
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 197, Cols: 44"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 61, Cols: 44"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<<<<<<< HEAD
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
-=======
-<entry key="file_store_id" type="xstring" value="53c82395-220f-4944-81f2-a6940f2eec98"/>
->>>>>>> c6bb0c7b057cca1c20c4d9673d5526f69817d11f
+<entry key="file_store_id" type="xstring" value="50bba515-f891-4447-891e-c7e2196d5de0"/>
 </config>
 </config>
