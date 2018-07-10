@@ -14,9 +14,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector",
-                "nrexecs":5,
-                "nrfails":3,
-                "exectime":4234,
+                "nrexecs":7,
+                "nrfails":4,
+                "exectime":9698,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -38,59 +38,63 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#WrappedNode Input",
-                "nrexecs":3,
+                "nrexecs":5,
                 "nrfails":0,
-                "exectime":87,
+                "exectime":100,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output",
-                "nrexecs":4,
+                "nrexecs":5,
                 "nrfails":0,
-                "exectime":2,
+                "exectime":3,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.DBColumnFilterNodeFactory#Database Column Filter",
-                "nrexecs":3,
+                "nrexecs":5,
                 "nrfails":0,
-                "exectime":34,
+                "exectime":59,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer",
-                "nrexecs":2,
-                "nrfails":4,
-                "exectime":5296,
+                "nrexecs":4,
+                "nrfails":5,
+                "exectime":9752,
                 "nrcreated":0,
-                "successor":"n/a"
+                "successor":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor"
             },
             {
                 "id":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor",
-                "nrexecs":1,
+                "nrexecs":2,
                 "nrfails":0,
-                "exectime":343,
-                "nrcreated":0,
+                "exectime":775,
+                "nrcreated":1,
                 "successor":"n/a"
             }
         ],
         "metaNodes":{
+            "nrexecs":0,
+            "nrfails":0,
+            "exectime":0,
+            "nrcreated":0
         },
         "wrappedNodes":{
-            "nrexecs":4,
-            "nrfails":0,
-            "exectime":208,
+            "nrexecs":5,
+            "nrfails":1,
+            "exectime":2751,
             "nrcreated":0
         }
     },
-    "uptime":2870442,
-    "workflowsOpened":3,
+    "uptime":2933362,
+    "workflowsOpened":4,
     "remoteWorkflowsOpened":0,
-    "launches":2,
-    "timeSinceLastStart":19381,
+    "launches":3,
+    "timeSinceLastStart":3059204,
     "crashes":0,
     "properlyShutDown":true
 }
