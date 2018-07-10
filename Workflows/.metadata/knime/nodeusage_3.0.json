@@ -1,9 +1,11 @@
 
 {
     "version":"3.5.3.v201804031105",
-    "created":"2018-06-20 16:19",
+    "created":"2018-07-10 11:31",
     "nodestats":{
         "nodes":[
+<<<<<<< HEAD
+=======
             {
                 "id":"org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory#Extract Context Properties",
                 "nrexecs":33,
@@ -692,14 +694,20 @@
                 "nrcreated":3,
                 "successor":"n/a"
             }
+>>>>>>> 0551dca1e6b7e134815ee9b20fa89d25d6f1fa29
         ],
         "metaNodes":{
-            "nrexecs":0,
-            "nrfails":0,
-            "exectime":0,
-            "nrcreated":0
         },
         "wrappedNodes":{
+<<<<<<< HEAD
+        }
+    },
+    "uptime":980497,
+    "workflowsOpened":7,
+    "remoteWorkflowsOpened":0,
+    "launches":1,
+    "timeSinceLastStart":980498,
+=======
             "nrexecs":255,
             "nrfails":14,
             "exectime":276995,
@@ -711,6 +719,7 @@
     "remoteWorkflowsOpened":12,
     "launches":24,
     "timeSinceLastStart":226726,
+>>>>>>> 0551dca1e6b7e134815ee9b20fa89d25d6f1fa29
     "crashes":0,
     "properlyShutDown":true
 }
