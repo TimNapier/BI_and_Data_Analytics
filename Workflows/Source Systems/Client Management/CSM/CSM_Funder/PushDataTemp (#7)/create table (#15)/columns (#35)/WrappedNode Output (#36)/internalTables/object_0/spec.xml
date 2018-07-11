@@ -12,7 +12,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="8"/>
+<entry key="array-size" type="xint" value="9"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -34,28 +34,34 @@
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;H_FUNDER_SID&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;FUNDER_TYPE&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_PATH&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;H_FUNDER_SID&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_NAME&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_PATH&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="6">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="&quot;WORKSPACE&quot; varchar(256) ,"/>
+<entry key="StringCell" type="xstring" value="&quot;WORKFLOW_NAME&quot; varchar(256) ,"/>
 </config>
 </config>
 <config key="7">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;WORKSPACE&quot; varchar(256) ,"/>
+</config>
+</config>
+<config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="&quot;LOAD_DATE_TIME&quot; varchar(256) )"/>

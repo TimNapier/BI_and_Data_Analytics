@@ -1,0 +1,27 @@
+
+{
+    "type":"object",
+    "properties":{
+        "column-filter-18:24:46:40":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"FunderAccountID"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "FunderAccountID",
+                    "Name",
+                    "AlphaCode",
+                    "FUNDER_TYPE"
+                ]
+            }
+        }
+    }
+}

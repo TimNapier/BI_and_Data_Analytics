@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder&quot; ( &quot;FUNDER_BK&quot; varchar(256) , &quot;FUNDER_NAME&quot; varchar(256) , &quot;FUNDER_FINANCE_REFERENCE&quot; varchar(256) , &quot;H_FUNDER_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder&quot; ( &quot;FUNDER_BK&quot; varchar(256) , &quot;FUNDER_NAME&quot; varchar(256) , &quot;FUNDER_FINANCE_REFERENCE&quot; varchar(256) , &quot;FUNDER_TYPE&quot; varchar(256) , &quot;H_FUNDER_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8bb44ebc-3f04-4bc2-92ad-a0ed971dfd3c"/>
+<entry key="file_store_id" type="xstring" value="48846941-b932-4d44-a370-fd6ff3a574eb"/>
 </config>
 </config>
