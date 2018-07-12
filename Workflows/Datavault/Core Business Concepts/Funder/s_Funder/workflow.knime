@@ -8,10 +8,10 @@
 <entry key="authored-by" type="xstring" value="Administrator"/>
 <entry key="authored-when" type="xstring" value="2018-06-11 14:23:21 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
-<entry key="lastEdited-when" type="xstring" value="2018-06-25 15:45:28 +1000"/>
+<entry key="lastEdited-when" type="xstring" value="2018-07-12 09:38:44 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_0">
@@ -90,6 +90,22 @@
 <entry key="0" type="xint" value="224"/>
 <entry key="1" type="xint" value="17"/>
 <entry key="2" type="xint" value="138"/>
+<entry key="3" type="xint" value="93"/>
+</config>
+</config>
+</config>
+<config key="node_23">
+<entry key="id" type="xint" value="23"/>
+<entry key="node_settings_file" type="xstring" value="Write Table (#23)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="464"/>
+<entry key="1" type="xint" value="357"/>
+<entry key="2" type="xint" value="143"/>
 <entry key="3" type="xint" value="93"/>
 </config>
 </config>

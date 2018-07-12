@@ -1,0 +1,2419 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20181.18.0510.1418                               -->
+<workbook source-build='2018.1.1 (20181.18.0510.1418)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SortTagCleanup />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' inline='true' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tp72531.ap-southeast-2.snowflakecomputing.com' name='snowflake.1r6kre004pnwo019swsuf0042v1u'>
+            <connection authentication='Username Password' class='snowflake' dbname='ARALUEN_DATAVAULT' odbc-connect-string-extras='' one-time-sql='' schema='DATAVAULT' server='tp72531.ap-southeast-2.snowflakecomputing.com' service='' username='angelac' warehouse='ARALUEN' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[H_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+              <expression op='[S_NDIS_INVOICE_DETAIL_FINANCE_REF].[HNDIS_INVOICE_DETAIL_SID]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[H_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM_SID]' />
+                <expression op='[S_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM_SID]' />
+              </expression>
+            </clause>
+            <relation join='inner' type='join'>
+              <clause type='join'>
+                <expression op='='>
+                  <expression op='[L_NDIS_INVOICE_DETAIL].[H_NDIS_SUPPORT_ITEM_SID]' />
+                  <expression op='[H_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM_SID]' />
+                </expression>
+              </clause>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[H_NDIS_INVOICE_HEADER].[H_NDIS_INVOICE_HEADER_SID]' />
+                    <expression op='[S_NDIS_INVOICE_HEADER].[H_NDIS_INVOICE_HEADER_SID]' />
+                  </expression>
+                </clause>
+                <relation join='inner' type='join'>
+                  <clause type='join'>
+                    <expression op='='>
+                      <expression op='[L_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_HEADER_SID]' />
+                      <expression op='[H_NDIS_INVOICE_HEADER].[H_NDIS_INVOICE_HEADER_SID]' />
+                    </expression>
+                  </clause>
+                  <relation join='inner' type='join'>
+                    <clause type='join'>
+                      <expression op='='>
+                        <expression op='[H_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+                        <expression op='[S_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+                      </expression>
+                    </clause>
+                    <relation join='inner' type='join'>
+                      <clause type='join'>
+                        <expression op='='>
+                          <expression op='[L_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+                          <expression op='[H_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+                        </expression>
+                      </clause>
+                      <relation join='inner' type='join'>
+                        <clause type='join'>
+                          <expression op='='>
+                            <expression op='[H_FUNDER].[H_FUNDER_SID]' />
+                            <expression op='[S_FUNDER].[H_FUNDER_SID]' />
+                          </expression>
+                        </clause>
+                        <relation join='inner' type='join'>
+                          <clause type='join'>
+                            <expression op='='>
+                              <expression op='[H_FUNDER].[H_FUNDER_SID]' />
+                              <expression op='[S_FUNDER_FINANCE_REFERENCE].[H_FUNDER_SID]' />
+                            </expression>
+                          </clause>
+                          <relation join='inner' type='join'>
+                            <clause type='join'>
+                              <expression op='='>
+                                <expression op='[L_NDIS_INVOICE_DETAIL].[H_FUNDER_SID]' />
+                                <expression op='[H_FUNDER].[H_FUNDER_SID]' />
+                              </expression>
+                            </clause>
+                            <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='L_NDIS_INVOICE_DETAIL' table='[DATAVAULT].[L_NDIS_INVOICE_DETAIL]' type='table' />
+                            <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='H_FUNDER' table='[DATAVAULT].[H_FUNDER]' type='table' />
+                          </relation>
+                          <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='S_FUNDER_FINANCE_REFERENCE' table='[DATAVAULT].[S_FUNDER_FINANCE_REFERENCE]' type='table' />
+                        </relation>
+                        <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='S_FUNDER' table='[DATAVAULT].[S_FUNDER]' type='table' />
+                      </relation>
+                      <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='H_NDIS_INVOICE_DETAIL' table='[DATAVAULT].[H_NDIS_INVOICE_DETAIL]' type='table' />
+                    </relation>
+                    <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='S_NDIS_INVOICE_DETAIL' table='[DATAVAULT].[S_NDIS_INVOICE_DETAIL]' type='table' />
+                  </relation>
+                  <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='H_NDIS_INVOICE_HEADER' table='[DATAVAULT].[H_NDIS_INVOICE_HEADER]' type='table' />
+                </relation>
+                <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='S_NDIS_INVOICE_HEADER' table='[DATAVAULT].[S_NDIS_INVOICE_HEADER]' type='table' />
+              </relation>
+              <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='H_NDIS_SUPPORT_ITEM' table='[DATAVAULT].[H_NDIS_SUPPORT_ITEM]' type='table' />
+            </relation>
+            <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='S_NDIS_SUPPORT_ITEM' table='[DATAVAULT].[S_NDIS_SUPPORT_ITEM]' type='table' />
+          </relation>
+          <relation connection='snowflake.1r6kre004pnwo019swsuf0042v1u' name='S_NDIS_INVOICE_DETAIL_FINANCE_REF' table='[DATAVAULT].[S_NDIS_INVOICE_DETAIL_FINANCE_REF]' type='table' />
+        </relation>
+        <cols>
+          <map key='[ACCOUNT_NUMBER]' value='[S_NDIS_INVOICE_DETAIL].[ACCOUNT_NUMBER]' />
+          <map key='[ACTIVITY_DATE]' value='[S_NDIS_INVOICE_DETAIL].[ACTIVITY_DATE]' />
+          <map key='[EFFECTIVE_FROM_DATE]' value='[S_NDIS_SUPPORT_ITEM].[EFFECTIVE_FROM_DATE]' />
+          <map key='[EFFECTIVE_TO_DATE]' value='[S_NDIS_SUPPORT_ITEM].[EFFECTIVE_TO_DATE]' />
+          <map key='[FINANCE_REFRENCE_JOB]' value='[S_NDIS_INVOICE_DETAIL_FINANCE_REF].[FINANCE_REFRENCE_JOB]' />
+          <map key='[FUNDER_BK]' value='[H_FUNDER].[FUNDER_BK]' />
+          <map key='[FUNDER_FINANCE_REFERENCE]' value='[S_FUNDER_FINANCE_REFERENCE].[FUNDER_FINANCE_REFERENCE]' />
+          <map key='[FUNDER_NAME]' value='[S_FUNDER].[FUNDER_NAME]' />
+          <map key='[FUNDER_TYPE]' value='[S_FUNDER].[FUNDER_TYPE]' />
+          <map key='[FUNDING_TYPE]' value='[S_NDIS_SUPPORT_ITEM].[FUNDING_TYPE]' />
+          <map key='[HNDIS_INVOICE_DETAIL_SID]' value='[S_NDIS_INVOICE_DETAIL_FINANCE_REF].[HNDIS_INVOICE_DETAIL_SID]' />
+          <map key='[H_FUNDER_SID (H_FUNDER)]' value='[H_FUNDER].[H_FUNDER_SID]' />
+          <map key='[H_FUNDER_SID (S_FUNDER)]' value='[S_FUNDER].[H_FUNDER_SID]' />
+          <map key='[H_FUNDER_SID (S_FUNDER_FINANCE_REFERENCE)]' value='[S_FUNDER_FINANCE_REFERENCE].[H_FUNDER_SID]' />
+          <map key='[H_FUNDER_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_FUNDER_SID]' />
+          <map key='[H_NDIS_INVOICE_DETAIL_SID (H_NDIS_INVOICE_DETAIL)]' value='[H_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+          <map key='[H_NDIS_INVOICE_DETAIL_SID (S_NDIS_INVOICE_DETAIL)]' value='[S_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+          <map key='[H_NDIS_INVOICE_DETAIL_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_DETAIL_SID]' />
+          <map key='[H_NDIS_INVOICE_HEADER_SID (H_NDIS_INVOICE_HEADER)]' value='[H_NDIS_INVOICE_HEADER].[H_NDIS_INVOICE_HEADER_SID]' />
+          <map key='[H_NDIS_INVOICE_HEADER_SID (S_NDIS_INVOICE_HEADER)]' value='[S_NDIS_INVOICE_HEADER].[H_NDIS_INVOICE_HEADER_SID]' />
+          <map key='[H_NDIS_INVOICE_HEADER_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_NDIS_INVOICE_HEADER_SID]' />
+          <map key='[H_NDIS_SUPPORT_ITEM_SID (H_NDIS_SUPPORT_ITEM)]' value='[H_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM_SID]' />
+          <map key='[H_NDIS_SUPPORT_ITEM_SID (S_NDIS_SUPPORT_ITEM)]' value='[S_NDIS_SUPPORT_ITEM].[H_NDIS_SUPPORT_ITEM_SID]' />
+          <map key='[H_NDIS_SUPPORT_ITEM_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_NDIS_SUPPORT_ITEM_SID]' />
+          <map key='[H_PARTICIPANT_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_PARTICIPANT_SID]' />
+          <map key='[H_REFERRAL_SID]' value='[L_NDIS_INVOICE_DETAIL].[H_REFERRAL_SID]' />
+          <map key='[INVOICE_DATE]' value='[S_NDIS_INVOICE_HEADER].[INVOICE_DATE]' />
+          <map key='[LINE_TOTAL]' value='[S_NDIS_INVOICE_DETAIL].[LINE_TOTAL]' />
+          <map key='[LOAD_DATE_TIME (H_FUNDER)]' value='[H_FUNDER].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME (H_NDIS_INVOICE_DETAIL)]' value='[H_NDIS_INVOICE_DETAIL].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME (H_NDIS_INVOICE_HEADER)]' value='[H_NDIS_INVOICE_HEADER].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME (S_FUNDER)]' value='[S_FUNDER].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME (S_FUNDER_FINANCE_REFERENCE)]' value='[S_FUNDER_FINANCE_REFERENCE].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME (S_NDIS_INVOICE_DETAIL)]' value='[S_NDIS_INVOICE_DETAIL].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME (S_NDIS_INVOICE_HEADER)]' value='[S_NDIS_INVOICE_HEADER].[LOAD_DATE_TIME]' />
+          <map key='[LOAD_DATE_TIME]' value='[L_NDIS_INVOICE_DETAIL].[LOAD_DATE_TIME]' />
+          <map key='[NDIS_INVOICE_DETAIL_BK]' value='[H_NDIS_INVOICE_DETAIL].[NDIS_INVOICE_DETAIL_BK]' />
+          <map key='[NDIS_INVOICE_DETAIL_DESCRIPTION]' value='[S_NDIS_INVOICE_DETAIL].[NDIS_INVOICE_DETAIL_DESCRIPTION]' />
+          <map key='[NDIS_INVOICE_HEADER_BK]' value='[H_NDIS_INVOICE_HEADER].[NDIS_INVOICE_HEADER_BK]' />
+          <map key='[OUTCOME_DOMAIN]' value='[S_NDIS_SUPPORT_ITEM].[OUTCOME_DOMAIN]' />
+          <map key='[PAYROLL_BATCH_ID]' value='[S_NDIS_INVOICE_DETAIL].[PAYROLL_BATCH_ID]' />
+          <map key='[PRICE]' value='[S_NDIS_SUPPORT_ITEM].[PRICE]' />
+          <map key='[PRICE_CONTROL]' value='[S_NDIS_SUPPORT_ITEM].[PRICE_CONTROL]' />
+          <map key='[QUANTITY]' value='[S_NDIS_INVOICE_DETAIL].[QUANTITY]' />
+          <map key='[QUOTE]' value='[S_NDIS_SUPPORT_ITEM].[QUOTE]' />
+          <map key='[REGISTRATION_GROUP (#1)]' value='[S_NDIS_SUPPORT_ITEM].[REGISTRATION_GROUP (#1)]' />
+          <map key='[REGISTRATION_GROUP]' value='[S_NDIS_SUPPORT_ITEM].[REGISTRATION_GROUP]' />
+          <map key='[SOURCE (S_NDIS_SUPPORT_ITEM)]' value='[S_NDIS_SUPPORT_ITEM].[SOURCE]' />
+          <map key='[SOURCE]' value='[H_NDIS_SUPPORT_ITEM].[SOURCE]' />
+          <map key='[SUPPORT_CATEGORIES]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_CATEGORIES]' />
+          <map key='[SUPPORT_CATEGORY_NUMBER (#1)]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_CATEGORY_NUMBER (#1)]' />
+          <map key='[SUPPORT_CATEGORY_NUMBER]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_CATEGORY_NUMBER]' />
+          <map key='[SUPPORT_ITEM]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM]' />
+          <map key='[SUPPORT_ITEM_BK]' value='[H_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_BK]' />
+          <map key='[SUPPORT_ITEM_DESCRIPTION]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_DESCRIPTION]' />
+          <map key='[SUPPORT_ITEM_LINE_NUMBER]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_LINE_NUMBER]' />
+          <map key='[SUPPORT_ITEM_NUMBER]' value='[S_NDIS_SUPPORT_ITEM].[SUPPORT_ITEM_NUMBER]' />
+          <map key='[UNIT_OF_MEASURE]' value='[S_NDIS_SUPPORT_ITEM].[UNIT_OF_MEASURE]' />
+          <map key='[UNIT_PRICE]' value='[S_NDIS_INVOICE_DETAIL].[UNIT_PRICE]' />
+          <map key='[WORKFLOW_NAME (H_FUNDER)]' value='[H_FUNDER].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME (H_NDIS_INVOICE_DETAIL)]' value='[H_NDIS_INVOICE_DETAIL].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME (H_NDIS_INVOICE_HEADER)]' value='[H_NDIS_INVOICE_HEADER].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME (S_FUNDER)]' value='[S_FUNDER].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME (S_FUNDER_FINANCE_REFERENCE)]' value='[S_FUNDER_FINANCE_REFERENCE].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME (S_NDIS_INVOICE_DETAIL)]' value='[S_NDIS_INVOICE_DETAIL].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME (S_NDIS_INVOICE_HEADER)]' value='[S_NDIS_INVOICE_HEADER].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_NAME]' value='[L_NDIS_INVOICE_DETAIL].[WORKFLOW_NAME]' />
+          <map key='[WORKFLOW_PATH (H_FUNDER)]' value='[H_FUNDER].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH (H_NDIS_INVOICE_DETAIL)]' value='[H_NDIS_INVOICE_DETAIL].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH (H_NDIS_INVOICE_HEADER)]' value='[H_NDIS_INVOICE_HEADER].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH (S_FUNDER)]' value='[S_FUNDER].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH (S_FUNDER_FINANCE_REFERENCE)]' value='[S_FUNDER_FINANCE_REFERENCE].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH (S_NDIS_INVOICE_DETAIL)]' value='[S_NDIS_INVOICE_DETAIL].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH (S_NDIS_INVOICE_HEADER)]' value='[S_NDIS_INVOICE_HEADER].[WORKFLOW_PATH]' />
+          <map key='[WORKFLOW_PATH]' value='[L_NDIS_INVOICE_DETAIL].[WORKFLOW_PATH]' />
+          <map key='[WORKSPACE (H_FUNDER)]' value='[H_FUNDER].[WORKSPACE]' />
+          <map key='[WORKSPACE (H_NDIS_INVOICE_DETAIL)]' value='[H_NDIS_INVOICE_DETAIL].[WORKSPACE]' />
+          <map key='[WORKSPACE (H_NDIS_INVOICE_HEADER)]' value='[H_NDIS_INVOICE_HEADER].[WORKSPACE]' />
+          <map key='[WORKSPACE (S_FUNDER)]' value='[S_FUNDER].[WORKSPACE]' />
+          <map key='[WORKSPACE (S_FUNDER_FINANCE_REFERENCE)]' value='[S_FUNDER_FINANCE_REFERENCE].[WORKSPACE]' />
+          <map key='[WORKSPACE (S_NDIS_INVOICE_DETAIL)]' value='[S_NDIS_INVOICE_DETAIL].[WORKSPACE]' />
+          <map key='[WORKSPACE (S_NDIS_INVOICE_HEADER)]' value='[S_NDIS_INVOICE_HEADER].[WORKSPACE]' />
+          <map key='[WORKSPACE]' value='[L_NDIS_INVOICE_DETAIL].[WORKSPACE]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>H_PARTICIPANT_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_PARTICIPANT_SID]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_PARTICIPANT_SID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_REFERRAL_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_REFERRAL_SID]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_REFERRAL_SID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_INVOICE_HEADER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_INVOICE_HEADER_SID]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_NDIS_INVOICE_HEADER_SID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_INVOICE_DETAIL_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_INVOICE_DETAIL_SID]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_NDIS_INVOICE_DETAIL_SID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_FUNDER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_FUNDER_SID]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_FUNDER_SID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_SUPPORT_ITEM_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_SUPPORT_ITEM_SID]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_NDIS_SUPPORT_ITEM_SID</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME]</local-name>
+            <parent-name>[L_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FUNDER_BK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FUNDER_BK]</local-name>
+            <parent-name>[H_FUNDER]</parent-name>
+            <remote-alias>FUNDER_BK</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_FUNDER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_FUNDER_SID (H_FUNDER)]</local-name>
+            <parent-name>[H_FUNDER]</parent-name>
+            <remote-alias>H_FUNDER_SID</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (H_FUNDER)]</local-name>
+            <parent-name>[H_FUNDER]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (H_FUNDER)]</local-name>
+            <parent-name>[H_FUNDER]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (H_FUNDER)]</local-name>
+            <parent-name>[H_FUNDER]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (H_FUNDER)]</local-name>
+            <parent-name>[H_FUNDER]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FUNDER_FINANCE_REFERENCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FUNDER_FINANCE_REFERENCE]</local-name>
+            <parent-name>[S_FUNDER_FINANCE_REFERENCE]</parent-name>
+            <remote-alias>FUNDER_FINANCE_REFERENCE</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_FUNDER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_FUNDER_SID (S_FUNDER_FINANCE_REFERENCE)]</local-name>
+            <parent-name>[S_FUNDER_FINANCE_REFERENCE]</parent-name>
+            <remote-alias>H_FUNDER_SID</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (S_FUNDER_FINANCE_REFERENCE)]</local-name>
+            <parent-name>[S_FUNDER_FINANCE_REFERENCE]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (S_FUNDER_FINANCE_REFERENCE)]</local-name>
+            <parent-name>[S_FUNDER_FINANCE_REFERENCE]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (S_FUNDER_FINANCE_REFERENCE)]</local-name>
+            <parent-name>[S_FUNDER_FINANCE_REFERENCE]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (S_FUNDER_FINANCE_REFERENCE)]</local-name>
+            <parent-name>[S_FUNDER_FINANCE_REFERENCE]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FUNDER_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FUNDER_NAME]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>FUNDER_NAME</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FUNDER_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FUNDER_TYPE]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>FUNDER_TYPE</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_FUNDER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_FUNDER_SID (S_FUNDER)]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>H_FUNDER_SID</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (S_FUNDER)]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (S_FUNDER)]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (S_FUNDER)]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (S_FUNDER)]</local-name>
+            <parent-name>[S_FUNDER]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NDIS_INVOICE_DETAIL_BK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NDIS_INVOICE_DETAIL_BK]</local-name>
+            <parent-name>[H_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>NDIS_INVOICE_DETAIL_BK</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_INVOICE_DETAIL_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_INVOICE_DETAIL_SID (H_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_NDIS_INVOICE_DETAIL_SID</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (H_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (H_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (H_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (H_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NDIS_INVOICE_DETAIL_DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NDIS_INVOICE_DETAIL_DESCRIPTION]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>NDIS_INVOICE_DETAIL_DESCRIPTION</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_INVOICE_DETAIL_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_INVOICE_DETAIL_SID (S_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>H_NDIS_INVOICE_DETAIL_SID</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (S_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (S_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (S_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (S_NDIS_INVOICE_DETAIL)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACCOUNT_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ACCOUNT_NUMBER]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>ACCOUNT_NUMBER</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PAYROLL_BATCH_ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PAYROLL_BATCH_ID]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>PAYROLL_BATCH_ID</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTITY</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[QUANTITY]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>QUANTITY</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_PRICE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[UNIT_PRICE]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>UNIT_PRICE</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LINE_TOTAL</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[LINE_TOTAL]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>LINE_TOTAL</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACTIVITY_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ACTIVITY_DATE]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL]</parent-name>
+            <remote-alias>ACTIVITY_DATE</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NDIS_INVOICE_HEADER_BK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NDIS_INVOICE_HEADER_BK]</local-name>
+            <parent-name>[H_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>NDIS_INVOICE_HEADER_BK</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_INVOICE_HEADER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_INVOICE_HEADER_SID (H_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>H_NDIS_INVOICE_HEADER_SID</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (H_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (H_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (H_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (H_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[H_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INVOICE_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[INVOICE_DATE]</local-name>
+            <parent-name>[S_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>INVOICE_DATE</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_DATE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_INVOICE_HEADER_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_INVOICE_HEADER_SID (S_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>H_NDIS_INVOICE_HEADER_SID</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_PATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_PATH (S_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>WORKFLOW_PATH</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKFLOW_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKFLOW_NAME (S_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>WORKFLOW_NAME</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WORKSPACE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WORKSPACE (S_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>WORKSPACE</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOAD_DATE_TIME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOAD_DATE_TIME (S_NDIS_INVOICE_HEADER)]</local-name>
+            <parent-name>[S_NDIS_INVOICE_HEADER]</parent-name>
+            <remote-alias>LOAD_DATE_TIME</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_ITEM_BK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_ITEM_BK]</local-name>
+            <parent-name>[H_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_ITEM_BK</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_SUPPORT_ITEM_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_SUPPORT_ITEM_SID (H_NDIS_SUPPORT_ITEM)]</local-name>
+            <parent-name>[H_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>H_NDIS_SUPPORT_ITEM_SID</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOURCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SOURCE]</local-name>
+            <parent-name>[H_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SOURCE</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REGISTRATION_GROUP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REGISTRATION_GROUP]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>REGISTRATION_GROUP</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_ITEM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_ITEM]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_ITEM</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_ITEM_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_ITEM_NUMBER]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_ITEM_NUMBER</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_ITEM_DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_ITEM_DESCRIPTION]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_ITEM_DESCRIPTION</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UNIT_OF_MEASURE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UNIT_OF_MEASURE]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>UNIT_OF_MEASURE</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUOTE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QUOTE]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>QUOTE</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRICE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRICE]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>PRICE</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRICE_CONTROL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRICE_CONTROL]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>PRICE_CONTROL</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_CATEGORIES</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_CATEGORIES]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_CATEGORIES</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_CATEGORY_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_CATEGORY_NUMBER]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_CATEGORY_NUMBER</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOURCE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SOURCE (S_NDIS_SUPPORT_ITEM)]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SOURCE</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>H_NDIS_SUPPORT_ITEM_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[H_NDIS_SUPPORT_ITEM_SID (S_NDIS_SUPPORT_ITEM)]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>H_NDIS_SUPPORT_ITEM_SID</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EFFECTIVE_FROM_DATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EFFECTIVE_FROM_DATE]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>EFFECTIVE_FROM_DATE</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EFFECTIVE_TO_DATE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EFFECTIVE_TO_DATE]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>EFFECTIVE_TO_DATE</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_CATEGORY_NUMBER (#1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_CATEGORY_NUMBER (#1)]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_CATEGORY_NUMBER (#1)</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUPPORT_ITEM_LINE_NUMBER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUPPORT_ITEM_LINE_NUMBER]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>SUPPORT_ITEM_LINE_NUMBER</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REGISTRATION_GROUP (#1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[REGISTRATION_GROUP (#1)]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>REGISTRATION_GROUP (#1)</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OUTCOME_DOMAIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OUTCOME_DOMAIN]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>OUTCOME_DOMAIN</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FUNDING_TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FUNDING_TYPE]</local-name>
+            <parent-name>[S_NDIS_SUPPORT_ITEM]</parent-name>
+            <remote-alias>FUNDING_TYPE</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>1000</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FINANCE_REFRENCE_JOB</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FINANCE_REFRENCE_JOB]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL_FINANCE_REF]</parent-name>
+            <remote-alias>FINANCE_REFRENCE_JOB</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HNDIS_INVOICE_DETAIL_SID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HNDIS_INVOICE_DETAIL_SID]</local-name>
+            <parent-name>[S_NDIS_INVOICE_DETAIL_FINANCE_REF]</parent-name>
+            <remote-alias>HNDIS_INVOICE_DETAIL_SID</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>256</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Account Number' datatype='string' name='[ACCOUNT_NUMBER]' role='dimension' type='nominal' />
+      <column caption='Activity Date' datatype='date' name='[ACTIVITY_DATE]' role='dimension' type='ordinal' />
+      <column caption='Line Total by NDIS Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_276126970250629120]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[PRICE] * [QUANTITY]' />
+      </column>
+      <column caption='Number of Invoices per Batc' datatype='integer' name='[Calculation_673851105748611072]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='countd([NDIS_INVOICE_HEADER_BK])' />
+      </column>
+      <column caption='Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_745064274383380480]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[LINE_TOTAL]' />
+      </column>
+      <column caption='Finance Refrence Job' datatype='string' name='[FINANCE_REFRENCE_JOB]' role='dimension' type='nominal' />
+      <column caption='Card ID' datatype='string' name='[FUNDER_FINANCE_REFERENCE]' role='dimension' type='nominal' />
+      <column caption='Funder Name' datatype='string' name='[FUNDER_NAME]' role='dimension' type='nominal' />
+      <column caption='Hndis Invoice Detail Sid' datatype='string' name='[HNDIS_INVOICE_DETAIL_SID]' role='dimension' type='nominal' />
+      <column caption='H Funder Sid' datatype='string' name='[H_FUNDER_SID]' role='dimension' type='nominal' />
+      <column caption='H Ndis Invoice Detail Sid' datatype='string' hidden='true' name='[H_NDIS_INVOICE_DETAIL_SID]' role='dimension' type='nominal' />
+      <column caption='H Ndis Invoice Header Sid' datatype='string' hidden='true' name='[H_NDIS_INVOICE_HEADER_SID]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='date' name='[INVOICE_DATE]' role='dimension' type='ordinal' />
+      <column caption='Inc-Tax Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[LINE_TOTAL]' role='measure' type='quantitative' />
+      <column caption='Load Date Time' datatype='string' hidden='true' name='[LOAD_DATE_TIME]' role='dimension' type='nominal' />
+      <column caption='Line Total by CSM Price ' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Line Total by NDIS Price (copy)]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[UNIT_PRICE] * [QUANTITY]' />
+      </column>
+      <column caption='NDIS Invoice Detail Description' datatype='string' name='[NDIS_INVOICE_DETAIL_DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Customer PO' datatype='string' name='[NDIS_INVOICE_HEADER_BK]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Payroll Batch ID' datatype='integer' datatype-customized='true' name='[PAYROLL_BATCH_ID]' role='dimension' type='ordinal' />
+      <column datatype='real' datatype-customized='true' name='[PRICE]' role='dimension' type='ordinal' />
+      <column caption='Quantity' datatype='real' name='[QUANTITY]' role='measure' type='quantitative' />
+      <column caption='Registration Group' datatype='string' name='[REGISTRATION_GROUP]' role='dimension' type='nominal' />
+      <column aggregation='Max' caption='Unit Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[UNIT_PRICE]' role='dimension' type='ordinal' />
+      <column caption='Workflow Name' datatype='string' hidden='true' name='[WORKFLOW_NAME]' role='dimension' type='nominal' />
+      <column caption='Workflow Path' datatype='string' hidden='true' name='[WORKFLOW_PATH]' role='dimension' type='nominal' />
+      <column caption='Workspace' datatype='string' hidden='true' name='[WORKSPACE]' role='dimension' type='nominal' />
+      <group caption='Action (Payroll Batch ID)' hidden='true' name='[Action (Payroll Batch ID)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[PAYROLL_BATCH_ID]' />
+        </groupfilter>
+      </group>
+      <folder name='MYOB Item Sales' role='dimensions'>
+        <folder-item name='[ACCOUNT_NUMBER]' type='field' />
+        <folder-item name='[FUNDER_FINANCE_REFERENCE]' type='field' />
+        <folder-item name='[INVOICE_DATE]' type='field' />
+        <folder-item name='[NDIS_INVOICE_HEADER_BK]' type='field' />
+      </folder>
+      <folder name='MYOB Item Sales - Filters' role='dimensions'>
+        <folder-item name='[PAYROLL_BATCH_ID]' type='field' />
+      </folder>
+      <folder name='NDIS Support Items' role='dimensions'>
+        <folder-item name='[REGISTRATION_GROUP]' type='field' />
+      </folder>
+      <layout dim-ordering='alphabetic' dim-percentage='0.470665' group-percentage='0.169492' measure-ordering='alphabetic' measure-percentage='0.359844' show-hidden-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter1' name='[Action1]'>
+      <activation auto-clear='true' />
+      <source datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b' type='datasource'>
+        <exclude-sheet name='Reconcilliation' />
+      </source>
+      <link caption='Filter1' delimiter=',' escape='\' expression='tsl:Reconcilliation?%5Bfederated.1m4fvcc1chjet219tnxiz0rtzy3b%5D.%5BPAYROLL_BATCH_ID%5D~s0=&lt;[PAYROLL_BATCH_ID]~na&gt;' include-null='true' multi-select='true' url-escape='true' />
+      <command command='tsc:tsl-filter'>
+        <param name='single-select' value='' />
+        <param name='target' value='Reconcilliation' />
+      </command>
+    </action>
+    <datasources>
+      <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+    </datasources>
+    <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+      <column caption='Payroll Batch ID' datatype='integer' datatype-customized='true' name='[PAYROLL_BATCH_ID]' role='dimension' type='ordinal' />
+    </datasource-dependencies>
+  </actions>
+  <worksheets>
+    <worksheet name='Accomodation comparison for prices from NDIS'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column caption='Line Total by NDIS Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_276126970250629120]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PRICE] * [QUANTITY]' />
+            </column>
+            <column datatype='string' name='[EFFECTIVE_FROM_DATE]' role='dimension' type='nominal' />
+            <column caption='Finance Refrence Job' datatype='string' name='[FINANCE_REFRENCE_JOB]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[INVOICE_DATE]' role='dimension' type='ordinal' />
+            <column caption='Inc-Tax Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[LINE_TOTAL]' role='measure' type='quantitative' />
+            <column caption='Line Total by CSM Price ' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Line Total by NDIS Price (copy)]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[UNIT_PRICE] * [QUANTITY]' />
+            </column>
+            <column datatype='real' datatype-customized='true' name='[PRICE]' role='dimension' type='ordinal' />
+            <column caption='Quantity' datatype='real' name='[QUANTITY]' role='measure' type='quantitative' />
+            <column datatype='string' name='[SUPPORT_ITEM_NUMBER]' role='dimension' type='nominal' />
+            <column aggregation='Max' caption='Unit Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[UNIT_PRICE]' role='dimension' type='ordinal' />
+            <column-instance column='[EFFECTIVE_FROM_DATE]' derivation='None' name='[none:EFFECTIVE_FROM_DATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FINANCE_REFRENCE_JOB]' derivation='None' name='[none:FINANCE_REFRENCE_JOB:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SUPPORT_ITEM_NUMBER]' derivation='None' name='[none:SUPPORT_ITEM_NUMBER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_276126970250629120]' derivation='Sum' name='[sum:Calculation_276126970250629120:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LINE_TOTAL]' derivation='Sum' name='[sum:LINE_TOTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Line Total by NDIS Price (copy)]' derivation='Sum' name='[sum:Line Total by NDIS Price (copy):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[QUANTITY]' derivation='Sum' name='[sum:QUANTITY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[INVOICE_DATE]' derivation='Year' name='[yr:INVOICE_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:LINE_TOTAL:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Line Total by NDIS Price (copy):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Calculation_276126970250629120:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:QUANTITY:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FINANCE_REFRENCE_JOB:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='%null%' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3200&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3300&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3400&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3410&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3420&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3430&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3440&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3500&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3600&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:INVOICE_DATE:ok]' />
+              <groupfilter function='member' level='[yr:INVOICE_DATE:ok]' member='2016' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FINANCE_REFRENCE_JOB:nk]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM_NUMBER:nk]' value='180' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM_NUMBER:nk]</rows>
+        <cols>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]))</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Accomodation comparison for prices from NDIS (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column caption='Line Total by NDIS Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_276126970250629120]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PRICE] * [QUANTITY]' />
+            </column>
+            <column datatype='string' name='[EFFECTIVE_FROM_DATE]' role='dimension' type='nominal' />
+            <column caption='Finance Refrence Job' datatype='string' name='[FINANCE_REFRENCE_JOB]' role='dimension' type='nominal' />
+            <column caption='Card ID' datatype='string' name='[FUNDER_FINANCE_REFERENCE]' role='dimension' type='nominal' />
+            <column caption='Funder Name' datatype='string' name='[FUNDER_NAME]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[INVOICE_DATE]' role='dimension' type='ordinal' />
+            <column caption='Inc-Tax Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[LINE_TOTAL]' role='measure' type='quantitative' />
+            <column caption='Line Total by CSM Price ' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Line Total by NDIS Price (copy)]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[UNIT_PRICE] * [QUANTITY]' />
+            </column>
+            <column datatype='real' datatype-customized='true' name='[PRICE]' role='dimension' type='ordinal' />
+            <column caption='Quantity' datatype='real' name='[QUANTITY]' role='measure' type='quantitative' />
+            <column datatype='string' name='[SUPPORT_ITEM]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SUPPORT_ITEM_NUMBER]' role='dimension' type='nominal' />
+            <column datatype='string' name='[UNIT_OF_MEASURE]' role='dimension' type='nominal' />
+            <column aggregation='Max' caption='Unit Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[UNIT_PRICE]' role='dimension' type='ordinal' />
+            <column-instance column='[EFFECTIVE_FROM_DATE]' derivation='None' name='[none:EFFECTIVE_FROM_DATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FINANCE_REFRENCE_JOB]' derivation='None' name='[none:FINANCE_REFRENCE_JOB:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FUNDER_FINANCE_REFERENCE]' derivation='None' name='[none:FUNDER_FINANCE_REFERENCE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FUNDER_NAME]' derivation='None' name='[none:FUNDER_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SUPPORT_ITEM]' derivation='None' name='[none:SUPPORT_ITEM:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SUPPORT_ITEM_NUMBER]' derivation='None' name='[none:SUPPORT_ITEM_NUMBER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[UNIT_OF_MEASURE]' derivation='None' name='[none:UNIT_OF_MEASURE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_276126970250629120]' derivation='Sum' name='[sum:Calculation_276126970250629120:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LINE_TOTAL]' derivation='Sum' name='[sum:LINE_TOTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Line Total by NDIS Price (copy)]' derivation='Sum' name='[sum:Line Total by NDIS Price (copy):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[QUANTITY]' derivation='Sum' name='[sum:QUANTITY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[INVOICE_DATE]' derivation='Year' name='[yr:INVOICE_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:LINE_TOTAL:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Line Total by NDIS Price (copy):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Calculation_276126970250629120:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:QUANTITY:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FINANCE_REFRENCE_JOB:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='%null%' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3200&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3300&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3400&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3410&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3420&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3430&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3440&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3500&quot;' />
+              <groupfilter function='member' level='[none:FINANCE_REFRENCE_JOB:nk]' member='&quot;3600&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM_NUMBER:nk]'>
+            <groupfilter function='member' level='[none:SUPPORT_ITEM_NUMBER:nk]' member='&quot;04_107_0136_6_1&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok]'>
+            <groupfilter function='member' level='[yr:INVOICE_DATE:ok]' member='2018' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FINANCE_REFRENCE_JOB:nk]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM_NUMBER:nk]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM:nk]' value='284' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM_NUMBER:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_NAME:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:UNIT_OF_MEASURE:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_FINANCE_REFERENCE:nk]))))</rows>
+        <cols>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]))</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Invoices Per Batch'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column caption='Number of Invoices per Batc' datatype='integer' name='[Calculation_673851105748611072]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='countd([NDIS_INVOICE_HEADER_BK])' />
+            </column>
+            <column caption='Customer PO' datatype='string' name='[NDIS_INVOICE_HEADER_BK]' role='dimension' type='nominal' />
+            <column caption='Payroll Batch ID' datatype='integer' datatype-customized='true' name='[PAYROLL_BATCH_ID]' role='dimension' type='ordinal' />
+            <column-instance column='[PAYROLL_BATCH_ID]' derivation='None' name='[none:PAYROLL_BATCH_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_673851105748611072]' derivation='User' name='[usr:Calculation_673851105748611072:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <natural-sort column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]' direction='DESC' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[usr:Calculation_673851105748611072:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Reconcilliation'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Sheet Name&gt;&#10;Payroll Batch ID &lt;</run>
+            <run>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]</run>
+            <run>&gt;&#10;&lt;Page Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column caption='Account Number' datatype='string' name='[ACCOUNT_NUMBER]' role='dimension' type='nominal' />
+            <column caption='Activity Date' datatype='date' name='[ACTIVITY_DATE]' role='dimension' type='ordinal' />
+            <column caption='Line Total by NDIS Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_276126970250629120]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[PRICE] * [QUANTITY]' />
+            </column>
+            <column caption='Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[Calculation_745064274383380480]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[LINE_TOTAL]' />
+            </column>
+            <column datatype='string' name='[EFFECTIVE_FROM_DATE]' role='dimension' type='nominal' />
+            <column caption='Finance Refrence Job' datatype='string' name='[FINANCE_REFRENCE_JOB]' role='dimension' type='nominal' />
+            <column caption='Card ID' datatype='string' name='[FUNDER_FINANCE_REFERENCE]' role='dimension' type='nominal' />
+            <column datatype='string' name='[H_NDIS_SUPPORT_ITEM_SID (S_NDIS_SUPPORT_ITEM)]' role='dimension' type='nominal' />
+            <column caption='Inc-Tax Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[LINE_TOTAL]' role='measure' type='quantitative' />
+            <column datatype='string' name='[NDIS_INVOICE_DETAIL_BK]' role='dimension' type='nominal' />
+            <column caption='NDIS Invoice Detail Description' datatype='string' name='[NDIS_INVOICE_DETAIL_DESCRIPTION]' role='dimension' type='nominal' />
+            <column caption='Payroll Batch ID' datatype='integer' datatype-customized='true' name='[PAYROLL_BATCH_ID]' role='dimension' type='ordinal' />
+            <column datatype='real' datatype-customized='true' name='[PRICE]' role='dimension' type='ordinal' />
+            <column caption='Quantity' datatype='real' name='[QUANTITY]' role='measure' type='quantitative' />
+            <column aggregation='Max' caption='Unit Price' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[UNIT_PRICE]' role='dimension' type='ordinal' />
+            <column-instance column='[UNIT_PRICE]' derivation='Max' name='[max:UNIT_PRICE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ACCOUNT_NUMBER]' derivation='None' name='[none:ACCOUNT_NUMBER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[EFFECTIVE_FROM_DATE]' derivation='None' name='[none:EFFECTIVE_FROM_DATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FINANCE_REFRENCE_JOB]' derivation='None' name='[none:FINANCE_REFRENCE_JOB:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FUNDER_FINANCE_REFERENCE]' derivation='None' name='[none:FUNDER_FINANCE_REFERENCE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[H_NDIS_SUPPORT_ITEM_SID (S_NDIS_SUPPORT_ITEM)]' derivation='None' name='[none:H_NDIS_SUPPORT_ITEM_SID (S_NDIS_SUPPORT_ITEM):nk]' pivot='key' type='nominal' />
+            <column-instance column='[NDIS_INVOICE_DETAIL_BK]' derivation='None' name='[none:NDIS_INVOICE_DETAIL_BK:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NDIS_INVOICE_DETAIL_DESCRIPTION]' derivation='None' name='[none:NDIS_INVOICE_DETAIL_DESCRIPTION:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PAYROLL_BATCH_ID]' derivation='None' name='[none:PAYROLL_BATCH_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_276126970250629120]' derivation='Sum' name='[sum:Calculation_276126970250629120:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_745064274383380480]' derivation='Sum' name='[sum:Calculation_745064274383380480:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LINE_TOTAL]' derivation='Sum' name='[sum:LINE_TOTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[QUANTITY]' derivation='Sum' name='[sum:QUANTITY:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ACTIVITY_DATE]' derivation='Day-Trunc' name='[tdy:ACTIVITY_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:LINE_TOTAL:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:QUANTITY:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[max:UNIT_PRICE:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Calculation_745064274383380480:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Calculation_276126970250629120:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:LINE_TOTAL:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:QUANTITY:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[max:UNIT_PRICE:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:Calculation_745064274383380480:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]'>
+            <groupfilter function='member' level='[none:EFFECTIVE_FROM_DATE:nk]' member='&quot;2017-07-01&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]'>
+            <groupfilter function='empty-level' member='[none:PAYROLL_BATCH_ID:ok]' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[tdy:ACTIVITY_DATE:ok]' value='*yyyy-mm-dd' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows total='true'>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[tdy:ACTIVITY_DATE:ok] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:NDIS_INVOICE_DETAIL_BK:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:ACCOUNT_NUMBER:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FINANCE_REFRENCE_JOB:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_FINANCE_REFERENCE:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:NDIS_INVOICE_DETAIL_DESCRIPTION:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:H_NDIS_SUPPORT_ITEM_SID (S_NDIS_SUPPORT_ITEM):nk]))))))</rows>
+        <cols>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[:Measure Names]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column datatype='string' name='[FUNDER_BK]' role='dimension' type='nominal' />
+            <column caption='Funder Name' datatype='string' name='[FUNDER_NAME]' role='dimension' type='nominal' />
+            <column-instance column='[FUNDER_BK]' derivation='None' name='[none:FUNDER_BK:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FUNDER_NAME]' derivation='None' name='[none:FUNDER_NAME:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_BK:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_NAME:nk])</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column datatype='string' name='[EFFECTIVE_FROM_DATE]' role='dimension' type='nominal' />
+            <column datatype='real' datatype-customized='true' name='[PRICE]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[PRICE_CONTROL]' role='dimension' type='nominal' />
+            <column datatype='string' name='[QUOTE]' role='dimension' type='nominal' />
+            <column datatype='string' name='[REGISTRATION_GROUP (#1)]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SUPPORT_ITEM]' role='dimension' type='nominal' />
+            <column-instance column='[EFFECTIVE_FROM_DATE]' derivation='None' name='[none:EFFECTIVE_FROM_DATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[PRICE]' derivation='None' name='[none:PRICE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[PRICE_CONTROL]' derivation='None' name='[none:PRICE_CONTROL:nk]' pivot='key' type='nominal' />
+            <column-instance column='[QUOTE]' derivation='None' name='[none:QUOTE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REGISTRATION_GROUP (#1)]' derivation='None' name='[none:REGISTRATION_GROUP (#1):nk]' pivot='key' type='nominal' />
+            <column-instance column='[SUPPORT_ITEM]' derivation='None' name='[none:SUPPORT_ITEM:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]'>
+            <groupfilter function='level-members' level='[none:EFFECTIVE_FROM_DATE:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:REGISTRATION_GROUP (#1):nk]'>
+            <groupfilter function='member' level='[none:REGISTRATION_GROUP (#1):nk]' member='&quot;115&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:REGISTRATION_GROUP (#1):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM:nk]' value='332' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PRICE:ok] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PRICE_CONTROL:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:QUOTE:nk])))</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='L_NDIS_INVOICE_DETAIL (DATAVAULT.L_NDIS_INVOICE_DETAIL)+ (DATAVAULT)' name='federated.1m4fvcc1chjet219tnxiz0rtzy3b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1m4fvcc1chjet219tnxiz0rtzy3b'>
+            <column datatype='string' name='[EFFECTIVE_FROM_DATE]' role='dimension' type='nominal' />
+            <column caption='Card ID' datatype='string' name='[FUNDER_FINANCE_REFERENCE]' role='dimension' type='nominal' />
+            <column caption='Funder Name' datatype='string' name='[FUNDER_NAME]' role='dimension' type='nominal' />
+            <column datatype='string' name='[H_NDIS_SUPPORT_ITEM_SID]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='date' name='[INVOICE_DATE]' role='dimension' type='ordinal' />
+            <column caption='Inc-Tax Total' datatype='real' default-format='n#,##0.00;-#,##0.00' name='[LINE_TOTAL]' role='measure' type='quantitative' />
+            <column datatype='string' name='[SUPPORT_ITEM]' role='dimension' type='nominal' />
+            <column-instance column='[INVOICE_DATE]' derivation='Month' name='[mn:INVOICE_DATE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[EFFECTIVE_FROM_DATE]' derivation='None' name='[none:EFFECTIVE_FROM_DATE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FUNDER_FINANCE_REFERENCE]' derivation='None' name='[none:FUNDER_FINANCE_REFERENCE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[FUNDER_NAME]' derivation='None' name='[none:FUNDER_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[H_NDIS_SUPPORT_ITEM_SID]' derivation='None' name='[none:H_NDIS_SUPPORT_ITEM_SID:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SUPPORT_ITEM]' derivation='None' name='[none:SUPPORT_ITEM:nk]' pivot='key' type='nominal' />
+            <column-instance column='[INVOICE_DATE]' derivation='Quarter' name='[qr:INVOICE_DATE:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[LINE_TOTAL]' derivation='Sum' name='[sum:LINE_TOTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[INVOICE_DATE]' derivation='Year' name='[yr:INVOICE_DATE:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]'>
+            <groupfilter function='member' level='[none:EFFECTIVE_FROM_DATE:nk]' member='&quot;2017-07-01&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_FINANCE_REFERENCE:nk]'>
+            <groupfilter function='member' level='[none:FUNDER_FINANCE_REFERENCE:nk]' member='%null%' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok]'>
+            <groupfilter function='member' level='[yr:INVOICE_DATE:ok]' member='2018' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok]</column>
+            <column>[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_FINANCE_REFERENCE:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[sum:LINE_TOTAL:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_NAME:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:FUNDER_FINANCE_REFERENCE:nk] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:H_NDIS_SUPPORT_ITEM_SID:nk] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:SUPPORT_ITEM:nk])))</rows>
+        <cols>([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[yr:INVOICE_DATE:ok] / ([federated.1m4fvcc1chjet219tnxiz0rtzy3b].[qr:INVOICE_DATE:ok] / [federated.1m4fvcc1chjet219tnxiz0rtzy3b].[mn:INVOICE_DATE:ok]))</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Invoices Per Batch'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' maximized='true' name='Reconcilliation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:PAYROLL_BATCH_ID:ok]' type='filter' />
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;Soccio  Nathan&quot;</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Accomodation comparison for prices from NDIS'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Accomodation comparison for prices from NDIS (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1m4fvcc1chjet219tnxiz0rtzy3b].[none:EFFECTIVE_FROM_DATE:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+</workbook>
