@@ -14,28 +14,6 @@
 <config key="column_properties"/>
 </config>
 <config key="column_spec_1">
-<entry key="column_name" type="xstring" value="FunderID"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain"/>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_2">
-<entry key="column_name" type="xstring" value="NDIS_INVOICE_HEADER_BK"/>
-<config key="element_names">
-<entry key="array-size" type="xint" value="0"/>
-</config>
-<config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-</config>
-<config key="column_domain"/>
-<config key="column_properties"/>
-</config>
-<config key="column_spec_3">
 <entry key="column_name" type="xstring" value="INVOICE_DATE"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -50,7 +28,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1472947200000"/>
+<entry key="timeInMillis" type="xlong" value="1480343977797"/>
 </config>
 </config>
 <config key="upper_bound">
@@ -59,10 +37,32 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1529193600000"/>
+<entry key="timeInMillis" type="xlong" value="1530100291757"/>
 </config>
 </config>
 </config>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="FunderID"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+</config>
+<config key="column_spec_3">
+<entry key="column_name" type="xstring" value="NDIS_INVOICE_HEADER_BK"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain"/>
 <config key="column_properties"/>
 </config>
 <config key="column_spec_4">

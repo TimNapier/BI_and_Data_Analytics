@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder_Invoice_header&quot; ( &quot;InvoiceHeaderID&quot; varchar(256) , &quot;FunderID&quot; varchar(256) , &quot;NDIS_INVOICE_HEADER_BK&quot; varchar(256) , &quot;INVOICE_DATE&quot; varchar(256) , &quot;InvBatchNo&quot; varchar(256) , &quot;ClientID&quot; varchar(256) , &quot;H_NDIS_INVOICE_HEADER_SID&quot; varchar(256) , &quot;H_PARTICIPANT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;CSM_Funder_Invoice_header&quot; ( &quot;InvoiceHeaderID&quot; varchar(256) , &quot;INVOICE_DATE&quot; varchar(256) , &quot;FunderID&quot; varchar(256) , &quot;NDIS_INVOICE_HEADER_BK&quot; varchar(256) , &quot;InvBatchNo&quot; varchar(256) , &quot;ClientID&quot; varchar(256) , &quot;H_NDIS_INVOICE_HEADER_SID&quot; varchar(256) , &quot;H_PARTICIPANT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5fbea968-eae0-42ce-8fa6-ad1699dda4f7"/>
+<entry key="file_store_id" type="xstring" value="920ed3d8-e478-48e4-9276-6ee39d89f0f4"/>
 </config>
 </config>

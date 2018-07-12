@@ -11,24 +11,24 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="InvoiceHeaderID"/>
-<entry key="1" type="xstring" value="FunderID"/>
-<entry key="2" type="xstring" value="InvoiceNumber"/>
-<entry key="3" type="xstring" value="InvoiceDate"/>
+<entry key="1" type="xstring" value="CreatedDate"/>
+<entry key="2" type="xstring" value="FunderID"/>
+<entry key="3" type="xstring" value="InvoiceNumber"/>
 <entry key="4" type="xstring" value="InvBatchNo"/>
 <entry key="5" type="xstring" value="ClientID"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="23"/>
-<entry key="0" type="xstring" value="CreatedDate"/>
-<entry key="1" type="xstring" value="FunderContactID"/>
-<entry key="2" type="xstring" value="Reference1"/>
-<entry key="3" type="xstring" value="Reference2"/>
-<entry key="4" type="xstring" value="Reference3"/>
-<entry key="5" type="xstring" value="CustomerReference"/>
-<entry key="6" type="xstring" value="SubTotal"/>
-<entry key="7" type="xstring" value="TaxTotal"/>
-<entry key="8" type="xstring" value="TotalAmount"/>
-<entry key="9" type="xstring" value="TaxInc"/>
+<entry key="0" type="xstring" value="FunderContactID"/>
+<entry key="1" type="xstring" value="Reference1"/>
+<entry key="2" type="xstring" value="Reference2"/>
+<entry key="3" type="xstring" value="Reference3"/>
+<entry key="4" type="xstring" value="CustomerReference"/>
+<entry key="5" type="xstring" value="SubTotal"/>
+<entry key="6" type="xstring" value="TaxTotal"/>
+<entry key="7" type="xstring" value="TotalAmount"/>
+<entry key="8" type="xstring" value="TaxInc"/>
+<entry key="9" type="xstring" value="InvoiceDate"/>
 <entry key="10" type="xstring" value="ToName"/>
 <entry key="11" type="xstring" value="ToAddress1"/>
 <entry key="12" type="xstring" value="ToAddress2"/>
@@ -88,6 +88,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d580144a-a99d-4dcb-ba63-20164a14016d"/>
+<entry key="file_store_id" type="xstring" value="8babaf8e-4fcd-4591-8f4c-d2d6eb59efd3"/>
 </config>
 </config>

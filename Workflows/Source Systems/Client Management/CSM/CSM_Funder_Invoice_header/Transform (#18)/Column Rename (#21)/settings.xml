@@ -18,13 +18,13 @@
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="2">
-<entry key="old_column_name" type="xstring" value="InvoiceDate"/>
-<entry key="new_column_name" type="xstring" value="INVOICE_DATE"/>
+<entry key="old_column_name" type="xstring" value="InvoiceNumber"/>
+<entry key="new_column_name" type="xstring" value="NDIS_INVOICE_HEADER_BK"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 <config key="3">
-<entry key="old_column_name" type="xstring" value="InvoiceNumber"/>
-<entry key="new_column_name" type="xstring" value="NDIS_INVOICE_HEADER_BK"/>
+<entry key="old_column_name" type="xstring" value="CreatedDate"/>
+<entry key="new_column_name" type="xstring" value="INVOICE_DATE"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 </config>
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="20f32916-94fc-4a1b-90eb-19647e682416"/>
+<entry key="file_store_id" type="xstring" value="3a4e7a28-545a-4901-9fb7-6ef87e659792"/>
 </config>
 </config>
