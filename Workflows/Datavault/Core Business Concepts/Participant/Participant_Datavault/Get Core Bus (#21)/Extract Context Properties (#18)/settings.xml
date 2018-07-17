@@ -30,7 +30,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.temp.location"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\26\knime_Participant_Dat39659"/>
+<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\2\knime_Participant_Dat27637"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
@@ -54,7 +54,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.last.time.modified"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Sun Jun 17 14:14:02 AEST 2018"/>
+<entry key="value" type="xstring" value="Tue Jul 10 15:28:46 AEST 2018"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
@@ -84,7 +84,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.temp.location"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\26\knime_Participant_Dat39659"/>
+<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\2\knime_Participant_Dat27637"/>
 </config>
 <config key="Variable_14">
 <entry key="type" type="xstring" value="variable"/>
@@ -108,7 +108,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.last.time.modified"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Sun Jun 17 14:14:02 AEST 2018"/>
+<entry key="value" type="xstring" value="Tue Jul 10 15:28:46 AEST 2018"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -117,10 +117,6 @@
 <config key="model"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Loading model settings failed: Boolean for key &quot;isExtractAllProps&quot; not found."/>
-</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory"/>
 <entry key="node-name" type="xstring" value="Extract Context Properties"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -148,6 +144,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="80672569-3be6-46f9-b1c6-18fc51f5df7a"/>
 </config>
 </config>
