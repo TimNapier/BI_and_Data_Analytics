@@ -4,17 +4,33 @@
     "created":"2018-07-23 23:07",
     "nodestats":{
         "nodes":[
+            {
+                "id":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":414,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#WrappedNode Input",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":20,
+                "nrcreated":0,
+                "successor":"n/a"
+            }
         ],
         "metaNodes":{
         },
         "wrappedNodes":{
         }
     },
-    "uptime":13577,
-    "workflowsOpened":0,
+    "uptime":148118,
+    "workflowsOpened":1,
     "remoteWorkflowsOpened":0,
-    "launches":1,
-    "timeSinceLastStart":13578,
+    "launches":2,
+    "timeSinceLastStart":282659,
     "crashes":0,
-    "properlyShutDown":true
+    "properlyShutDown":false
 }
