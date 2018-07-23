@@ -12,7 +12,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="9"/>
+<entry key="array-size" type="xint" value="10"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -62,6 +62,12 @@
 </config>
 </config>
 <config key="8">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="SOURCE"/>
+</config>
+</config>
+<config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="LOAD_DATE_TIME"/>
@@ -116,7 +122,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="8"/>
+<entry key="IntCell" type="xint" value="9"/>
 </config>
 </config>
 </config>
@@ -182,13 +188,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="9"/>
+<entry key="IntCell" type="xint" value="10"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="9"/>
+<entry key="IntCell" type="xint" value="10"/>
 </config>
 </config>
 </config>
@@ -212,7 +218,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="9.0"/>
+<entry key="DoubleCell" type="xdouble" value="10.0"/>
 </config>
 </config>
 </config>
@@ -255,7 +261,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="9"/>
+<entry key="array-size" type="xint" value="10"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -305,6 +311,12 @@
 </config>
 </config>
 <config key="8">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="&quot;SOURCE&quot; varchar(256) ,"/>
+</config>
+</config>
+<config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="&quot;LOAD_DATE_TIME&quot; varchar(256) )"/>

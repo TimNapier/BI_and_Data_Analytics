@@ -1,7 +1,6 @@
 use ARALUEN_DATAVAULT;
 use schema LOAD_NDIS;
 use warehouse ARALUEN;
-CREATE OR REPLACE STAGE Funder FILE_FORMAT=LOAD_CSM.CSVFORMAT;
-put file://C:\BI\\DATA\CSM\Funder.CSV  @Funder;
-COPY INTO "ARALUEN_DATAVAULT"."LOAD_CSM"."Funder" FROM @Funder file_format='LOAD_CSM.CSVFORMAT';
+put file://C:\BI_and_Data_Analytics\Data\input_file.csv @STAGE_NDIS;
+COPY INTO "ARALUEN_DATAVAULT"."LOAD_NDIS"."NDIS_INVOICE_DETAIL_FINANCE_REF" FROM @STAGE_NDIS file_format='LOAD_CSM.CSVFORMAT';
 remove @STAGE_NDIS pattern='.*.csv.gz';

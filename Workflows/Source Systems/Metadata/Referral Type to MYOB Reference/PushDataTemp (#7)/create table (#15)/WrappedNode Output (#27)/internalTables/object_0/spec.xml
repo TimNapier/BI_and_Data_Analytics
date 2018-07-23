@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;NDIS_INVOICE_DETAIL_FINANCE_REF&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;FINANCE_REFRENCE_JOB&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;HNDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;NDIS_INVOICE_DETAIL_FINANCE_REF&quot; ( &quot;InvoiceLineID&quot; varchar(256) , &quot;InvoiceNumber&quot; varchar(256) , &quot;FINANCE_REFRENCE_JOB&quot; varchar(256) , &quot;NDIS_INVOICE_DETAIL_BK&quot; varchar(256) , &quot;HNDIS_INVOICE_DETAIL_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;SOURCE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 </config>

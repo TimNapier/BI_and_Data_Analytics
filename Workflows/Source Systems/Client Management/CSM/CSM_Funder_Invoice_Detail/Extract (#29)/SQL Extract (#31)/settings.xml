@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="sql"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="SELECT table_1746665704_1.InvoiceLineID AS InvoiceLineID, table_1746665704_1.FunderID AS FunderID, table_1746665704_1.InvoiceNumber AS InvoiceNumber, table_1746665704_1.Stockcode AS Stockcode, table_1746665704_1.Quantity AS Quantity, table_1746665704_1.UnitPrice AS UnitPrice, table_1746665704_1.LineTotal AS LineTotal, table_1746665704_1.JobID AS JobID, table_1746665704_1.JobDate AS JobDate, table_1746665704_1.ClientID AS ClientID, table_1746665704_1.PayrollBatchID AS PayrollBatchID, table_1746665704_1.FunderGroupID AS FunderGroupID, table_1746665704_1.PackageID AS PackageID, table_1746665704_2.NDIS_SUPPORT_ITEM_BK AS NDIS_SUPPORT_ITEM_BK FROM (SELECT table_2029680501_1.InvoiceLineID AS InvoiceLineID, table_2029680501_1.FunderID AS FunderID, table_2029680501_1.InvoiceNumber AS InvoiceNumber, table_2029680501_1.Stockcode AS Stockcode, table_2029680501_1.Quantity AS Quantity, table_2029680501_1.UnitPrice AS UnitPrice, table_2029680501_1.LineTotal AS LineTotal, table_2029680501_1.JobID AS JobID, table_2029680501_1.JobDate AS JobDate, table_2029680501_2.ClientID AS ClientID, table_2029680501_2.PayrollBatchID AS PayrollBatchID, table_2029680501_2.FunderGroupID AS FunderGroupID, table_2029680501_2.PackageID AS PackageID FROM (SELECT InvoiceLineID,FunderID,InvoiceNumber,Stockcode,Quantity,UnitPrice,LineTotal,JobID,JobDate FROM (SELECT *%%00010  FROM [CMSAraluenLive].[Jobs].[FunderInvoiceLines]) table_1765823375) table_2029680501_1 JOIN (SELECT JobID,ClientID,PayrollBatchID,FunderGroupID,PackageID FROM (SELECT *%%00010  FROM [Jobs].[Jobs]) table_663154188) table_2029680501_2 ON table_2029680501_1.JobID=table_2029680501_2.JobID) table_1746665704_1 JOIN (SELECT FunderGroupID,PGCostCentre AS NDIS_SUPPORT_ITEM_BK FROM (SELECT FunderGroupID,PGCostCentre FROM (SELECT *%%00010  FROM [Jobs].[FunderGroups]) table_8136049) table_424451712) table_1746665704_2 ON table_1746665704_1.FunderGroupID=table_1746665704_2.FunderGroupID"/>
+<entry key="value" type="xstring" value="SELECT table_997254883_1.InvoiceLineID AS InvoiceLineID, table_997254883_1.FunderID AS FunderID, table_997254883_1.InvoiceNumber AS InvoiceNumber, table_997254883_1.Stockcode AS Stockcode, table_997254883_1.Quantity AS Quantity, table_997254883_1.UnitPrice AS UnitPrice, table_997254883_1.LineTotal AS LineTotal, table_997254883_1.JobID AS JobID, table_997254883_1.JobDate AS JobDate, table_997254883_1.ClientID AS ClientID, table_997254883_1.PayrollBatchID AS PayrollBatchID, table_997254883_1.FunderGroupID AS FunderGroupID, table_997254883_1.PackageID AS PackageID, table_997254883_2.NDIS_SUPPORT_ITEM_BK AS NDIS_SUPPORT_ITEM_BK FROM (SELECT table_1378443751_1.InvoiceLineID AS InvoiceLineID, table_1378443751_1.FunderID AS FunderID, table_1378443751_1.InvoiceNumber AS InvoiceNumber, table_1378443751_1.Stockcode AS Stockcode, table_1378443751_1.Quantity AS Quantity, table_1378443751_1.UnitPrice AS UnitPrice, table_1378443751_1.LineTotal AS LineTotal, table_1378443751_1.JobID AS JobID, table_1378443751_1.JobDate AS JobDate, table_1378443751_2.ClientID AS ClientID, table_1378443751_2.PayrollBatchID AS PayrollBatchID, table_1378443751_2.FunderGroupID AS FunderGroupID, table_1378443751_2.PackageID AS PackageID FROM (SELECT InvoiceLineID,FunderID,InvoiceNumber,Stockcode,Quantity,UnitPrice,LineTotal,JobID,JobDate FROM (SELECT *%%00010  FROM [CMSAraluenLive].[Jobs].[FunderInvoiceLines]) table_1130262964) table_1378443751_1 JOIN (SELECT JobID,ClientID,PayrollBatchID,FunderGroupID,PackageID FROM (SELECT *%%00010  FROM [Jobs].[Jobs]) table_333405692) table_1378443751_2 ON table_1378443751_1.JobID=table_1378443751_2.JobID) table_997254883_1 JOIN (SELECT FunderGroupID,PGCostCentre AS NDIS_SUPPORT_ITEM_BK FROM (SELECT FunderGroupID,PGCostCentre FROM (SELECT *%%00010  FROM [Jobs].[FunderGroups]) table_569830722) table_1143150812) table_997254883_2 ON table_997254883_1.FunderGroupID=table_997254883_2.FunderGroupID"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -26,11 +26,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="SQL Extract"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -55,6 +55,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="c3bde665-9b76-4b4f-9c9a-9a659a215b33"/>
+<entry key="file_store_id" type="xstring" value="eabca107-11d7-4982-9f37-32e70c292659"/>
 </config>
 </config>
