@@ -3226,3 +3226,244 @@ Type SQL statements or !help
 +------------------------------+---------+
 1 Row(s) produced. Time Elapsed: 0.173s
 Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.097s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.120s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.099s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.117s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.732s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.102s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.101s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.092s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.662s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.102s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.087s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.092s
++-----------------------------------------+
+| status                                  |
+|-----------------------------------------|
+| Stage area FUNDER successfully created. |
++-----------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.119s
+Funder.CSV_c.gz(0.02MB): [##########] 100.00% Done (0.192s, 0.12MB/s).
++------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source     | target        | source_size | target_size | source_compression | target_compression | status   | message |
+|------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Funder.CSV | Funder.CSV.gz |      111968 |       24356 | NONE               | GZIP               | UPLOADED |         |
++------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 5.466s
++----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                 | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| funder/Funder.CSV.gz | LOADED |         574 |         574 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 1.034s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.122s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.118s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.102s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.099s
++------------+---------------+-------------+-------------+--------------------+--------------------+---------+-----------------------------------------------------------------+
+| source     | target        | source_size | target_size | source_compression | target_compression | status  | message                                                         |
+|------------+---------------+-------------+-------------+--------------------+--------------------+---------+-----------------------------------------------------------------|
+| Funder.CSV | Funder.CSV.gz |      111968 |           0 | NONE               | GZIP               | SKIPPED | File with the same destination name and checksum already exists |
++------------+---------------+-------------+-------------+--------------------+--------------------+---------+-----------------------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 3.168s
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Copy executed with 0 files processed. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.846s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.190s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.121s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.103s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.086s
++-----------------------------------------+
+| status                                  |
+|-----------------------------------------|
+| Stage area FUNDER successfully created. |
++-----------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.147s
+Funder.CSV_c.gz(0.02MB): [##########] 100.00% Done (1.387s, 0.02MB/s).
++------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source     | target        | source_size | target_size | source_compression | target_compression | status   | message |
+|------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Funder.CSV | Funder.CSV.gz |      107376 |       24346 | NONE               | GZIP               | UPLOADED |         |
++------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 3.548s
++----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                 | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| funder/Funder.CSV.gz | LOADED |         574 |         574 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 1.589s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.123s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.109s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.146s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.174s
++-----------------------------------------+
+| status                                  |
+|-----------------------------------------|
+| Stage area FUNDER successfully created. |
++-----------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.300s
+Funder.CSV_c.gz(0.02MB): [##########] 100.00% Done (0.193s, 0.12MB/s).
++------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source     | target        | source_size | target_size | source_compression | target_compression | status   | message |
+|------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Funder.CSV | Funder.CSV.gz |      107376 |       24346 | NONE               | GZIP               | UPLOADED |         |
++------------+---------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 1.318s
++----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                 | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| funder/Funder.CSV.gz | LOADED |         574 |         574 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++----------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 1.506s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.134s
+Goodbye!
