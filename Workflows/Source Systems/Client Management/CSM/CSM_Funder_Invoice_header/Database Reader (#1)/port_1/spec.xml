@@ -20,7 +20,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="10360"/>
+<entry key="IntCell" type="xint" value="10705"/>
 </config>
 </config>
 </config>
@@ -50,7 +50,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1530100291757"/>
+<entry key="timeInMillis" type="xlong" value="1531831606113"/>
 </config>
 </config>
 </config>
@@ -74,7 +74,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="560"/>
+<entry key="IntCell" type="xint" value="566"/>
 </config>
 </config>
 </config>
@@ -306,7 +306,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1529193600000"/>
+<entry key="timeInMillis" type="xlong" value="1531612800000"/>
 </config>
 </config>
 </config>
@@ -333,7 +333,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="34"/>
+<entry key="array-size" type="xint" value="35"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -538,6 +538,12 @@
 <entry key="StringCell" type="xstring" value="4 Graffs Avenue Doreen"/>
 </config>
 </config>
+<config key="34">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="29 Howard St"/>
+</config>
+</config>
 </config>
 </config>
 <config key="column_properties"/>
@@ -552,7 +558,7 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="16"/>
+<entry key="array-size" type="xint" value="17"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
@@ -647,6 +653,12 @@
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="Melbourne"/>
+</config>
+</config>
+<config key="16">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Glen Iris"/>
 </config>
 </config>
 </config>
@@ -833,7 +845,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="6880"/>
+<entry key="IntCell" type="xint" value="7225"/>
 </config>
 </config>
 </config>
@@ -863,7 +875,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1528675200000"/>
+<entry key="timeInMillis" type="xlong" value="1530489600000"/>
 </config>
 </config>
 </config>
@@ -893,7 +905,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1529193600000"/>
+<entry key="timeInMillis" type="xlong" value="1531612800000"/>
 </config>
 </config>
 </config>
@@ -917,7 +929,7 @@
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="492"/>
+<entry key="IntCell" type="xint" value="499"/>
 </config>
 </config>
 </config>
@@ -958,7 +970,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1530100291793"/>
+<entry key="timeInMillis" type="xlong" value="1531831606180"/>
 </config>
 </config>
 </config>

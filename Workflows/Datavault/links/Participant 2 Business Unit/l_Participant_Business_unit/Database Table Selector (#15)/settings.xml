@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT &quot;h_client_sid&quot; as H_PARTICIPANT_SID,%%00010&quot;h_business_unit_sid&quot; as H_BUSINESS_UNIT_SID,%%00010&quot;l_client_business_unit_sid&quot; as L_PARTICIPANT_BUSINESS_UNIT_SID,%%00010&quot;workflow_path&quot; as WORKFLOW_PATH,%%00010&quot;workflow_name&quot; as WORKFLOW_NAME,&quot;workspace&quot; as WORKSPACE,%%00010&quot;load_date_time&quot; as LOAD_DATE_TIME FROM (SELECT *%%00010FROM ARALUEN_DATAVAULT.LOAD_NDIS.&quot;assigned_business_unit&quot;) table_1606161294"/>
+<entry key="statement" type="xstring" value="SELECT &quot;h_client_sid&quot; as H_PARTICIPANT_SID,%%00010&quot;h_business_unit_sid&quot; as H_BUSINESS_UNIT_SID,%%00010&quot;l_client_business_unit_sid&quot; as L_PARTICIPANT_BUSINESS_UNIT_SID,%%00010&quot;WORKFLOW_PATH&quot; as WORKFLOW_PATH,%%00010&quot;WORKFLOW_NAME&quot; as WORKFLOW_NAME,&quot;WORKSPACE&quot; as WORKSPACE,%%00010&quot;LOAD_DATE_TIME&quot; as LOAD_DATE_TIME FROM (SELECT *%%00010FROM ARALUEN_DATAVAULT.LOAD_NDIS.&quot;assigned_business_unit&quot;) table_1606161294"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="832859e4-bfd8-457e-9f1f-6de0dbba3ea3"/>
+<entry key="file_store_id" type="xstring" value="95635ece-ed29-441a-9762-9a4b46800bff"/>
 </config>
 </config>

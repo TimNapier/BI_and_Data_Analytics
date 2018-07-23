@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="L_PARTICIPANT_BUSINESS_UNIT"/>
+<entry key="value" type="xstring" value="l_Participant_Business_unit"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="L_PARTICIPANT_BUSINESS_UNIT"/>
+<entry key="value" type="xstring" value="l_Participant_Business_unit"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -54,6 +54,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="44db35f8-f288-4340-ae87-f239937e7c75"/>
+<entry key="file_store_id" type="xstring" value="598fedda-4487-456d-9506-ca4e1af76986"/>
 </config>
 </config>

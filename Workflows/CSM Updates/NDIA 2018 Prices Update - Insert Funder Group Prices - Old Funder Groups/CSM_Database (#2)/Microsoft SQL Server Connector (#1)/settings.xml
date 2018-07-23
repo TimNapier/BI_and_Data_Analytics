@@ -7,7 +7,7 @@
 </config>
 <config key="model">
 <entry key="driver" type="xstring" value="net.sourceforge.jtds.jdbc.Driver"/>
-<entry key="database" type="xstring" value="jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/TestCMSAraluen"/>
+<entry key="database" type="xstring" value="jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive"/>
 <entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
 <entry key="userName" type="xstring" value="sa"/>
 <entry key="passwordEncrypted" type="xpassword" value="011B6480F8FB136D0489D648AF1480E5EE"/>
@@ -23,7 +23,7 @@
 <config key="default-connection">
 <entry key="hostname" type="xstring" value="ARL-HQ-RDS-12"/>
 <entry key="port" type="xint" value="1450"/>
-<entry key="databaseName" type="xstring" value="TestCMSAraluen"/>
+<entry key="databaseName" type="xstring" value="CMSAraluenLive"/>
 </config>
 <config key="parameter">
 <entry key="parameter" type="xstring" value=""/>
@@ -50,7 +50,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObject"/>
-<entry key="port_object_summary" type="xstring" value="DB: jtds URL: jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/TestCMSAraluen"/>
+<entry key="port_object_summary" type="xstring" value="DB: jtds URL: jdbc:jtds:sqlserver://ARL-HQ-RDS-12:1450/CMSAraluenLive"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -58,6 +58,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6348c928-b012-431b-b1a0-4176fee1fe0a"/>
+<entry key="file_store_id" type="xstring" value="2c25c23a-dbf7-4885-b07c-4fab7fd8207b"/>
 </config>
 </config>
