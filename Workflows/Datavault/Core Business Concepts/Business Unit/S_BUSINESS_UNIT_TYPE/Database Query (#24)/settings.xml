@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT &quot;Type&quot; AS BUSINESS_UNIT_TYPE,&quot;h_business_unit_sid&quot; AS H_BUSINESS_UNIT_SID,%%00010&quot;workflow_path&quot; AS WORKFLOW_PATH,&quot;workflow_name&quot; AS WORKFLOW_NAME,&quot;workspace&quot; AS WORKSPACE,%%00010&quot;load_date_time&quot; AS LOAD_DATE_TIME %%00010FROM (%%00010%%00009SELECT * FROM #table#%%00010)"/>
+<entry key="statement" type="xstring" value="SELECT &quot;Type&quot; AS BUSINESS_UNIT_TYPE,&quot;h_business_unit_sid&quot; AS H_BUSINESS_UNIT_SID,%%00010 WORKFLOW_PATH, WORKFLOW_NAME, WORKSPACE,%%00010 LOAD_DATE_TIME %%00010FROM (%%00010%%00009SELECT * FROM #table#%%00010)"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -21,7 +21,7 @@
 <entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
 <entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
 <entry key="kerberos" type="xboolean" value="false"/>
-<entry key="knimeVersion" type="xstring" value="3.5.3"/>
+<entry key="knimeVersion" type="xstring" value="3.6.0"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -30,11 +30,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Query"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="c73d2df8-d72e-4bb9-a9b4-9496de813f2a"/>
+<entry key="file_store_id" type="xstring" value="18022e50-8eb3-4bc4-b253-af8454ef9bc9"/>
 </config>
 </config>

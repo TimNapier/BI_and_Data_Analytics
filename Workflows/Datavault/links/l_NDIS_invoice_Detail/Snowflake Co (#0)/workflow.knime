@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
-<entry key="created_by" type="xstring" value="3.5.3.v201804031105"/>
+<entry key="created_by" type="xstring" value="3.6.0.v201807100937"/>
 <entry key="created_by_nightly" type="xboolean" value="false"/>
-<entry key="version" type="xstring" value="3.1.0"/>
+<entry key="version" type="xstring" value="3.6.0Pre"/>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Link"/>
-<entry key="timestamp" type="xstring" value="2018-06-20 22:22:26"/>
-<entry key="sourceURI" type="xstring" value="knime://LOCAL/Snowflake/Snowflake%20Connection"/>
+<entry key="timestamp" type="xstring" value="2018-06-28 15:22:09"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/Utilities/Snowflake%20Connection%20Template"/>
 </config>
-<entry key="name" type="xstring" value="Snowflake Connection"/>
+<entry key="name" type="xstring" value="Snowflake Connection Template"/>
 <config key="authorInformation">
-<entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
-<entry key="authored-when" type="xstring" value="1970-01-01 10:00:00 +1000"/>
+<entry key="authored-by" type="xstring" value="Administrator"/>
+<entry key="authored-when" type="xstring" value="2018-06-07 13:53:44 +1000"/>
 <entry key="lastEdited-by" type="xstring" value="Administrator"/>
-<entry key="lastEdited-when" type="xstring" value="2018-06-20 22:22:26 +1000"/>
+<entry key="lastEdited-when" type="xstring" value="2018-06-28 15:22:09 +1000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -35,10 +35,32 @@
 </config>
 </config>
 </config>
+<config key="node_2">
+<entry key="id" type="xint" value="2"/>
+<entry key="node_settings_file" type="xstring" value="Database SQL Executor (#2)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="464"/>
+<entry key="1" type="xint" value="197"/>
+<entry key="2" type="xint" value="89"/>
+<entry key="3" type="xint" value="93"/>
+</config>
+</config>
+</config>
 </config>
 <config key="connections">
 <config key="connection_0">
 <entry key="sourceID" type="xint" value="1"/>
+<entry key="destID" type="xint" value="2"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_1">
+<entry key="sourceID" type="xint" value="2"/>
 <entry key="destID" type="xint" value="-1"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="0"/>
@@ -49,7 +71,7 @@
 <config key="port_enum">
 <config key="outport_0">
 <entry key="index" type="xint" value="0"/>
-<entry key="name" type="xstring" value="Connected to: Database JDBC Connection"/>
+<entry key="name" type="xstring" value="Connected to: Database Connection"/>
 <config key="type">
 <entry key="object_class" type="xstring" value="org.knime.core.node.port.database.DatabaseConnectionPortObject"/>
 </config>

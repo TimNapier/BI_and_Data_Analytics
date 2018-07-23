@@ -12,7 +12,7 @@
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
 <entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
 <entry key="userName" type="xstring" isnull="true" value=""/>
-<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
+<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
 <entry key="password" type="xstring" isnull="true" value=""/>
 <entry key="timezone" type="xstring" value="current"/>
 <entry key="validateConnection" type="xboolean" value="false"/>
@@ -30,11 +30,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Table Selector"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="95635ece-ed29-441a-9762-9a4b46800bff"/>
+<entry key="file_store_id" type="xstring" value="65f150c2-0514-4e67-961e-bdff231ae628"/>
 </config>
 </config>

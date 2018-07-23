@@ -30,11 +30,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Table Selector"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -52,10 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<<<<<<< HEAD
-<entry key="file_store_id" type="xstring" value="2806d4ab-acd8-4460-bf07-2c0f2de474e9"/>
-=======
-<entry key="file_store_id" type="xstring" value="7fbe13aa-8df2-40e6-9aac-2390e9496f8b"/>
->>>>>>> 183640445ea5eda5b8282289227e3337d9c3dc20
+<entry key="file_store_id" type="xstring" value="c5894c53-4525-420f-95d1-d06e09f9a3d4"/>
 </config>
 </config>

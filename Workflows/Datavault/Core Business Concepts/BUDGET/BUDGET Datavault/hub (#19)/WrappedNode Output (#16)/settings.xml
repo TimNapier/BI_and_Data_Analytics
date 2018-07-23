@@ -30,29 +30,29 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Outer workflow does not have input data, execute it first"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="isDeletable" type="xboolean" value="false"/>
 <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory"/>
 <entry key="node-name" type="xstring" value="WrappedNode Output"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804031105"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807100937"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="WrappedNode Output"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content"/>
+</config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="93d25178-9eed-46d4-8a24-e5a483e45939"/>
 </config>
 </config>

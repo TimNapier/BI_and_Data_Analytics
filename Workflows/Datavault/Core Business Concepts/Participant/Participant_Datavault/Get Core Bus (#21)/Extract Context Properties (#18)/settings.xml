@@ -117,6 +117,10 @@
 <config key="model"/>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Loading model settings failed: Boolean for key &quot;isExtractAllProps&quot; not found."/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory"/>
 <entry key="node-name" type="xstring" value="Extract Context Properties"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -144,6 +148,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="343959b6-a386-4e15-bdf1-8cb9afed69ba"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

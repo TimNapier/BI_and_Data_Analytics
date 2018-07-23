@@ -28,6 +28,7 @@
 <entry key="hideInDialog" type="xboolean" value="false"/>
 <entry key="required" type="xboolean" value="true"/>
 <entry key="parameterName" type="xstring" value="string-input"/>
+<entry key="customCSS" type="xstring" value=""/>
 <entry key="flowvariablename" type="xstring" value="local_var_core_business_concept"/>
 <entry key="regex" type="xstring" value=""/>
 <entry key="error_message" type="xstring" value=""/>
@@ -64,6 +65,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="de6ea778-de99-4fa1-88b6-8a424f669b6e"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

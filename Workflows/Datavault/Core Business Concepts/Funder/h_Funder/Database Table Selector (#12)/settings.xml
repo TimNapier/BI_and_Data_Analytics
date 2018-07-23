@@ -12,7 +12,7 @@
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
 <entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
 <entry key="userName" type="xstring" isnull="true" value=""/>
-<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
+<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
 <entry key="password" type="xstring" isnull="true" value=""/>
 <entry key="timezone" type="xstring" value="current"/>
 <entry key="validateConnection" type="xboolean" value="false"/>
@@ -52,10 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<<<<<<< HEAD
-<entry key="file_store_id" type="xstring" value="aa6b7fc3-f840-408c-9fdd-b0eb0d4ad7e9"/>
-=======
-<entry key="file_store_id" type="xstring" value="59d319d1-0f2a-4cb6-b8a3-e39ce301b8b0"/>
->>>>>>> 183640445ea5eda5b8282289227e3337d9c3dc20
+<entry key="file_store_id" type="xstring" value="89773393-5602-470e-b8c9-45a957bc7b42"/>
 </config>
 </config>
