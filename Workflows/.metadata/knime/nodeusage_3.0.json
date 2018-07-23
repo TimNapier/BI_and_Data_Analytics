@@ -14,9 +14,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor",
-                "nrexecs":33,
+                "nrexecs":34,
                 "nrfails":5,
-                "exectime":12221,
+                "exectime":12633,
                 "nrcreated":2,
                 "successor":"n/a"
             },
@@ -251,6 +251,14 @@
                 "exectime":1347,
                 "nrcreated":1,
                 "successor":"n/a"
+            },
+            {
+                "id":"org.knime.rest.nodes.post.RestPostNodeFactory#POST Request",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":647,
+                "nrcreated":0,
+                "successor":"n/a"
             }
         ],
         "metaNodes":{
@@ -266,11 +274,11 @@
             "nrcreated":0
         }
     },
-    "uptime":5884014,
-    "workflowsOpened":85,
+    "uptime":6454628,
+    "workflowsOpened":86,
     "remoteWorkflowsOpened":0,
     "launches":39,
-    "timeSinceLastStart":2576403,
+    "timeSinceLastStart":24830358,
     "crashes":1,
-    "properlyShutDown":false
+    "properlyShutDown":true
 }
