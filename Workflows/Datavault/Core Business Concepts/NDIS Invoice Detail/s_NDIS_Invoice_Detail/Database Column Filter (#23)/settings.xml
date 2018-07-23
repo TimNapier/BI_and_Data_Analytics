@@ -12,21 +12,22 @@
 </config>
 <config key="column_filter">
 <config key="InclList">
-<entry key="array-size" type="xint" value="11"/>
+<entry key="array-size" type="xint" value="12"/>
 <entry key="0" type="xstring" value="ACCOUNT_NUMBER"/>
-<entry key="1" type="xstring" value="PAYROLL_BATCH_ID"/>
-<entry key="2" type="xstring" value="QUANTITY"/>
-<entry key="3" type="xstring" value="UNIT_PRICE"/>
-<entry key="4" type="xstring" value="LINE_TOTAL"/>
-<entry key="5" type="xstring" value="ACTIVITY_DATE"/>
-<entry key="6" type="xstring" value="H_NDIS_INVOICE_HEADER_SID"/>
-<entry key="7" type="xstring" value="WORKFLOW_PATH"/>
-<entry key="8" type="xstring" value="WORKFLOW_NAME"/>
-<entry key="9" type="xstring" value="WORKSPACE"/>
-<entry key="10" type="xstring" value="LOAD_DATE_TIME"/>
+<entry key="1" type="xstring" value="NDIS_INVOICE_DETAIL_DESCRIPTION"/>
+<entry key="2" type="xstring" value="PAYROLL_BATCH_ID"/>
+<entry key="3" type="xstring" value="QUANTITY"/>
+<entry key="4" type="xstring" value="UNIT_PRICE"/>
+<entry key="5" type="xstring" value="LINE_TOTAL"/>
+<entry key="6" type="xstring" value="ACTIVITY_DATE"/>
+<entry key="7" type="xstring" value="H_NDIS_INVOICE_DETAIL_SID"/>
+<entry key="8" type="xstring" value="WORKFLOW_PATH"/>
+<entry key="9" type="xstring" value="WORKFLOW_NAME"/>
+<entry key="10" type="xstring" value="WORKSPACE"/>
+<entry key="11" type="xstring" value="LOAD_DATE_TIME"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="17"/>
+<entry key="array-size" type="xint" value="20"/>
 <entry key="0" type="xstring" value="InvoiceLineID"/>
 <entry key="1" type="xstring" value="FunderID"/>
 <entry key="2" type="xstring" value="InvoiceNumber"/>
@@ -36,14 +37,17 @@
 <entry key="6" type="xstring" value="LineTotal"/>
 <entry key="7" type="xstring" value="JobID"/>
 <entry key="8" type="xstring" value="JobDate"/>
-<entry key="9" type="xstring" value="NDIS_INVOICE_DETAIL_DESCRIPTION"/>
+<entry key="9" type="xstring" value="PARTICIPANT_BKEY"/>
 <entry key="10" type="xstring" value="PayrollBatchID"/>
 <entry key="11" type="xstring" value="FunderGroupID"/>
-<entry key="12" type="xstring" value="NDIS_SUPPORT_ITEM_BK"/>
-<entry key="13" type="xstring" value="NDIS_INVOICE_DETAIL_BK"/>
-<entry key="14" type="xstring" value="H_NDIS_INVOICE_DETAIL_SID"/>
-<entry key="15" type="xstring" value="H_FUNDER_SID"/>
-<entry key="16" type="xstring" value="H_NDIS_SUPPORT_ITEM_SID"/>
+<entry key="12" type="xstring" value="PackageID"/>
+<entry key="13" type="xstring" value="NDIS_SUPPORT_ITEM_BK"/>
+<entry key="14" type="xstring" value="H_PARTICIPANT_SID"/>
+<entry key="15" type="xstring" value="H_REFERRAL_SID"/>
+<entry key="16" type="xstring" value="H_NDIS_INVOICE_HEADER_SID"/>
+<entry key="17" type="xstring" value="NDIS_INVOICE_DETAIL_BK"/>
+<entry key="18" type="xstring" value="H_FUNDER_SID"/>
+<entry key="19" type="xstring" value="H_NDIS_SUPPORT_ITEM_SID"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
@@ -69,7 +73,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 11 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 12 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -77,6 +81,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="1499cbb4-173b-41ae-810e-5bc30d2621de"/>
+<entry key="file_store_id" type="xstring" value="58d500b3-7603-450a-a668-4480993abd32"/>
 </config>
 </config>

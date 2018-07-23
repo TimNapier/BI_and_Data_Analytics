@@ -1,0 +1,17 @@
+!SESSION 2018-07-19 14:35:30.397 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\BI_and_Data_Analytics\Workflows\MYOB Extracts
+
+!ENTRY org.eclipse.ui 2 0 2018-07-19 14:35:34.741
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-07-19 14:35:34.741
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-07-19 14:35:39.051
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-07-19 14:35:39.238
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
