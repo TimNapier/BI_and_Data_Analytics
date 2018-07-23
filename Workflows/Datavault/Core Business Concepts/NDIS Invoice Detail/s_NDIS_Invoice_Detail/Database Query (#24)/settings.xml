@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="select %%00010'40700' as ACCOUNT_NUMBER,%%00010&quot;PayrollBatchID&quot; as PAYROLL_BATCH_ID,%%00010to_number(&quot;Quantity&quot;,10,2) as QUANTITY,%%00010to_number(&quot;UnitPrice&quot;, 10,2) as UNIT_PRICE,%%00010to_number(&quot;LineTotal&quot;, 10,2) as LINE_TOTAL,%%00010to_date(&quot;JobDate&quot;) as ACTIVITY_DATE,%%00010* from (%%00010SELECT * FROM #table#%%00010)"/>
+<entry key="statement" type="xstring" value="select %%00010'40700' as ACCOUNT_NUMBER,%%00010&quot;Stockcode&quot; as NDIS_INVOICE_DETAIL_DESCRIPTION,%%00010&quot;PayrollBatchID&quot; as PAYROLL_BATCH_ID,%%00010to_number(&quot;Quantity&quot;,10,2) as QUANTITY,%%00010to_number(&quot;UnitPrice&quot;, 10,2) as UNIT_PRICE,%%00010to_number(&quot;LineTotal&quot;, 10,2) as LINE_TOTAL,%%00010to_date(&quot;JobDate&quot;) as ACTIVITY_DATE,%%00010* from (%%00010SELECT * FROM #table#%%00010)"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 28 DB: snowflake"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 32 DB: snowflake"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="63b9b366-97c4-46e2-989d-56263cb7280e"/>
+<entry key="file_store_id" type="xstring" value="55d736cd-3fe1-48bf-95fa-084828ffee6c"/>
 </config>
 </config>

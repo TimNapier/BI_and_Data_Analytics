@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="s_NDIS_Invoice_Header"/>
+<entry key="value" type="xstring" value="s_NDIS_Invoice_Detail"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.name"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="s_NDIS_Invoice_Header"/>
+<entry key="value" type="xstring" value="s_NDIS_Invoice_Detail"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -54,6 +54,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b140ceae-02d6-4294-b46c-3c67f0ffa179"/>
+<entry key="file_store_id" type="xstring" value="1d9847ca-1639-4fc7-b2ff-823030131dc9"/>
 </config>
 </config>

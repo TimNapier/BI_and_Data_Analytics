@@ -76,7 +76,7 @@
 </config>
 </config>
 <entry key="Digest_enabled" type="xboolean" value="false"/>
-<entry key="follow redirects" type="xboolean" value="true"/>
+<entry key="follow redirects" type="xboolean" value="false"/>
 <entry key="timeout" type="xint" value="2"/>
 <entry key="Use constant request body" type="xboolean" value="true"/>
 <entry key="Constant request body" type="xstring" value=""/>
@@ -89,11 +89,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME REST Client Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.rest"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804031049"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201806251157"/>
 <entry key="node-feature-name" type="xstring" value="KNIME REST Client Extension"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.rest.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804031049"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201806251157"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="POST Request"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -109,6 +109,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7018efe0-5e0f-450a-8473-e4d6aeb0d2f9"/>
+<entry key="file_store_id" type="xstring" value="b01fc187-d04f-446c-91d3-2080d15bae2e"/>
 </config>
 </config>

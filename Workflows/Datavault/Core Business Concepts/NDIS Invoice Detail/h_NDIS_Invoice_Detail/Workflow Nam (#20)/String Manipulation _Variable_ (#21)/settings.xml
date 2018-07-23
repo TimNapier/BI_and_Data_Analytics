@@ -13,7 +13,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="join(%%00010%%00009&quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;,%%00010%%00009&quot;\&quot;&quot;,%%00010%%00009$${Slocal_var_core_business_concept}$$,%%00010%%00009&quot;\&quot;&quot;%%00010%%00009)"/>
+<entry key="expression" type="xstring" value="upperCase(%%00010%%00009join(%%00010%%00009&quot;ARALUEN_DATAVAULT.DATAVAULT.&quot;,%%00010%%00009&quot;\&quot;&quot;,%%00010%%00009$${Slocal_var_core_business_concept}$$,%%00010%%00009&quot;\&quot;&quot;%%00010%%00009)%%00010%%00009)"/>
 <entry key="replaced_column" type="xstring" value="local_var_core_business_concept"/>
 <entry key="append_column" type="xboolean" value="true"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0572c015-e1d2-48dc-8ed2-cbd031043c03"/>
+<entry key="file_store_id" type="xstring" value="52ebc053-2ab5-416d-b88c-b405a33458a2"/>
 </config>
 </config>
