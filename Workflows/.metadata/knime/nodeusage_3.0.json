@@ -6,17 +6,17 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector",
-                "nrexecs":288,
-                "nrfails":8,
-                "exectime":434288,
+                "nrexecs":289,
+                "nrfails":9,
+                "exectime":436928,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.io.database.DBJoinerNodeFactory#Database Joiner"
             },
             {
                 "id":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor",
-                "nrexecs":34,
+                "nrexecs":35,
                 "nrfails":5,
-                "exectime":12633,
+                "exectime":12768,
                 "nrcreated":2,
                 "successor":"n/a"
             },
@@ -30,17 +30,17 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer",
-                "nrexecs":32,
+                "nrexecs":33,
                 "nrfails":5,
-                "exectime":50026,
+                "exectime":50916,
                 "nrcreated":0,
                 "successor":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor"
             },
             {
                 "id":"org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory#Database Connector",
-                "nrexecs":34,
+                "nrexecs":35,
                 "nrfails":0,
-                "exectime":8342,
+                "exectime":8352,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -70,9 +70,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBColumnFilterNodeFactory#Database Column Filter",
-                "nrexecs":35,
+                "nrexecs":36,
                 "nrfails":0,
-                "exectime":346,
+                "exectime":359,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -274,11 +274,11 @@
             "nrcreated":0
         }
     },
-    "uptime":6454628,
-    "workflowsOpened":86,
+    "uptime":6314552,
+    "workflowsOpened":87,
     "remoteWorkflowsOpened":0,
-    "launches":39,
-    "timeSinceLastStart":24830358,
+    "launches":40,
+    "timeSinceLastStart":851606,
     "crashes":1,
     "properlyShutDown":true
 }
