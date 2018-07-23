@@ -38,33 +38,33 @@
             },
             {
                 "id":"org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory#Database Connector",
-                "nrexecs":23,
+                "nrexecs":24,
                 "nrfails":0,
-                "exectime":1518,
+                "exectime":2595,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor",
-                "nrexecs":24,
+                "nrexecs":25,
                 "nrfails":0,
-                "exectime":5682,
+                "exectime":5873,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector",
-                "nrexecs":31,
+                "nrexecs":32,
                 "nrfails":0,
-                "exectime":19693,
+                "exectime":19994,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.DBConnectionWriterNodeFactory#Database Connection Table Writer",
-                "nrexecs":29,
+                "nrexecs":30,
                 "nrfails":0,
-                "exectime":43053,
+                "exectime":44666,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -86,9 +86,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBColumnFilterNodeFactory#Database Column Filter",
-                "nrexecs":26,
+                "nrexecs":27,
                 "nrfails":0,
-                "exectime":242,
+                "exectime":255,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -118,11 +118,11 @@
             "nrcreated":0
         }
     },
-    "uptime":2002097,
-    "workflowsOpened":43,
+    "uptime":1380753,
+    "workflowsOpened":44,
     "remoteWorkflowsOpened":0,
-    "launches":2,
-    "timeSinceLastStart":3990618,
+    "launches":3,
+    "timeSinceLastStart":138067,
     "crashes":0,
     "properlyShutDown":true
 }
