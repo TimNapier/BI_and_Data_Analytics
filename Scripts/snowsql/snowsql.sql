@@ -1,6 +1,7 @@
 use ARALUEN_DATAVAULT;
 use schema LOAD_NDIS;
 use warehouse ARALUEN;
-put file://C:\BI_and_Data_Analytics\Data\input_file.csv @STAGE_NDIS;
-COPY INTO "ARALUEN_DATAVAULT"."LOAD_NDIS"."NDIS_INVOICE_DETAIL_FINANCE_REF" FROM @STAGE_NDIS file_format='LOAD_CSM.CSVFORMAT';
+CREATE OR REPLACE STAGE accounts FILE_FORMAT=LOAD_CSM.CSVFORMAT;
+put file://D:\BI\DATA\Snowflake_Upload\accounts.csv  @accounts;
+COPY INTO "ARALUEN_DATAVAULT"."LOAD_MYOB"."accounts" FROM @accounts file_format='LOAD_CSM.CSVFORMAT';
 remove @STAGE_NDIS pattern='.*.csv.gz';
