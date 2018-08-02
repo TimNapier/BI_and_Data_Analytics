@@ -11,7 +11,7 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId"/>
     <tags>topLevel</tags>
-    <tags>shellMinimized</tags>
+    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_I0vmU5RjEei7WZhOLEqz7g" selectedElement="_I0vmVJRjEei7WZhOLEqz7g" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_I0vmVJRjEei7WZhOLEqz7g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_I8WqNpRjEei7WZhOLEqz7g">
         <children xsi:type="advanced:Perspective" xmi:id="_I8WqNpRjEei7WZhOLEqz7g" elementId="org.knime.workbench.ui.ModellerPerspective" selectedElement="_I8WqN5RjEei7WZhOLEqz7g" label="KNIME" iconURI="platform:/plugin/org.knime.workbench.ui/icons/knime_default.png">
@@ -106,7 +106,6 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_gUVdQJRjEei7WZhOLEqz7g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="0: MYOB_Item_Sales" iconURI="platform:/plugin/org.knime.workbench.editor/icons/knime.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.knime.workbench.editor.WorkflowEditor&quot; name=&quot;workflow.knime&quot; partName=&quot;0: MYOB_Item_Sales&quot; title=&quot;0: MYOB_Item_Sales&quot; tooltip=&quot;0: MYOB_Item_Sales&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;knime://LOCAL/MYOB%20Extracts/MYOB_Item_Sales/workflow.knime&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -123,6 +122,7 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;content expandedElements=&quot;LOCAL|LOCAL&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:KNIME Views</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_JBu5cJRjEei7WZhOLEqz7g" elementId="org.knime.workbench.explorer.view">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>

@@ -1,0 +1,4 @@
+100074 (54000): User character length limit (256) exceeded by string '2018\r\nJan - 15,17,22,24,29,31\r\nFeb - 5,7,12,,14,19,21,26,28\r\nMarch - 5,7,12,14,19,21,26,28\r\nA'
+  File 'journal.csv.gz', line 61273, character 102
+  Row 61272, column ""journal""["Allocation Memo":8]
+  If you would like to continue loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client.

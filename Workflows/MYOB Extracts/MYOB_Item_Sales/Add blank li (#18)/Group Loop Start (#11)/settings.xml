@@ -30,19 +30,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="currentIteration"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="7"/>
+<entry key="value" type="xint" value="0"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Card ID"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="CUS000490"/>
+<entry key="value" type="xstring" value="CUS000259"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="groupIdentifier"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="%CUS000490%"/>
+<entry key="value" type="xstring" value="%CUS000259%"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -174,12 +174,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 39"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 139, Cols: 39"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ca123002-7bfc-4235-9129-44e9d458e11a"/>
+<entry key="file_store_id" type="xstring" value="84ea4e90-05d8-46a6-9629-fb2787879122"/>
 </config>
 </config>

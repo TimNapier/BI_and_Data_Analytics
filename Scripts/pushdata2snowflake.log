@@ -4211,3 +4211,167 @@ Type SQL statements or !help
 +------+--------+
 0 Row(s) produced. Time Elapsed: 0.126s
 Goodbye!
+D:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.57
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.099s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.090s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.193s
++------------------------------------------+
+| status                                   |
+|------------------------------------------|
+| Stage area JOURNAL successfully created. |
++------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.135s
+journal.csv_c.gz(0.89MB): [###-------] 28.03% (0.090s, 9.93MB/s)journal.csv_c.gz(0.89MB): [######----] 56.07% (0.098s, 9.13MB/s)journal.csv_c.gz(0.89MB): [########--] 84.10% (0.099s, 9.04MB/s)journal.csv_c.gz(0.89MB): [##########] 100.00% Done (0.130s, 6.87MB/s).
++-------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source      | target         | source_size | target_size | source_compression | target_compression | status   | message |
+|-------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| journal.csv | journal.csv.gz |     6978111 |      935058 | NONE               | GZIP               | UPLOADED |         |
++-------------+----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 1.396s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 2.982s
+Goodbye!
+D:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.57
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.081s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.074s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.066s
++-------------------------------------------+
+| status                                    |
+|-------------------------------------------|
+| Stage area ACCOUNTS successfully created. |
++-------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.110s
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Copy executed with 0 files processed. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 2.174s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.100s
+Goodbye!
+D:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.57
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.093s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.106s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.072s
++-------------------------------------------+
+| status                                    |
+|-------------------------------------------|
+| Stage area ACCOUNTS successfully created. |
++-------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.202s
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Copy executed with 0 files processed. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 1.162s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.114s
+Goodbye!
+D:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.57
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.076s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.069s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.084s
++-------------------------------------------+
+| status                                    |
+|-------------------------------------------|
+| Stage area ACCOUNTS successfully created. |
++-------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.139s
+accounts.csv_c.gz(0.01MB): [##########] 100.00% Done (0.092s, 0.15MB/s).
++--------------+-----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source       | target          | source_size | target_size | source_compression | target_compression | status   | message |
+|--------------+-----------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| accounts.csv | accounts.csv.gz |      112017 |       14849 | NONE               | GZIP               | UPLOADED |         |
++--------------+-----------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 0.619s
++--------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                     | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|--------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| accounts/accounts.csv.gz | LOADED |         291 |         291 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++--------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 0.742s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.120s
+Goodbye!
