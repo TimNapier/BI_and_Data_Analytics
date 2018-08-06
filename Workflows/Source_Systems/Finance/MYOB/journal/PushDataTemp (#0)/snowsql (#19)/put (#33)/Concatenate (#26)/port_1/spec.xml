@@ -54,11 +54,17 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
+<entry key="array-size" type="xint" value="2"/>
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="D:\BI\DATA\Snowflake_Upload\journal.csv"/>
+<entry key="StringCell" type="xstring" value="D:/BI_and_Data_Analytics/Workflows/Source_Systems/Finance/MYOB/journal\journal.csv"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="D:\BI_and_Data_Analytics\Workflows\Source_Systems\Finance\MYOB\journal\journal.csv"/>
 </config>
 </config>
 </config>
@@ -85,7 +91,7 @@
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="put file://D:\BI\DATA\Snowflake_Upload\journal.csv  @journal;"/>
+<entry key="StringCell" type="xstring" value="put file://D:\BI_and_Data_Analytics\Workflows\Source_Systems\Finance\MYOB\journal\journal.csv  @journal;"/>
 </config>
 </config>
 </config>

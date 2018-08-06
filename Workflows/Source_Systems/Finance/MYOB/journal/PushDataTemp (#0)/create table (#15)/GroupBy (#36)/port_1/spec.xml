@@ -16,7 +16,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_MYOB.&quot;journal&quot; ( &quot;Journal Number&quot; varchar(256) , &quot;Date&quot; varchar(256) , &quot;Memo&quot; varchar(256) , &quot;Account Number&quot; varchar(256) , &quot;Is Credit&quot; varchar(256) , &quot;Amount&quot; varchar(256) , &quot;Job&quot; varchar(256) , &quot;Allocation Memo&quot; varchar(256) , &quot;Category&quot; varchar(256) , &quot;Is Year-End Adjustment&quot; varchar(256) )"/>
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_MYOB.&quot;journal&quot; ( &quot;JOURNAL_BK&quot; varchar(256) , &quot;DATE&quot; varchar(256) , &quot;MEMO&quot; varchar(256) , &quot;ACCOUNT_BK&quot; varchar(256) , &quot;IS_CREDIT&quot; varchar(256) , &quot;AMOUNT&quot; varchar(256) , &quot;BUSINESS_UNIT_BK&quot; varchar(256) , &quot;ALLOCATION_MEMO&quot; varchar(256) , &quot;CATEGORY&quot; varchar(256) , &quot;IS_YEAR-END_ADJUSTMENT&quot; varchar(256) , &quot;H_JOURNAL_SID&quot; varchar(256) , &quot;JOURNAL_DETAIL_BK&quot; varchar(256) , &quot;H_JOURNAL_DETAIL_SID&quot; varchar(256) , &quot;H_ACCOUNT_SID&quot; varchar(256) , &quot;H_BUSINESS_UNIT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;SOURCE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 </config>

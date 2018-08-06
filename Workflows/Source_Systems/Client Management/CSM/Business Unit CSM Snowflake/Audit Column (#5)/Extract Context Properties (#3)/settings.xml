@@ -12,7 +12,19 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/Source Systems/Client Management/CSM/Business Unit CSM Snowflake"/>
+<entry key="value" type="xstring" value="/Source_Systems/Client Management/CSM/Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="context.workflow.name"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Business Unit CSM Snowflake"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="context.workflow.path"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/Source_Systems/Client Management/CSM/Business Unit CSM Snowflake"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -27,7 +39,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Outer workflow does not have input data, execute it first"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory"/>
 <entry key="node-name" type="xstring" value="Extract Context Properties"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>

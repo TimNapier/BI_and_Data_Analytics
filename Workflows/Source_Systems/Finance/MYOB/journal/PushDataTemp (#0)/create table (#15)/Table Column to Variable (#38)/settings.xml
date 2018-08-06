@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_MYOB.&quot;journal&quot; ( &quot;Journal Number&quot; varchar(256) , &quot;Date&quot; varchar(256) , &quot;Memo&quot; varchar(256) , &quot;Account Number&quot; varchar(256) , &quot;Is Credit&quot; varchar(256) , &quot;Amount&quot; varchar(256) , &quot;Job&quot; varchar(256) , &quot;Allocation Memo&quot; varchar(256) , &quot;Category&quot; varchar(256) , &quot;Is Year-End Adjustment&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_MYOB.&quot;journal&quot; ( &quot;JOURNAL_BK&quot; varchar(256) , &quot;DATE&quot; varchar(256) , &quot;MEMO&quot; varchar(256) , &quot;ACCOUNT_BK&quot; varchar(256) , &quot;IS_CREDIT&quot; varchar(256) , &quot;AMOUNT&quot; varchar(256) , &quot;BUSINESS_UNIT_BK&quot; varchar(256) , &quot;ALLOCATION_MEMO&quot; varchar(256) , &quot;CATEGORY&quot; varchar(256) , &quot;IS_YEAR-END_ADJUSTMENT&quot; varchar(256) , &quot;H_JOURNAL_SID&quot; varchar(256) , &quot;JOURNAL_DETAIL_BK&quot; varchar(256) , &quot;H_JOURNAL_DETAIL_SID&quot; varchar(256) , &quot;H_ACCOUNT_SID&quot; varchar(256) , &quot;H_BUSINESS_UNIT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;SOURCE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="7c87a9be-b8f5-4c56-afcd-0c8e21e83097"/>
+<entry key="file_store_id" type="xstring" value="9836c3a7-7084-4ed8-92e7-8991618e7d44"/>
 </config>
 </config>

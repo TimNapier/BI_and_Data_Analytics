@@ -25,7 +25,11 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="ERROR"/>
+<entry key="message" type="xstring" value="Error in sub flow."/>
+</config>
 <config key="workflow_credentials"/>
 <config key="nodes">
 <config key="node_1">
