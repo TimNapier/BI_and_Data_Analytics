@@ -1,7 +1,7 @@
 use ARALUEN_DATAVAULT;
 use schema LOAD_NDIS;
 use warehouse ARALUEN;
-CREATE OR REPLACE STAGE Business Unit CSM Snowflake FILE_FORMAT=LOAD_CSM.CSVFORMAT;
-put file://D:\BI_and_Data_Analytics\Workflows\Source_Systems\Client Management\CSM\Business Unit CSM Snowflake\Business Unit CSM Snowflake.csv  @Business Unit CSM Snowflake;
-COPY INTO "ARALUEN_DATAVAULT"."LOAD_CSM"."Business Unit CSM Snowflake" FROM @Business Unit CSM Snowflake file_format='LOAD_CSM.CSVFORMAT';
+CREATE OR REPLACE STAGE Business_Unit_CSM_Snowflake FILE_FORMAT=LOAD_CSM.CSVFORMAT;
+put file://C:\BI_and_Data_Analytics\Workflows\Source_Systems\Client_Management\CSM\Business_Unit_CSM_Snowflake\Business_Unit_CSM_Snowflake.csv  @Business_Unit_CSM_Snowflake;
+COPY INTO "ARALUEN_DATAVAULT"."LOAD_CSM"."Business_Unit_CSM_Snowflake" FROM @Business_Unit_CSM_Snowflake file_format='LOAD_CSM.CSVFORMAT';
 remove @STAGE_NDIS pattern='.*.csv.gz';

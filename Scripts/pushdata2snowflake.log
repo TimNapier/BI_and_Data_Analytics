@@ -5104,3 +5104,154 @@ Type SQL statements or !help
 0 Row(s) produced. Time Elapsed: 0.713s
 >>>>>>> 9717b0d3a6e9437091169e9a443f3ef96ff39c35
 Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.102s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.117s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.100s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 4.363s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.100s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.105s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.100s
++--------------------------------------------------------------+
+| status                                                       |
+|--------------------------------------------------------------|
+| Stage area BUSINESS_UNIT_CSM_SNOWFLAKE successfully created. |
++--------------------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.110s
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Copy executed with 0 files processed. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 1.073s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.132s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.134s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.097s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.145s
++--------------------------------------------------------------+
+| status                                                       |
+|--------------------------------------------------------------|
+| Stage area BUSINESS_UNIT_CSM_SNOWFLAKE successfully created. |
++--------------------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.181s
++---------------------------------------+
+| status                                |
+|---------------------------------------|
+| Copy executed with 0 files processed. |
++---------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.879s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.127s
+Goodbye!
+C:\BI_and_Data_Analytics\Data\NDIS 
+* SnowSQL * v1.1.59
+Type SQL statements or !help
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.109s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.169s
++----------------------------------+
+| status                           |
+|----------------------------------|
+| Statement executed successfully. |
++----------------------------------+
+1 Row(s) produced. Time Elapsed: 0.087s
++--------------------------------------------------------------+
+| status                                                       |
+|--------------------------------------------------------------|
+| Stage area BUSINESS_UNIT_CSM_SNOWFLAKE successfully created. |
++--------------------------------------------------------------+
+1 Row(s) produced. Time Elapsed: 0.186s
+Business_Unit_CSM_Snowflake.csv_c.gz(0.00MB): [##########] 100.00% Done (0.162s, 0.01MB/s).
++---------------------------------+------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+| source                          | target                             | source_size | target_size | source_compression | target_compression | status   | message |
+|---------------------------------+------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------|
+| Business_Unit_CSM_Snowflake.csv | Business_Unit_CSM_Snowflake.csv.gz |        5729 |        1200 | NONE               | GZIP               | UPLOADED |         |
++---------------------------------+------------------------------------+-------------+-------------+--------------------+--------------------+----------+---------+
+1 Row(s) produced. Time Elapsed: 3.194s
++----------------------------------------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+| file                                                           | status | rows_parsed | rows_loaded | error_limit | errors_seen | first_error | first_error_line | first_error_character | first_error_column_name |
+|----------------------------------------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------|
+| business_unit_csm_snowflake/Business_Unit_CSM_Snowflake.csv.gz | LOADED |          24 |          24 |           1 |           0 | NULL        |             NULL |                  NULL | NULL                    |
++----------------------------------------------------------------+--------+-------------+-------------+-------------+-------------+-------------+------------------+-----------------------+-------------------------+
+1 Row(s) produced. Time Elapsed: 1.018s
++------+--------+
+| name | result |
+|------+--------|
++------+--------+
+0 Row(s) produced. Time Elapsed: 0.155s
+Goodbye!
