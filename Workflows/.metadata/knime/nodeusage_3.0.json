@@ -14,17 +14,17 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#WrappedNode Input",
-                "nrexecs":207,
+                "nrexecs":221,
                 "nrfails":0,
-                "exectime":6114,
+                "exectime":6312,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
-                "nrexecs":32,
+                "nrexecs":36,
                 "nrfails":0,
-                "exectime":12354,
+                "exectime":12449,
                 "nrcreated":1,
                 "successor":"n/a"
             },
@@ -38,17 +38,17 @@
             },
             {
                 "id":"org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
-                "nrexecs":51,
+                "nrexecs":56,
                 "nrfails":0,
-                "exectime":1459,
+                "exectime":1464,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
             {
                 "id":"org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
-                "nrexecs":128,
+                "nrexecs":135,
                 "nrfails":0,
-                "exectime":1514,
+                "exectime":1524,
                 "nrcreated":2,
                 "successor":"org.knime.base.node.io.csvwriter.CSVWriterNodeFactory#CSV Writer"
             },
@@ -102,9 +102,9 @@
             },
             {
                 "id":"org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#WrappedNode Output",
-                "nrexecs":207,
+                "nrexecs":221,
                 "nrfails":0,
-                "exectime":691,
+                "exectime":706,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -118,9 +118,9 @@
             },
             {
                 "id":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader",
-                "nrexecs":25,
+                "nrexecs":26,
                 "nrfails":0,
-                "exectime":194613,
+                "exectime":194655,
                 "nrcreated":0,
                 "successor":"org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
             },
@@ -150,113 +150,113 @@
             },
             {
                 "id":"org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory#Concatenate",
-                "nrexecs":72,
+                "nrexecs":74,
                 "nrfails":0,
-                "exectime":350,
+                "exectime":354,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.database.connectors.sqlserver.SQLServerConnectorNodeFactory#Microsoft SQL Server Connector",
-                "nrexecs":11,
+                "nrexecs":12,
                 "nrfails":0,
-                "exectime":272,
+                "exectime":481,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
-                "nrexecs":85,
+                "nrexecs":89,
                 "nrfails":0,
-                "exectime":56099,
+                "exectime":56122,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"ws.palladian.nodes.helper.hash.HashCalculatorNodeFactory#HashCalculator",
-                "nrexecs":26,
+                "nrexecs":27,
                 "nrfails":0,
-                "exectime":166672,
+                "exectime":166712,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory#Extract Context Properties",
-                "nrexecs":33,
+                "nrexecs":40,
                 "nrfails":0,
-                "exectime":317,
+                "exectime":395,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.time.node.create.createdatetime.CreateDateTimeNodeFactory#Create Date&Time Range",
-                "nrexecs":13,
+                "nrexecs":15,
                 "nrfails":0,
-                "exectime":39,
+                "exectime":52,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.time.node.convert.datetimetostring.DateTimeToStringNodeFactory#Date&Time to String",
-                "nrexecs":13,
+                "nrexecs":15,
                 "nrfails":0,
-                "exectime":42,
+                "exectime":53,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.flowvariable.appendvariabletotable2.AppendVariableToTable2NodeFactory#Variable to Table Column",
-                "nrexecs":59,
+                "nrexecs":68,
                 "nrfails":0,
-                "exectime":58932,
+                "exectime":58972,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.tablecreator.TableCreator2NodeFactory#Table Creator",
-                "nrexecs":37,
+                "nrexecs":42,
                 "nrfails":0,
-                "exectime":1498,
+                "exectime":1767,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.preproc.cellsplit.CellSplitterNodeFactory#Cell Splitter",
-                "nrexecs":19,
+                "nrexecs":23,
                 "nrfails":0,
-                "exectime":436,
+                "exectime":464,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.flowvariable.tablecoltovariable.TableColumnToVariableNodeFactory#Table Column to Variable",
-                "nrexecs":44,
+                "nrexecs":52,
                 "nrfails":0,
-                "exectime":30,
+                "exectime":35,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.preproc.stringmanipulation.variable.StringManipulationVariableNodeFactory#String Manipulation (Variable)",
-                "nrexecs":26,
+                "nrexecs":31,
                 "nrfails":0,
-                "exectime":28,
+                "exectime":37,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.preproc.crossjoin.CrossJoinerNodeFactory#Cross Joiner",
-                "nrexecs":27,
+                "nrexecs":31,
                 "nrfails":0,
-                "exectime":59363,
+                "exectime":59372,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.util.extracttablespec.ExtractTableSpecNodeFactory#Extract Table Spec",
-                "nrexecs":15,
+                "nrexecs":17,
                 "nrfails":0,
-                "exectime":764,
+                "exectime":769,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -270,33 +270,33 @@
             },
             {
                 "id":"org.knime.ext.jep.JEPNodeFactory#Math Formula",
-                "nrexecs":14,
+                "nrexecs":16,
                 "nrfails":0,
-                "exectime":1482,
+                "exectime":1584,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine",
-                "nrexecs":14,
+                "nrexecs":16,
                 "nrfails":0,
-                "exectime":254,
+                "exectime":261,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory#Database Connector",
-                "nrexecs":14,
+                "nrexecs":16,
                 "nrfails":1,
-                "exectime":26434,
+                "exectime":28957,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.io.database.DBSQLExecutorNodeFactory#Database SQL Executor",
-                "nrexecs":28,
+                "nrexecs":32,
                 "nrfails":0,
-                "exectime":18156,
+                "exectime":19866,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -310,9 +310,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.colconvert.numbertostring.NumberToStringNodeFactory#Number To String",
-                "nrexecs":10,
+                "nrexecs":11,
                 "nrfails":0,
-                "exectime":7135,
+                "exectime":7137,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -340,17 +340,17 @@
             "nrcreated":0
         },
         "wrappedNodes":{
-            "nrexecs":205,
+            "nrexecs":219,
             "nrfails":2,
-            "exectime":615543,
+            "exectime":621190,
             "nrcreated":0
         }
     },
-    "uptime":8432572,
-    "workflowsOpened":19,
+    "uptime":7795203,
+    "workflowsOpened":20,
     "remoteWorkflowsOpened":0,
-    "launches":9,
-    "timeSinceLastStart":66639708,
+    "launches":10,
+    "timeSinceLastStart":2058884,
     "crashes":1,
     "properlyShutDown":true
 }

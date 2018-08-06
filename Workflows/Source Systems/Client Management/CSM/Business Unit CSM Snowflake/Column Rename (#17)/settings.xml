@@ -8,23 +8,18 @@
 <config key="model">
 <config key="all_columns">
 <config key="0">
-<entry key="old_column_name" type="xstring" value="BusinessUnitID (SHA1)"/>
-<entry key="new_column_name" type="xstring" value="H_BUSINESS_UNIT_SID"/>
-<entry key="new_column_type" type="xint" value="0"/>
-</config>
-<config key="1">
-<entry key="old_column_name" type="xstring" value="BusinessUnitID"/>
-<entry key="new_column_name" type="xstring" value="BUSINESS_UNIT_BK"/>
-<entry key="new_column_type" type="xint" value="0"/>
-</config>
-<config key="2">
 <entry key="old_column_name" type="xstring" value="BusinessUnitDesc"/>
 <entry key="new_column_name" type="xstring" value="BUSINESS_UNIT_NAME"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
-<config key="3">
+<config key="1">
 <entry key="old_column_name" type="xstring" value="PayCostCentre"/>
-<entry key="new_column_name" type="xstring" value="BUSINESS_UNIT_COST_CENTRE"/>
+<entry key="new_column_name" type="xstring" value="BUSINESS_UNIT_COST_CENTRE_BK"/>
+<entry key="new_column_type" type="xint" value="0"/>
+</config>
+<config key="2">
+<entry key="old_column_name" type="xstring" value="PayCostCentre (SHA1)"/>
+<entry key="new_column_name" type="xstring" value="H_BUSINESS_UNIT_SID"/>
 <entry key="new_column_type" type="xint" value="0"/>
 </config>
 </config>
@@ -56,6 +51,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="5f6e3ad0-d83c-483b-93b3-700bc4c1ee31"/>
+<entry key="file_store_id" type="xstring" value="04fbcd13-7d1e-4e4b-b695-d240dffa0172"/>
 </config>
 </config>
