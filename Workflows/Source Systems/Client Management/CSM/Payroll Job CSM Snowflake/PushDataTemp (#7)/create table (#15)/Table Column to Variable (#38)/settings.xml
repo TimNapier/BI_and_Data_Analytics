@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;PAYROLL_JOB&quot; ( &quot;H_PAYROLL_JOB_SID&quot; varchar(256) , &quot;BUDGET_BK&quot; varchar(256) , &quot;JOB_DATE&quot; varchar(256) , &quot;END_JOB_DATE&quot; varchar(256) , &quot;PAYROLL_JOB_BK (SHA1)&quot; varchar(256) , &quot;H_BUDGET_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;PAYROLL_JOB&quot; ( &quot;H_PAYROLL_JOB_SID&quot; varchar(256) , &quot;BUDGET_BK&quot; varchar(256) , &quot;JOB_DATE&quot; varchar(256) , &quot;END_JOB_DATE&quot; varchar(256) , &quot;PAYROLL_JOB_BK (SHA1)&quot; varchar(256) , &quot;H_BUDGET_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;SOURCE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -28,7 +28,7 @@
 <entry key="ignore missing" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablecoltovariable.TableColumnToVariableNodeFactory"/>
 <entry key="node-name" type="xstring" value="Table Column to Variable"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -41,16 +41,21 @@
 <entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Column to Variable"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ded3ab28-4665-477e-bf3b-6b957a34df9c"/>
 </config>
 </config>

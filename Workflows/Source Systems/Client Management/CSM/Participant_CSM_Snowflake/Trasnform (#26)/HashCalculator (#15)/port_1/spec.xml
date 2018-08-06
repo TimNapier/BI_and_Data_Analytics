@@ -51,13 +51,13 @@
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="DR"/>
+<entry key="StringCell" type="xstring" value=""/>
 </config>
 </config>
 <config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value=""/>
+<entry key="StringCell" type="xstring" value="DR"/>
 </config>
 </config>
 <config key="6">
@@ -208,7 +208,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1531958400000"/>
+<entry key="timeInMillis" type="xlong" value="1533081600000"/>
 </config>
 </config>
 </config>

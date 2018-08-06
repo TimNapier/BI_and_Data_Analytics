@@ -36,11 +36,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME connectors to common databases"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.connectors"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804031044"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201805030958"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Connectors for Common Databases"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.dbdrivers.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804031044"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201805030958"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Microsoft SQL Server Connector"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -58,6 +58,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="fb4c9cca-1f31-44b2-8a58-f3cdcf93ee5f"/>
 </config>
 </config>

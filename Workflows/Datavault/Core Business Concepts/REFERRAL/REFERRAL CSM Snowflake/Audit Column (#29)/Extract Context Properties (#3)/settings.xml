@@ -12,7 +12,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/REFERRAL/REFERRAL CSM Snowflake"/>
+<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/Referral/REFERRAL CSM Snowflake"/>
 </config>
 <config key="Variable_2">
 <entry key="type" type="xstring" value="variable"/>
@@ -24,7 +24,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/REFERRAL/REFERRAL CSM Snowflake"/>
+<entry key="value" type="xstring" value="/Datavault/Core Business Concepts/Referral/REFERRAL CSM Snowflake"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -45,11 +45,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Extract Context Properties"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -67,6 +67,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="eff6392b-5084-4bfc-a2b0-f3dea8333dfd"/>
+<entry key="file_store_id" type="xstring" value="77562e54-21fc-4eb5-9d3c-9b6c37d1b4a8"/>
 </config>
 </config>

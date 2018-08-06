@@ -28,6 +28,7 @@
 <entry key="hideInDialog" type="xboolean" value="false"/>
 <entry key="required" type="xboolean" value="true"/>
 <entry key="parameterName" type="xstring" value="string-input"/>
+<entry key="customCSS" type="xstring" value=""/>
 <entry key="flowvariablename" type="xstring" value="local_var_core_business_concept"/>
 <entry key="regex" type="xstring" value=""/>
 <entry key="error_message" type="xstring" value=""/>
@@ -42,11 +43,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.2.v201802051356"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807091254"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804031047"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807091319"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="String Input"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -64,6 +65,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="cde0797d-1042-4c27-8398-d696d47230ed"/>
+<entry key="file_store_id" type="xstring" value="5c30a4a6-8e20-4497-b4c0-ccd4dd739354"/>
 </config>
 </config>

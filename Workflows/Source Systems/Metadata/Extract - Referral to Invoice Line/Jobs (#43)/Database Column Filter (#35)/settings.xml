@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column_filter_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="column_filter">
+<config key="InclList">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="JobID"/>
+<entry key="1" type="xstring" value="BudgetID"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="104"/>
+<entry key="0" type="xstring" value="ClientID"/>
+<entry key="1" type="xstring" value="FunderID"/>
+<entry key="2" type="xstring" value="StaffID"/>
+<entry key="3" type="xstring" value="Stockcode"/>
+<entry key="4" type="xstring" value="Description"/>
+<entry key="5" type="xstring" value="Hours"/>
+<entry key="6" type="xstring" value="JobDate"/>
+<entry key="7" type="xstring" value="EndJobDate"/>
+<entry key="8" type="xstring" value="Notes"/>
+<entry key="9" type="xstring" value="PanztelID"/>
+<entry key="10" type="xstring" value="InvNoBatchID"/>
+<entry key="11" type="xstring" value="PayrollBatchID"/>
+<entry key="12" type="xstring" value="StaffCompanyID"/>
+<entry key="13" type="xstring" value="ClientCompanyID"/>
+<entry key="14" type="xstring" value="ActualMins"/>
+<entry key="15" type="xstring" value="SellPrice"/>
+<entry key="16" type="xstring" value="CostPrice"/>
+<entry key="17" type="xstring" value="PayHours"/>
+<entry key="18" type="xstring" value="IgnorePayrollReason"/>
+<entry key="19" type="xstring" value="IgnoreInvoiceReason"/>
+<entry key="20" type="xstring" value="PaidHoliday"/>
+<entry key="21" type="xstring" value="AddedJob"/>
+<entry key="22" type="xstring" value="FunderGroupID"/>
+<entry key="23" type="xstring" value="Price1"/>
+<entry key="24" type="xstring" value="Price2"/>
+<entry key="25" type="xstring" value="Price3"/>
+<entry key="26" type="xstring" value="Price4"/>
+<entry key="27" type="xstring" value="Price5"/>
+<entry key="28" type="xstring" value="Price6"/>
+<entry key="29" type="xstring" value="Price7"/>
+<entry key="30" type="xstring" value="Price8"/>
+<entry key="31" type="xstring" value="Price9"/>
+<entry key="32" type="xstring" value="Price10"/>
+<entry key="33" type="xstring" value="TravelTime"/>
+<entry key="34" type="xstring" value="TravelUnits"/>
+<entry key="35" type="xstring" value="TravelTimeSell"/>
+<entry key="36" type="xstring" value="TravelTimePay"/>
+<entry key="37" type="xstring" value="TravelUnitSell"/>
+<entry key="38" type="xstring" value="TravelUnitPay"/>
+<entry key="39" type="xstring" value="TransType"/>
+<entry key="40" type="xstring" value="RTSendEmail"/>
+<entry key="41" type="xstring" value="FilePayStatus"/>
+<entry key="42" type="xstring" value="FilePayText"/>
+<entry key="43" type="xstring" value="PayHrRate"/>
+<entry key="44" type="xstring" value="JobDateOnly"/>
+<entry key="45" type="xstring" value="EndJobDateOnly"/>
+<entry key="46" type="xstring" value="PackageID"/>
+<entry key="47" type="xstring" value="InvNo"/>
+<entry key="48" type="xstring" value="OrigTravelTime"/>
+<entry key="49" type="xstring" value="OrigTravelUnits"/>
+<entry key="50" type="xstring" value="HolidayHours"/>
+<entry key="51" type="xstring" value="OrigCarerID"/>
+<entry key="52" type="xstring" value="ReasonCancelledID"/>
+<entry key="53" type="xstring" value="AdhocJob"/>
+<entry key="54" type="xstring" value="IsApproved"/>
+<entry key="55" type="xstring" value="DateCreated"/>
+<entry key="56" type="xstring" value="CreatedByID"/>
+<entry key="57" type="xstring" value="DateAssigned"/>
+<entry key="58" type="xstring" value="AssignedByID"/>
+<entry key="59" type="xstring" value="JobSource"/>
+<entry key="60" type="xstring" value="JobSourceTypeID"/>
+<entry key="61" type="xstring" value="NBInvQty"/>
+<entry key="62" type="xstring" value="NBInvPrice"/>
+<entry key="63" type="xstring" value="JobRequester"/>
+<entry key="64" type="xstring" value="JobStatus"/>
+<entry key="65" type="xstring" value="MobDataChanged"/>
+<entry key="66" type="xstring" value="MobJobSeqno"/>
+<entry key="67" type="xstring" value="TravelBuffer"/>
+<entry key="68" type="xstring" value="IBT"/>
+<entry key="69" type="xstring" value="PostcodebandID"/>
+<entry key="70" type="xstring" value="rowguid"/>
+<entry key="71" type="xstring" value="ModifiedDate"/>
+<entry key="72" type="xstring" value="IBTBandID"/>
+<entry key="73" type="xstring" value="OverridePayAmount"/>
+<entry key="74" type="xstring" value="NormalHours"/>
+<entry key="75" type="xstring" value="EveningHours"/>
+<entry key="76" type="xstring" value="WeekendHours"/>
+<entry key="77" type="xstring" value="EveningHoursHoliday"/>
+<entry key="78" type="xstring" value="WeekendHoursHoliday"/>
+<entry key="79" type="xstring" value="PortalJobID"/>
+<entry key="80" type="xstring" value="PortalRate"/>
+<entry key="81" type="xstring" value="TravelUnitsWithClient"/>
+<entry key="82" type="xstring" value="TravelUnitsWithClientSell"/>
+<entry key="83" type="xstring" value="TravelUnitsWithClientPay"/>
+<entry key="84" type="xstring" value="TimeSheetBy"/>
+<entry key="85" type="xstring" value="TimeSheetDate"/>
+<entry key="86" type="xstring" value="HomeTravelTime"/>
+<entry key="87" type="xstring" value="HomeTravelUnits"/>
+<entry key="88" type="xstring" value="HomeTravelTimeSell"/>
+<entry key="89" type="xstring" value="HomeTravelTimePay"/>
+<entry key="90" type="xstring" value="HomeTravelUnitSell"/>
+<entry key="91" type="xstring" value="HomeTravelUnitPay"/>
+<entry key="92" type="xstring" value="AdjustmentID"/>
+<entry key="93" type="xstring" value="AppointmentTemplateID"/>
+<entry key="94" type="xstring" value="AppointmentBudgetID"/>
+<entry key="95" type="xstring" value="JobStartedTime"/>
+<entry key="96" type="xstring" value="VisitCacheID"/>
+<entry key="97" type="xstring" value="GHJob"/>
+<entry key="98" type="xstring" value="CancelledDate"/>
+<entry key="99" type="xstring" value="ReasonCancelled"/>
+<entry key="100" type="xstring" value="StaffToVisitCacheID"/>
+<entry key="101" type="xstring" value="StaffFromVisitCacheID"/>
+<entry key="102" type="xstring" value="CancelledBy"/>
+<entry key="103" type="xstring" value="CancelledDateTime"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBColumnFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Database Column Filter"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
