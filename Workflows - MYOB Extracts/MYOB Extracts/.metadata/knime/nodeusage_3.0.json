@@ -1,0 +1,28 @@
+
+{
+    "version":"3.6.0.v201807100937",
+    "created":"2018-07-19 14:35",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory#Database Connector",
+                "nrexecs":0,
+                "nrfails":2,
+                "exectime":62,
+                "nrcreated":0,
+                "successor":"n/a"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":89174,
+    "workflowsOpened":1,
+    "remoteWorkflowsOpened":0,
+    "launches":1,
+    "timeSinceLastStart":89174,
+    "crashes":0,
+    "properlyShutDown":true
+}

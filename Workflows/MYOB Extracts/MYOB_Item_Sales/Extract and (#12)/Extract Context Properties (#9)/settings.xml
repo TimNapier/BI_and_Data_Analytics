@@ -18,7 +18,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.absolute-path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="C:/BI_and_Data_Analytics/Workflows/MYOB Extracts/MYOB_Item_Sales"/>
+<entry key="value" type="xstring" value="D:/BI_and_Data_Analytics/Workflows/MYOB Extracts/MYOB_Item_Sales"/>
 </config>
 <config key="Variable_3">
 <entry key="type" type="xstring" value="variable"/>
@@ -30,7 +30,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.temp.location"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\2\knime_MYOB_Item_Sales96992"/>
+<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\21\knime_MYOB_Item_Sales65233"/>
 </config>
 <config key="Variable_5">
 <entry key="type" type="xstring" value="variable"/>
@@ -54,7 +54,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.last.time.modified"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Wed Jul 18 11:54:25 AEST 2018"/>
+<entry key="value" type="xstring" value="Wed Aug 01 15:17:02 AEST 2018"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
@@ -72,7 +72,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.absolute-path"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="C:/BI_and_Data_Analytics/Workflows/MYOB Extracts/MYOB_Item_Sales"/>
+<entry key="value" type="xstring" value="D:/BI_and_Data_Analytics/Workflows/MYOB Extracts/MYOB_Item_Sales"/>
 </config>
 <config key="Variable_12">
 <entry key="type" type="xstring" value="variable"/>
@@ -84,7 +84,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.temp.location"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\2\knime_MYOB_Item_Sales96992"/>
+<entry key="value" type="xstring" value="C:\Users\Administrator\AppData\Local\Temp\21\knime_MYOB_Item_Sales65233"/>
 </config>
 <config key="Variable_14">
 <entry key="type" type="xstring" value="variable"/>
@@ -108,7 +108,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="context.workflow.last.time.modified"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Wed Jul 18 11:54:25 AEST 2018"/>
+<entry key="value" type="xstring" value="Wed Aug 01 15:17:02 AEST 2018"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -118,7 +118,7 @@
 <entry key="isExtractAllProps" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.extractcontextprop.ReadContextPropertyNodeFactory"/>
 <entry key="node-name" type="xstring" value="Extract Context Properties"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -131,16 +131,21 @@
 <entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Extract Context Properties"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5d41d69a-9edd-44b9-8d36-fe26d992aaf2"/>
 </config>
 </config>

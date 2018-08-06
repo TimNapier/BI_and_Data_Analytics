@@ -1,0 +1,1124 @@
+2018-08-06 14:37:33,644 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,644 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,644 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,644 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,644 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,644 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,645 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,645 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,645 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,645 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,645 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,646 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,646 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,647 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,647 : DEBUG : KNIME-Worker-45 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,648 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,648 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,649 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,649 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,649 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,650 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,650 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,651 : DEBUG : KNIME-Worker-44 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,652 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,652 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,653 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,653 : DEBUG : KNIME-Worker-41 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,654 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,654 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,655 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,655 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,656 : DEBUG : KNIME-Worker-40 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,656 : DEBUG : KNIME-Worker-40 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,656 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,656 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,656 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,656 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,656 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-40 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-40 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,657 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,657 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,658 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,658 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,658 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,659 : DEBUG : KNIME-Worker-46 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,660 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,660 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,661 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,661 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,662 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,662 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,663 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,663 : DEBUG : KNIME-Worker-43 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,664 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,664 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,665 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,665 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,666 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,666 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,667 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,667 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,668 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,668 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,669 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,669 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,670 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,670 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,671 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,671 : DEBUG : KNIME-Worker-47 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,672 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,672 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,673 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,673 : DEBUG : KNIME-Worker-46 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,674 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,674 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,674 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,675 : DEBUG : KNIME-Worker-45 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,676 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,676 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,677 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,677 : DEBUG : KNIME-Worker-43 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,678 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,678 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,678 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,679 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,679 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,680 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,680 : DEBUG : KNIME-Worker-41 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,681 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,681 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,681 : DEBUG : KNIME-Worker-45 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,682 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,682 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-40 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,683 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,683 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,684 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-47 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,684 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-44 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,684 : DEBUG : KNIME-Worker-46 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,685 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,685 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,685 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-41 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,686 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-45 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,686 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,687 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-40 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,687 : DEBUG : KNIME-Worker-43 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,688 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,688 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,689 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-47 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-47 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,689 : DEBUG : KNIME-Worker-44 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,690 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-44 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-44 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,690 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,690 : DEBUG : KNIME-Worker-46 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-46 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,691 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,691 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-41 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,692 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-45 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,692 : DEBUG : KNIME-Worker-40 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,693 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-40 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-40 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-40 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,693 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-43 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,693 : DEBUG : KNIME-Worker-47 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,694 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,694 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,694 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-44 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,695 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-46 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,695 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,696 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-41 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,696 : DEBUG : KNIME-Worker-45 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,697 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-45 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,697 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,697 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-40 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-40 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,698 : DEBUG : KNIME-Worker-43 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,699 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-43 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-43 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-43 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,699 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,699 : DEBUG : KNIME-Worker-47 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_MARKEDFOREXEC
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : reset
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : Node : Add Empty Rows : 0:18:0:16 : clean output ports.
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: IDLE
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : reset
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : Node : Column Filter : 0:18:0:14 : clean output ports.
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: IDLE
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : Node : Loop End : 0:18:0:17 : clean output ports.
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Column Filter 0:18:0:14 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Add Empty Rows 0:18:0:16 has new state: UNCONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-47 : NodeContainer : Loop End : 0:18:0:17 : Group Loop Start 0:18:0:11 has new state: EXECUTED_QUEUED
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePreExecution
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: PREEXECUTE
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforeExecution
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTING
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 Start execute
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,700 : DEBUG : KNIME-Worker-44 : Buffer : Group Loop Start : 0:18:0:11 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,701 : INFO  : KNIME-Worker-44 : LocalNodeExecutionJob : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 End execute (0 secs)
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doBeforePostExecution
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: POSTEXECUTE
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : WorkflowManager : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 doAfterExecute - success
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Group Loop Start 0:18:0:11 has new state: EXECUTED
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : Node : Column Filter : 0:18:0:14 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Column Filter 0:18:0:14 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : NodeContainer : Group Loop Start : 0:18:0:11 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-44 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePreExecution
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: PREEXECUTE
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforeExecution
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTING
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 Start execute
+2018-08-06 14:37:33,701 : INFO  : KNIME-Worker-46 : LocalNodeExecutionJob : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 End execute (0 secs)
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doBeforePostExecution
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: POSTEXECUTE
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : WorkflowManager : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 doAfterExecute - success
+2018-08-06 14:37:33,701 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Column Filter 0:18:0:14 has new state: EXECUTED
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-46 : Node : Add Empty Rows : 0:18:0:16 : Configure succeeded. (Add Empty Rows)
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-46 : NodeContainer : Column Filter : 0:18:0:14 : Add Empty Rows 0:18:0:16 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePreExecution
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: PREEXECUTE
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforeExecution
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTING
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 Start execute
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : Buffer : Add Empty Rows : 0:18:0:16 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,702 : INFO  : KNIME-Worker-41 : LocalNodeExecutionJob : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 End execute (0 secs)
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doBeforePostExecution
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: POSTEXECUTE
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : WorkflowManager : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 doAfterExecute - success
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Add Empty Rows 0:18:0:16 has new state: EXECUTED
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : Node : Loop End : 0:18:0:17 : Configure succeeded. (Loop End)
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-41 : NodeContainer : Add Empty Rows : 0:18:0:16 : Loop End 0:18:0:17 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePreExecution
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: PREEXECUTE
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforeExecution
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTING
+2018-08-06 14:37:33,702 : DEBUG : KNIME-Worker-45 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 Start execute
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : LoopEndNodeModel : Loop End : 0:18:0:17 : Total loop execution time: 75ms
+2018-08-06 14:37:33,703 : INFO  : KNIME-Worker-45 : LocalNodeExecutionJob : Loop End : 0:18:0:17 : Loop End 0:18:0:17 End execute (0 secs)
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doBeforePostExecution
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: POSTEXECUTE
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : WorkflowManager : Loop End : 0:18:0:17 : Loop End 0:18:0:17 doAfterExecute - success
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : Buffer : Loop End : 0:18:0:17 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : Loop End 0:18:0:17 has new state: EXECUTED
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : Node : WrappedNode Output : 0:18:0:20 : Configure succeeded. (WrappedNode Output)
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : WrappedNode Output 0:18:0:20 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-45 : NodeContainer : Loop End : 0:18:0:17 : WrappedNode Output 0:18:0:20 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : WorkflowManager : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 doBeforePreExecution
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : NodeContainer : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 has new state: PREEXECUTE
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : WorkflowManager : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 doBeforeExecution
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : NodeContainer : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 has new state: EXECUTING
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : WorkflowFileStoreHandlerRepository : WrappedNode Output : 0:18:0:20 : Adding handler 983f31e0-5fe8-4d32-a1d6-2ebc6a6ac034 (WrappedNode Output 0:18:0:20: <no directory>) - 31 in total
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : LocalNodeExecutionJob : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 Start execute
+2018-08-06 14:37:33,703 : INFO  : KNIME-Worker-40 : LocalNodeExecutionJob : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 End execute (0 secs)
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : WorkflowManager : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 doBeforePostExecution
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : NodeContainer : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 has new state: POSTEXECUTE
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : WorkflowManager : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 doAfterExecute - success
+2018-08-06 14:37:33,703 : DEBUG : KNIME-Worker-40 : NodeContainer : WrappedNode Output : 0:18:0:20 : WrappedNode Output 0:18:0:20 has new state: EXECUTED
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-40 : NodeContainer : WrappedNode Output : 0:18:0:20 : Add blank line at the end of each invoice (MYOB Requirement) 0:18:0 has new state: EXECUTED
+2018-08-06 14:37:33,704 : INFO  : KNIME-Worker-42 : LocalNodeExecutionJob : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Add blank line at the end of each invoice (MYOB Requirement) 0:18 End execute (0 secs)
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : WorkflowManager : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Add blank line at the end of each invoice (MYOB Requirement) 0:18 doBeforePostExecution
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : NodeContainer : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Add blank line at the end of each invoice (MYOB Requirement) 0:18 has new state: POSTEXECUTE
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : WorkflowManager : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Add blank line at the end of each invoice (MYOB Requirement) 0:18 doAfterExecute - success
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : NodeContainer : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Add blank line at the end of each invoice (MYOB Requirement) 0:18 has new state: EXECUTED
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : Node : Column Filter : 0:21 : Configure succeeded. (Column Filter)
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : NodeContainer : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Column Filter 0:21 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,704 : DEBUG : KNIME-Worker-42 : NodeContainer : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : Column Filter 0:21 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-42 : Node : CSV Writer : 0:19 : Configure succeeded. (CSV Writer)
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-42 : NodeContainer : Add blank line at the end of each invoice (MYOB Requirement) : 0:18 : CSV Writer 0:19 has new state: CONFIGURED_MARKEDFOREXEC
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:21 : Column Filter 0:21 doBeforePreExecution
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:21 : Column Filter 0:21 has new state: PREEXECUTE
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:21 : Column Filter 0:21 doBeforeExecution
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:21 : Column Filter 0:21 has new state: EXECUTING
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : WorkflowFileStoreHandlerRepository : Column Filter : 0:21 : Adding handler c27683ea-796e-42ee-b8be-c91715f3facb (Column Filter 0:21: <no directory>) - 32 in total
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : LocalNodeExecutionJob : Column Filter : 0:21 : Column Filter 0:21 Start execute
+2018-08-06 14:37:33,706 : INFO  : KNIME-Worker-43 : LocalNodeExecutionJob : Column Filter : 0:21 : Column Filter 0:21 End execute (0 secs)
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:21 : Column Filter 0:21 doBeforePostExecution
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:21 : Column Filter 0:21 has new state: POSTEXECUTE
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : WorkflowManager : Column Filter : 0:21 : Column Filter 0:21 doAfterExecute - success
+2018-08-06 14:37:33,706 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:21 : Column Filter 0:21 has new state: EXECUTED
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-43 : Node : CSV Writer : 0:19 : Configure succeeded. (CSV Writer)
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-43 : NodeContainer : Column Filter : 0:21 : CSV Writer 0:19 has new state: CONFIGURED_QUEUED
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-47 : WorkflowManager : CSV Writer : 0:19 : CSV Writer 0:19 doBeforePreExecution
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-47 : NodeContainer : CSV Writer : 0:19 : CSV Writer 0:19 has new state: PREEXECUTE
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-47 : WorkflowManager : CSV Writer : 0:19 : CSV Writer 0:19 doBeforeExecution
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-47 : NodeContainer : CSV Writer : 0:19 : CSV Writer 0:19 has new state: EXECUTING
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-47 : WorkflowFileStoreHandlerRepository : CSV Writer : 0:19 : Adding handler 208ce41c-5b59-4758-a68a-a305b876554d (CSV Writer 0:19: <no directory>) - 33 in total
+2018-08-06 14:37:33,708 : DEBUG : KNIME-Worker-47 : LocalNodeExecutionJob : CSV Writer : 0:19 : CSV Writer 0:19 Start execute
+2018-08-06 14:37:33,723 : INFO  : KNIME-Worker-47 : LocalNodeExecutionJob : CSV Writer : 0:19 : CSV Writer 0:19 End execute (0 secs)
+2018-08-06 14:37:33,723 : DEBUG : KNIME-Worker-47 : WorkflowManager : CSV Writer : 0:19 : CSV Writer 0:19 doBeforePostExecution
+2018-08-06 14:37:33,723 : DEBUG : KNIME-Worker-47 : NodeContainer : CSV Writer : 0:19 : CSV Writer 0:19 has new state: POSTEXECUTE
+2018-08-06 14:37:33,723 : DEBUG : KNIME-Worker-47 : WorkflowManager : CSV Writer : 0:19 : CSV Writer 0:19 doAfterExecute - success
+2018-08-06 14:37:33,723 : DEBUG : KNIME-Worker-47 : NodeContainer : CSV Writer : 0:19 : CSV Writer 0:19 has new state: EXECUTED
+2018-08-06 14:37:33,723 : DEBUG : KNIME-Worker-47 : NodeContainer : CSV Writer : 0:19 : MYOB_Item_Sales 0 has new state: EXECUTED
+2018-08-06 14:37:33,723 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2018-08-06 14:37:46,059 : DEBUG : KNIME-TableIO-7 : DataContainer : Group Loop Start : 0:18:0:11 : Ending DataContainer write thread since container was garbage collected
+2018-08-06 14:38:02,487 : DEBUG : KNIME-TableIO-5 : DataContainer : Group Loop Start : 0:18:0:11 : Ending DataContainer write thread since container was garbage collected

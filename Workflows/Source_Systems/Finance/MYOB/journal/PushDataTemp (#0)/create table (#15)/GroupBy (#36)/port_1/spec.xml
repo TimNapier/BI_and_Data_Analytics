@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="Unique concatenate(ddl)"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_MYOB.&quot;journal&quot; ( &quot;JOURNAL_BK&quot; varchar(256) , &quot;DATE&quot; varchar(256) , &quot;MEMO&quot; varchar(256) , &quot;ACCOUNT_BK&quot; varchar(256) , &quot;IS_CREDIT&quot; varchar(256) , &quot;AMOUNT&quot; varchar(256) , &quot;BUSINESS_UNIT_BK&quot; varchar(256) , &quot;ALLOCATION_MEMO&quot; varchar(256) , &quot;CATEGORY&quot; varchar(256) , &quot;IS_YEAR-END_ADJUSTMENT&quot; varchar(256) , &quot;H_JOURNAL_SID&quot; varchar(256) , &quot;JOURNAL_DETAIL_BK&quot; varchar(256) , &quot;H_JOURNAL_DETAIL_SID&quot; varchar(256) , &quot;H_ACCOUNT_SID&quot; varchar(256) , &quot;H_BUSINESS_UNIT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;SOURCE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+</config>

@@ -1,0 +1,624 @@
+!SESSION 2018-07-31 11:42:06.471 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-07-31 11:43:33.121
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-07-31 11:43:33.121
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-07-31 11:43:38.630
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-07-31 11:43:38.802
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-01 10:40:09.084 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-01 11:50:16.785
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-01 11:50:16.785
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-01 11:50:21.773
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-01 11:50:21.930
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-01 15:20:37.889 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-01 15:21:05.662
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-01 15:21:05.662
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-01 15:21:10.204
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-01 15:21:10.332
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-01 16:23:30.696 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-01 16:23:35.014
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-01 16:23:35.014
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-01 16:23:39.371
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-01 16:23:39.509
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.ui 4 0 2018-08-01 16:24:10.057
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Widget.getStyle(Widget.java:679)
+	at org.eclipse.draw2d.LightweightSystem$RootFigure.isMirrored(LightweightSystem.java:338)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.text.BlockFlow.getOrientation(BlockFlow.java:166)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:307)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.draw2d.BorderLayout.calculatePreferredSize(BorderLayout.java:157)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:125)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:396)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:119)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openYesNoCancelQuestion(MessageDialogWithToggle.java:333)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$4.run(LoadWorkflowRunnable.java:362)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:357)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-08-01 16:24:10.063
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Widget.getStyle(Widget.java:679)
+	at org.eclipse.draw2d.LightweightSystem$RootFigure.isMirrored(LightweightSystem.java:338)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.text.BlockFlow.getOrientation(BlockFlow.java:166)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:307)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.draw2d.BorderLayout.calculatePreferredSize(BorderLayout.java:157)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:125)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:396)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:119)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openYesNoCancelQuestion(MessageDialogWithToggle.java:333)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$4.run(LoadWorkflowRunnable.java:362)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:357)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-08-01 16:24:10.068
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Widget.getStyle(Widget.java:679)
+	at org.eclipse.draw2d.LightweightSystem$RootFigure.isMirrored(LightweightSystem.java:338)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.text.BlockFlow.getOrientation(BlockFlow.java:166)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:307)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.draw2d.BorderLayout.calculatePreferredSize(BorderLayout.java:157)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:125)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:396)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:119)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openYesNoCancelQuestion(MessageDialogWithToggle.java:333)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$4.run(LoadWorkflowRunnable.java:362)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:357)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-08-01 16:24:12.663
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:135)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.getManager(AbstractNodeAction.java:131)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAllAction.getMetaNodesToCheck(CheckUpdateMetaNodeLinkAllAction.java:91)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAction.runInSWT(CheckUpdateMetaNodeLinkAction.java:206)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:158)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:155)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:375)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SESSION 2018-08-02 10:09:32.448 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-02 10:10:01.331
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-02 10:10:01.331
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-02 10:10:06.074
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-02 10:10:06.215
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-03 13:09:44.783 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-03 13:10:06.164
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-03 13:10:06.164
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-03 13:10:11.124
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-03 13:10:11.314
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-03 14:37:37.138 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-03 14:37:41.553
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-03 14:37:41.553
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-03 14:37:46.137
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-03 14:37:46.260
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-06 10:21:41.565 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-06 10:22:03.185
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-06 10:22:03.185
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-06 10:22:08.639
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-06 10:22:08.829
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+!SESSION 2018-08-06 11:25:10.056 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-06 11:25:14.605
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-06 11:25:14.605
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-06 11:25:19.192
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-06 11:25:19.326
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.ui 4 0 2018-08-06 11:27:04.552
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Widget.getStyle(Widget.java:679)
+	at org.eclipse.draw2d.LightweightSystem$RootFigure.isMirrored(LightweightSystem.java:338)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.text.BlockFlow.getOrientation(BlockFlow.java:166)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:307)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.draw2d.BorderLayout.calculatePreferredSize(BorderLayout.java:157)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:125)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:396)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:119)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openYesNoCancelQuestion(MessageDialogWithToggle.java:333)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$4.run(LoadWorkflowRunnable.java:362)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:357)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-08-06 11:27:04.558
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Widget.getStyle(Widget.java:679)
+	at org.eclipse.draw2d.LightweightSystem$RootFigure.isMirrored(LightweightSystem.java:338)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.text.BlockFlow.getOrientation(BlockFlow.java:166)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:307)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.draw2d.BorderLayout.calculatePreferredSize(BorderLayout.java:157)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:125)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:396)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:119)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openYesNoCancelQuestion(MessageDialogWithToggle.java:333)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$4.run(LoadWorkflowRunnable.java:362)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:357)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-08-06 11:27:04.564
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Widget.getStyle(Widget.java:679)
+	at org.eclipse.draw2d.LightweightSystem$RootFigure.isMirrored(LightweightSystem.java:338)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.Figure.isMirrored(Figure.java:1035)
+	at org.eclipse.draw2d.text.BlockFlow.getOrientation(BlockFlow.java:166)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:307)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.draw2d.BorderLayout.calculatePreferredSize(BorderLayout.java:157)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.knime.workbench.editor2.editparts.NodeAnnotationEditPart$1.run(NodeAnnotationEditPart.java:125)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:396)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:119)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openYesNoCancelQuestion(MessageDialogWithToggle.java:333)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$4.run(LoadWorkflowRunnable.java:362)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:357)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-08-06 11:27:07.461
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:135)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.getManager(AbstractNodeAction.java:131)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAllAction.getMetaNodesToCheck(CheckUpdateMetaNodeLinkAllAction.java:91)
+	at org.knime.workbench.editor2.actions.CheckUpdateMetaNodeLinkAction.runInSWT(CheckUpdateMetaNodeLinkAction.java:206)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction$1.run(AbstractNodeAction.java:158)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.knime.workbench.editor2.actions.AbstractNodeAction.run(AbstractNodeAction.java:155)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.postLoadCheckForMetaNodeUpdates(LoadWorkflowRunnable.java:375)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable$2.run(LoadWorkflowRunnable.java:208)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3874)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:298)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:160)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SESSION 2018-08-06 13:59:20.613 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-08-06 13:59:44.360
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-08-06 13:59:44.361
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-06 13:59:48.567
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2018-08-06 13:59:48.723
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\Program Files\KNIME\plugins\snowflake-jdbc-3.6.2.jar.

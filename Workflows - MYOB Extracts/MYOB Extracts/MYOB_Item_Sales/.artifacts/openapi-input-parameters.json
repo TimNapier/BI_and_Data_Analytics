@@ -1,0 +1,24 @@
+
+{
+    "type":"object",
+    "properties":{
+        "payroll_batch_id-26:2":{
+            "type":"object",
+            "properties":{
+                "column":{
+                    "type":"string",
+                    "default":"VALUE"
+                },
+                "value":{
+                    "type":"string",
+                    "default":"936"
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "column":"VALUE",
+                "value":"936"
+            }
+        }
+    }
+}
