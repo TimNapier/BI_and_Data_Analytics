@@ -7,24 +7,9 @@
 </config>
 <config key="model">
 <entry key="statement" type="xstring" value="SELECT &quot;Type&quot; AS BUSINESS_UNIT_TYPE,&quot;h_business_unit_sid&quot; AS H_BUSINESS_UNIT_SID,%%00010 WORKFLOW_PATH, WORKFLOW_NAME, WORKSPACE,%%00010 LOAD_DATE_TIME %%00010FROM (%%00010%%00009SELECT * FROM #table#%%00010)"/>
-<entry key="execute_without_configure" type="xboolean" value="true"/>
-<entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
-<entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
-<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
-<entry key="userName" type="xstring" isnull="true" value=""/>
-<entry key="passwordEncrypted" type="xpassword" isnull="true" value=""/>
-<entry key="password" type="xstring" isnull="true" value=""/>
-<entry key="timezone" type="xstring" value="current"/>
-<entry key="validateConnection" type="xboolean" value="false"/>
-<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
-<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
-<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
-<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
-<entry key="kerberos" type="xboolean" value="false"/>
-<entry key="knimeVersion" type="xstring" value="3.6.0"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBQueryNodeFactory2"/>
 <entry key="node-name" type="xstring" value="Database Query"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -37,21 +22,16 @@
 <entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Query"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 6 DB: snowflake"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="18022e50-8eb3-4bc4-b253-af8454ef9bc9"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

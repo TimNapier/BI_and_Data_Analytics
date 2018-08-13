@@ -1,0 +1,1 @@
+"C:\Program Files\KNIME\knime" -nosplash -consoleLog -reset -preferences="d:\bi\knime.epf" -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="D:\BI_and_Data_Analytics\Workflows\Datavault\Datavault

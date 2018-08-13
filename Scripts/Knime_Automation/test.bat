@@ -1,1 +1,1 @@
-"C:\Program Files\KNIME\knime" -nosplash -consoleLog -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="C:\BI_and_Data_Analytics\Workflows\Utilities\Test Project" >> whatknimedid.log
+"C:\Program Files\KNIME\knime" -nosplash -consoleLog -reset -preferences="d:\bi\knime.epf" -application org.knime.product.KNIME_BATCH_APPLICATION -workflowDir="D:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Business Unit\h_business_unit" >> whatknimedid.log

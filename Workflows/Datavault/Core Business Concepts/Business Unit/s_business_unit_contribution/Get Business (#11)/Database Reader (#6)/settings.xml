@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="statement" type="xstring" value="SELECT %%00010&quot;H_BUSINESS_UNIT&quot;.&quot;H_BUSINESS_UNIT_SID&quot;,%%00010&quot;H_BUSINESS_UNIT&quot;.&quot;BUSINESS_UNIT_BK&quot; AS &quot;BUSINESS_UNIT_BK&quot;,%%00010  SUM(TRY_CAST(&quot;t1&quot;.&quot;AMOUNT&quot; AS DOUBLE)) AS &quot;sum:AMOUNT:ok&quot;,%%00010  DATE_PART('YEAR',&quot;t1&quot;.&quot;DATE&quot;) AS &quot;yr:DATE (S_JOURNAL_DETAIL):ok&quot;%%00010FROM &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;L_JOURNAL_DETAIL&quot; &quot;L_JOURNAL_DETAIL&quot;%%00010  INNER JOIN &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;H_ACCOUNT&quot; &quot;H_ACCOUNT&quot; ON (&quot;L_JOURNAL_DETAIL&quot;.&quot;H_ACCOUNT_SID&quot; = &quot;H_ACCOUNT&quot;.&quot;H_ACCOUNT_SID&quot;)%%00010  INNER JOIN &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;H_JOURNAL_DETAIL&quot; &quot;H_JOURNAL_DETAIL&quot; ON (&quot;L_JOURNAL_DETAIL&quot;.&quot;H_JOURNAL_DETAIL_SID&quot; = &quot;H_JOURNAL_DETAIL&quot;.&quot;H_JOURNAL_DETAIL_SID&quot;)%%00010  LEFT JOIN &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;H_BUSINESS_UNIT&quot; &quot;H_BUSINESS_UNIT&quot; ON (&quot;L_JOURNAL_DETAIL&quot;.&quot;H_BUSINESS_UNIT_SID&quot; = &quot;H_BUSINESS_UNIT&quot;.&quot;H_BUSINESS_UNIT_SID&quot;)%%00010  INNER JOIN &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;S_ACCOUNT&quot; &quot;S_ACCOUNT&quot; ON (&quot;H_ACCOUNT&quot;.&quot;H_ACCOUNT_SID&quot; = &quot;S_ACCOUNT&quot;.&quot;H_ACCOUNT_SID&quot;)%%00010  LEFT JOIN &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;S_BUSINESS_UNIT&quot; &quot;S_BUSINESS_UNIT&quot; ON (&quot;H_BUSINESS_UNIT&quot;.&quot;H_BUSINESS_UNIT_SID&quot; = &quot;S_BUSINESS_UNIT&quot;.&quot;H_BUSINESS_UNIT_SID&quot;)%%00010%%00010  INNER JOIN (%%00010  SELECT &quot;S_JOURNAL_DETAIL&quot;.&quot;H_JOURNAL_DETAIL_SID&quot; AS &quot;H_JOURNAL_DETAIL_SID&quot;,%%00010    &quot;S_JOURNAL_DETAIL&quot;.&quot;AMOUNT&quot; AS &quot;AMOUNT&quot;,%%00010    (CASE WHEN (NOT (CAST(TO_TIMESTAMP(&quot;S_JOURNAL_DETAIL&quot;.&quot;DATE&quot;, 'dd/MM/yyyy') AS DATE) IS NULL)) THEN CAST(TO_TIMESTAMP(&quot;S_JOURNAL_DETAIL&quot;.&quot;DATE&quot;, 'dd/MM/yyyy') AS DATE) WHEN (NOT (TRY_CAST(&quot;S_JOURNAL_DETAIL&quot;.&quot;DATE&quot; AS DATE) IS NULL)) THEN TRY_CAST(&quot;S_JOURNAL_DETAIL&quot;.&quot;DATE&quot; AS DATE) ELSE NULL END) AS &quot;DATE&quot;%%00010  FROM &quot;ARALUEN_DATAVAULT&quot;.&quot;DATAVAULT&quot;.&quot;S_JOURNAL_DETAIL&quot; &quot;S_JOURNAL_DETAIL&quot; %%00010where to_date(&quot;S_JOURNAL_DETAIL&quot;.&quot;DATE&quot;,'dd/mm/yyyy') &gt;= to_date( '2018-07-01','yyyy-mm-dd')%%00010) &quot;t1&quot; ON (&quot;H_JOURNAL_DETAIL&quot;.&quot;H_JOURNAL_DETAIL_SID&quot; = &quot;t1&quot;.&quot;H_JOURNAL_DETAIL_SID&quot;)%%00010WHERE &quot;BUSINESS_UNIT_BK&quot; &lt;&gt; '2100' and ((NOT (&quot;H_BUSINESS_UNIT&quot;.&quot;BUSINESS_UNIT_BK&quot; IS NULL)) AND (&quot;S_ACCOUNT&quot;.&quot;ACCOUNT_TYPE&quot; IN ('Income', 'OtherIncome')))%%00010GROUP BY 1,2,%%00010  4"/>
+<entry key="execute_without_configure" type="xboolean" value="true"/>
+<entry key="driver" type="xstring" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+<entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" value=""/>
+<entry key="passwordEncrypted" type="xpassword" value="0168F07456E2496FA29F15BC7D3BC09E95"/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="3.6.0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBReaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Reader"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Database Reader"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

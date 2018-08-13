@@ -12,32 +12,40 @@
 </config>
 <config key="column_filter">
 <config key="InclList">
-<entry key="array-size" type="xint" value="14"/>
-<entry key="0" type="xstring" value="ACCOUNT_NAME"/>
-<entry key="1" type="xstring" value="ACCOUNT_TYPE"/>
-<entry key="2" type="xstring" value="ACCOUNT_DESCRIPTION"/>
-<entry key="3" type="xstring" value="PARENT_ACCOUNT_ID"/>
-<entry key="4" type="xstring" value="IS_INACTIVE"/>
-<entry key="5" type="xstring" value="ACCOUNT_LEVEL"/>
-<entry key="6" type="xstring" value="SUB_TYPE"/>
-<entry key="7" type="xstring" value="IS_HEADER"/>
-<entry key="8" type="xstring" value="H_ACCOUNT_SID"/>
-<entry key="9" type="xstring" value="WORKFLOW_PATH"/>
-<entry key="10" type="xstring" value="WORKFLOW_NAME"/>
-<entry key="11" type="xstring" value="WORKSPACE"/>
-<entry key="12" type="xstring" value="SOURCE"/>
-<entry key="13" type="xstring" value="LOAD_DATE_TIME"/>
+<entry key="array-size" type="xint" value="23"/>
+<entry key="0" type="xstring" value="ACCOUNT_NAME_L1"/>
+<entry key="1" type="xstring" value="PARENT_ACCOUNT_ID"/>
+<entry key="2" type="xstring" value="ACCOUNT_L1"/>
+<entry key="3" type="xstring" value="ACCOUNT_NAME_L2"/>
+<entry key="4" type="xstring" value="ACCOUNT_L2"/>
+<entry key="5" type="xstring" value="ACCOUNT_NAME_L3"/>
+<entry key="6" type="xstring" value="ACCOUNT_L3"/>
+<entry key="7" type="xstring" value="ACCOUNT_NAME_L4"/>
+<entry key="8" type="xstring" value="ACCOUNT_L4"/>
+<entry key="9" type="xstring" value="ACCOUNT_NAME"/>
+<entry key="10" type="xstring" value="ACCOUNT_TYPE"/>
+<entry key="11" type="xstring" value="ACCOUNT_DESCRIPTION"/>
+<entry key="12" type="xstring" value="IS_INACTIVE"/>
+<entry key="13" type="xstring" value="ACCOUNT_LEVEL"/>
+<entry key="14" type="xstring" value="SUB_TYPE"/>
+<entry key="15" type="xstring" value="IS_HEADER"/>
+<entry key="16" type="xstring" value="H_ACCOUNT_SID"/>
+<entry key="17" type="xstring" value="H_PARENT_ACCOUNT_SID"/>
+<entry key="18" type="xstring" value="WORKFLOW_PATH"/>
+<entry key="19" type="xstring" value="WORKFLOW_NAME"/>
+<entry key="20" type="xstring" value="WORKSPACE"/>
+<entry key="21" type="xstring" value="SOURCE"/>
+<entry key="22" type="xstring" value="LOAD_DATE_TIME"/>
 </config>
 <config key="ExclList">
-<entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="ACCOUNT_BK"/>
-<entry key="1" type="xstring" value="H_PARENT_ACCOUNT_SID"/>
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="PARENT_ACCOUNT_ID (#1)"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBColumnFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Database Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -50,21 +58,16 @@
 <entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Column Filter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 14 DB: snowflake"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="dcb3f4a9-3f3c-4133-a30d-d0de953d5bb7"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

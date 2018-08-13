@@ -1,0 +1,7 @@
+CompilerOracle: exclude javax/swing/text/GlyphView.getBreakSpot
+INFO 	 main BatchExecutor	 ===== Executing workflow D:\BI_and_Data_Analytics\Workflows\Datavault\Core Business Concepts\Business Unit\h_business_unit =====
+WARN 	 main Node	 No such variable "local_var_core_business_concept" of type STRING
+WARN 	 KNIME-Worker-5 Node	 Existing table "ARALUEN_DATAVAULT.DATAVAULT."H_BUSINESS_UNIT"" will be dropped!
+WARN 	 KNIME-Worker-6 Node	 Existing table "ARALUEN_DATAVAULT.DATAVAULT."H_BUSINESS_UNIT"" will be dropped!
+INFO 	 main BatchExecutor	 Workflow execution done Finished in 5 secs (5971ms)
+INFO 	 main BatchExecutor	 ============= Workflow executed sucessfully ===============
