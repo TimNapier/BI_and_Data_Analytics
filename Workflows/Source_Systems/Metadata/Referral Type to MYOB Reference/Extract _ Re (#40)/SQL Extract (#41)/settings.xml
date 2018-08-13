@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack">
-<config key="Variable_0">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="sql"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="SELECT table_679777077_1.ReferralDetailsID AS ReferralDetailsID, table_679777077_1.ReferralTypeID AS ReferralTypeID, table_679777077_1.ClientID AS ClientID, table_679777077_1.BudgetID AS BudgetID, table_679777077_1.JobID AS JobID, table_679777077_2.InvoiceLineID AS InvoiceLineID, table_679777077_2.InvoiceHeaderID AS InvoiceHeaderID, table_679777077_2.InvoiceNumber AS InvoiceNumber FROM (SELECT table_64604698_1.ReferralDetailsID AS ReferralDetailsID, table_64604698_1.ReferralTypeID AS ReferralTypeID, table_64604698_1.ClientID AS ClientID, table_64604698_1.BudgetID AS BudgetID, table_64604698_2.JobID AS JobID FROM (SELECT table_526764764_1.ReferralDetailsID AS ReferralDetailsID, table_526764764_1.ReferralTypeID AS ReferralTypeID, table_526764764_1.ClientID AS ClientID, table_526764764_2.BudgetID AS BudgetID FROM (SELECT ReferralDetailsID,ReferralTypeID,ClientID FROM (SELECT * FROM [Client].[ReferralDetails]) table_1171535991) table_526764764_1 JOIN (SELECT BudgetID,PackageID FROM (SELECT * FROM Client.Budgets) table_1433378324) table_526764764_2 ON table_526764764_1.ReferralDetailsID=table_526764764_2.PackageID) table_64604698_1 JOIN (SELECT JobID,BudgetID FROM (SELECT * FROM [Jobs].[Jobs]) table_768565727) table_64604698_2 ON table_64604698_1.BudgetID=table_64604698_2.BudgetID) table_679777077_1 JOIN (SELECT InvoiceLineID,InvoiceHeaderID,InvoiceNumber,JobID FROM (SELECT * FROM [Jobs].[FunderInvoiceLines]) table_95608124) table_679777077_2 ON table_679777077_1.JobID=table_679777077_2.JobID"/>
-</config>
-</config>
+<config key="flow_stack"/>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
@@ -20,37 +13,29 @@
 <entry key="flowVarName" type="xstring" value="sql"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.SQLExtractNodeFactory"/>
 <entry key="node-name" type="xstring" value="SQL Extract"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="SQL Extract"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Variables connection"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">

@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Row0"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;REFERRAL_TYPE_ID&quot; varchar(256) , &quot;CLIENT_BK&quot; varchar(256) , &quot;NDIS_REFERRAL_NUMBER&quot; varchar(256) , &quot;TOTAL_HOURS&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;REFERRAL_TYPE_DESCRIPTION&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_CLIENT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
+<entry key="value" type="xstring" value="create or replace table ARALUEN_DATAVAULT.LOAD_NDIS.&quot;REFERRAL&quot; ( &quot;REFERRAL_BK&quot; varchar(256) , &quot;REFERRAL_TYPE_ID&quot; varchar(256) , &quot;CLIENT_BK&quot; varchar(256) , &quot;NDIS_REFERRAL_NUMBER&quot; varchar(256) , &quot;TOTAL_HOURS&quot; varchar(256) , &quot;HOURS_PER_WORK&quot; varchar(256) , &quot;START_DATE&quot; varchar(256) , &quot;END_DATE&quot; varchar(256) , &quot;REFERRAL_TYPE_DESCRIPTION&quot; varchar(256) , &quot;H_REFERRAL_SID&quot; varchar(256) , &quot;H_CLIENT_SID&quot; varchar(256) , &quot;WORKFLOW_PATH&quot; varchar(256) , &quot;WORKFLOW_NAME&quot; varchar(256) , &quot;WORKSPACE&quot; varchar(256) , &quot;SOURCE&quot; varchar(256) , &quot;LOAD_DATE_TIME&quot; varchar(256) )"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -34,11 +34,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061308"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.5.3.v201804041546"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807100940"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Column to Variable"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -56,6 +56,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2a756b41-e549-45b2-b0ef-1d9adf389f68"/>
+<entry key="file_store_id" type="xstring" value="d01d8eb7-a4b8-4e66-9c42-5a464a59a6a0"/>
 </config>
 </config>

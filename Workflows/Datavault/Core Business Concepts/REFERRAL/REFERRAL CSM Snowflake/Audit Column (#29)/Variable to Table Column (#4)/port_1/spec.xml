@@ -175,7 +175,7 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.01"/>
+<entry key="DoubleCell" type="xdouble" value="1.0E-4"/>
 </config>
 </config>
 <config key="upper_bound">
@@ -241,7 +241,7 @@
 <entry key="hasDate" type="xboolean" value="true"/>
 <entry key="hasTime" type="xboolean" value="true"/>
 <entry key="hasMillis" type="xboolean" value="true"/>
-<entry key="timeInMillis" type="xlong" value="1562198400000"/>
+<entry key="timeInMillis" type="xlong" value="1563235200000"/>
 </config>
 </config>
 </config>
@@ -400,7 +400,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="/Datavault/Core Business Concepts/REFERRAL/REFERRAL CSM Snowflake"/>
+<entry key="StringCell" type="xstring" value="/Datavault/Core Business Concepts/Referral/REFERRAL CSM Snowflake"/>
 </config>
 </config>
 </config>

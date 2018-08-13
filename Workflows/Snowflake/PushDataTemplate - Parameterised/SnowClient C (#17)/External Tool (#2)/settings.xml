@@ -6,15 +6,15 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="Inputfile name" type="xstring" value="D:\BI_and_Data_Analytics\Logs\mockinfile.csv"/>
-<entry key="Output filename" type="xstring" value="D:\BI_and_Data_Analytics\Scripts\pushdata2snowflake.log"/>
-<entry key="PathToExtExec" type="xstring" value="D:\BI_and_Data_Analytics\Scripts\pushdata2snowflake.bat"/>
-<entry key="ExtExecWorkDir" type="xstring" value="D:\BI_and_Data_Analytics\Scripts"/>
-<entry key="ExtExecArgs" type="xstring" value="D:\BI_and_Data_Analytics\Data\NDIS"/>
+<entry key="Inputfile name" type="xstring" value="C:\BI_and_Data_Analytics\Logs\mockinfile.csv"/>
 <entry key="Inputfile separator" type="xstring" value=","/>
-<entry key="Outputfile separator" type="xstring" value="~"/>
 <entry key="IncludeColHdr" type="xboolean" value="true"/>
 <entry key="IncludeRowHdr" type="xboolean" value="false"/>
+<entry key="PathToExtExec" type="xstring" value="C:\BI_and_Data_Analytics\Scripts\pushdata2snowflake.bat"/>
+<entry key="ExtExecWorkDir" type="xstring" value="C:\BI_and_Data_Analytics\Scripts"/>
+<entry key="ExtExecArgs" type="xstring" value="C:\BI_and_Data_Analytics\Data\NDIS"/>
+<entry key="Output filename" type="xstring" value="C:\BI_and_Data_Analytics\Scripts\pushdata2snowflake.log"/>
+<entry key="Outputfile separator" type="xstring" value="~"/>
 <entry key="ContainsColHdr" type="xboolean" value="false"/>
 <entry key="ContainsRowHdr" type="xboolean" value="false"/>
 </config>
